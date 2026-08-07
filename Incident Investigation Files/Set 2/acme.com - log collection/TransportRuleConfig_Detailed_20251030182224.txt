@@ -1,0 +1,1623 @@
+
+Priority                                      : 0
+DlpPolicy                                     : 
+DlpPolicyId                                   : 0dfd9c70-159e-4aa3-85d1-a03b95280861
+Comments                                      : 
+CreatedBy                                     : Powell
+LastModifiedBy                                : Powell
+ManuallyModified                              : False
+ActivationDate                                : 
+ExpiryDate                                    : 
+Description                                   : If the message:
+                                                	Is message type 'Automatic reply'
+                                                Take the following actions:
+                                                	set message header 'X-SignatureServiceHostedSignatures-MessageProcessed' with the value 'true'
+                                                
+RuleVersion                                   : 14.0.0.0
+Size                                          : 357
+Conditions                                    : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.MessageTypeMatchesPredicate}
+Exceptions                                    : 
+Actions                                       : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SetHeaderAction}
+State                                         : Enabled
+Mode                                          : Enforce
+IsRuleConfigurationSupported                  : True
+RuleConfigurationUnsupportedReason            : 
+RuleErrorAction                               : Ignore
+SenderAddressLocation                         : Header
+RecipientAddressType                          : Resolved
+RuleSubType                                   : None
+RegexSize                                     : 0
+UseLegacyRegex                                : False
+From                                          : 
+FromMemberOf                                  : 
+FromScope                                     : 
+SentTo                                        : 
+SentToMemberOf                                : 
+SentToScope                                   : 
+BetweenMemberOf1                              : 
+BetweenMemberOf2                              : 
+ManagerAddresses                              : 
+ManagerForEvaluatedUser                       : 
+SenderManagementRelationship                  : 
+ADComparisonAttribute                         : 
+ADComparisonOperator                          : 
+SenderADAttributeContainsWords                : 
+SenderADAttributeMatchesPatterns              : 
+RecipientADAttributeContainsWords             : 
+RecipientADAttributeMatchesPatterns           : 
+AnyOfToHeader                                 : 
+AnyOfToHeaderMemberOf                         : 
+AnyOfCcHeader                                 : 
+AnyOfCcHeaderMemberOf                         : 
+AnyOfToCcHeader                               : 
+AnyOfToCcHeaderMemberOf                       : 
+HasClassification                             : 
+HasNoClassification                           : False
+SubjectContainsWords                          : 
+SubjectOrBodyContainsWords                    : 
+HeaderContainsMessageHeader                   : 
+HeaderContainsWords                           : 
+FromAddressContainsWords                      : 
+SenderDomainIs                                : 
+RecipientDomainIs                             : 
+SubjectMatchesPatterns                        : 
+SubjectOrBodyMatchesPatterns                  : 
+HeaderMatchesMessageHeader                    : 
+HeaderMatchesPatterns                         : 
+FromAddressMatchesPatterns                    : 
+AttachmentNameMatchesPatterns                 : 
+AttachmentExtensionMatchesWords               : 
+AttachmentPropertyContainsWords               : 
+ContentCharacterSetContainsWords              : 
+HasSenderOverride                             : False
+MessageContainsDataClassifications            : 
+MessageContainsAllDataClassifications         : 
+SenderIpRanges                                : 
+SCLOver                                       : 
+AttachmentSizeOver                            : 
+MessageSizeOver                               : 
+WithImportance                                : 
+MessageTypeMatches                            : OOF
+RecipientAddressContainsWords                 : 
+RecipientAddressMatchesPatterns               : 
+SenderInRecipientList                         : 
+RecipientInSenderList                         : 
+AttachmentContainsWords                       : 
+AttachmentMatchesPatterns                     : 
+AttachmentIsUnsupported                       : False
+AttachmentProcessingLimitExceeded             : False
+AttachmentHasExecutableContent                : False
+AttachmentIsPasswordProtected                 : False
+AnyOfRecipientAddressContainsWords            : 
+AnyOfRecipientAddressMatchesPatterns          : 
+ExceptIfFrom                                  : 
+ExceptIfFromMemberOf                          : 
+ExceptIfFromScope                             : 
+ExceptIfSentTo                                : 
+ExceptIfSentToMemberOf                        : 
+ExceptIfSentToScope                           : 
+ExceptIfBetweenMemberOf1                      : 
+ExceptIfBetweenMemberOf2                      : 
+ExceptIfManagerAddresses                      : 
+ExceptIfManagerForEvaluatedUser               : 
+ExceptIfSenderManagementRelationship          : 
+ExceptIfADComparisonAttribute                 : 
+ExceptIfADComparisonOperator                  : 
+ExceptIfSenderADAttributeContainsWords        : 
+ExceptIfSenderADAttributeMatchesPatterns      : 
+ExceptIfRecipientADAttributeContainsWords     : 
+ExceptIfRecipientADAttributeMatchesPatterns   : 
+ExceptIfAnyOfToHeader                         : 
+ExceptIfAnyOfToHeaderMemberOf                 : 
+ExceptIfAnyOfCcHeader                         : 
+ExceptIfAnyOfCcHeaderMemberOf                 : 
+ExceptIfAnyOfToCcHeader                       : 
+ExceptIfAnyOfToCcHeaderMemberOf               : 
+ExceptIfHasClassification                     : 
+ExceptIfHasNoClassification                   : False
+ExceptIfSubjectContainsWords                  : 
+ExceptIfSubjectOrBodyContainsWords            : 
+ExceptIfHeaderContainsMessageHeader           : 
+ExceptIfHeaderContainsWords                   : 
+ExceptIfFromAddressContainsWords              : 
+ExceptIfSenderDomainIs                        : 
+ExceptIfRecipientDomainIs                     : 
+ExceptIfSubjectMatchesPatterns                : 
+ExceptIfSubjectOrBodyMatchesPatterns          : 
+ExceptIfHeaderMatchesMessageHeader            : 
+ExceptIfHeaderMatchesPatterns                 : 
+ExceptIfFromAddressMatchesPatterns            : 
+ExceptIfAttachmentNameMatchesPatterns         : 
+ExceptIfAttachmentExtensionMatchesWords       : 
+ExceptIfAttachmentPropertyContainsWords       : 
+ExceptIfContentCharacterSetContainsWords      : 
+ExceptIfSCLOver                               : 
+ExceptIfAttachmentSizeOver                    : 
+ExceptIfMessageSizeOver                       : 
+ExceptIfWithImportance                        : 
+ExceptIfMessageTypeMatches                    : 
+ExceptIfRecipientAddressContainsWords         : 
+ExceptIfRecipientAddressMatchesPatterns       : 
+ExceptIfSenderInRecipientList                 : 
+ExceptIfRecipientInSenderList                 : 
+ExceptIfAttachmentContainsWords               : 
+ExceptIfAttachmentMatchesPatterns             : 
+ExceptIfAttachmentIsUnsupported               : False
+ExceptIfAttachmentProcessingLimitExceeded     : False
+ExceptIfAttachmentHasExecutableContent        : False
+ExceptIfAttachmentIsPasswordProtected         : False
+ExceptIfAnyOfRecipientAddressContainsWords    : 
+ExceptIfAnyOfRecipientAddressMatchesPatterns  : 
+ExceptIfHasSenderOverride                     : False
+ExceptIfMessageContainsDataClassifications    : 
+ExceptIfMessageContainsAllDataClassifications : 
+ExceptIfSenderIpRanges                        : 
+PrependSubject                                : 
+SetAuditSeverity                              : 
+ApplyClassification                           : 
+ApplyHtmlDisclaimerLocation                   : 
+ApplyHtmlDisclaimerText                       : 
+ApplyHtmlDisclaimerFallbackAction             : 
+ApplyRightsProtectionTemplate                 : 
+ApplyRightsProtectionCustomizationTemplate    : 
+SetSCL                                        : 
+SetHeaderName                                 : X-SignatureServiceHostedSignatures-MessageProcessed
+SetHeaderValue                                : true
+RemoveHeader                                  : 
+AddToRecipients                               : 
+CopyTo                                        : 
+BlindCopyTo                                   : 
+AddManagerAsRecipientType                     : 
+ModerateMessageByUser                         : 
+ModerateMessageByManager                      : False
+RedirectMessageTo                             : 
+RejectMessageEnhancedStatusCode               : 
+RejectMessageReasonText                       : 
+DeleteMessage                                 : False
+Disconnect                                    : False
+Quarantine                                    : False
+SmtpRejectMessageRejectText                   : 
+SmtpRejectMessageRejectStatusCode             : 
+LogEventText                                  : 
+StopRuleProcessing                            : False
+SenderNotificationType                        : 
+GenerateIncidentReport                        : 
+IncidentReportContent                         : 
+RouteMessageOutboundConnector                 : 
+RouteMessageOutboundRequireTls                : False
+ApplyOME                                      : False
+RemoveOME                                     : False
+RemoveOMEv2                                   : False
+RemoveRMSAttachmentEncryption                 : False
+GenerateNotification                          : 
+Identity                                      : Prevent Out of Office messages being sent to Signature Service Cloud
+DistinguishedName                             : CN=Prevent Out of Office messages being sent to Signature Service Cloud,CN=TransportVersioned,CN=Rules,CN=Transport Settings,CN=Configuration,CN=acme.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR33A084,DC=PROD,DC=OUTLOOK,DC=COM
+Guid                                          : d9a9c070-1c09-426d-83da-c317bfa27fb3
+ImmutableId                                   : d9a9c070-1c09-426d-83da-c317bfa27fb3
+OrganizationId                                : LABPR33A084.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/acme.onmicrosoft.com - LABPR33A084.PROD.OUTLOOK.COM/ConfigurationUnits/acme.onmicrosoft.com/Configuration
+Name                                          : Prevent Out of Office messages being sent to Signature Service Cloud
+IsValid                                       : True
+WhenChanged                                   : 2025-05-14 10:42:38
+ObjectState                                   : Unchanged
+
+Priority                                      : 1
+DlpPolicy                                     : 
+DlpPolicyId                                   : 0dfd9c70-159e-4aa3-85d1-a03b95280861
+Comments                                      : 
+CreatedBy                                     : Powell
+LastModifiedBy                                : Powell
+ManuallyModified                              : False
+ActivationDate                                : 
+ExpiryDate                                    : 
+Description                                   : If the message:
+                                                	Is received from 'Inside the organization'
+                                                Take the following actions:
+                                                	Route the message using the connector named 'Send to Signature Service Cloud'.
+                                                	and Stop processing more rules
+                                                Except if the message:
+                                                	Is message type 'Calendaring'
+                                                	or The message size is larger than or equal to '26.25 MB (27,525,120 bytes)'
+                                                	or 'X-MS-Exchange-UnifiedGroup-SubmittedViaGroupAddress' header contains ''/o=ExchangeLabs/ou=Exchange Administrative Group''
+                                                	or 'X-SignatureServiceHostedSignatures-MessageProcessed' header matches the following patterns: 'true'
+                                                	or Includes these patterns in the From address: '&lt;&gt;'
+                                                
+RuleVersion                                   : 15.0.2.0
+Size                                          : 969
+Conditions                                    : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.FromScopePredicate}
+Exceptions                                    : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.MessageTypeMatchesPredicate, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.MessageSizeOverPredicate, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.HeaderContainsPredicate, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.HeaderMatchesPredicate…}
+Actions                                       : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.RouteMessageOutboundConnectorAction, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.StopRuleProcessingAction}
+State                                         : Enabled
+Mode                                          : Enforce
+IsRuleConfigurationSupported                  : True
+RuleConfigurationUnsupportedReason            : 
+RuleErrorAction                               : Ignore
+SenderAddressLocation                         : Envelope
+RecipientAddressType                          : Resolved
+RuleSubType                                   : None
+RegexSize                                     : 60
+UseLegacyRegex                                : False
+From                                          : 
+FromMemberOf                                  : 
+FromScope                                     : InOrganization
+SentTo                                        : 
+SentToMemberOf                                : 
+SentToScope                                   : 
+BetweenMemberOf1                              : 
+BetweenMemberOf2                              : 
+ManagerAddresses                              : 
+ManagerForEvaluatedUser                       : 
+SenderManagementRelationship                  : 
+ADComparisonAttribute                         : 
+ADComparisonOperator                          : 
+SenderADAttributeContainsWords                : 
+SenderADAttributeMatchesPatterns              : 
+RecipientADAttributeContainsWords             : 
+RecipientADAttributeMatchesPatterns           : 
+AnyOfToHeader                                 : 
+AnyOfToHeaderMemberOf                         : 
+AnyOfCcHeader                                 : 
+AnyOfCcHeaderMemberOf                         : 
+AnyOfToCcHeader                               : 
+AnyOfToCcHeaderMemberOf                       : 
+HasClassification                             : 
+HasNoClassification                           : False
+SubjectContainsWords                          : 
+SubjectOrBodyContainsWords                    : 
+HeaderContainsMessageHeader                   : 
+HeaderContainsWords                           : 
+FromAddressContainsWords                      : 
+SenderDomainIs                                : 
+RecipientDomainIs                             : 
+SubjectMatchesPatterns                        : 
+SubjectOrBodyMatchesPatterns                  : 
+HeaderMatchesMessageHeader                    : 
+HeaderMatchesPatterns                         : 
+FromAddressMatchesPatterns                    : 
+AttachmentNameMatchesPatterns                 : 
+AttachmentExtensionMatchesWords               : 
+AttachmentPropertyContainsWords               : 
+ContentCharacterSetContainsWords              : 
+HasSenderOverride                             : False
+MessageContainsDataClassifications            : 
+MessageContainsAllDataClassifications         : 
+SenderIpRanges                                : 
+SCLOver                                       : 
+AttachmentSizeOver                            : 
+MessageSizeOver                               : 
+WithImportance                                : 
+MessageTypeMatches                            : 
+RecipientAddressContainsWords                 : 
+RecipientAddressMatchesPatterns               : 
+SenderInRecipientList                         : 
+RecipientInSenderList                         : 
+AttachmentContainsWords                       : 
+AttachmentMatchesPatterns                     : 
+AttachmentIsUnsupported                       : False
+AttachmentProcessingLimitExceeded             : False
+AttachmentHasExecutableContent                : False
+AttachmentIsPasswordProtected                 : False
+AnyOfRecipientAddressContainsWords            : 
+AnyOfRecipientAddressMatchesPatterns          : 
+ExceptIfFrom                                  : 
+ExceptIfFromMemberOf                          : 
+ExceptIfFromScope                             : 
+ExceptIfSentTo                                : 
+ExceptIfSentToMemberOf                        : 
+ExceptIfSentToScope                           : 
+ExceptIfBetweenMemberOf1                      : 
+ExceptIfBetweenMemberOf2                      : 
+ExceptIfManagerAddresses                      : 
+ExceptIfManagerForEvaluatedUser               : 
+ExceptIfSenderManagementRelationship          : 
+ExceptIfADComparisonAttribute                 : 
+ExceptIfADComparisonOperator                  : 
+ExceptIfSenderADAttributeContainsWords        : 
+ExceptIfSenderADAttributeMatchesPatterns      : 
+ExceptIfRecipientADAttributeContainsWords     : 
+ExceptIfRecipientADAttributeMatchesPatterns   : 
+ExceptIfAnyOfToHeader                         : 
+ExceptIfAnyOfToHeaderMemberOf                 : 
+ExceptIfAnyOfCcHeader                         : 
+ExceptIfAnyOfCcHeaderMemberOf                 : 
+ExceptIfAnyOfToCcHeader                       : 
+ExceptIfAnyOfToCcHeaderMemberOf               : 
+ExceptIfHasClassification                     : 
+ExceptIfHasNoClassification                   : False
+ExceptIfSubjectContainsWords                  : 
+ExceptIfSubjectOrBodyContainsWords            : 
+ExceptIfHeaderContainsMessageHeader           : X-MS-Exchange-UnifiedGroup-SubmittedViaGroupAddress
+ExceptIfHeaderContainsWords                   : {/o=ExchangeLabs/ou=Exchange Administrative Group}
+ExceptIfFromAddressContainsWords              : 
+ExceptIfSenderDomainIs                        : 
+ExceptIfRecipientDomainIs                     : 
+ExceptIfSubjectMatchesPatterns                : 
+ExceptIfSubjectOrBodyMatchesPatterns          : 
+ExceptIfHeaderMatchesMessageHeader            : X-SignatureServiceHostedSignatures-MessageProcessed
+ExceptIfHeaderMatchesPatterns                 : {true}
+ExceptIfFromAddressMatchesPatterns            : {&lt;&gt;}
+ExceptIfAttachmentNameMatchesPatterns         : 
+ExceptIfAttachmentExtensionMatchesWords       : 
+ExceptIfAttachmentPropertyContainsWords       : 
+ExceptIfContentCharacterSetContainsWords      : 
+ExceptIfSCLOver                               : 
+ExceptIfAttachmentSizeOver                    : 
+ExceptIfMessageSizeOver                       : 26.25 MB (27,525,120 bytes)
+ExceptIfWithImportance                        : 
+ExceptIfMessageTypeMatches                    : Calendaring
+ExceptIfRecipientAddressContainsWords         : 
+ExceptIfRecipientAddressMatchesPatterns       : 
+ExceptIfSenderInRecipientList                 : 
+ExceptIfRecipientInSenderList                 : 
+ExceptIfAttachmentContainsWords               : 
+ExceptIfAttachmentMatchesPatterns             : 
+ExceptIfAttachmentIsUnsupported               : False
+ExceptIfAttachmentProcessingLimitExceeded     : False
+ExceptIfAttachmentHasExecutableContent        : False
+ExceptIfAttachmentIsPasswordProtected         : False
+ExceptIfAnyOfRecipientAddressContainsWords    : 
+ExceptIfAnyOfRecipientAddressMatchesPatterns  : 
+ExceptIfHasSenderOverride                     : False
+ExceptIfMessageContainsDataClassifications    : 
+ExceptIfMessageContainsAllDataClassifications : 
+ExceptIfSenderIpRanges                        : 
+PrependSubject                                : 
+SetAuditSeverity                              : 
+ApplyClassification                           : 
+ApplyHtmlDisclaimerLocation                   : 
+ApplyHtmlDisclaimerText                       : 
+ApplyHtmlDisclaimerFallbackAction             : 
+ApplyRightsProtectionTemplate                 : 
+ApplyRightsProtectionCustomizationTemplate    : 
+SetSCL                                        : 
+SetHeaderName                                 : 
+SetHeaderValue                                : 
+RemoveHeader                                  : 
+AddToRecipients                               : 
+CopyTo                                        : 
+BlindCopyTo                                   : 
+AddManagerAsRecipientType                     : 
+ModerateMessageByUser                         : 
+ModerateMessageByManager                      : False
+RedirectMessageTo                             : 
+RejectMessageEnhancedStatusCode               : 
+RejectMessageReasonText                       : 
+DeleteMessage                                 : False
+Disconnect                                    : False
+Quarantine                                    : False
+SmtpRejectMessageRejectText                   : 
+SmtpRejectMessageRejectStatusCode             : 
+LogEventText                                  : 
+StopRuleProcessing                            : True
+SenderNotificationType                        : 
+GenerateIncidentReport                        : 
+IncidentReportContent                         : 
+RouteMessageOutboundConnector                 : Send to Signature Service Cloud
+RouteMessageOutboundRequireTls                : False
+ApplyOME                                      : False
+RemoveOME                                     : False
+RemoveOMEv2                                   : False
+RemoveRMSAttachmentEncryption                 : False
+GenerateNotification                          : 
+Identity                                      : Identify messages to send to Signature Service Cloud
+DistinguishedName                             : CN=Identify messages to send to Signature Service Cloud,CN=TransportVersioned,CN=Rules,CN=Transport Settings,CN=Configuration,CN=acme.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR33A084,DC=PROD,DC=OUTLOOK,DC=COM
+Guid                                          : 2a542870-2186-4944-850d-c7c55208b3ca
+ImmutableId                                   : 2a542870-2186-4944-850d-c7c55208b3ca
+OrganizationId                                : LABPR33A084.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/acme.onmicrosoft.com - LABPR33A084.PROD.OUTLOOK.COM/ConfigurationUnits/acme.onmicrosoft.com/Configuration
+Name                                          : Identify messages to send to Signature Service Cloud
+IsValid                                       : True
+WhenChanged                                   : 2025-05-23 07:50:48
+ObjectState                                   : Unchanged
+
+Priority                                      : 2
+DlpPolicy                                     : 
+DlpPolicyId                                   : 0dfd9c70-159e-4aa3-85d1-a03b95280861
+Comments                                      : Generated by Secure Score on 5/18/2018. To add exceptions for business reasons, please modify this Rules whitelist
+CreatedBy                                     : 
+LastModifiedBy                                : 
+ManuallyModified                              : False
+ActivationDate                                : 
+ExpiryDate                                    : 
+Description                                   : If the message:
+                                                	Is sent to 'Outside the organization'
+                                                	and Is message type 'Auto-forward'
+                                                	and Is received from 'Inside the organization'
+                                                Take the following actions:
+                                                	reject the message and include the explanation 'Client Forwarding Rules To External Domains Are Not Permitted.' with the status code: '5.7.1'
+                                                
+RuleVersion                                   : 14.0.0.0
+Size                                          : 674
+Conditions                                    : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SentToScopePredicate, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.MessageTypeMatchesPredicate, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.FromScopePredicate}
+Exceptions                                    : 
+Actions                                       : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.RejectMessageAction}
+State                                         : Enabled
+Mode                                          : Enforce
+IsRuleConfigurationSupported                  : True
+RuleConfigurationUnsupportedReason            : 
+RuleErrorAction                               : Ignore
+SenderAddressLocation                         : Header
+RecipientAddressType                          : Resolved
+RuleSubType                                   : None
+RegexSize                                     : 0
+UseLegacyRegex                                : False
+From                                          : 
+FromMemberOf                                  : 
+FromScope                                     : InOrganization
+SentTo                                        : 
+SentToMemberOf                                : 
+SentToScope                                   : NotInOrganization
+BetweenMemberOf1                              : 
+BetweenMemberOf2                              : 
+ManagerAddresses                              : 
+ManagerForEvaluatedUser                       : 
+SenderManagementRelationship                  : 
+ADComparisonAttribute                         : 
+ADComparisonOperator                          : 
+SenderADAttributeContainsWords                : 
+SenderADAttributeMatchesPatterns              : 
+RecipientADAttributeContainsWords             : 
+RecipientADAttributeMatchesPatterns           : 
+AnyOfToHeader                                 : 
+AnyOfToHeaderMemberOf                         : 
+AnyOfCcHeader                                 : 
+AnyOfCcHeaderMemberOf                         : 
+AnyOfToCcHeader                               : 
+AnyOfToCcHeaderMemberOf                       : 
+HasClassification                             : 
+HasNoClassification                           : False
+SubjectContainsWords                          : 
+SubjectOrBodyContainsWords                    : 
+HeaderContainsMessageHeader                   : 
+HeaderContainsWords                           : 
+FromAddressContainsWords                      : 
+SenderDomainIs                                : 
+RecipientDomainIs                             : 
+SubjectMatchesPatterns                        : 
+SubjectOrBodyMatchesPatterns                  : 
+HeaderMatchesMessageHeader                    : 
+HeaderMatchesPatterns                         : 
+FromAddressMatchesPatterns                    : 
+AttachmentNameMatchesPatterns                 : 
+AttachmentExtensionMatchesWords               : 
+AttachmentPropertyContainsWords               : 
+ContentCharacterSetContainsWords              : 
+HasSenderOverride                             : False
+MessageContainsDataClassifications            : 
+MessageContainsAllDataClassifications         : 
+SenderIpRanges                                : 
+SCLOver                                       : 
+AttachmentSizeOver                            : 
+MessageSizeOver                               : 
+WithImportance                                : 
+MessageTypeMatches                            : AutoForward
+RecipientAddressContainsWords                 : 
+RecipientAddressMatchesPatterns               : 
+SenderInRecipientList                         : 
+RecipientInSenderList                         : 
+AttachmentContainsWords                       : 
+AttachmentMatchesPatterns                     : 
+AttachmentIsUnsupported                       : False
+AttachmentProcessingLimitExceeded             : False
+AttachmentHasExecutableContent                : False
+AttachmentIsPasswordProtected                 : False
+AnyOfRecipientAddressContainsWords            : 
+AnyOfRecipientAddressMatchesPatterns          : 
+ExceptIfFrom                                  : 
+ExceptIfFromMemberOf                          : 
+ExceptIfFromScope                             : 
+ExceptIfSentTo                                : 
+ExceptIfSentToMemberOf                        : 
+ExceptIfSentToScope                           : 
+ExceptIfBetweenMemberOf1                      : 
+ExceptIfBetweenMemberOf2                      : 
+ExceptIfManagerAddresses                      : 
+ExceptIfManagerForEvaluatedUser               : 
+ExceptIfSenderManagementRelationship          : 
+ExceptIfADComparisonAttribute                 : 
+ExceptIfADComparisonOperator                  : 
+ExceptIfSenderADAttributeContainsWords        : 
+ExceptIfSenderADAttributeMatchesPatterns      : 
+ExceptIfRecipientADAttributeContainsWords     : 
+ExceptIfRecipientADAttributeMatchesPatterns   : 
+ExceptIfAnyOfToHeader                         : 
+ExceptIfAnyOfToHeaderMemberOf                 : 
+ExceptIfAnyOfCcHeader                         : 
+ExceptIfAnyOfCcHeaderMemberOf                 : 
+ExceptIfAnyOfToCcHeader                       : 
+ExceptIfAnyOfToCcHeaderMemberOf               : 
+ExceptIfHasClassification                     : 
+ExceptIfHasNoClassification                   : False
+ExceptIfSubjectContainsWords                  : 
+ExceptIfSubjectOrBodyContainsWords            : 
+ExceptIfHeaderContainsMessageHeader           : 
+ExceptIfHeaderContainsWords                   : 
+ExceptIfFromAddressContainsWords              : 
+ExceptIfSenderDomainIs                        : 
+ExceptIfRecipientDomainIs                     : 
+ExceptIfSubjectMatchesPatterns                : 
+ExceptIfSubjectOrBodyMatchesPatterns          : 
+ExceptIfHeaderMatchesMessageHeader            : 
+ExceptIfHeaderMatchesPatterns                 : 
+ExceptIfFromAddressMatchesPatterns            : 
+ExceptIfAttachmentNameMatchesPatterns         : 
+ExceptIfAttachmentExtensionMatchesWords       : 
+ExceptIfAttachmentPropertyContainsWords       : 
+ExceptIfContentCharacterSetContainsWords      : 
+ExceptIfSCLOver                               : 
+ExceptIfAttachmentSizeOver                    : 
+ExceptIfMessageSizeOver                       : 
+ExceptIfWithImportance                        : 
+ExceptIfMessageTypeMatches                    : 
+ExceptIfRecipientAddressContainsWords         : 
+ExceptIfRecipientAddressMatchesPatterns       : 
+ExceptIfSenderInRecipientList                 : 
+ExceptIfRecipientInSenderList                 : 
+ExceptIfAttachmentContainsWords               : 
+ExceptIfAttachmentMatchesPatterns             : 
+ExceptIfAttachmentIsUnsupported               : False
+ExceptIfAttachmentProcessingLimitExceeded     : False
+ExceptIfAttachmentHasExecutableContent        : False
+ExceptIfAttachmentIsPasswordProtected         : False
+ExceptIfAnyOfRecipientAddressContainsWords    : 
+ExceptIfAnyOfRecipientAddressMatchesPatterns  : 
+ExceptIfHasSenderOverride                     : False
+ExceptIfMessageContainsDataClassifications    : 
+ExceptIfMessageContainsAllDataClassifications : 
+ExceptIfSenderIpRanges                        : 
+PrependSubject                                : 
+SetAuditSeverity                              : 
+ApplyClassification                           : 
+ApplyHtmlDisclaimerLocation                   : 
+ApplyHtmlDisclaimerText                       : 
+ApplyHtmlDisclaimerFallbackAction             : 
+ApplyRightsProtectionTemplate                 : 
+ApplyRightsProtectionCustomizationTemplate    : 
+SetSCL                                        : 
+SetHeaderName                                 : 
+SetHeaderValue                                : 
+RemoveHeader                                  : 
+AddToRecipients                               : 
+CopyTo                                        : 
+BlindCopyTo                                   : 
+AddManagerAsRecipientType                     : 
+ModerateMessageByUser                         : 
+ModerateMessageByManager                      : False
+RedirectMessageTo                             : 
+RejectMessageEnhancedStatusCode               : 5.7.1
+RejectMessageReasonText                       : Client Forwarding Rules To External Domains Are Not Permitted.
+DeleteMessage                                 : False
+Disconnect                                    : False
+Quarantine                                    : False
+SmtpRejectMessageRejectText                   : 
+SmtpRejectMessageRejectStatusCode             : 
+LogEventText                                  : 
+StopRuleProcessing                            : False
+SenderNotificationType                        : 
+GenerateIncidentReport                        : 
+IncidentReportContent                         : 
+RouteMessageOutboundConnector                 : 
+RouteMessageOutboundRequireTls                : False
+ApplyOME                                      : False
+RemoveOME                                     : False
+RemoveOMEv2                                   : False
+RemoveRMSAttachmentEncryption                 : False
+GenerateNotification                          : 
+Identity                                      : Client Rules To External Block - Secure Score 5/18/2018
+DistinguishedName                             : CN=Client Rules To External Block - Secure Score 5/18/2018,CN=TransportVersioned,CN=Rules,CN=Transport Settings,CN=Configuration,CN=acme.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR33A084,DC=PROD,DC=OUTLOOK,DC=COM
+Guid                                          : d4a2f261-f6a9-4567-8c35-d30ad41b97b6
+ImmutableId                                   : d4a2f261-f6a9-4567-8c35-d30ad41b97b6
+OrganizationId                                : LABPR33A084.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/acme.onmicrosoft.com - LABPR33A084.PROD.OUTLOOK.COM/ConfigurationUnits/acme.onmicrosoft.com/Configuration
+Name                                          : Client Rules To External Block - Secure Score 5/18/2018
+IsValid                                       : True
+WhenChanged                                   : 2024-09-03 03:38:11
+ObjectState                                   : Unchanged
+
+Priority                                      : 3
+DlpPolicy                                     : 
+DlpPolicyId                                   : 0dfd9c70-159e-4aa3-85d1-a03b95280861
+Comments                                      : 
+                                                
+CreatedBy                                     : Powell
+LastModifiedBy                                : Powell
+ManuallyModified                              : False
+ActivationDate                                : 
+ExpiryDate                                    : 
+Description                                   : If the message:
+                                                	Is sent to 'Outside the organization'
+                                                	and Is received from 'Inside the organization'
+                                                Take the following actions:
+                                                	Route the message using the connector named 'Mail Filter Outbound filter'.
+                                                
+RuleVersion                                   : 15.0.2.0
+Size                                          : 422
+Conditions                                    : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SentToScopePredicate, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.FromScopePredicate}
+Exceptions                                    : 
+Actions                                       : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.RouteMessageOutboundConnectorAction}
+State                                         : Disabled
+Mode                                          : Enforce
+IsRuleConfigurationSupported                  : True
+RuleConfigurationUnsupportedReason            : 
+RuleErrorAction                               : Ignore
+SenderAddressLocation                         : Header
+RecipientAddressType                          : Resolved
+RuleSubType                                   : None
+RegexSize                                     : 0
+UseLegacyRegex                                : False
+From                                          : 
+FromMemberOf                                  : 
+FromScope                                     : InOrganization
+SentTo                                        : 
+SentToMemberOf                                : 
+SentToScope                                   : NotInOrganization
+BetweenMemberOf1                              : 
+BetweenMemberOf2                              : 
+ManagerAddresses                              : 
+ManagerForEvaluatedUser                       : 
+SenderManagementRelationship                  : 
+ADComparisonAttribute                         : 
+ADComparisonOperator                          : 
+SenderADAttributeContainsWords                : 
+SenderADAttributeMatchesPatterns              : 
+RecipientADAttributeContainsWords             : 
+RecipientADAttributeMatchesPatterns           : 
+AnyOfToHeader                                 : 
+AnyOfToHeaderMemberOf                         : 
+AnyOfCcHeader                                 : 
+AnyOfCcHeaderMemberOf                         : 
+AnyOfToCcHeader                               : 
+AnyOfToCcHeaderMemberOf                       : 
+HasClassification                             : 
+HasNoClassification                           : False
+SubjectContainsWords                          : 
+SubjectOrBodyContainsWords                    : 
+HeaderContainsMessageHeader                   : 
+HeaderContainsWords                           : 
+FromAddressContainsWords                      : 
+SenderDomainIs                                : 
+RecipientDomainIs                             : 
+SubjectMatchesPatterns                        : 
+SubjectOrBodyMatchesPatterns                  : 
+HeaderMatchesMessageHeader                    : 
+HeaderMatchesPatterns                         : 
+FromAddressMatchesPatterns                    : 
+AttachmentNameMatchesPatterns                 : 
+AttachmentExtensionMatchesWords               : 
+AttachmentPropertyContainsWords               : 
+ContentCharacterSetContainsWords              : 
+HasSenderOverride                             : False
+MessageContainsDataClassifications            : 
+MessageContainsAllDataClassifications         : 
+SenderIpRanges                                : 
+SCLOver                                       : 
+AttachmentSizeOver                            : 
+MessageSizeOver                               : 
+WithImportance                                : 
+MessageTypeMatches                            : 
+RecipientAddressContainsWords                 : 
+RecipientAddressMatchesPatterns               : 
+SenderInRecipientList                         : 
+RecipientInSenderList                         : 
+AttachmentContainsWords                       : 
+AttachmentMatchesPatterns                     : 
+AttachmentIsUnsupported                       : False
+AttachmentProcessingLimitExceeded             : False
+AttachmentHasExecutableContent                : False
+AttachmentIsPasswordProtected                 : False
+AnyOfRecipientAddressContainsWords            : 
+AnyOfRecipientAddressMatchesPatterns          : 
+ExceptIfFrom                                  : 
+ExceptIfFromMemberOf                          : 
+ExceptIfFromScope                             : 
+ExceptIfSentTo                                : 
+ExceptIfSentToMemberOf                        : 
+ExceptIfSentToScope                           : 
+ExceptIfBetweenMemberOf1                      : 
+ExceptIfBetweenMemberOf2                      : 
+ExceptIfManagerAddresses                      : 
+ExceptIfManagerForEvaluatedUser               : 
+ExceptIfSenderManagementRelationship          : 
+ExceptIfADComparisonAttribute                 : 
+ExceptIfADComparisonOperator                  : 
+ExceptIfSenderADAttributeContainsWords        : 
+ExceptIfSenderADAttributeMatchesPatterns      : 
+ExceptIfRecipientADAttributeContainsWords     : 
+ExceptIfRecipientADAttributeMatchesPatterns   : 
+ExceptIfAnyOfToHeader                         : 
+ExceptIfAnyOfToHeaderMemberOf                 : 
+ExceptIfAnyOfCcHeader                         : 
+ExceptIfAnyOfCcHeaderMemberOf                 : 
+ExceptIfAnyOfToCcHeader                       : 
+ExceptIfAnyOfToCcHeaderMemberOf               : 
+ExceptIfHasClassification                     : 
+ExceptIfHasNoClassification                   : False
+ExceptIfSubjectContainsWords                  : 
+ExceptIfSubjectOrBodyContainsWords            : 
+ExceptIfHeaderContainsMessageHeader           : 
+ExceptIfHeaderContainsWords                   : 
+ExceptIfFromAddressContainsWords              : 
+ExceptIfSenderDomainIs                        : 
+ExceptIfRecipientDomainIs                     : 
+ExceptIfSubjectMatchesPatterns                : 
+ExceptIfSubjectOrBodyMatchesPatterns          : 
+ExceptIfHeaderMatchesMessageHeader            : 
+ExceptIfHeaderMatchesPatterns                 : 
+ExceptIfFromAddressMatchesPatterns            : 
+ExceptIfAttachmentNameMatchesPatterns         : 
+ExceptIfAttachmentExtensionMatchesWords       : 
+ExceptIfAttachmentPropertyContainsWords       : 
+ExceptIfContentCharacterSetContainsWords      : 
+ExceptIfSCLOver                               : 
+ExceptIfAttachmentSizeOver                    : 
+ExceptIfMessageSizeOver                       : 
+ExceptIfWithImportance                        : 
+ExceptIfMessageTypeMatches                    : 
+ExceptIfRecipientAddressContainsWords         : 
+ExceptIfRecipientAddressMatchesPatterns       : 
+ExceptIfSenderInRecipientList                 : 
+ExceptIfRecipientInSenderList                 : 
+ExceptIfAttachmentContainsWords               : 
+ExceptIfAttachmentMatchesPatterns             : 
+ExceptIfAttachmentIsUnsupported               : False
+ExceptIfAttachmentProcessingLimitExceeded     : False
+ExceptIfAttachmentHasExecutableContent        : False
+ExceptIfAttachmentIsPasswordProtected         : False
+ExceptIfAnyOfRecipientAddressContainsWords    : 
+ExceptIfAnyOfRecipientAddressMatchesPatterns  : 
+ExceptIfHasSenderOverride                     : False
+ExceptIfMessageContainsDataClassifications    : 
+ExceptIfMessageContainsAllDataClassifications : 
+ExceptIfSenderIpRanges                        : 
+PrependSubject                                : 
+SetAuditSeverity                              : 
+ApplyClassification                           : 
+ApplyHtmlDisclaimerLocation                   : 
+ApplyHtmlDisclaimerText                       : 
+ApplyHtmlDisclaimerFallbackAction             : 
+ApplyRightsProtectionTemplate                 : 
+ApplyRightsProtectionCustomizationTemplate    : 
+SetSCL                                        : 
+SetHeaderName                                 : 
+SetHeaderValue                                : 
+RemoveHeader                                  : 
+AddToRecipients                               : 
+CopyTo                                        : 
+BlindCopyTo                                   : 
+AddManagerAsRecipientType                     : 
+ModerateMessageByUser                         : 
+ModerateMessageByManager                      : False
+RedirectMessageTo                             : 
+RejectMessageEnhancedStatusCode               : 
+RejectMessageReasonText                       : 
+DeleteMessage                                 : False
+Disconnect                                    : False
+Quarantine                                    : False
+SmtpRejectMessageRejectText                   : 
+SmtpRejectMessageRejectStatusCode             : 
+LogEventText                                  : 
+StopRuleProcessing                            : False
+SenderNotificationType                        : 
+GenerateIncidentReport                        : 
+IncidentReportContent                         : 
+RouteMessageOutboundConnector                 : Mail Filter Outbound filter
+RouteMessageOutboundRequireTls                : False
+ApplyOME                                      : False
+RemoveOME                                     : False
+RemoveOMEv2                                   : False
+RemoveRMSAttachmentEncryption                 : False
+GenerateNotification                          : 
+Identity                                      : Route outbound through Mail Filter
+DistinguishedName                             : CN=Route outbound through Mail Filter,CN=TransportVersioned,CN=Rules,CN=Transport Settings,CN=Configuration,CN=acme.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR33A084,DC=PROD,DC=OUTLOOK,DC=COM
+Guid                                          : e71b6ff1-55be-48a2-83db-52e26d5e3149
+ImmutableId                                   : e71b6ff1-55be-48a2-83db-52e26d5e3149
+OrganizationId                                : LABPR33A084.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/acme.onmicrosoft.com - LABPR33A084.PROD.OUTLOOK.COM/ConfigurationUnits/acme.onmicrosoft.com/Configuration
+Name                                          : Route outbound through Mail Filter
+IsValid                                       : True
+WhenChanged                                   : 2024-09-03 03:40:43
+ObjectState                                   : Unchanged
+
+Priority                                      : 4
+DlpPolicy                                     : 
+DlpPolicyId                                   : 0dfd9c70-159e-4aa3-85d1-a03b95280861
+Comments                                      : 
+                                                
+CreatedBy                                     : Powell
+LastModifiedBy                                : Powell
+ManuallyModified                              : False
+ActivationDate                                : 
+ExpiryDate                                    : 
+Description                                   : If the message:
+                                                	sender's address domain portion belongs to any of these domains: 'partner1.example' or 'partner2.example' or 'extgov2.example'
+                                                Take the following actions:
+                                                	Set the spam confidence level (SCL) to '-1'
+                                                
+RuleVersion                                   : 15.0.5.2
+Size                                          : 402
+Conditions                                    : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SenderDomainIsPredicate}
+Exceptions                                    : 
+Actions                                       : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SetSclAction}
+State                                         : Enabled
+Mode                                          : Enforce
+IsRuleConfigurationSupported                  : True
+RuleConfigurationUnsupportedReason            : 
+RuleErrorAction                               : Ignore
+SenderAddressLocation                         : Header
+RecipientAddressType                          : Resolved
+RuleSubType                                   : None
+RegexSize                                     : 0
+UseLegacyRegex                                : False
+From                                          : 
+FromMemberOf                                  : 
+FromScope                                     : 
+SentTo                                        : 
+SentToMemberOf                                : 
+SentToScope                                   : 
+BetweenMemberOf1                              : 
+BetweenMemberOf2                              : 
+ManagerAddresses                              : 
+ManagerForEvaluatedUser                       : 
+SenderManagementRelationship                  : 
+ADComparisonAttribute                         : 
+ADComparisonOperator                          : 
+SenderADAttributeContainsWords                : 
+SenderADAttributeMatchesPatterns              : 
+RecipientADAttributeContainsWords             : 
+RecipientADAttributeMatchesPatterns           : 
+AnyOfToHeader                                 : 
+AnyOfToHeaderMemberOf                         : 
+AnyOfCcHeader                                 : 
+AnyOfCcHeaderMemberOf                         : 
+AnyOfToCcHeader                               : 
+AnyOfToCcHeaderMemberOf                       : 
+HasClassification                             : 
+HasNoClassification                           : False
+SubjectContainsWords                          : 
+SubjectOrBodyContainsWords                    : 
+HeaderContainsMessageHeader                   : 
+HeaderContainsWords                           : 
+FromAddressContainsWords                      : 
+SenderDomainIs                                : {partner1.example, partner2.example, extgov2.example}
+RecipientDomainIs                             : 
+SubjectMatchesPatterns                        : 
+SubjectOrBodyMatchesPatterns                  : 
+HeaderMatchesMessageHeader                    : 
+HeaderMatchesPatterns                         : 
+FromAddressMatchesPatterns                    : 
+AttachmentNameMatchesPatterns                 : 
+AttachmentExtensionMatchesWords               : 
+AttachmentPropertyContainsWords               : 
+ContentCharacterSetContainsWords              : 
+HasSenderOverride                             : False
+MessageContainsDataClassifications            : 
+MessageContainsAllDataClassifications         : 
+SenderIpRanges                                : 
+SCLOver                                       : 
+AttachmentSizeOver                            : 
+MessageSizeOver                               : 
+WithImportance                                : 
+MessageTypeMatches                            : 
+RecipientAddressContainsWords                 : 
+RecipientAddressMatchesPatterns               : 
+SenderInRecipientList                         : 
+RecipientInSenderList                         : 
+AttachmentContainsWords                       : 
+AttachmentMatchesPatterns                     : 
+AttachmentIsUnsupported                       : False
+AttachmentProcessingLimitExceeded             : False
+AttachmentHasExecutableContent                : False
+AttachmentIsPasswordProtected                 : False
+AnyOfRecipientAddressContainsWords            : 
+AnyOfRecipientAddressMatchesPatterns          : 
+ExceptIfFrom                                  : 
+ExceptIfFromMemberOf                          : 
+ExceptIfFromScope                             : 
+ExceptIfSentTo                                : 
+ExceptIfSentToMemberOf                        : 
+ExceptIfSentToScope                           : 
+ExceptIfBetweenMemberOf1                      : 
+ExceptIfBetweenMemberOf2                      : 
+ExceptIfManagerAddresses                      : 
+ExceptIfManagerForEvaluatedUser               : 
+ExceptIfSenderManagementRelationship          : 
+ExceptIfADComparisonAttribute                 : 
+ExceptIfADComparisonOperator                  : 
+ExceptIfSenderADAttributeContainsWords        : 
+ExceptIfSenderADAttributeMatchesPatterns      : 
+ExceptIfRecipientADAttributeContainsWords     : 
+ExceptIfRecipientADAttributeMatchesPatterns   : 
+ExceptIfAnyOfToHeader                         : 
+ExceptIfAnyOfToHeaderMemberOf                 : 
+ExceptIfAnyOfCcHeader                         : 
+ExceptIfAnyOfCcHeaderMemberOf                 : 
+ExceptIfAnyOfToCcHeader                       : 
+ExceptIfAnyOfToCcHeaderMemberOf               : 
+ExceptIfHasClassification                     : 
+ExceptIfHasNoClassification                   : False
+ExceptIfSubjectContainsWords                  : 
+ExceptIfSubjectOrBodyContainsWords            : 
+ExceptIfHeaderContainsMessageHeader           : 
+ExceptIfHeaderContainsWords                   : 
+ExceptIfFromAddressContainsWords              : 
+ExceptIfSenderDomainIs                        : 
+ExceptIfRecipientDomainIs                     : 
+ExceptIfSubjectMatchesPatterns                : 
+ExceptIfSubjectOrBodyMatchesPatterns          : 
+ExceptIfHeaderMatchesMessageHeader            : 
+ExceptIfHeaderMatchesPatterns                 : 
+ExceptIfFromAddressMatchesPatterns            : 
+ExceptIfAttachmentNameMatchesPatterns         : 
+ExceptIfAttachmentExtensionMatchesWords       : 
+ExceptIfAttachmentPropertyContainsWords       : 
+ExceptIfContentCharacterSetContainsWords      : 
+ExceptIfSCLOver                               : 
+ExceptIfAttachmentSizeOver                    : 
+ExceptIfMessageSizeOver                       : 
+ExceptIfWithImportance                        : 
+ExceptIfMessageTypeMatches                    : 
+ExceptIfRecipientAddressContainsWords         : 
+ExceptIfRecipientAddressMatchesPatterns       : 
+ExceptIfSenderInRecipientList                 : 
+ExceptIfRecipientInSenderList                 : 
+ExceptIfAttachmentContainsWords               : 
+ExceptIfAttachmentMatchesPatterns             : 
+ExceptIfAttachmentIsUnsupported               : False
+ExceptIfAttachmentProcessingLimitExceeded     : False
+ExceptIfAttachmentHasExecutableContent        : False
+ExceptIfAttachmentIsPasswordProtected         : False
+ExceptIfAnyOfRecipientAddressContainsWords    : 
+ExceptIfAnyOfRecipientAddressMatchesPatterns  : 
+ExceptIfHasSenderOverride                     : False
+ExceptIfMessageContainsDataClassifications    : 
+ExceptIfMessageContainsAllDataClassifications : 
+ExceptIfSenderIpRanges                        : 
+PrependSubject                                : 
+SetAuditSeverity                              : 
+ApplyClassification                           : 
+ApplyHtmlDisclaimerLocation                   : 
+ApplyHtmlDisclaimerText                       : 
+ApplyHtmlDisclaimerFallbackAction             : 
+ApplyRightsProtectionTemplate                 : 
+ApplyRightsProtectionCustomizationTemplate    : 
+SetSCL                                        : -1
+SetHeaderName                                 : 
+SetHeaderValue                                : 
+RemoveHeader                                  : 
+AddToRecipients                               : 
+CopyTo                                        : 
+BlindCopyTo                                   : 
+AddManagerAsRecipientType                     : 
+ModerateMessageByUser                         : 
+ModerateMessageByManager                      : False
+RedirectMessageTo                             : 
+RejectMessageEnhancedStatusCode               : 
+RejectMessageReasonText                       : 
+DeleteMessage                                 : False
+Disconnect                                    : False
+Quarantine                                    : False
+SmtpRejectMessageRejectText                   : 
+SmtpRejectMessageRejectStatusCode             : 
+LogEventText                                  : 
+StopRuleProcessing                            : False
+SenderNotificationType                        : 
+GenerateIncidentReport                        : 
+IncidentReportContent                         : 
+RouteMessageOutboundConnector                 : 
+RouteMessageOutboundRequireTls                : False
+ApplyOME                                      : False
+RemoveOME                                     : False
+RemoveOMEv2                                   : False
+RemoveRMSAttachmentEncryption                 : False
+GenerateNotification                          : 
+Identity                                      : domains
+DistinguishedName                             : CN=domains,CN=TransportVersioned,CN=Rules,CN=Transport Settings,CN=Configuration,CN=acme.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR33A084,DC=PROD,DC=OUTLOOK,DC=COM
+Guid                                          : 8410213c-b125-47c3-81e7-f607a1546459
+ImmutableId                                   : 8410213c-b125-47c3-81e7-f607a1546459
+OrganizationId                                : LABPR33A084.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/acme.onmicrosoft.com - LABPR33A084.PROD.OUTLOOK.COM/ConfigurationUnits/acme.onmicrosoft.com/Configuration
+Name                                          : domains
+IsValid                                       : True
+WhenChanged                                   : 2024-09-03 03:40:43
+ObjectState                                   : Unchanged
+
+Priority                                      : 5
+DlpPolicy                                     : 
+DlpPolicyId                                   : 0dfd9c70-159e-4aa3-85d1-a03b95280861
+Comments                                      : 
+CreatedBy                                     : Powell
+LastModifiedBy                                : Powell
+ManuallyModified                              : False
+ActivationDate                                : 
+ExpiryDate                                    : 
+Description                                   : If the message:
+                                                	Is sent to 'catherine.deborah@acme.com'
+                                                	and 'X-MS-Exchange-Authentication-Results' header contains ''spf=fail''
+                                                	and Includes these words in the sender's address: 'onmicrosoft.com'
+                                                Take the following actions:
+                                                	Delete the message without notifying the recipient or sender
+                                                
+RuleVersion                                   : 14.0.0.0
+Size                                          : 487
+Conditions                                    : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SentToPredicate, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.HeaderContainsPredicate, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.FromAddressContainsPredicate}
+Exceptions                                    : 
+Actions                                       : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.DeleteMessageAction}
+State                                         : Disabled
+Mode                                          : Enforce
+IsRuleConfigurationSupported                  : True
+RuleConfigurationUnsupportedReason            : 
+RuleErrorAction                               : Ignore
+SenderAddressLocation                         : HeaderOrEnvelope
+RecipientAddressType                          : Resolved
+RuleSubType                                   : None
+RegexSize                                     : 23
+UseLegacyRegex                                : False
+From                                          : 
+FromMemberOf                                  : 
+FromScope                                     : 
+SentTo                                        : {catherine.deborah@acme.com}
+SentToMemberOf                                : 
+SentToScope                                   : 
+BetweenMemberOf1                              : 
+BetweenMemberOf2                              : 
+ManagerAddresses                              : 
+ManagerForEvaluatedUser                       : 
+SenderManagementRelationship                  : 
+ADComparisonAttribute                         : 
+ADComparisonOperator                          : 
+SenderADAttributeContainsWords                : 
+SenderADAttributeMatchesPatterns              : 
+RecipientADAttributeContainsWords             : 
+RecipientADAttributeMatchesPatterns           : 
+AnyOfToHeader                                 : 
+AnyOfToHeaderMemberOf                         : 
+AnyOfCcHeader                                 : 
+AnyOfCcHeaderMemberOf                         : 
+AnyOfToCcHeader                               : 
+AnyOfToCcHeaderMemberOf                       : 
+HasClassification                             : 
+HasNoClassification                           : False
+SubjectContainsWords                          : 
+SubjectOrBodyContainsWords                    : 
+HeaderContainsMessageHeader                   : X-MS-Exchange-Authentication-Results
+HeaderContainsWords                           : {spf=fail}
+FromAddressContainsWords                      : {onmicrosoft.com}
+SenderDomainIs                                : 
+RecipientDomainIs                             : 
+SubjectMatchesPatterns                        : 
+SubjectOrBodyMatchesPatterns                  : 
+HeaderMatchesMessageHeader                    : 
+HeaderMatchesPatterns                         : 
+FromAddressMatchesPatterns                    : 
+AttachmentNameMatchesPatterns                 : 
+AttachmentExtensionMatchesWords               : 
+AttachmentPropertyContainsWords               : 
+ContentCharacterSetContainsWords              : 
+HasSenderOverride                             : False
+MessageContainsDataClassifications            : 
+MessageContainsAllDataClassifications         : 
+SenderIpRanges                                : 
+SCLOver                                       : 
+AttachmentSizeOver                            : 
+MessageSizeOver                               : 
+WithImportance                                : 
+MessageTypeMatches                            : 
+RecipientAddressContainsWords                 : 
+RecipientAddressMatchesPatterns               : 
+SenderInRecipientList                         : 
+RecipientInSenderList                         : 
+AttachmentContainsWords                       : 
+AttachmentMatchesPatterns                     : 
+AttachmentIsUnsupported                       : False
+AttachmentProcessingLimitExceeded             : False
+AttachmentHasExecutableContent                : False
+AttachmentIsPasswordProtected                 : False
+AnyOfRecipientAddressContainsWords            : 
+AnyOfRecipientAddressMatchesPatterns          : 
+ExceptIfFrom                                  : 
+ExceptIfFromMemberOf                          : 
+ExceptIfFromScope                             : 
+ExceptIfSentTo                                : 
+ExceptIfSentToMemberOf                        : 
+ExceptIfSentToScope                           : 
+ExceptIfBetweenMemberOf1                      : 
+ExceptIfBetweenMemberOf2                      : 
+ExceptIfManagerAddresses                      : 
+ExceptIfManagerForEvaluatedUser               : 
+ExceptIfSenderManagementRelationship          : 
+ExceptIfADComparisonAttribute                 : 
+ExceptIfADComparisonOperator                  : 
+ExceptIfSenderADAttributeContainsWords        : 
+ExceptIfSenderADAttributeMatchesPatterns      : 
+ExceptIfRecipientADAttributeContainsWords     : 
+ExceptIfRecipientADAttributeMatchesPatterns   : 
+ExceptIfAnyOfToHeader                         : 
+ExceptIfAnyOfToHeaderMemberOf                 : 
+ExceptIfAnyOfCcHeader                         : 
+ExceptIfAnyOfCcHeaderMemberOf                 : 
+ExceptIfAnyOfToCcHeader                       : 
+ExceptIfAnyOfToCcHeaderMemberOf               : 
+ExceptIfHasClassification                     : 
+ExceptIfHasNoClassification                   : False
+ExceptIfSubjectContainsWords                  : 
+ExceptIfSubjectOrBodyContainsWords            : 
+ExceptIfHeaderContainsMessageHeader           : 
+ExceptIfHeaderContainsWords                   : 
+ExceptIfFromAddressContainsWords              : 
+ExceptIfSenderDomainIs                        : 
+ExceptIfRecipientDomainIs                     : 
+ExceptIfSubjectMatchesPatterns                : 
+ExceptIfSubjectOrBodyMatchesPatterns          : 
+ExceptIfHeaderMatchesMessageHeader            : 
+ExceptIfHeaderMatchesPatterns                 : 
+ExceptIfFromAddressMatchesPatterns            : 
+ExceptIfAttachmentNameMatchesPatterns         : 
+ExceptIfAttachmentExtensionMatchesWords       : 
+ExceptIfAttachmentPropertyContainsWords       : 
+ExceptIfContentCharacterSetContainsWords      : 
+ExceptIfSCLOver                               : 
+ExceptIfAttachmentSizeOver                    : 
+ExceptIfMessageSizeOver                       : 
+ExceptIfWithImportance                        : 
+ExceptIfMessageTypeMatches                    : 
+ExceptIfRecipientAddressContainsWords         : 
+ExceptIfRecipientAddressMatchesPatterns       : 
+ExceptIfSenderInRecipientList                 : 
+ExceptIfRecipientInSenderList                 : 
+ExceptIfAttachmentContainsWords               : 
+ExceptIfAttachmentMatchesPatterns             : 
+ExceptIfAttachmentIsUnsupported               : False
+ExceptIfAttachmentProcessingLimitExceeded     : False
+ExceptIfAttachmentHasExecutableContent        : False
+ExceptIfAttachmentIsPasswordProtected         : False
+ExceptIfAnyOfRecipientAddressContainsWords    : 
+ExceptIfAnyOfRecipientAddressMatchesPatterns  : 
+ExceptIfHasSenderOverride                     : False
+ExceptIfMessageContainsDataClassifications    : 
+ExceptIfMessageContainsAllDataClassifications : 
+ExceptIfSenderIpRanges                        : 
+PrependSubject                                : 
+SetAuditSeverity                              : 
+ApplyClassification                           : 
+ApplyHtmlDisclaimerLocation                   : 
+ApplyHtmlDisclaimerText                       : 
+ApplyHtmlDisclaimerFallbackAction             : 
+ApplyRightsProtectionTemplate                 : 
+ApplyRightsProtectionCustomizationTemplate    : 
+SetSCL                                        : 
+SetHeaderName                                 : 
+SetHeaderValue                                : 
+RemoveHeader                                  : 
+AddToRecipients                               : 
+CopyTo                                        : 
+BlindCopyTo                                   : 
+AddManagerAsRecipientType                     : 
+ModerateMessageByUser                         : 
+ModerateMessageByManager                      : False
+RedirectMessageTo                             : 
+RejectMessageEnhancedStatusCode               : 
+RejectMessageReasonText                       : 
+DeleteMessage                                 : True
+Disconnect                                    : False
+Quarantine                                    : False
+SmtpRejectMessageRejectText                   : 
+SmtpRejectMessageRejectStatusCode             : 
+LogEventText                                  : 
+StopRuleProcessing                            : False
+SenderNotificationType                        : 
+GenerateIncidentReport                        : 
+IncidentReportContent                         : 
+RouteMessageOutboundConnector                 : 
+RouteMessageOutboundRequireTls                : False
+ApplyOME                                      : False
+RemoveOME                                     : False
+RemoveOMEv2                                   : False
+RemoveRMSAttachmentEncryption                 : False
+GenerateNotification                          : 
+Identity                                      : Catherine Deborah OnMicrosoft Spam (#3516995)
+DistinguishedName                             : CN=Catherine Deborah OnMicrosoft Spam (\#3516995),CN=TransportVersioned,CN=Rules,CN=Transport Settings,CN=Configuration,CN=acme.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR33A084,DC=PROD,DC=OUTLOOK,DC=COM
+Guid                                          : a1df6f95-2ccf-415d-8435-682d2f0c5ed7
+ImmutableId                                   : a1df6f95-2ccf-415d-8435-682d2f0c5ed7
+OrganizationId                                : LABPR33A084.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/acme.onmicrosoft.com - LABPR33A084.PROD.OUTLOOK.COM/ConfigurationUnits/acme.onmicrosoft.com/Configuration
+Name                                          : Catherine Deborah OnMicrosoft Spam (#3516995)
+IsValid                                       : True
+WhenChanged                                   : 2024-09-03 03:41:32
+ObjectState                                   : Unchanged
+
+Priority                                      : 6
+DlpPolicy                                     : 
+DlpPolicyId                                   : 0dfd9c70-159e-4aa3-85d1-a03b95280861
+Comments                                      : 
+CreatedBy                                     : Powell
+LastModifiedBy                                : Powell
+ManuallyModified                              : False
+ActivationDate                                : 
+ExpiryDate                                    : 
+Description                                   : If the message:
+                                                	sender ip addresses belong to one of these ranges: '147.160.167.23/26' or '23.21.109.200' or '23.21.109.132'
+                                                Take the following actions:
+                                                	set message header 'X-MS-Exchange-Organization-SkipSafeLinksProcessing' with the value '1'
+                                                
+RuleVersion                                   : 15.0.2.0
+Size                                          : 400
+Conditions                                    : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SenderIpRangesPredicate}
+Exceptions                                    : 
+Actions                                       : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SetHeaderAction}
+State                                         : Enabled
+Mode                                          : Enforce
+IsRuleConfigurationSupported                  : True
+RuleConfigurationUnsupportedReason            : 
+RuleErrorAction                               : Ignore
+SenderAddressLocation                         : Header
+RecipientAddressType                          : Resolved
+RuleSubType                                   : None
+RegexSize                                     : 0
+UseLegacyRegex                                : False
+From                                          : 
+FromMemberOf                                  : 
+FromScope                                     : 
+SentTo                                        : 
+SentToMemberOf                                : 
+SentToScope                                   : 
+BetweenMemberOf1                              : 
+BetweenMemberOf2                              : 
+ManagerAddresses                              : 
+ManagerForEvaluatedUser                       : 
+SenderManagementRelationship                  : 
+ADComparisonAttribute                         : 
+ADComparisonOperator                          : 
+SenderADAttributeContainsWords                : 
+SenderADAttributeMatchesPatterns              : 
+RecipientADAttributeContainsWords             : 
+RecipientADAttributeMatchesPatterns           : 
+AnyOfToHeader                                 : 
+AnyOfToHeaderMemberOf                         : 
+AnyOfCcHeader                                 : 
+AnyOfCcHeaderMemberOf                         : 
+AnyOfToCcHeader                               : 
+AnyOfToCcHeaderMemberOf                       : 
+HasClassification                             : 
+HasNoClassification                           : False
+SubjectContainsWords                          : 
+SubjectOrBodyContainsWords                    : 
+HeaderContainsMessageHeader                   : 
+HeaderContainsWords                           : 
+FromAddressContainsWords                      : 
+SenderDomainIs                                : 
+RecipientDomainIs                             : 
+SubjectMatchesPatterns                        : 
+SubjectOrBodyMatchesPatterns                  : 
+HeaderMatchesMessageHeader                    : 
+HeaderMatchesPatterns                         : 
+FromAddressMatchesPatterns                    : 
+AttachmentNameMatchesPatterns                 : 
+AttachmentExtensionMatchesWords               : 
+AttachmentPropertyContainsWords               : 
+ContentCharacterSetContainsWords              : 
+HasSenderOverride                             : False
+MessageContainsDataClassifications            : 
+MessageContainsAllDataClassifications         : 
+SenderIpRanges                                : {147.160.167.23/26, 23.21.109.200, 23.21.109.132}
+SCLOver                                       : 
+AttachmentSizeOver                            : 
+MessageSizeOver                               : 
+WithImportance                                : 
+MessageTypeMatches                            : 
+RecipientAddressContainsWords                 : 
+RecipientAddressMatchesPatterns               : 
+SenderInRecipientList                         : 
+RecipientInSenderList                         : 
+AttachmentContainsWords                       : 
+AttachmentMatchesPatterns                     : 
+AttachmentIsUnsupported                       : False
+AttachmentProcessingLimitExceeded             : False
+AttachmentHasExecutableContent                : False
+AttachmentIsPasswordProtected                 : False
+AnyOfRecipientAddressContainsWords            : 
+AnyOfRecipientAddressMatchesPatterns          : 
+ExceptIfFrom                                  : 
+ExceptIfFromMemberOf                          : 
+ExceptIfFromScope                             : 
+ExceptIfSentTo                                : 
+ExceptIfSentToMemberOf                        : 
+ExceptIfSentToScope                           : 
+ExceptIfBetweenMemberOf1                      : 
+ExceptIfBetweenMemberOf2                      : 
+ExceptIfManagerAddresses                      : 
+ExceptIfManagerForEvaluatedUser               : 
+ExceptIfSenderManagementRelationship          : 
+ExceptIfADComparisonAttribute                 : 
+ExceptIfADComparisonOperator                  : 
+ExceptIfSenderADAttributeContainsWords        : 
+ExceptIfSenderADAttributeMatchesPatterns      : 
+ExceptIfRecipientADAttributeContainsWords     : 
+ExceptIfRecipientADAttributeMatchesPatterns   : 
+ExceptIfAnyOfToHeader                         : 
+ExceptIfAnyOfToHeaderMemberOf                 : 
+ExceptIfAnyOfCcHeader                         : 
+ExceptIfAnyOfCcHeaderMemberOf                 : 
+ExceptIfAnyOfToCcHeader                       : 
+ExceptIfAnyOfToCcHeaderMemberOf               : 
+ExceptIfHasClassification                     : 
+ExceptIfHasNoClassification                   : False
+ExceptIfSubjectContainsWords                  : 
+ExceptIfSubjectOrBodyContainsWords            : 
+ExceptIfHeaderContainsMessageHeader           : 
+ExceptIfHeaderContainsWords                   : 
+ExceptIfFromAddressContainsWords              : 
+ExceptIfSenderDomainIs                        : 
+ExceptIfRecipientDomainIs                     : 
+ExceptIfSubjectMatchesPatterns                : 
+ExceptIfSubjectOrBodyMatchesPatterns          : 
+ExceptIfHeaderMatchesMessageHeader            : 
+ExceptIfHeaderMatchesPatterns                 : 
+ExceptIfFromAddressMatchesPatterns            : 
+ExceptIfAttachmentNameMatchesPatterns         : 
+ExceptIfAttachmentExtensionMatchesWords       : 
+ExceptIfAttachmentPropertyContainsWords       : 
+ExceptIfContentCharacterSetContainsWords      : 
+ExceptIfSCLOver                               : 
+ExceptIfAttachmentSizeOver                    : 
+ExceptIfMessageSizeOver                       : 
+ExceptIfWithImportance                        : 
+ExceptIfMessageTypeMatches                    : 
+ExceptIfRecipientAddressContainsWords         : 
+ExceptIfRecipientAddressMatchesPatterns       : 
+ExceptIfSenderInRecipientList                 : 
+ExceptIfRecipientInSenderList                 : 
+ExceptIfAttachmentContainsWords               : 
+ExceptIfAttachmentMatchesPatterns             : 
+ExceptIfAttachmentIsUnsupported               : False
+ExceptIfAttachmentProcessingLimitExceeded     : False
+ExceptIfAttachmentHasExecutableContent        : False
+ExceptIfAttachmentIsPasswordProtected         : False
+ExceptIfAnyOfRecipientAddressContainsWords    : 
+ExceptIfAnyOfRecipientAddressMatchesPatterns  : 
+ExceptIfHasSenderOverride                     : False
+ExceptIfMessageContainsDataClassifications    : 
+ExceptIfMessageContainsAllDataClassifications : 
+ExceptIfSenderIpRanges                        : 
+PrependSubject                                : 
+SetAuditSeverity                              : 
+ApplyClassification                           : 
+ApplyHtmlDisclaimerLocation                   : 
+ApplyHtmlDisclaimerText                       : 
+ApplyHtmlDisclaimerFallbackAction             : 
+ApplyRightsProtectionTemplate                 : 
+ApplyRightsProtectionCustomizationTemplate    : 
+SetSCL                                        : 
+SetHeaderName                                 : X-MS-Exchange-Organization-SkipSafeLinksProcessing
+SetHeaderValue                                : 1
+RemoveHeader                                  : 
+AddToRecipients                               : 
+CopyTo                                        : 
+BlindCopyTo                                   : 
+AddManagerAsRecipientType                     : 
+ModerateMessageByUser                         : 
+ModerateMessageByManager                      : False
+RedirectMessageTo                             : 
+RejectMessageEnhancedStatusCode               : 
+RejectMessageReasonText                       : 
+DeleteMessage                                 : False
+Disconnect                                    : False
+Quarantine                                    : False
+SmtpRejectMessageRejectText                   : 
+SmtpRejectMessageRejectStatusCode             : 
+LogEventText                                  : 
+StopRuleProcessing                            : False
+SenderNotificationType                        : 
+GenerateIncidentReport                        : 
+IncidentReportContent                         : 
+RouteMessageOutboundConnector                 : 
+RouteMessageOutboundRequireTls                : False
+ApplyOME                                      : False
+RemoveOME                                     : False
+RemoveOMEv2                                   : False
+RemoveRMSAttachmentEncryption                 : False
+GenerateNotification                          : 
+Identity                                      : External Application 9 - Bypass Safe Links
+DistinguishedName                             : CN=External Application 9 - Bypass Safe Links,CN=TransportVersioned,CN=Rules,CN=Transport Settings,CN=Configuration,CN=acme.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR33A084,DC=PROD,DC=OUTLOOK,DC=COM
+Guid                                          : 104857ec-6131-4cb8-82da-3f4d7cc8bc1d
+ImmutableId                                   : 104857ec-6131-4cb8-82da-3f4d7cc8bc1d
+OrganizationId                                : LABPR33A084.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/acme.onmicrosoft.com - LABPR33A084.PROD.OUTLOOK.COM/ConfigurationUnits/acme.onmicrosoft.com/Configuration
+Name                                          : External Application 9 - Bypass Safe Links
+IsValid                                       : True
+WhenChanged                                   : 2025-06-05 21:34:16
+ObjectState                                   : Unchanged
+
+Priority                                      : 7
+DlpPolicy                                     : 
+DlpPolicyId                                   : 0dfd9c70-159e-4aa3-85d1-a03b95280861
+Comments                                      : 
+CreatedBy                                     : Powell
+LastModifiedBy                                : Powell
+ManuallyModified                              : False
+ActivationDate                                : 
+ExpiryDate                                    : 
+Description                                   : If the message:
+                                                	sender ip addresses belong to one of these ranges: '147.160.167.23/26' or '23.21.109.200' or '23.21.109.132'
+                                                Take the following actions:
+                                                	set message header 'X-MS-Exchange-Organization-SkipSafeAttachmentProcessing' with the value '1'
+                                                
+RuleVersion                                   : 15.0.2.0
+Size                                          : 411
+Conditions                                    : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SenderIpRangesPredicate}
+Exceptions                                    : 
+Actions                                       : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SetHeaderAction}
+State                                         : Enabled
+Mode                                          : Enforce
+IsRuleConfigurationSupported                  : True
+RuleConfigurationUnsupportedReason            : 
+RuleErrorAction                               : Ignore
+SenderAddressLocation                         : Header
+RecipientAddressType                          : Resolved
+RuleSubType                                   : None
+RegexSize                                     : 0
+UseLegacyRegex                                : False
+From                                          : 
+FromMemberOf                                  : 
+FromScope                                     : 
+SentTo                                        : 
+SentToMemberOf                                : 
+SentToScope                                   : 
+BetweenMemberOf1                              : 
+BetweenMemberOf2                              : 
+ManagerAddresses                              : 
+ManagerForEvaluatedUser                       : 
+SenderManagementRelationship                  : 
+ADComparisonAttribute                         : 
+ADComparisonOperator                          : 
+SenderADAttributeContainsWords                : 
+SenderADAttributeMatchesPatterns              : 
+RecipientADAttributeContainsWords             : 
+RecipientADAttributeMatchesPatterns           : 
+AnyOfToHeader                                 : 
+AnyOfToHeaderMemberOf                         : 
+AnyOfCcHeader                                 : 
+AnyOfCcHeaderMemberOf                         : 
+AnyOfToCcHeader                               : 
+AnyOfToCcHeaderMemberOf                       : 
+HasClassification                             : 
+HasNoClassification                           : False
+SubjectContainsWords                          : 
+SubjectOrBodyContainsWords                    : 
+HeaderContainsMessageHeader                   : 
+HeaderContainsWords                           : 
+FromAddressContainsWords                      : 
+SenderDomainIs                                : 
+RecipientDomainIs                             : 
+SubjectMatchesPatterns                        : 
+SubjectOrBodyMatchesPatterns                  : 
+HeaderMatchesMessageHeader                    : 
+HeaderMatchesPatterns                         : 
+FromAddressMatchesPatterns                    : 
+AttachmentNameMatchesPatterns                 : 
+AttachmentExtensionMatchesWords               : 
+AttachmentPropertyContainsWords               : 
+ContentCharacterSetContainsWords              : 
+HasSenderOverride                             : False
+MessageContainsDataClassifications            : 
+MessageContainsAllDataClassifications         : 
+SenderIpRanges                                : {147.160.167.23/26, 23.21.109.200, 23.21.109.132}
+SCLOver                                       : 
+AttachmentSizeOver                            : 
+MessageSizeOver                               : 
+WithImportance                                : 
+MessageTypeMatches                            : 
+RecipientAddressContainsWords                 : 
+RecipientAddressMatchesPatterns               : 
+SenderInRecipientList                         : 
+RecipientInSenderList                         : 
+AttachmentContainsWords                       : 
+AttachmentMatchesPatterns                     : 
+AttachmentIsUnsupported                       : False
+AttachmentProcessingLimitExceeded             : False
+AttachmentHasExecutableContent                : False
+AttachmentIsPasswordProtected                 : False
+AnyOfRecipientAddressContainsWords            : 
+AnyOfRecipientAddressMatchesPatterns          : 
+ExceptIfFrom                                  : 
+ExceptIfFromMemberOf                          : 
+ExceptIfFromScope                             : 
+ExceptIfSentTo                                : 
+ExceptIfSentToMemberOf                        : 
+ExceptIfSentToScope                           : 
+ExceptIfBetweenMemberOf1                      : 
+ExceptIfBetweenMemberOf2                      : 
+ExceptIfManagerAddresses                      : 
+ExceptIfManagerForEvaluatedUser               : 
+ExceptIfSenderManagementRelationship          : 
+ExceptIfADComparisonAttribute                 : 
+ExceptIfADComparisonOperator                  : 
+ExceptIfSenderADAttributeContainsWords        : 
+ExceptIfSenderADAttributeMatchesPatterns      : 
+ExceptIfRecipientADAttributeContainsWords     : 
+ExceptIfRecipientADAttributeMatchesPatterns   : 
+ExceptIfAnyOfToHeader                         : 
+ExceptIfAnyOfToHeaderMemberOf                 : 
+ExceptIfAnyOfCcHeader                         : 
+ExceptIfAnyOfCcHeaderMemberOf                 : 
+ExceptIfAnyOfToCcHeader                       : 
+ExceptIfAnyOfToCcHeaderMemberOf               : 
+ExceptIfHasClassification                     : 
+ExceptIfHasNoClassification                   : False
+ExceptIfSubjectContainsWords                  : 
+ExceptIfSubjectOrBodyContainsWords            : 
+ExceptIfHeaderContainsMessageHeader           : 
+ExceptIfHeaderContainsWords                   : 
+ExceptIfFromAddressContainsWords              : 
+ExceptIfSenderDomainIs                        : 
+ExceptIfRecipientDomainIs                     : 
+ExceptIfSubjectMatchesPatterns                : 
+ExceptIfSubjectOrBodyMatchesPatterns          : 
+ExceptIfHeaderMatchesMessageHeader            : 
+ExceptIfHeaderMatchesPatterns                 : 
+ExceptIfFromAddressMatchesPatterns            : 
+ExceptIfAttachmentNameMatchesPatterns         : 
+ExceptIfAttachmentExtensionMatchesWords       : 
+ExceptIfAttachmentPropertyContainsWords       : 
+ExceptIfContentCharacterSetContainsWords      : 
+ExceptIfSCLOver                               : 
+ExceptIfAttachmentSizeOver                    : 
+ExceptIfMessageSizeOver                       : 
+ExceptIfWithImportance                        : 
+ExceptIfMessageTypeMatches                    : 
+ExceptIfRecipientAddressContainsWords         : 
+ExceptIfRecipientAddressMatchesPatterns       : 
+ExceptIfSenderInRecipientList                 : 
+ExceptIfRecipientInSenderList                 : 
+ExceptIfAttachmentContainsWords               : 
+ExceptIfAttachmentMatchesPatterns             : 
+ExceptIfAttachmentIsUnsupported               : False
+ExceptIfAttachmentProcessingLimitExceeded     : False
+ExceptIfAttachmentHasExecutableContent        : False
+ExceptIfAttachmentIsPasswordProtected         : False
+ExceptIfAnyOfRecipientAddressContainsWords    : 
+ExceptIfAnyOfRecipientAddressMatchesPatterns  : 
+ExceptIfHasSenderOverride                     : False
+ExceptIfMessageContainsDataClassifications    : 
+ExceptIfMessageContainsAllDataClassifications : 
+ExceptIfSenderIpRanges                        : 
+PrependSubject                                : 
+SetAuditSeverity                              : 
+ApplyClassification                           : 
+ApplyHtmlDisclaimerLocation                   : 
+ApplyHtmlDisclaimerText                       : 
+ApplyHtmlDisclaimerFallbackAction             : 
+ApplyRightsProtectionTemplate                 : 
+ApplyRightsProtectionCustomizationTemplate    : 
+SetSCL                                        : 
+SetHeaderName                                 : X-MS-Exchange-Organization-SkipSafeAttachmentProcessing
+SetHeaderValue                                : 1
+RemoveHeader                                  : 
+AddToRecipients                               : 
+CopyTo                                        : 
+BlindCopyTo                                   : 
+AddManagerAsRecipientType                     : 
+ModerateMessageByUser                         : 
+ModerateMessageByManager                      : False
+RedirectMessageTo                             : 
+RejectMessageEnhancedStatusCode               : 
+RejectMessageReasonText                       : 
+DeleteMessage                                 : False
+Disconnect                                    : False
+Quarantine                                    : False
+SmtpRejectMessageRejectText                   : 
+SmtpRejectMessageRejectStatusCode             : 
+LogEventText                                  : 
+StopRuleProcessing                            : False
+SenderNotificationType                        : 
+GenerateIncidentReport                        : 
+IncidentReportContent                         : 
+RouteMessageOutboundConnector                 : 
+RouteMessageOutboundRequireTls                : False
+ApplyOME                                      : False
+RemoveOME                                     : False
+RemoveOMEv2                                   : False
+RemoveRMSAttachmentEncryption                 : False
+GenerateNotification                          : 
+Identity                                      : External Application 9 - Bypass Safe Attachments
+DistinguishedName                             : CN=External Application 9 - Bypass Safe Attachments,CN=TransportVersioned,CN=Rules,CN=Transport Settings,CN=Configuration,CN=acme.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR33A084,DC=PROD,DC=OUTLOOK,DC=COM
+Guid                                          : 45306c94-aef6-4960-8666-7a8c1c995890
+ImmutableId                                   : 45306c94-aef6-4960-8666-7a8c1c995890
+OrganizationId                                : LABPR33A084.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/acme.onmicrosoft.com - LABPR33A084.PROD.OUTLOOK.COM/ConfigurationUnits/acme.onmicrosoft.com/Configuration
+Name                                          : External Application 9 - Bypass Safe Attachments
+IsValid                                       : True
+WhenChanged                                   : 2025-06-05 21:37:32
+ObjectState                                   : Unchanged
+

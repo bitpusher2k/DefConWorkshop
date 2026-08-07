@@ -1,0 +1,44 @@
+
+Name                                                         State    Mode    Priority IsRuleConfigurationSupported Comm
+                                                                                                                    ents
+----                                                         -----    ----    -------- ---------------------------- ----
+Prevent Out of Office messages being sent to Signature Service Cloud Enabled  Enforce 0        True                         
+Identify messages to send to Signature Service Cloud                 Enabled  Enforce 1        True                         
+Client Rules To External Block - Secure Score 5/18/2018      Enabled  Enforce 2        True                         Gene
+                                                                                                                    rate
+                                                                                                                    d
+                                                                                                                    by S
+                                                                                                                    ecur
+                                                                                                                    e Sc
+                                                                                                                    ore
+                                                                                                                    on 5
+                                                                                                                    /18/
+                                                                                                                    2018
+                                                                                                                    .
+                                                                                                                    To
+                                                                                                                    add
+                                                                                                                    exce
+                                                                                                                    ptio
+                                                                                                                    ns
+                                                                                                                    for
+                                                                                                                    busi
+                                                                                                                    ness
+                                                                                                                     rea
+                                                                                                                    sons
+                                                                                                                    , pl
+                                                                                                                    ease
+                                                                                                                     mod
+                                                                                                                    ify
+                                                                                                                    this
+                                                                                                                     Rul
+                                                                                                                    es w
+                                                                                                                    hite
+                                                                                                                    list
+Route outbound through Mail Filter                           Disabled Enforce 3        True                        
+                                                                                                                   
+domains                                                      Enabled  Enforce 4        True                        
+                                                                                                                   
+Catherine Deborah OnMicrosoft Spam (#3516995)                   Disabled Enforce 5        True                         
+External Application 9 - Bypass Safe Links                                  Enabled  Enforce 6        True                         
+External Application 9 - Bypass Safe Attachments                            Enabled  Enforce 7        True                         
+

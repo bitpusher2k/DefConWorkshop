@@ -1,0 +1,34 @@
+
+AdminAuditLogEnabled            : True
+LogLevel                        : None
+TestCmdletLoggingEnabled        : False
+AdminAuditLogCmdlets            : {*}
+AdminAuditLogParameters         : {*}
+AdminAuditLogExcludedCmdlets    : {}
+AdminAuditLogAgeLimit           : 90.00:00:00
+LoadBalancerCount               : 3
+RefreshInterval                 : 10
+PartitionInfo                   : {}
+AdminAuditLogMailbox            : 
+UnifiedAuditLogIngestionEnabled : True
+UnifiedAuditLogFirstOptInDate   : 2018-05-20 08:39:16
+AdminDisplayName                : 
+ExchangeVersion                 : 0.10 (14.0.100.0)
+Name                            : Admin Audit Log Settings
+DistinguishedName               : CN=Admin Audit Log Settings,CN=Global Settings,CN=Configuration,CN=acme.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR33A084,DC=PROD,DC=OUTLOOK,DC=COM
+Identity                        : Admin Audit Log Settings
+ObjectCategory                  : LABPR33A084.PROD.OUTLOOK.COM/Configuration/Schema/ms-Exch-Admin-Audit-Log-Config
+ObjectClass                     : {top, msExchAdminAuditLogConfig}
+WhenChanged                     : 2024-09-03 03:38:11
+WhenCreated                     : 2024-02-23 14:36:15
+WhenChangedUTC                  : 2024-09-03 10:38:11
+WhenCreatedUTC                  : 2024-02-23 22:36:15
+ExchangeObjectId                : 4c00f100-93e7-4200-8008-54da07760db3
+OrganizationalUnitRoot          : acme.onmicrosoft.com
+OrganizationId                  : LABPR33A084.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/acme.onmicrosoft.com - LABPR33A084.PROD.OUTLOOK.COM/ConfigurationUnits/acme.onmicrosoft.com/Configuration
+Id                              : Admin Audit Log Settings
+Guid                            : 119690d4-fdeb-4c78-8b2c-08d74db8cf84
+OriginatingServer               : LAB96XX5501DC603.LABPR33A084.PROD.OUTLOOK.COM
+IsValid                         : True
+ObjectState                     : Changed
+

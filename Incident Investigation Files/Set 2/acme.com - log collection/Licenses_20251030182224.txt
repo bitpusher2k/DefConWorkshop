@@ -1,0 +1,235 @@
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 3
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_ba52c804-16ef-4632-8054-2dca78317b30
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {ONEDRIVE_BASIC, VISIOONLINE, EXCHANGE_S_FOUNDATION, VISIO_CLIENT_SUBSCRIPTION}
+SkuId                : ba52c804-16ef-4632-8054-2dca78317b30
+SkuPartNumber        : VISIOCLIENT
+SubscriptionIds      : {3690376b-9766-453b-823d-ae80249638da}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_1f2aeee1-d66a-443e-8785-687cb496763e
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {INSIGHTS_BY_MYANALYTICS, MICROSOFT_MYANALYTICS_FULL, PEOPLE_SKILLS_FOUNDATION, PLACES_CORE…}
+SkuId                : 1f2aeee1-d66a-443e-8785-687cb496763e
+SkuPartNumber        : ENTERPRISEPREMIUM
+SubscriptionIds      : {5f04a5ea-66a0-4600-83b2-d2c1fc13bce7}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_29aefe9d-ea8e-4f59-8806-3706bd4f65c4
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {PURVIEW_DISCOVERY, EXCHANGE_S_FOUNDATION, BI_AZURE_P2}
+SkuId                : 29aefe9d-ea8e-4f59-8806-3706bd4f65c4
+SkuPartNumber        : POWER_BI_PRO
+SubscriptionIds      : {f9430dc7-4083-453e-835b-f8896861a6a8}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : Company
+CapabilityStatus     : Enabled
+ConsumedUnits        : 0
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_057d9e2b-db9d-45e7-8121-f97d8e511b27
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {EXCHANGE_S_FOUNDATION, WINDOWS_STORE}
+SkuId                : 057d9e2b-db9d-45e7-8121-f97d8e511b27
+SkuPartNumber        : WINDOWS_STORE
+SubscriptionIds      : {c036f52b-c20a-44c2-8e41-55a27b27f214}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 6
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_809cab4a-134c-4112-83e1-279aadc1e13e
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {INSIGHTS_BY_MYANALYTICS, MICROSOFT_MYANALYTICS_FULL, PEOPLE_SKILLS_FOUNDATION, PLACES_CORE…}
+SkuId                : 809cab4a-134c-4112-83e1-279aadc1e13e
+SkuPartNumber        : ENTERPRISEPACK
+SubscriptionIds      : {b86154eb-7d3b-4d27-827f-a2a18d96ebf5}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 55
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_7ded8a51-430d-4544-8974-656ccbad03c2
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {EXCHANGE_S_FOUNDATION, DYN365_CDS_VIRAL, FLOW_P2_VIRAL}
+SkuId                : 7ded8a51-430d-4544-8974-656ccbad03c2
+SkuPartNumber        : FLOW_FREE
+SubscriptionIds      : {490189e8-4e76-43b7-8893-bcb41898a60e}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 4
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_bcd5cfb2-fea8-4681-8bef-fd462092df2b
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {M365_LIGHTHOUSE_CUSTOMER_PLAN1, BPOS_S_TODO_1, INTUNE_O365, EXCHANGE_S_DESKLESS}
+SkuId                : bcd5cfb2-fea8-4681-8bef-fd462092df2b
+SkuPartNumber        : EXCHANGEDESKLESS
+SubscriptionIds      : {89b335db-11ba-45c3-8d12-c1241968d7ee}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_0747f9bd-a477-4ff5-843c-9be5ea1c76f8
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {FORMS_PRO, FORMS_PLAN_E5, FLOW_FORMS_PRO, EXCHANGE_S_FOUNDATION…}
+SkuId                : 0747f9bd-a477-4ff5-843c-9be5ea1c76f8
+SkuPartNumber        : FORMS_PRO
+SubscriptionIds      : {e03dc2b9-8cc6-43ab-811c-62e378a8c9a7}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_9bf0b201-46ae-4770-8c71-42b68f269065
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {EXCHANGE_S_FOUNDATION, ADALLOM_S_DISCOVERY, MFA_PREMIUM, AAD_PREMIUM…}
+SkuId                : 9bf0b201-46ae-4770-8c71-42b68f269065
+SkuPartNumber        : AAD_PREMIUM_P2
+SubscriptionIds      : {fae25c1b-fd95-40fb-8a80-206e5ae19686}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 91
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_39ac3934-2505-4b78-8be5-17951ee7c7d1
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {INSIGHTS_BY_MYANALYTICS, MICROSOFT_MYANALYTICS_FULL, PEOPLE_SKILLS_FOUNDATION, PLACES_CORE…}
+SkuId                : 39ac3934-2505-4b78-8be5-17951ee7c7d1
+SkuPartNumber        : O365_BUSINESS_PREMIUM
+SubscriptionIds      : {ea9c456e-dc89-45a6-8ed9-ca39ac418679, 5db9ebe8-1837-4de7-852f-24410b40d7bb, 90bce635-8609-476b-82f7-7db07e7cc5b5}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_9d1c7e2f-a112-4f28-8103-f32f25b87ed9
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {EXCHANGE_S_FOUNDATION, DYN365_CDS_DYN_APPS, Dynamics_365_Talent_Onboard, Dynamics_365_Onboarding_Free_PLAN}
+SkuId                : 9d1c7e2f-a112-4f28-8103-f32f25b87ed9
+SkuPartNumber        : Dynamics_365_Onboarding_SKU
+SubscriptionIds      : {ec56c380-7a36-4e1f-85f6-084dbf52f784}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 9
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_6b8fa092-262c-4d72-8a00-e497b35b02b8
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {PURVIEW_DISCOVERY, EXCHANGE_S_FOUNDATION, BI_AZURE_P0}
+SkuId                : 6b8fa092-262c-4d72-8a00-e497b35b02b8
+SkuPartNumber        : POWER_BI_STANDARD
+SubscriptionIds      : {4c3e312d-5ee1-45d7-8421-686471821837}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 7
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_9ded27dc-32a7-4728-806c-fa7107e689ae
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {MCOPSTNC}
+SkuId                : 9ded27dc-32a7-4728-806c-fa7107e689ae
+SkuPartNumber        : MCOPSTNC
+SubscriptionIds      : {377e6e67-25d0-4f34-818e-5bcf41edf663}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_31a60f3b-65eb-465d-8ef9-fbfd0a3dede9
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {VISIO_CLIENT_SUBSCRIPTION, VISIOONLINE, ONEDRIVE_BASIC, EXCHANGE_S_FOUNDATION}
+SkuId                : 31a60f3b-65eb-465d-8ef9-fbfd0a3dede9
+SkuPartNumber        : VISIO_PLAN2_DEPT
+SubscriptionIds      : {2bb140e4-f386-45e6-83d4-0dd9f571a107}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 17
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_ebe37d1b-1aa8-4970-823d-87f09dd26e58
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {MCOMEETADV}
+SkuId                : ebe37d1b-1aa8-4970-823d-87f09dd26e58
+SkuPartNumber        : MCOMEETADV
+SubscriptionIds      : {f3d1d38e-005e-4151-8dbb-40aa3f041446}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 16
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_1d5b1619-b550-47b1-8809-4866d6da0696
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {INSIGHTS_BY_MYANALYTICS, MICROSOFT_MYANALYTICS_FULL, PEOPLE_SKILLS_FOUNDATION, PLACES_CORE…}
+SkuId                : 1d5b1619-b550-47b1-8809-4866d6da0696
+SkuPartNumber        : O365_BUSINESS_ESSENTIALS
+SubscriptionIds      : {948e4b65-8ccb-40dd-87ab-e0204a5aaec8}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 10
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_d84e3fb2-4785-415e-85d9-e57446deb882
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {ATP_ENTERPRISE}
+SkuId                : d84e3fb2-4785-415e-85d9-e57446deb882
+SkuPartNumber        : ATP_ENTERPRISE
+SubscriptionIds      : {4b2c81d2-3dde-4d69-85b4-9dbb6bbe75c3}
+AdditionalProperties : {}
+
+AccountId            : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f
+AccountName          : acme
+AppliesTo            : User
+CapabilityStatus     : Suspended
+ConsumedUnits        : 0
+Id                   : 92e5b9cf-c9a2-495d-83b2-3fc82f96324f_fe431f55-669c-4694-8a67-9bc582561205
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {PROJECTWORKMANAGEMENT, SHAREPOINTENTERPRISE, PROJECT_PROFESSIONAL, SHAREPOINT_PROJECT…}
+SkuId                : fe431f55-669c-4694-8a67-9bc582561205
+SkuPartNumber        : PROJECT_PLAN3_DEPT
+SubscriptionIds      : {b7b4814e-366c-48ad-8865-0cf6963b9d2e, 2ceac237-dd75-4716-8f49-0a9d2b02f2b2}
+AdditionalProperties : {}
+

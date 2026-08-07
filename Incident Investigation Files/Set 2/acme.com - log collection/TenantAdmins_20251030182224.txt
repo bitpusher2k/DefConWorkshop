@@ -1,0 +1,31 @@
+
+Role              : SharePoint Administrator
+DisplayName       : Powell
+UserPrincipalName : powell@acme.com
+Mail              : powell@acme.com
+Id                : 5d3ec9ce-5106-4e8e-8071-22bae2035f17
+
+Role              : Global Administrator
+DisplayName       : Phillips2 Edward 365 Admin
+UserPrincipalName : admin.phillips2@acme.onmicrosoft.com
+Mail              : admin.phillips2@acme.onmicrosoft.com
+Id                : 1649f2bc-c5e5-41b7-81a1-128b3e9a4881
+
+Role              : Global Administrator
+DisplayName       : 365 Tenant Admin
+UserPrincipalName : admin@acme.onmicrosoft.com
+Mail              : admin@acme.onmicrosoft.com
+Id                : 57bc69b8-4569-41db-85c6-112f39e4d1c9
+
+Role              : SharePoint Administrator
+DisplayName       : Lee Carter3
+UserPrincipalName : torres1.carter3@acme.com
+Mail              : torres1.carter3@acme.com
+Id                : 7df7de58-2af6-47c2-8887-079db9585c7e
+
+Role              : Billing Administrator
+DisplayName       : Phillips2 Edward
+UserPrincipalName : phillips2.edward@acme.com
+Mail              : phillips2.edward@acme.com
+Id                : 37fee340-51d9-4e67-8484-99569a079524
+
