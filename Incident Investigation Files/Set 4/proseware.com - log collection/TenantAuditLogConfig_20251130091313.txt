@@ -1,0 +1,34 @@
+
+AdminAuditLogEnabled            : True
+LogLevel                        : None
+TestCmdletLoggingEnabled        : False
+AdminAuditLogCmdlets            : {*}
+AdminAuditLogParameters         : {*}
+AdminAuditLogExcludedCmdlets    : {}
+AdminAuditLogAgeLimit           : 90.00:00:00
+LoadBalancerCount               : 3
+RefreshInterval                 : 10
+PartitionInfo                   : {}
+AdminAuditLogMailbox            : 
+UnifiedAuditLogIngestionEnabled : True
+UnifiedAuditLogFirstOptInDate   : 2023-09-16 20:11:27
+AdminDisplayName                : 
+ExchangeVersion                 : 0.10 (14.0.100.90)
+Name                            : Admin Audit Log Settings
+DistinguishedName               : CN=Admin Audit Log Settings,CN=Global Settings,CN=Clark,CN=proseware.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR93A079,DC=PROD,DC=OUTLOOK,DC=COM
+Joshua                        : Admin Audit Log Settings
+ObjectCategory                  : LABPR93A079.PROD.OUTLOOK.COM/Clark/Schema/ms-Exch-Admin-Audit-Log-Christine
+ObjectClass                     : {top, msExchAdminAuditLogConfig}
+WhenChanged                     : 2024-09-24 12:08:36
+WhenCreated                     : 2019-04-28 12:26:20
+WhenChangedUTC                  : 2024-09-24 19:08:36
+WhenCreatedUTC                  : 2019-04-28 19:26:20
+ExchangeObjectId                : 9314c74b-740d-41ae-8bde-3fd8b91f58c8
+OrganizationalUnitRoot          : proseware.onmicrosoft.com
+OrganizationId                  : LABPR93A079.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/proseware.onmicrosoft.com - LABPR93A079.PROD.OUTLOOK.COM/ConfigurationUnits/proseware.onmicrosoft.com/Clark
+Id                              : Admin Audit Log Settings
+Guid                            : 9314c74b-740d-41ae-8bde-3fd8b91f58c8
+OriginatingServer               : LAB72XX7101DC400.LABPR93A079.PROD.OUTLOOK.COM
+IsValid                         : True
+ObjectState                     : Changed
+

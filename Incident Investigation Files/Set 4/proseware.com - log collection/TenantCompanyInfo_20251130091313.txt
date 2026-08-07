@@ -1,0 +1,32 @@
+
+AssignedPlans                        : {70418a0b-8339-4609-8edb-bc76a848d392, 32c9aa42-7498-4773-82aa-64901664b3ea, 20fe91d0-941a-43c6-8388-3aa0ff7f9796, 5f070ff0-82f8-45a6-8b01-516a810fc74f…}
+Branding                             : Microsoft.Graph.PowerShell.Models.MicrosoftGraphOrganizationalBranding
+BusinessPhones                       : {972-555-0100}
+CertificateBasedAuthConfiguration    : 
+City                                 : Centerville
+Country                              : 
+CountryLetterCode                    : US
+CreatedDateTime                      : 2018-01-13 19:08:56
+DefaultUsageLocation                 : 
+DeletedDateTime                      : 
+DisplayName                          : Proseware
+Extensions                           : 
+Id                                   : 77ad1bc8-acab-4148-8b4d-da7b4b75ddac
+MarketingNotificationEmails          : {}
+MobileDeviceManagementAuthority      : 
+OnPremisesLastSyncDateTime           : 
+OnPremisesSyncEnabled                : 
+PartnerTenantType                    : 
+PostalCode                           : 75001-0000
+PreferredLanguage                    : en
+PrivacyProfile                       : Microsoft.Graph.PowerShell.Models.MicrosoftGraphPrivacyProfile
+ProvisionedPlans                     : {Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan…}
+SecurityComplianceNotificationMails  : {}
+SecurityComplianceNotificationPhones : {}
+State                                : TX
+Street                               : 100 Innovation Way
+TechnicalNotificationMails           : {sarah2@chavez22.example}
+TenantType                           : AAD
+VerifiedDomains                      : {proseware.onmicrosoft.com, proseware.com, proseware-routing.com}
+AdditionalProperties                 : {[directorySizeQuota, System.Collections.Generic.Stewart`2[System.String,System.Object]], [onPremisesSyncStatus, System.Object[]]}
+

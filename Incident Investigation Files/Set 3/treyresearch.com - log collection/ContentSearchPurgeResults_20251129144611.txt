@@ -1,0 +1,51 @@
+Suspicious email search 20251029144611
+Purge
+Suspicious email search 20251029144611_Purge
+
+Wednesday, October 29, 2025 22:07:20
+
+
+Wednesday, October 29, 2025 22:07:20
+
+
+Wednesday, October 29, 2025 22:09:16
+
+Purge Type: SoftDelete; Item count: 26; Total size 1816425; Details: {Location: harris4@treyresearch.com; Item count: 10; Total size: 712300; Failed count: 0; ,
+Location: robinson4@treyresearch.com; Item count: 1; Total size: 70819; Failed count: 0; ,
+Location: larry6@treyresearch.com; Item count: 1; Total size: 70646; Failed count: 0; ,
+Location: howard4@treyresearch.com; Item count: 1; Total size: 70509; Failed count: 0; ,
+Location: murphy2@treyresearch.com; Item count: 1; Total size: 70408; Failed count: 0; ,
+Location: jenkins3@treyresearch.com; Item count: 1; Total size: 70324; Failed count: 0; ,
+Location: christine3@treyresearch.com; Item count: 1; Total size: 70224; Failed count: 0; ,
+Location: edwards@treyresearch.com; Item count: 1; Total size: 69956; Failed count: 0; ,
+Location: deborah@treyresearch.com; Item count: 1; Total size: 69775; Failed count: 0; ,
+Location: brian2@treyresearch.com; Item count: 1; Total size: 69386; Failed count: 0; ,
+Location: howard3@treyresearch.com; Item count: 1; Total size: 69221; Failed count: 0; ,
+Location: andrew6@treyresearch.com; Item count: 1; Total size: 69106; Failed count: 0; ,
+Location: chavez6@treyresearch.com; Item count: 1; Total size: 68770; Failed count: 0; ,
+Location: robinson3@treyresearch.com; Item count: 1; Total size: 68715; Failed count: 0; ,
+Location: reed2@treyresearch.com; Item count: 1; Total size: 68709; Failed count: 0; ,
+Location: edwards2@treyresearch.com; Item count: 1; Total size: 68657; Failed count: 0; ,
+Location: scott@treyresearch.com; Item count: 1; Total size: 58900; Failed count: 0; }
+Purge Type: SoftDelete; Item count: 26; Total size 1816425; Details: {Location: harris4@treyresearch.com; Item count: 10; Total size: 712300; Failed count: 0; ,
+Location: robinson4@treyresearch.com; Item count: 1; Total size: 70819; Failed count: 0; ,
+Location: larry6@treyresearch.com; Item count: 1; Total size: 70646; Failed count: 0; ,
+Location: howard4@treyresearch.com; Item count: 1; Total size: 70509; Failed count: 0; ,
+Location: murphy2@treyresearch.com; Item count: 1; Total size: 70408; Failed count: 0; ,
+Location: jenkins3@treyresearch.com; Item count: 1; Total size: 70324; Failed count: 0; ,
+Location: christine3@treyresearch.com; Item count: 1; Total size: 70224; Failed count: 0; ,
+Location: edwards@treyresearch.com; Item count: 1; Total size: 69956; Failed count: 0; ,
+Location: deborah@treyresearch.com; Item count: 1; Total size: 69775; Failed count: 0; ,
+Location: brian2@treyresearch.com; Item count: 1; Total size: 69386; Failed count: 0; ,
+Location: howard3@treyresearch.com; Item count: 1; Total size: 69221; Failed count: 0; ,
+Location: andrew6@treyresearch.com; Item count: 1; Total size: 69106; Failed count: 0; ,
+Location: chavez6@treyresearch.com; Item count: 1; Total size: 68770; Failed count: 0; ,
+Location: robinson3@treyresearch.com; Item count: 1; Total size: 68715; Failed count: 0; ,
+Location: reed2@treyresearch.com; Item count: 1; Total size: 68709; Failed count: 0; ,
+Location: edwards2@treyresearch.com; Item count: 1; Total size: 68657; Failed count: 0; ,
+Location: scott@treyresearch.com; Item count: 1; Total size: 58900; Failed count: 0; }
+The purge action on the following locations failed:
+	howard3@treyresearch.com:Transient error occurred while trying to search the mailbox. Please make sure the mailboxes you're searching barbara4 exist and then run the search again. (CS007)
+	andrew6@treyresearch.com:Transient error occurred while trying to search the mailbox. Please make sure the mailboxes you're searching barbara4 exist and then run the search again. (CS007)
+	deborah@treyresearch.com:Transient error occurred while trying to search the mailbox. Please make sure the mailboxes you're searching barbara4 exist and then run the search again. (CS007)
+

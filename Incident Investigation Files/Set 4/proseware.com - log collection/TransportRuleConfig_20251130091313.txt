@@ -1,0 +1,5 @@
+
+Name          State   Ronald2    Priority IsRuleConfigurationSupported Comments
+----          -----   ----    -------- ---------------------------- --------
+Impersonation Enabled Enforce 0        True                         
+

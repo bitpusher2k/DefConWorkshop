@@ -1,0 +1,204 @@
+
+Priority                                      : 0
+DlpPolicy                                     : 
+DlpPolicyId                                   : c4462267-6bd3-47b5-8ff9-b672b605f356
+Comments                                      : 
+CreatedBy                                     : Proseware
+LastModifiedBy                                : Proseware
+ManuallyModified                              : False
+ActivationDate                                : 
+ExpiryDate                                    : 
+Description                                   : If the message:
+                                                	Includes these words in the sender's address: 'proseware.com'
+                                                	and Is received from 'Outside the organization'
+                                                Take the following actions:
+                                                	Set audit severity level to 'High'
+                                                	and Set the spam confidence level (SCL) to '9'
+                                                
+RuleVersion                                   : 15.0.1.1
+Size                                          : 563
+Conditions                                    : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.FromAddressContainsPredicate, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.FromScopePredicate}
+Exceptions                                    : 
+Actions                                       : {Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SetAuditSeverityAction, Microsoft.Exchange.MessagingPolicies.Rules.Tasks.SetSclAction}
+State                                         : TX
+Ronald2                                          : Enforce
+IsRuleConfigurationSupported                  : True
+RuleConfigurationUnsupportedReason            : 
+RuleErrorAction                               : Ignore
+SenderAddressLocation                         : Header
+RecipientAddressType                          : Resolved
+RuleSubType                                   : None
+RegexSize                                     : 22
+UseLegacyRegex                                : False
+From                                          : 
+FromMemberOf                                  : 
+FromScope                                     : NotInOrganization
+SentTo                                        : 
+SentToMemberOf                                : 
+SentToScope                                   : 
+BetweenMemberOf1                              : 
+BetweenMemberOf2                              : 
+ManagerAddresses                              : 
+ManagerForEvaluatedUser                       : 
+SenderManagementRelationship                  : 
+ADComparisonAttribute                         : 
+ADComparisonOperator                          : 
+SenderADAttributeContainsWords                : 
+SenderADAttributeMatchesPatterns              : 
+RecipientADAttributeContainsWords             : 
+RecipientADAttributeMatchesPatterns           : 
+AnyOfToHeader                                 : 
+AnyOfToHeaderMemberOf                         : 
+AnyOfCcHeader                                 : 
+AnyOfCcHeaderMemberOf                         : 
+AnyOfToCcHeader                               : 
+AnyOfToCcHeaderMemberOf                       : 
+HasClassification                             : 
+HasNoClassification                           : False
+SubjectContainsWords                          : 
+SubjectOrBodyContainsWords                    : 
+HeaderContainsMessageHeader                   : 
+HeaderContainsWords                           : 
+FromAddressContainsWords                      : {proseware.com}
+SenderDomainIs                                : 
+RecipientDomainIs                             : 
+SubjectMatchesPatterns                        : 
+SubjectOrBodyMatchesPatterns                  : 
+HeaderMatchesMessageHeader                    : 
+HeaderMatchesPatterns                         : 
+FromAddressMatchesPatterns                    : 
+AttachmentNameMatchesPatterns                 : 
+AttachmentExtensionMatchesWords               : 
+AttachmentPropertyContainsWords               : 
+ContentCharacterSetContainsWords              : 
+HasSenderOverride                             : False
+MessageContainsDataClassifications            : 
+MessageContainsAllDataClassifications         : 
+SenderIpRanges                                : 
+SCLOver                                       : 
+AttachmentSizeOver                            : 
+MessageSizeOver                               : 
+WithImportance                                : 
+MessageTypeMatches                            : 
+RecipientAddressContainsWords                 : 
+RecipientAddressMatchesPatterns               : 
+SenderInRecipientList                         : 
+RecipientInSenderList                         : 
+AttachmentContainsWords                       : 
+AttachmentMatchesPatterns                     : 
+AttachmentIsUnsupported                       : False
+AttachmentProcessingLimitExceeded             : False
+AttachmentHasExecutableContent                : False
+AttachmentIsPasswordProtected                 : False
+AnyOfRecipientAddressContainsWords            : 
+AnyOfRecipientAddressMatchesPatterns          : 
+ExceptIfFrom                                  : 
+ExceptIfFromMemberOf                          : 
+ExceptIfFromScope                             : 
+ExceptIfSentTo                                : 
+ExceptIfSentToMemberOf                        : 
+ExceptIfSentToScope                           : 
+ExceptIfBetweenMemberOf1                      : 
+ExceptIfBetweenMemberOf2                      : 
+ExceptIfManagerAddresses                      : 
+ExceptIfManagerForEvaluatedUser               : 
+ExceptIfSenderManagementRelationship          : 
+ExceptIfADComparisonAttribute                 : 
+ExceptIfADComparisonOperator                  : 
+ExceptIfSenderADAttributeContainsWords        : 
+ExceptIfSenderADAttributeMatchesPatterns      : 
+ExceptIfRecipientADAttributeContainsWords     : 
+ExceptIfRecipientADAttributeMatchesPatterns   : 
+ExceptIfAnyOfToHeader                         : 
+ExceptIfAnyOfToHeaderMemberOf                 : 
+ExceptIfAnyOfCcHeader                         : 
+ExceptIfAnyOfCcHeaderMemberOf                 : 
+ExceptIfAnyOfToCcHeader                       : 
+ExceptIfAnyOfToCcHeaderMemberOf               : 
+ExceptIfHasClassification                     : 
+ExceptIfHasNoClassification                   : False
+ExceptIfSubjectContainsWords                  : 
+ExceptIfSubjectOrBodyContainsWords            : 
+ExceptIfHeaderContainsMessageHeader           : 
+ExceptIfHeaderContainsWords                   : 
+ExceptIfFromAddressContainsWords              : 
+ExceptIfSenderDomainIs                        : 
+ExceptIfRecipientDomainIs                     : 
+ExceptIfSubjectMatchesPatterns                : 
+ExceptIfSubjectOrBodyMatchesPatterns          : 
+ExceptIfHeaderMatchesMessageHeader            : 
+ExceptIfHeaderMatchesPatterns                 : 
+ExceptIfFromAddressMatchesPatterns            : 
+ExceptIfAttachmentNameMatchesPatterns         : 
+ExceptIfAttachmentExtensionMatchesWords       : 
+ExceptIfAttachmentPropertyContainsWords       : 
+ExceptIfContentCharacterSetContainsWords      : 
+ExceptIfSCLOver                               : 
+ExceptIfAttachmentSizeOver                    : 
+ExceptIfMessageSizeOver                       : 
+ExceptIfWithImportance                        : 
+ExceptIfMessageTypeMatches                    : 
+ExceptIfRecipientAddressContainsWords         : 
+ExceptIfRecipientAddressMatchesPatterns       : 
+ExceptIfSenderInRecipientList                 : 
+ExceptIfRecipientInSenderList                 : 
+ExceptIfAttachmentContainsWords               : 
+ExceptIfAttachmentMatchesPatterns             : 
+ExceptIfAttachmentIsUnsupported               : False
+ExceptIfAttachmentProcessingLimitExceeded     : False
+ExceptIfAttachmentHasExecutableContent        : False
+ExceptIfAttachmentIsPasswordProtected         : False
+ExceptIfAnyOfRecipientAddressContainsWords    : 
+ExceptIfAnyOfRecipientAddressMatchesPatterns  : 
+ExceptIfHasSenderOverride                     : False
+ExceptIfMessageContainsDataClassifications    : 
+ExceptIfMessageContainsAllDataClassifications : 
+ExceptIfSenderIpRanges                        : 
+PrependSubject                                : 
+SetAuditSeverity                              : High
+ApplyClassification                           : 
+ApplyHtmlDisclaimerLocation                   : 
+ApplyHtmlDisclaimerText                       : 
+ApplyHtmlDisclaimerFallbackAction             : 
+ApplyRightsProtectionTemplate                 : 
+ApplyRightsProtectionCustomizationTemplate    : 
+SetSCL                                        : 9
+SetHeaderName                                 : 
+SetHeaderValue                                : 
+RemoveHeader                                  : 
+AddToRecipients                               : 
+CopyTo                                        : 
+BlindCopyTo                                   : 
+AddManagerAsRecipientType                     : 
+ModerateMessageByUser                         : 
+ModerateMessageByManager                      : False
+RedirectMessageTo                             : 
+RejectMessageEnhancedStatusCode               : 
+RejectMessageReasonText                       : 
+DeleteMessage                                 : False
+Disconnect                                    : False
+Quarantine                                    : False
+SmtpRejectMessageRejectText                   : 
+SmtpRejectMessageRejectStatusCode             : 
+LogEventText                                  : 
+StopRuleProcessing                            : False
+SenderNotificationType                        : 
+GenerateIncidentReport                        : 
+IncidentReportContent                         : 
+RouteMessageOutboundConnector                 : 
+RouteMessageOutboundRequireTls                : False
+ApplyOME                                      : False
+RemoveOME                                     : False
+RemoveOMEv2                                   : False
+RemoveRMSAttachmentEncryption                 : False
+GenerateNotification                          : 
+Joshua                                      : Impersonation
+DistinguishedName                             : CN=Impersonation,CN=TransportVersioned,CN=Rules,CN=Transport Settings,CN=Clark,CN=proseware.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR93A079,DC=PROD,DC=OUTLOOK,DC=COM
+Guid                                          : 98c8e2ce-d6cf-4322-8ab9-9cc9db5e493c
+ImmutableId                                   : 98c8e2ce-d6cf-4322-8ab9-9cc9db5e493c
+OrganizationId                                : LABPR93A079.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/proseware.onmicrosoft.com - LABPR93A079.PROD.OUTLOOK.COM/ConfigurationUnits/proseware.onmicrosoft.com/Clark
+Name                                          : Impersonation
+IsValid                                       : True
+WhenChanged                                   : 2024-09-24 07:15:37
+ObjectState                                   : Unchanged
+

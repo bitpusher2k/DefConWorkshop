@@ -1,0 +1,228 @@
+Description,Enabled,Identity,InError,ErrorType,Name,Priority,RuleIdentity,SupportedByTask,Legacy,AnyCategory,ExceptIfAnyCategory,AssignedCategories,ExceptIfAssignedCategories,BodyContainsWords,ExceptIfBodyContainsWords,FlaggedForAction,ExceptIfFlaggedForAction,FromAddressContainsWords,ExceptIfFromAddressContainsWords,From,ExceptIfFrom,HasAttachment,ExceptIfHasAttachment,HasClassification,ExceptIfHasClassification,HeaderContainsWords,ExceptIfHeaderContainsWords,MessageTypeMatches,ExceptIfMessageTypeMatches,MyNameInCcBox,ExceptIfMyNameInCcBox,MyNameInToBox,ExceptIfMyNameInToBox,MyNameInToOrCcBox,ExceptIfMyNameInToOrCcBox,MyNameNotInToBox,ExceptIfMyNameNotInToBox,ReceivedAfterDate,ExceptIfReceivedAfterDate,ReceivedBeforeDate,ExceptIfReceivedBeforeDate,RecipientAddressContainsWords,ExceptIfRecipientAddressContainsWords,SentOnlyToMe,ExceptIfSentOnlyToMe,SentTo,ExceptIfSentTo,SubjectContainsWords,ExceptIfSubjectContainsWords,SubjectOrBodyContainsWords,ExceptIfSubjectOrBodyContainsWords,WithImportance,ExceptIfWithImportance,WithinSizeRangeMaximum,ExceptIfWithinSizeRangeMaximum,WithinSizeRangeMinimum,ExceptIfWithinSizeRangeMinimum,WithSensitivity,ExceptIfWithSensitivity,ApplyCategory,ApplySystemCategory,ClearCategories,ClearFlag,CompleteFlag,CopyToFolder,DeleteMessage,DeleteSystemCategory,FlagMessage,ForwardAsAttachmentTo,ForwardTo,MarkAsRead,MarkImportance,MoveToFolder,PermanentDelete,PinMessage,RedirectTo,SendTextMessageNotificationTo,SoftDeleteMessage,StopProcessingRules,DisplayAlert,PlaySound,MailboxOwnerId,IsValid,ObjectState
+"If the message:
+	the message was received from 'postmaster@partner1.example'
+	and the message includes specific words in the subject or body 'Project Update Contract Services Agreement FY2025'
+Take the following actions:
+	move the message to folder 'CDBP Procurement '
+	and stop processing more rules on this message
+",TRUE,ruiz2\578169943195910145,FALSE,None,For all messages from postmaster@partner1.example,1,578169943195910145,TRUE,,FALSE,FALSE,,,,,,,,,"""postmaster@partner1.example"" [SMTP:postmaster@partner1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Project Update Contract Services Agreement FY2025,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Procurement ,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'postmaster@partner1.example'
+Take the following actions:
+	move the message to folder 'CDBP Procurement '
+	and stop processing more rules on this message
+",TRUE,ruiz2\506112349157982209,FALSE,None,Move all messages from postmaster@partner1.example to Procurement ,2,506112349157982209,TRUE,,FALSE,FALSE,,,,,,,,,"""postmaster@partner1.example"" [SMTP:postmaster@partner1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Procurement ,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'chavez8@treyresearch.com'
+	and the message includes specific words in the subject 'Project Update Contract Services Agreement FY2025'
+Take the following actions:
+	move the message to folder 'CDBP Procurement '
+	and stop processing more rules on this message
+",TRUE,ruiz2\434054755120054273,FALSE,None,Move all messages from Microsoft Outlook to Procurement ,3,434054755120054273,TRUE,,FALSE,FALSE,,,,,,,,,"""chavez8@treyresearch.com"" [SMTP:chavez8@treyresearch.com]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Project Update Contract Services Agreement FY2025,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Procurement ,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'hernandez2@partner2.example'
+Take the following actions:
+	move the message to folder 'LAWYER'
+",TRUE,ruiz2\1368385041641504769,FALSE,None,Move all messages from Tommy to LAWYER,4,1368385041641504769,TRUE,,FALSE,FALSE,,,,,,,,,"""hernandez2@partner2.example"" [SMTP:hernandez2@partner2.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,LAWYER,FALSE,FALSE,,,FALSE,FALSE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'hernandez2@partner2.example'
+Take the following actions:
+	move the message to folder 'LAWYER'
+",TRUE,ruiz2\1080154665489793025,FALSE,None,Move all messages from Tommy to LAWYER,5,1080154665489793025,TRUE,,FALSE,FALSE,,,,,,,,,"""hernandez2@partner2.example"" [SMTP:hernandez2@partner2.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,LAWYER,FALSE,FALSE,,,FALSE,FALSE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'mark5@partner2.example'
+Take the following actions:
+	move the message to folder 'LAWYER'
+	and stop processing more rules on this message
+",TRUE,ruiz2\1008097071451865089,FALSE,None,Move all messages from Rogers5 Nutt to LAWYER,6,1008097071451865089,TRUE,,FALSE,FALSE,,,,,,,,,"""mark5@partner2.example"" [SMTP:mark5@partner2.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,LAWYER,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'larry5@partner3.example'
+Take the following actions:
+	move the message to folder 'GMA CITY MANAGER '
+	and stop processing more rules on this message
+",TRUE,ruiz2\11108135138158968833,FALSE,None,Move all messages from Becky Carol4 to MANAGER,7,11108135138158968833,TRUE,,FALSE,FALSE,,,,,,,,,"""larry5@partner3.example"" [SMTP:larry5@partner3.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,MANAGER ,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was sent to 'DDA Board'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14067521227493212161,FALSE,None,Move all messages sent to DDA Board to DDA,8,14067521227493212161,TRUE,,FALSE,FALSE,,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""DDA Board"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8a3ad9e6bf8343f9b4ca938ae0e4299d-dd1d563b-74]",,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'carol3@freemail1.example'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\5642808010104373249,FALSE,None,Move all messages from Kizzy Gordon to DDA,9,5642808010104373249,TRUE,,FALSE,FALSE,,,,,,,,,"""carol3@freemail1.example"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b7dd290c7520484d990a12eaa5cf8805-Guest_5ab33]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'maria2.gary3@partner4.example'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\5570750416066445313,FALSE,None,Move all messages from Maria2 Gary3 to DDA,10,5570750416066445313,TRUE,,FALSE,FALSE,,,,,,,,,"""maria2.gary3@partner4.example"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0108098125c746f480feac17084f930c-Guest_73053]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'noreply+b00f337fcf295562@partner5.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\9712620476064333825,FALSE,None,Move all messages from nancy2.jones3@extgov1.example to Main Street,11,9712620476064333825,TRUE,,FALSE,FALSE,,,,,,,,,"""noreply+b00f337fcf295562@partner5.example"" [SMTP:noreply+b00f337fcf295562@partner5.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'hernandez5@partner6.example'
+Take the following actions:
+	move the message to folder 'Flores7 Paper'
+	and stop processing more rules on this message
+",TRUE,ruiz2\1523288685020184577,FALSE,None,Move all messages from Edward2 Wind to Flores7 Paper,12,1523288685020184577,TRUE,,FALSE,FALSE,,,,,,,,,"""hernandez5@partner6.example"" [SMTP:hernandez5@partner6.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Flores7 Paper,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'gary2@partner7.example'
+Take the following actions:
+	move the message to folder 'Flores7 Paper'
+	and stop processing more rules on this message
+",TRUE,ruiz2\1451231090982256641,FALSE,None,Move all messages from Dawn Clark to Flores7 Paper,13,1451231090982256641,TRUE,,FALSE,FALSE,,,,,,,,,"""gary2@partner7.example"" [SMTP:gary2@partner7.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Flores7 Paper,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'deborah2@freemail2.example'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\1379173496944328705,FALSE,None,Move all messages from Robyne Woods to DDA,14,1379173496944328705,TRUE,,FALSE,FALSE,,,,,,,,,"""deborah2@freemail2.example"" [SMTP:deborah2@freemail2.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'heather2@freemail1.example'
+Take the following actions:
+	move the message to folder 'Chamber'
+	and stop processing more rules on this message
+",TRUE,ruiz2\1307115902906400769,FALSE,None,Move all messages from Rivera5 Chamber to Chamber,15,1307115902906400769,TRUE,,FALSE,FALSE,,,,,,,,,"""heather2@freemail1.example"" [SMTP:heather2@freemail1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Chamber,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'kevin5@partner8.example'
+Take the following actions:
+	move the message to folder 'Insurance'
+	and stop processing more rules on this message
+",TRUE,ruiz2\1235058308868472833,FALSE,None,Move all messages from Reed5 Beth Donalson to Insurance,16,1235058308868472833,TRUE,,FALSE,FALSE,,,,,,,,,"""kevin5@partner8.example"" [SMTP:kevin5@partner8.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Insurance,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'maria2.gary3@partner4.example'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\5343951425267302401,FALSE,None,Move all messages from Maria2 Gary3 to DDA,17,5343951425267302401,TRUE,,FALSE,FALSE,,,,,,,,,"""maria2.gary3@partner4.example"" [SMTP:maria2.gary3@partner4.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'nicole3@partner9.example'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\5271893831229374465,FALSE,None,Move all messages from nicole3@partner9.example to DDA,18,5271893831229374465,TRUE,,FALSE,FALSE,,,,,,,,,"""nicole3@partner9.example"" [SMTP:nicole3@partner9.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'Edwards4 Perez8'
+Take the following actions:
+	move the message to folder 'Project Update'
+	and stop processing more rules on this message
+",TRUE,ruiz2\15054344277855305729,FALSE,None,Move all messages from Edwards4 Perez8 to Project Update,19,15054344277855305729,TRUE,,FALSE,FALSE,,,,,,,,,"""Edwards4 Perez8"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=02ca9cf9d1fe4b39ac7c2350f432ca6e-jenkins3]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Project Update,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'Rogers5 Flores'
+Take the following actions:
+	move the message to folder 'Project Update'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14982286683817377793,FALSE,None,Move all messages from Rogers5 Flores to Project Update,20,14982286683817377793,TRUE,,FALSE,FALSE,,,,,,,,,"""Rogers5 Flores"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9e3cb50088e444a9bc8e250221a89daa-howard4]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Project Update,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'anna2@freemail3.example'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14910229089779449857,FALSE,None,Move all messages from anna2@freemail3.example to DDA,21,14910229089779449857,TRUE,,FALSE,FALSE,,,,,,,,,"""anna2@freemail3.example"" [SMTP:anna2@freemail3.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'anna2@freemail3.example'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14838171495741521921,FALSE,None,Move all messages from anna2@freemail3.example to DDA,22,14838171495741521921,TRUE,,FALSE,FALSE,,,,,,,,,"""anna2@freemail3.example"" [SMTP:anna2@freemail3.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'angela2@partner10.example'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14766113901703593985,FALSE,None,Move all messages from Chip Paul2 to DDA,23,14766113901703593985,TRUE,,FALSE,FALSE,,,,,,,,,"""angela2@partner10.example"" [SMTP:angela2@partner10.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'jose2@freemail1.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14694056307665666049,FALSE,None,Move all messages from DDA of Adel to Main Street,24,14694056307665666049,TRUE,,FALSE,FALSE,,,,,,,,,"""jose2@freemail1.example"" [SMTP:jose2@freemail1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'kevin2@freemail3.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14621998713627738113,FALSE,None,Move all messages from betty paul2 to Main Street,25,14621998713627738113,TRUE,,FALSE,FALSE,,,,,,,,,"""kevin2@freemail3.example"" [SMTP:kevin2@freemail3.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'nicholas2@partner10.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14549941119589810177,FALSE,None,Move all messages from Kasey Blackburn to Main Street,26,14549941119589810177,TRUE,,FALSE,FALSE,,,,,,,,,"""nicholas2@partner10.example"" [SMTP:nicholas2@partner10.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'scott6@freemail1.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14477883525551882241,FALSE,None,Move all messages from Myers4 Ruiz to Main Street,27,14477883525551882241,TRUE,,FALSE,FALSE,,,,,,,,,"""scott6@freemail1.example"" [SMTP:scott6@freemail1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'brooks5@partner11.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14405825931513954305,FALSE,None,Move all messages from National Main Street Center to Main Street,28,14405825931513954305,TRUE,,FALSE,FALSE,,,,,,,,,"""brooks5@partner11.example"" [SMTP:brooks5@partner11.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'thompson2@freemail3.example'
+Take the following actions:
+	move the message to folder 'Project Update'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14333768337476026369,FALSE,None,Move all messages from Donna Willis to Project Update,29,14333768337476026369,TRUE,,FALSE,FALSE,,,,,,,,,"""thompson2@freemail3.example"" [SMTP:thompson2@freemail3.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Project Update,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'catherine6@partner12.example'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14261710743438098433,FALSE,None,"Move all messages from Woods, Robyne to DDA",30,14261710743438098433,TRUE,,FALSE,FALSE,,,,,,,,,"""catherine6@partner12.example"" [SMTP:catherine6@partner12.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'noreply+bee0532b23ad0d4f@partner5.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14189653149400170497,FALSE,None,Move all messages from Elizabeth Elliott to Main Street,31,14189653149400170497,TRUE,,FALSE,FALSE,,,,,,,,,"""noreply+bee0532b23ad0d4f@partner5.example"" [SMTP:noreply+bee0532b23ad0d4f@partner5.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'sandra2.wright@partner13.example'
+Take the following actions:
+	move the message to folder 'DDA'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14117595555362242561,FALSE,None,"Move all messages from Wright, Sandra2 to DDA",32,14117595555362242561,TRUE,,FALSE,FALSE,,,,,,,,,"""sandra2.wright@partner13.example"" [SMTP:sandra2.wright@partner13.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,DDA,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'patricia2.kathleen2@partner14.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\14045537961324314625,FALSE,None,Move all messages from Patricia2 Gray to Main Street,33,14045537961324314625,TRUE,,FALSE,FALSE,,,,,,,,,"""patricia2.kathleen2@partner14.example"" [SMTP:patricia2.kathleen2@partner14.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'reed6_aaron2@partner15.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\13901422773248458753,FALSE,None,"Move all messages from Aaron2, Reed6 to Main Street",35,13901422773248458753,TRUE,,FALSE,FALSE,,,,,,,,,"""reed6_aaron2@partner15.example"" [SMTP:reed6_aaron2@partner15.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'lopez2@freemail1.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\13829365179210530817,FALSE,None,Move all messages from Ashley Walker to Main Street,36,13829365179210530817,TRUE,,FALSE,FALSE,,,,,,,,,"""lopez2@freemail1.example"" [SMTP:lopez2@freemail1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'reed6_aaron2@partner15.example'
+Take the following actions:
+	move the message to folder 'Main Street'
+	and stop processing more rules on this message
+",TRUE,ruiz2\13757307585172602881,FALSE,None,"Move all messages from Aaron2, Reed6 to Main Street",37,13757307585172602881,TRUE,,FALSE,FALSE,,,,,,,,,"""reed6_aaron2@partner15.example"" [SMTP:reed6_aaron2@partner15.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,FALSE,,Main Street,FALSE,FALSE,,,FALSE,TRUE,,,ruiz2,TRUE,Unchanged
+"If the message:
+	the message was received from 'brooks3@partner16.example'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Conversation History'
+	and stop processing more rules on this message
+",TRUE,christine3\18357929183797051393,FALSE,None,rule,1,18357929183797051393,TRUE,,FALSE,FALSE,,,,,,,,,"""brooks3@partner16.example"" [SMTP:brooks3@partner16.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,TRUE,,Conversation History,FALSE,FALSE,,,FALSE,TRUE,,,christine3,TRUE,Unchanged
+"Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Archive'
+",TRUE,harris4\10010124807611351041,FALSE,None,.,1,10010124807611351041,TRUE,,FALSE,FALSE,,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,FALSE,FALSE,FALSE,,FALSE,,,,,TRUE,,Archive,FALSE,FALSE,,,FALSE,FALSE,,,harris4,TRUE,Unchanged

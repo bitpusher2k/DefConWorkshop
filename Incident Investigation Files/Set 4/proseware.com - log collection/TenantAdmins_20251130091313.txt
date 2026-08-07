@@ -1,0 +1,13 @@
+
+Role              : Global Administrator
+DisplayName       : Proseware
+UserPrincipalName : administrator@proseware.com
+Mail              : 
+Id                : 50418c34-c899-46f5-8c24-34c3341ee5d4
+
+Role              : Exchange Administrator
+DisplayName       : Cox Ortiz2
+UserPrincipalName : ward@proseware.com
+Mail              : ward@proseware.com
+Id                : dc23f3d2-1f6b-41a8-8ceb-8baf454fabb3
+

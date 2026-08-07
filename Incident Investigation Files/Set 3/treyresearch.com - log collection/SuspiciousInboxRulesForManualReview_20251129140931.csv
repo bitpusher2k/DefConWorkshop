@@ -1,0 +1,16 @@
+SuspectTrait,DisplayName,PrimarySmtpAddress,MailboxGuid,RuleName,RulePriority,RuleIdentity,RuleDescription,RuleEnabled,RuleForwardTo,RuleForwardAttTo,ExternalRecipients,RuleMoveTo,RuleDelete,RuleSoftDelete,RuleBodyContains,RuleSubjectContains,RuleSubjectOrBodyContains,RuleFrom,RuleFromContains
+MessageMoveFolder,Jason2 Ruth2,christine3@treyresearch.com,3093b161-e65a-4708-81cf-79d3c76ad567,rule,1,18357929183797051393,"If the message:
+	the message was received from 'brooks3@partner16.example'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Conversation History'
+	and stop processing more rules on this message
+",TRUE,,,,Conversation History,FALSE,FALSE,,,,"""brooks3@partner16.example"" [SMTP:brooks3@partner16.example]",
+RuleName,Matthew3 Ward,harris4@treyresearch.com,88afa6e4-8f5c-4d34-83af-7da06cbadeb7,.,1,10010124807611351041,"Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Archive'
+",TRUE,,,,Archive,FALSE,FALSE,,,,,
+RuleName,Matthew3 Ward,harris4@treyresearch.com,88afa6e4-8f5c-4d34-83af-7da06cbadeb7,.,1,10010124807611351041,"Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Archive'
+",TRUE,,,,Archive,FALSE,FALSE,,,,,

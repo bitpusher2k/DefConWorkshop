@@ -1,0 +1,3 @@
+"Name","ForwardingSmtpAddress","ForwardingAddress","DeliverToMailboxAndForward"
+"1aaecb50-c2b4-4af9-850c-fb065285793c","smtp:thomas@chavez21.example",,"True"
+"2e47591d-a685-48c5-8c8f-5bb046667b60","smtp:ramos@proseware.com",,"True"
