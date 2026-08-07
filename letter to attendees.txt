@@ -1,0 +1,55 @@
+Message to attendees
+
+A Message from DEF CON WORKSHOPS:
+From your instructor:
+
+Dear Attendee, 
+
+I'm pleased and excited to welcome you to this DEF CON 34 workshop, "Investigating and Responding to M365 account compromise on a shoestring: Living off the Land Incident Response"! 
+
+To ensure you get the most out of this hands-on experience, please take a moment to prepare before we meet:
+
+    The recommended platform for participating in workshop scenarios is Windows 11, with Excel and PowerShell 7 installed. PowerShell 5 and LibreOffice Calc should also work.
+    
+    PowerShell modules needed: Microsoft.Graph, Microsoft.Graph.Beta, ExchangeOnlineManagement.
+    
+    Download Microsoft Excel/LibreOffice Calc macro set - https://github.com/bitpusher2k/ExcelMacros - and install ahead of time.
+
+
+Workshop goals:
+
+By the end of this workshop you will be able to:
+
+    - Investigate an M365 account compromise using only the tools available in a minimally licensed tenant and an average Windows workstation (PowerShell and Excel), and build the investigative mindset and methodology to do it.
+
+    - Contain an active BEC incident using both admin-center actions and scripted lockdown.
+
+    - Know which logs exist at which licensing tiers (E1/E3/E5, Entra ID Free/P1/P2) and retrieve them via admin-center exports and PowerShell (Microsoft Graph, Exchange Online, IPPS).
+
+    - Normalize, flatten, and enrich raw CSV log exports (sign-in, audit, mailbox audit, Unified Audit Log) for efficient manual review in Excel.
+
+    - Spot suspicious sign-ins by correlating geolocation, ISP/ASN reputation, device state, OS, user agent, and auth factors against a baseline.
+
+    - Detect and dissect malicious inbox rules, and tell heuristically suspicious rules from benign ones.
+
+    - Pivot through logs by chronology and topology to expand incident scope and find additional compromised accounts, IPs, and sessions.
+
+    - Determine what mail and files were accessed or exfiltrated using MailItemsAccessed and FileAccessed events, and understand the licensing limits on that data.
+
+    - Recognize and remove common malicious OAuth apps (e.g. PerfectData Software, eM Client).
+
+    - Produce a BEC investigation report suitable for client delivery.
+
+    - Apply post-incident hardening: Conditional Access, MFA enforcement, forwarding restrictions, and Secure Score remediation.
+
+
+
+Log scenarios and additional materials will be available for download at https://github.com/bitpusher2k/DefConWorkshop at the start of the session.
+
+To reach me for any reason you can email VV@iNeed.to, or any of the other contact options at https://ineed.to/contact/.
+
+I look forward to seeing you at the workshop!
+
+Sincerely,
+Bitpusher
+
