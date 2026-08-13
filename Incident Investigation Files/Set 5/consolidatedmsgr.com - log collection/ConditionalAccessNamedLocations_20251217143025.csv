@@ -1,0 +1,2 @@
+DisplayName,Id,Type,isTrusted,ipRanges,Country,includeUnknownCountriesAndRegions,countryLookupMethod
+Trusted Countries,585b5e91-750e-4f91-808d-b7aae43e4a3a,countryNamedLocation,,,US,FALSE,clientIpAddress

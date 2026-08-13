@@ -1,0 +1,2 @@
+DisplayName,CreatedDateTime,AccountEnabled,AppRoleAssignmentRequired,TagList,ReplyUrls,ServicePrincipalType,Id
+PERFECTDATA SOFTWARE,2025-09-30T21:49:56Z,FALSE,TRUE,"HideApp,WindowsAzureActiveDirectoryIntegratedApp","http://localhost:80,urn:ietf:wg:oauth:2.0:oob,https://login.microsoftonline.com/common/oauth2/nativeclient,https://login.live.com/oauth20_desktop.srf,msal791bdda4-5c6f-45a7-8c2f-af3bb901ba6f://jennifer",Application,18e672f2-6a42-4170-85ad-44174cadcca4

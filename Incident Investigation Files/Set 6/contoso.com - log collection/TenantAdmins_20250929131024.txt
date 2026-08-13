@@ -1,0 +1,25 @@
+
+Role              : User Administrator
+DisplayName       : Nguyen22 Ronald30
+UserPrincipalName : nguyen22@contoso.com
+Mail              : nguyen22@contoso.com
+Id                : cf02cc6d-d42b-414c-881c-24113c700354
+
+Role              : Global Administrator
+DisplayName       : Jonathan24 Katherine13
+UserPrincipalName : jonathan24@contoso.com
+Mail              : jonathan24@contoso.com
+Id                : 3a7bbe99-bb6d-4b48-8c28-76d49162fe2f
+
+Role              : Global Administrator
+DisplayName       : Jonathan24 Katherine13
+UserPrincipalName : jonathan24@contoso.onmicrosoft.com
+Mail              : jonathan24@contoso.onmicrosoft.com
+Id                : 4c14e1a4-0358-4a8c-8479-165f112817af
+
+Role              : User Administrator
+DisplayName       : External Vendor 2 Admin
+UserPrincipalName : sandoval42@contoso.com
+Mail              : sandoval42@contoso.com
+Id                : b0ec99af-8455-4f4f-8de5-e269274e2e23
+

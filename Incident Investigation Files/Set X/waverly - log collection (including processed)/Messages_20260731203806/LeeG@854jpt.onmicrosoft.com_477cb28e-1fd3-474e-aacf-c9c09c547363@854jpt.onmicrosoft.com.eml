@@ -1,0 +1,50 @@
+Message-ID: <477cb28e-1fd3-474e-aacf-c9c09c547363@854jpt.onmicrosoft.com>
+Date: Wed, 22 Jul 2026 22:59:14 -0700
+User-Agent: Mozilla Thunderbird
+To: <GradyA@854jpt.onmicrosoft.com>
+CC: <NestorW@854jpt.onmicrosoft.com>, <PattiF@854jpt.onmicrosoft.com>,
+	<MeganB@854jpt.onmicrosoft.com>, <DiegoS@854jpt.onmicrosoft.com>,
+	<AlexW@854jpt.onmicrosoft.com>, <AdeleV@854jpt.onmicrosoft.com>,
+	<JoniS@854jpt.onmicrosoft.com>, <HenriettaM@854jpt.onmicrosoft.com>,
+	<IsaiahL@854jpt.onmicrosoft.com>, <JohannaL@854jpt.onmicrosoft.com>,
+	<LidiaH@854jpt.onmicrosoft.com>, <LynneR@854jpt.onmicrosoft.com>,
+	<MiriamG@854jpt.onmicrosoft.com>, <PradeepG@854jpt.onmicrosoft.com>
+Subject: Re: ALERT: Phishing Email Circulating - Do Not Click
+References: <b961ec6d-46dd-46b5-82d7-20a81d4ede1e@854jpt.onmicrosoft.com>
+In-Reply-To: <b961ec6d-46dd-46b5-82d7-20a81d4ede1e@854jpt.onmicrosoft.com>
+From: Lee Gu <LeeG@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>Quick follow-up on the phishing email:<br><br>I've confirmed tha=
+t NO ONE at Waverly clicked the malicious link. Good job, everyone. The sec=
+urity awareness training is clearly paying off.<br><br>I've taken the follo=
+wing additional steps:<br>- Blocked the sender domain (ups-delivery-alert.c=
+om) at the mail server level<br>- Added the sender's IP range to our blockl=
+ist<br>- Reported the phishing campaign to Microsoft's abuse team and the A=
+nti-Phishing Working Group<br>- Updated our email filters with additional k=
+eywords from this campaign<br><br>Remember - this is exactly why we're roll=
+ing out MFA. Even if someone had clicked and entered their credentials, MFA=
+ would have provided a second layer of protection.<br><br>Please continue t=
+o forward any suspicious emails to me. You're our best defense.<br><br>Lee =
+Gu<br>IT Manager<br>Waverly Industrial Solutions, Inc.<br><br>On 7/21/2026,=
+ 9:33:44 PM, Lee Gu &lt;LeeG@854jpt.onmicrosoft.com&gt; wrote:<br>&gt; URGE=
+NT - Please read immediately.<br>&gt; <br>&gt; Several employees have repor=
+ted receiving a phishing email this morning with the subject line &quot;UPS=
+: Your Package Could Not Be Delivered - Action Required.&quot; The email ap=
+pears to come from ups-notifications@ups-delivery-alert.com, which is NOT a=
+ legitimate UPS domain.<br>&gt; <br>&gt; DO NOT click any links in this ema=
+il.<br>&gt; DO NOT open any attachments.<br>&gt; DO NOT reply to the sender=
+.<br>&gt; <br>&gt; If you received this email, please:<br>&gt; 1. Forward i=
+t to me (LeeG@854jpt.onmicrosoft.com) so I can report it<br>&gt; 2. Delete =
+it from your inbox<br>&gt; 3. If you already clicked a link, please come se=
+e me IMMEDIATELY so we can check your system<br>&gt; <br>&gt; I've already =
+updated our email filters to block this sender, but variations may still ge=
+t through.<br>&gt; <br>&gt; Remember: Waverly will never ask you to click a=
+ link to verify your credentials, and neither will UPS. When in doubt, don'=
+t click.<br>&gt; <br>&gt; Lee Gu<br>&gt; IT Manager<br>&gt; Waverly Industr=
+ial Solutions, Inc.</body></html>
+

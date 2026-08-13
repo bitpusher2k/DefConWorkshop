@@ -1,11 +1,8 @@
-"SuspectTrait","DisplayName","PrimarySmtpAddress","MailboxGuid","RuleName","RulePriority","RuleIdentity","RuleDescription","RuleEnabled","RuleForwardTo","RuleForwardAttTo","ExternalRecipients","RuleMoveTo","RuleDelete","RuleSoftDelete","RuleBodyContains","RuleSubjectContains","RuleSubjectOrBodyContains","RuleFrom","RuleFromContains"
-"MessageForwarding","King Young","mark@proseware.com","db3bbc15-da09-4fd7-873a-382bf2b1ab7a","-3351015522425634815","2","15095728551283916801","Take the following actions:
-	forward the message to 'Sharon Green'
-","True","""Sharon Green"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7814c7cd46564991808b531a168e80a2-mendoza]",,"",,"False","False","","","",,""
-"MessageForwarding","Cox Ortiz2","ward@proseware.com","734fd3ab-b696-4569-8229-6e76313c3b0d","Jennifer Bracci","1","1620506343574077441","Take the following actions:
-	forward the message to 'Jennifer Bracci'
-","False","""Jennifer Bracci"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8349ca017a004537888887981e91c3bd-cf8b1ecd-d7]",,"",,"False","False","","","",,""
-"MessageForwarding","Michelle Anthony","tyler@proseware.com","ddabe10c-1f0f-4ea9-8e6a-9ba2b4419d39","Email forward","1","9431218685596401665","Take the following actions:
+SuspectTrait,DisplayName,PrimarySmtpAddress,MailboxGuid,RuleName,RulePriority,RuleIdentity,RuleDescription,RuleEnabled,RuleForwardTo,RuleForwardAttTo,ExternalRecipients,RuleMoveTo,RuleDelete,RuleSoftDelete,RuleBodyContains,RuleSubjectContains,RuleSubjectOrBodyContains,RuleFrom,RuleFromContains
+MessageForwarding,Cox Ortiz2,ward@proseware.com,734fd3ab-b696-4569-8229-6e76313c3b0d,Stoll,1,1.62051E+18,"Take the following actions:
+	forward the message to 'Clifford Stoll'
+",FALSE,"""Clifford Stoll"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7814c7cd46564991808b531a168e80a2-mendoza]",,,,FALSE,FALSE,,,,,
+MessageForwarding,Michelle Anthony,tyler@proseware.com,ddabe10c-1f0f-4ea9-8e6a-9ba2b4419d39,Email forward,1,9.43122E+18,"Take the following actions:
 	forward the message to 'tyler@chavez21.example'
 	and stop processing more rules on this message
-","False","""tyler@chavez21.example"" [SMTP:tyler@chavez21.example]",,"tyler@chavez21.example",,"False","False","","","",,""
+",FALSE,"""tyler@chavez21.example"" [SMTP:tyler@chavez21.example]",,tyler@chavez21.example,,FALSE,FALSE,,,,,

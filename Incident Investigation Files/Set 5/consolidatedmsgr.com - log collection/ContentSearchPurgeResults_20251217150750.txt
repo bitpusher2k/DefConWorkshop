@@ -1,0 +1,11 @@
+Jonathan7 name: Suspicious email jonathan7 20251117150750
+Action: Purge
+Operation name: Suspicious email jonathan7 20251117150750_Purge
+Start time: 12/17/2025 23:29:01
+End time: 12/17/2025 23:30:38
+
+Results:
+Purge Type: SoftDelete; Item count: 2; Total size 594593; Details: {Location: gutierrez2@consolidatedmsgr.com; Item count: 2; Total size: 594593; Failed count: 0; }
+
+Errors:
+

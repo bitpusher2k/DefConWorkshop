@@ -1,0 +1,39 @@
+Search-InboxRuleChanges started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-28 23:39:33]
+Setting process priority to "Normal"
+
+Script will search UAC between StartDate and EndDate for relevant events.
+StartDate: 07/19/2026 06:39:15 (UTC)
+EndDate: 07/29/2026 06:39:15 (UTC)
+Search-UnifiedAuditLog -Operations New-InboxRule, Set-InboxRule, UpdateInboxRules, Remove-InboxRule, Disable-InboxRule -StartDate 07/19/2026 06:39:15 -EndDate 07/29/2026 06:39:15 -SessionId 1288048155 -SessionCommand ReturnLargeSet -ResultSize:5000
+Getting unified audit logs page 1 - Please wait
+Getting unified audit logs page 2 - Please wait
+3 New-InboxRule/Set-InboxRule/UpdateInboxRules/Remove-InboxRule/Disable-InboxRule records found in logs...
+Search-UnifiedAuditLog -Operations Set-Mailbox -StartDate 07/19/2026 06:39:15 -EndDate 07/29/2026 06:39:15 -SessionId 502251937 -SessionCommand ReturnLargeSet -ResultSize:5000
+Getting unified audit logs page 1 - Please wait
+Getting unified audit logs page 2 - Please wait
+32 Set-Mailbox records found in logs...
+Writing Set-Mailbox UAL log output...
+Processing log entry 1 of 3
+Processing log entry 2 of 3
+Processing log entry 3 of 3
+Writing New-InboxRule/Set-InboxRule/UpdateInboxRules/Remove-InboxRule/Disable-InboxRule UAL RAW output...
+Writing New-InboxRule/Set-InboxRule/UpdateInboxRules/Remove-InboxRule/Disable-InboxRule UAL processed output...
+Script complete.
+Seconds elapsed for script execution: 26.5542537
+
+Done! Check output path for results.
+
+==================== RUN MANIFEST ====================
+Script          : Search-InboxRuleChanges v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : eb174bbc-fe94-4978-95b9-a616457dd489
+Graph scopes    : Agreement.Read.All, Application.Read.All, Application.ReadWrite.All, AppRoleAssignment.ReadWrite.All, AuditLog.Read.All, AuditLogsQuery.Read.All, DelegatedPermissionGrant.Read.All, DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, Domain.Read.All, Files.Read.All, Files.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All, IdentityRiskEvent.Read.All, IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All, Mail.Read, Mail.Send, openid, Organization.Read.All, Organization.ReadWrite.All, Policy.Read.All, Policy.Read.ConditionalAccess, Policy.ReadWrite.ConditionalAccess, profile, Reports.Read.All, RoleManagement.Read.Directory, SecurityEvents.Read.All, SecurityEvents.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All, User.Read, User.Read.All, User.ReadWrite.All, UserAuthenticationMethod.Read.All, UserAuthenticationMethod.ReadWrite.All, email
+UTC start       : 2026-07-29 06:39:32Z
+UTC stop        : 2026-07-29 06:39:59Z
+Elapsed seconds : 26.56
+Output files (SHA256):
+  5BD47E0A2E246F821B2E43CCA531DA26220CB8020897A07865E96900FB9E3530  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\InboxRuleChanges_From_20260719063915UTC_To_20260729063915UTC_Processed.csv
+  FF063D6BBEF282A40066486D39D45AE8783EBFA8A7BAA36E801432C92C7A86DF  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\InboxRuleChanges_From_20260719063915UTC_To_20260729063915UTC.csv
+  7EE5B766C8D16807D82BC9A80AC0ABA849FAB73B04EEEF14A262EF185F9E4E91  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\InboxRuleChangesSetMailbox_From_20260719063915UTC_To_20260729063915UTC.csv
+=====================================================

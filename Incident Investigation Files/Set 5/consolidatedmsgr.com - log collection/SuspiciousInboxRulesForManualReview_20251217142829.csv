@@ -1,0 +1,13 @@
+"SuspectTrait","DisplayName","PrimarySmtpAddress","MailboxGuid","RuleName","RulePriority","RuleIdentity","RuleDescription","RuleEnabled","RuleForwardTo","RuleForwardAttTo","ExternalRecipients","RuleMoveTo","RuleDelete","RuleSoftDelete","RuleBodyContains","RuleSubjectContains","RuleSubjectOrBodyContains","RuleFrom","RuleFromContains"
+"MessageForwarding","Raymond Bailey2","samantha@consolidatedmsgr.com","a07f974d-8702-44c1-89a9-741c5bd6f5fc","Doordash","1","14049955584313131009","If the message:
+	the message was received from 'martinez3-hill4@cook214.example'
+Take the following actions:
+	forward the message to 'Clark Myers2'
+	and stop processing more rules on this message
+","True","""Clark Myers2"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4e2b813d1ab64916864d4b49ded0bf9f-e0b61824-8e]",,"",,"False","False","","","","""martinez3-hill4@cook214.example"" [SMTP:martinez3-hill4@cook214.example]",""
+"MessageForwarding","Reed2 Kevin6","jackson2@consolidatedmsgr.com","5faeb979-9670-4d68-89b0-3d591fcdf5f7","DoorDash","1","14293367955373686785","If the message:
+	the message was received from 'martinez3-hill4@cook214.example'
+Take the following actions:
+	forward the message to 'Clark Myers2'
+	and stop processing more rules on this message
+","True","""Clark Myers2"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4e2b813d1ab64916864d4b49ded0bf9f-e0b61824-8e]",,"",,"False","False","","","","""martinez3-hill4@cook214.example"" [SMTP:martinez3-hill4@cook214.example]",""

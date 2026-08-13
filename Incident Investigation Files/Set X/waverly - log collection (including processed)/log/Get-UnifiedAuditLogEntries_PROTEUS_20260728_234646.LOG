@@ -1,0 +1,1543 @@
+Get-UnifiedAuditLogEntries started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-28 23:46:47]
+Setting process priority to "Normal"
+Output base path will be in C:\Users\Bitpusher\Desktop\Investigation
+Domain sub-directory will be "854jpt.onmicrosoft.com"
+
+Script will search UAC 10 days back from today for relevant events.
+StartDate: 07/19/2026 06:46:49 (UTC)
+EndDate: 07/29/2026 06:46:49 (UTC)
+Retrieving audit records for the date range between 07/19/2026 06:46:49 and 07/29/2026 06:46:49, RecordType=ALL, ResultsSize=5000
+Retrieving audit records for activities performed between 07/19/2026 06:46:49 and 07/19/2026 07:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 06:46:49 -EndDate 07/19/2026 07:16:49 -SessionId 0af88f00-2f44-4698-8eff-7627e5e52a6d_ExtractLogs20260728234649037 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9453983
+Retrieving audit records for activities performed between 07/19/2026 07:16:49 and 07/19/2026 07:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 07:16:49 -EndDate 07/19/2026 07:46:49 -SessionId 816a9045-cfdb-4d7e-ab47-47e683bcf030_ExtractLogs20260728234654988 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9539537
+Retrieving audit records for activities performed between 07/19/2026 07:46:49 and 07/19/2026 08:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 07:46:49 -EndDate 07/19/2026 08:16:49 -SessionId 405fa2f2-9080-49b6-83fe-577e569dbffe_ExtractLogs20260728234659944 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.2851689
+Retrieving audit records for activities performed between 07/19/2026 08:16:49 and 07/19/2026 08:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 08:16:49 -EndDate 07/19/2026 08:46:49 -SessionId 8be2ffa4-0250-4418-b7aa-921badb3a910_ExtractLogs20260728234704234 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.1795029
+Retrieving audit records for activities performed between 07/19/2026 08:46:49 and 07/19/2026 09:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 08:46:49 -EndDate 07/19/2026 09:16:49 -SessionId 820ee9d1-8dbb-4a19-87d7-6824cbfe9234_ExtractLogs20260728234708417 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8918396
+Retrieving audit records for activities performed between 07/19/2026 09:16:49 and 07/19/2026 09:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 09:16:49 -EndDate 07/19/2026 09:46:49 -SessionId 468314cb-e129-4074-8f74-39963a14348d_ExtractLogs20260728234713311 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6249981
+Retrieving audit records for activities performed between 07/19/2026 09:46:49 and 07/19/2026 10:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 09:46:49 -EndDate 07/19/2026 10:16:49 -SessionId d547c0a7-0692-493a-903c-a2d1fd758b6e_ExtractLogs20260728234717940 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8362262
+Retrieving audit records for activities performed between 07/19/2026 10:16:49 and 07/19/2026 10:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 10:16:49 -EndDate 07/19/2026 10:46:49 -SessionId 000d7d2d-8089-4ece-8c37-491f9cd8ecc8_ExtractLogs20260728234722780 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9043298
+Retrieving audit records for activities performed between 07/19/2026 10:46:49 and 07/19/2026 11:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 10:46:49 -EndDate 07/19/2026 11:16:49 -SessionId c9ae45ed-cae1-4c38-b232-92eda55a6318_ExtractLogs20260728234727688 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 7.2542421
+Retrieving audit records for activities performed between 07/19/2026 11:16:49 and 07/19/2026 11:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 11:16:49 -EndDate 07/19/2026 11:46:49 -SessionId 61cdd0b3-f5dd-4bd3-b438-b5047c3aca66_ExtractLogs20260728234734946 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9154265
+Retrieving audit records for activities performed between 07/19/2026 11:46:49 and 07/19/2026 12:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 11:46:49 -EndDate 07/19/2026 12:16:49 -SessionId b40caa21-4787-4700-97c3-cd91c565d6ec_ExtractLogs20260728234739890 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5545688
+Retrieving audit records for activities performed between 07/19/2026 12:16:49 and 07/19/2026 12:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 12:16:49 -EndDate 07/19/2026 12:46:49 -SessionId 5f5af849-3309-4874-9eaa-32f81e706c58_ExtractLogs20260728234745449 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1096949
+Retrieving audit records for activities performed between 07/19/2026 12:46:49 and 07/19/2026 13:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 12:46:49 -EndDate 07/19/2026 13:16:49 -SessionId 1464ba13-f8be-4c49-87af-cdeffa37e412_ExtractLogs20260728234750563 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9105273
+Retrieving audit records for activities performed between 07/19/2026 13:16:49 and 07/19/2026 13:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 13:16:49 -EndDate 07/19/2026 13:46:49 -SessionId c9f22af5-d030-4383-9ae2-ff90bcb09ec4_ExtractLogs20260728234755476 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6001614
+Retrieving audit records for activities performed between 07/19/2026 13:46:49 and 07/19/2026 14:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 13:46:49 -EndDate 07/19/2026 14:16:49 -SessionId 2ca5f250-c257-4db9-b283-74f4204b9bdb_ExtractLogs20260728234800080 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1997621
+Retrieving audit records for activities performed between 07/19/2026 14:16:49 and 07/19/2026 14:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 14:16:49 -EndDate 07/19/2026 14:46:49 -SessionId 300279a4-376e-4907-975f-8c77c9a2a923_ExtractLogs20260728234805283 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7498872
+Retrieving audit records for activities performed between 07/19/2026 14:46:49 and 07/19/2026 15:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 14:46:49 -EndDate 07/19/2026 15:16:49 -SessionId 117a768e-7126-4ae8-91c7-9ab8cbd79217_ExtractLogs20260728234811036 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5195867
+Retrieving audit records for activities performed between 07/19/2026 15:16:49 and 07/19/2026 15:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 15:16:49 -EndDate 07/19/2026 15:46:49 -SessionId 4aa35cdb-67aa-4717-9227-ad07de313918_ExtractLogs20260728234816560 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8155153
+Retrieving audit records for activities performed between 07/19/2026 15:46:49 and 07/19/2026 16:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 15:46:49 -EndDate 07/19/2026 16:16:49 -SessionId 483a81f6-3ee0-45b4-a44b-fec900f3795e_ExtractLogs20260728234821380 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6629943
+Retrieving audit records for activities performed between 07/19/2026 16:16:49 and 07/19/2026 16:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 16:16:49 -EndDate 07/19/2026 16:46:49 -SessionId 07c89b4a-bc8e-4290-90fd-b549ce22c42d_ExtractLogs20260728234826045 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.3920158
+Retrieving audit records for activities performed between 07/19/2026 16:46:49 and 07/19/2026 17:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 16:46:49 -EndDate 07/19/2026 17:16:49 -SessionId c8f231dc-8dac-492c-8168-d71392e3defd_ExtractLogs20260728234830441 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7374763
+Retrieving audit records for activities performed between 07/19/2026 17:16:49 and 07/19/2026 17:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 17:16:49 -EndDate 07/19/2026 17:46:49 -SessionId f11e6544-4eea-45ed-a274-d511f0bcdc82_ExtractLogs20260728234836183 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.8165517
+Retrieving audit records for activities performed between 07/19/2026 17:46:49 and 07/19/2026 18:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 17:46:49 -EndDate 07/19/2026 18:16:49 -SessionId 05265c9b-30e1-45ab-a9a3-da9ef89afe49_ExtractLogs20260728234842002 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2099262
+Retrieving audit records for activities performed between 07/19/2026 18:16:49 and 07/19/2026 18:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 18:16:49 -EndDate 07/19/2026 18:46:49 -SessionId d200842f-fa17-451b-a61f-75c0529f50e6_ExtractLogs20260728234847215 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6472493
+Retrieving audit records for activities performed between 07/19/2026 18:46:49 and 07/19/2026 19:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 18:46:49 -EndDate 07/19/2026 19:16:49 -SessionId b543c2c0-3181-4f01-b3d4-d82cb8f3bfb9_ExtractLogs20260728234851865 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9480399
+Retrieving audit records for activities performed between 07/19/2026 19:16:49 and 07/19/2026 19:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 19:16:49 -EndDate 07/19/2026 19:46:49 -SessionId a151f988-746c-48d1-8b2a-478846e500a1_ExtractLogs20260728234857816 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.4288791
+Retrieving audit records for activities performed between 07/19/2026 19:46:49 and 07/19/2026 20:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 19:46:49 -EndDate 07/19/2026 20:16:49 -SessionId 753503aa-4c18-43b5-b7b5-1f43f5bdbdb6_ExtractLogs20260728234903247 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5902777
+Retrieving audit records for activities performed between 07/19/2026 20:16:49 and 07/19/2026 20:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 20:16:49 -EndDate 07/19/2026 20:46:49 -SessionId a28c5ab6-4364-461e-8432-188cd42a6b17_ExtractLogs20260728234908840 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.385183
+Retrieving audit records for activities performed between 07/19/2026 20:46:49 and 07/19/2026 21:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 20:46:49 -EndDate 07/19/2026 21:16:49 -SessionId 75704370-7a18-480c-862e-5581cc571dae_ExtractLogs20260728234913228 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.299987
+Retrieving audit records for activities performed between 07/19/2026 21:16:49 and 07/19/2026 21:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 21:16:49 -EndDate 07/19/2026 21:46:49 -SessionId 0dfcaf6f-7f47-4c09-b0c2-1247994bb35b_ExtractLogs20260728234918531 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.4324716
+Retrieving audit records for activities performed between 07/19/2026 21:46:49 and 07/19/2026 22:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 21:46:49 -EndDate 07/19/2026 22:16:49 -SessionId 04bd8e9c-3a91-4e2b-925d-ef52f440246f_ExtractLogs20260728234924968 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0752002
+Retrieving audit records for activities performed between 07/19/2026 22:16:49 and 07/19/2026 22:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 22:16:49 -EndDate 07/19/2026 22:46:49 -SessionId bf2220ba-31fa-4041-9dae-9ad77a27cc0a_ExtractLogs20260728234930048 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9089899
+Retrieving audit records for activities performed between 07/19/2026 22:46:49 and 07/19/2026 23:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 22:46:49 -EndDate 07/19/2026 23:16:49 -SessionId 194c41da-8189-4db9-bf23-1a6fdbeba055_ExtractLogs20260728234934961 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2747082
+Retrieving audit records for activities performed between 07/19/2026 23:16:49 and 07/19/2026 23:46:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 23:16:49 -EndDate 07/19/2026 23:46:49 -SessionId b1592519-1c33-45c3-94c2-0dea5f96d266_ExtractLogs20260728234940240 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4079581
+Retrieving audit records for activities performed between 07/19/2026 23:46:49 and 07/20/2026 00:16:49
+Search-UnifiedAuditLog -StartDate 07/19/2026 23:46:49 -EndDate 07/20/2026 00:16:49 -SessionId 3270762c-27d2-473d-9843-ec1a9e799bf0_ExtractLogs20260728234944652 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 9.0408144
+Retrieving audit records for activities performed between 07/20/2026 00:16:49 and 07/20/2026 00:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 00:16:49 -EndDate 07/20/2026 00:46:49 -SessionId d9275aff-decf-4c68-a641-46c1d88092e3_ExtractLogs20260728234953696 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0455211
+Retrieving audit records for activities performed between 07/20/2026 00:46:49 and 07/20/2026 01:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 00:46:49 -EndDate 07/20/2026 01:16:49 -SessionId 1f76010f-2e16-42e9-8f56-0c76da27d97a_ExtractLogs20260728234958746 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8945842
+Retrieving audit records for activities performed between 07/20/2026 01:16:49 and 07/20/2026 01:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 01:16:49 -EndDate 07/20/2026 01:46:49 -SessionId 5bcea556-4eda-4d5d-a4f2-5d04e788685e_ExtractLogs20260728235003644 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2883526
+Retrieving audit records for activities performed between 07/20/2026 01:46:49 and 07/20/2026 02:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 01:46:49 -EndDate 07/20/2026 02:16:49 -SessionId bb956193-3ccc-42c9-8213-3585740caac3_ExtractLogs20260728235008936 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7914595
+Retrieving audit records for activities performed between 07/20/2026 02:16:49 and 07/20/2026 02:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 02:16:49 -EndDate 07/20/2026 02:46:49 -SessionId 366cdab8-181b-44ac-877c-372fc9248eb9_ExtractLogs20260728235013731 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2485309
+Retrieving audit records for activities performed between 07/20/2026 02:46:49 and 07/20/2026 03:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 02:46:49 -EndDate 07/20/2026 03:16:49 -SessionId 12235d0e-b633-434f-9fca-0ea685b2e4a7_ExtractLogs20260728235018984 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6219691
+Retrieving audit records for activities performed between 07/20/2026 03:16:49 and 07/20/2026 03:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 03:16:49 -EndDate 07/20/2026 03:46:49 -SessionId a2e6d47d-71b0-4e5d-ace6-a25ec75a40e5_ExtractLogs20260728235023609 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 9.774972
+Retrieving audit records for activities performed between 07/20/2026 03:46:49 and 07/20/2026 04:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 03:46:49 -EndDate 07/20/2026 04:16:49 -SessionId 539af5b9-85ee-46c2-b7f2-edda6e5919c4_ExtractLogs20260728235033388 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9841324
+Retrieving audit records for activities performed between 07/20/2026 04:16:49 and 07/20/2026 04:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 04:16:49 -EndDate 07/20/2026 04:46:49 -SessionId d0b8b3ce-9336-4d21-a375-6c456675bfb2_ExtractLogs20260728235038377 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0570121
+Retrieving audit records for activities performed between 07/20/2026 04:46:49 and 07/20/2026 05:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 04:46:49 -EndDate 07/20/2026 05:16:49 -SessionId 0bc43c2f-9ae8-4cf7-a12f-211915b34864_ExtractLogs20260728235043437 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 7.790519
+Retrieving audit records for activities performed between 07/20/2026 05:16:49 and 07/20/2026 05:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 05:16:49 -EndDate 07/20/2026 05:46:49 -SessionId 36c5d10b-f278-485d-839b-f51a10d9c953_ExtractLogs20260728235051232 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7464298
+Retrieving audit records for activities performed between 07/20/2026 05:46:49 and 07/20/2026 06:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 05:46:49 -EndDate 07/20/2026 06:16:49 -SessionId 33cdbd93-a22b-41c3-a373-33f7a92bf141_ExtractLogs20260728235055982 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1844227
+Retrieving audit records for activities performed between 07/20/2026 06:16:49 and 07/20/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 06:16:49 -EndDate 07/20/2026 06:46:49 -SessionId c56d7711-c3c3-44fc-94aa-fbadd25fa776_ExtractLogs20260728235101169 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7806769
+Retrieving audit records for activities performed between 07/20/2026 06:46:49 and 07/20/2026 07:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 06:46:49 -EndDate 07/20/2026 07:16:49 -SessionId abb42c78-5bbd-49ac-aef2-b6d57cc63e7e_ExtractLogs20260728235106952 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8472763
+Retrieving audit records for activities performed between 07/20/2026 07:16:49 and 07/20/2026 07:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 07:16:49 -EndDate 07/20/2026 07:46:49 -SessionId b04d1235-fdc4-4b85-b0ca-24dc36ac15d5_ExtractLogs20260728235111803 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.835396
+Retrieving audit records for activities performed between 07/20/2026 07:46:49 and 07/20/2026 08:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 07:46:49 -EndDate 07/20/2026 08:16:49 -SessionId f58865a2-cb70-4614-a706-085426c34843_ExtractLogs20260728235116642 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5491843
+Retrieving audit records for activities performed between 07/20/2026 08:16:49 and 07/20/2026 08:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 08:16:49 -EndDate 07/20/2026 08:46:49 -SessionId 796308ee-c537-41c5-83fc-486f1c332f0d_ExtractLogs20260728235121194 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6329477
+Retrieving audit records for activities performed between 07/20/2026 08:46:49 and 07/20/2026 09:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 08:46:49 -EndDate 07/20/2026 09:16:49 -SessionId 2c66b981-ba2c-4ef4-b7ad-af238c62d88c_ExtractLogs20260728235125829 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.3749567
+Retrieving audit records for activities performed between 07/20/2026 09:16:49 and 07/20/2026 09:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 09:16:49 -EndDate 07/20/2026 09:46:49 -SessionId 951f89d6-3a2a-4db9-98af-c07dedc6b15c_ExtractLogs20260728235130208 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1599263
+Retrieving audit records for activities performed between 07/20/2026 09:46:49 and 07/20/2026 10:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 09:46:49 -EndDate 07/20/2026 10:16:49 -SessionId a2e40150-0aff-4086-8b6f-d5f810222ed2_ExtractLogs20260728235135371 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.478358
+Retrieving audit records for activities performed between 07/20/2026 10:16:49 and 07/20/2026 10:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 10:16:49 -EndDate 07/20/2026 10:46:49 -SessionId 90d8b31f-1b42-499a-b3e1-23c0b539e2bf_ExtractLogs20260728235139853 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8938913
+Retrieving audit records for activities performed between 07/20/2026 10:46:49 and 07/20/2026 11:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 10:46:49 -EndDate 07/20/2026 11:16:49 -SessionId 823737e5-b7a6-4dfa-8fe7-5f1d06d76905_ExtractLogs20260728235144750 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 7.9720022
+Retrieving audit records for activities performed between 07/20/2026 11:16:49 and 07/20/2026 11:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 11:16:49 -EndDate 07/20/2026 11:46:49 -SessionId 0b47e9f1-92bc-4fc9-9b21-d9f85762293f_ExtractLogs20260728235152725 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 7.7529808
+Retrieving audit records for activities performed between 07/20/2026 11:46:49 and 07/20/2026 12:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 11:46:49 -EndDate 07/20/2026 12:16:49 -SessionId f99b17f5-6138-4cc5-ba2f-14830d15e90a_ExtractLogs20260728235200485 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.0749992
+Retrieving audit records for activities performed between 07/20/2026 12:16:49 and 07/20/2026 12:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 12:16:49 -EndDate 07/20/2026 12:46:49 -SessionId f652f00c-571d-4915-984a-578536a8037f_ExtractLogs20260728235206564 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7698012
+Retrieving audit records for activities performed between 07/20/2026 12:46:49 and 07/20/2026 13:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 12:46:49 -EndDate 07/20/2026 13:16:49 -SessionId c2833515-1371-48f4-9eab-5dd15748fb0c_ExtractLogs20260728235212337 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3223733
+Retrieving audit records for activities performed between 07/20/2026 13:16:49 and 07/20/2026 13:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 13:16:49 -EndDate 07/20/2026 13:46:49 -SessionId 9b9f1226-7799-41a7-8c67-d625eef95ff8_ExtractLogs20260728235217664 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.080161
+Retrieving audit records for activities performed between 07/20/2026 13:46:49 and 07/20/2026 14:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 13:46:49 -EndDate 07/20/2026 14:16:49 -SessionId 8a5370b3-3b41-44e6-93f1-8788a75500ae_ExtractLogs20260728235222747 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6725966
+Retrieving audit records for activities performed between 07/20/2026 14:16:49 and 07/20/2026 14:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 14:16:49 -EndDate 07/20/2026 14:46:49 -SessionId 07a5b0b9-1ca2-4c52-bd90-786f75ab2df3_ExtractLogs20260728235227424 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5255687
+Retrieving audit records for activities performed between 07/20/2026 14:46:49 and 07/20/2026 15:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 14:46:49 -EndDate 07/20/2026 15:16:49 -SessionId b8a6fc4c-fa0e-4c20-b9ae-f48dfc0738d5_ExtractLogs20260728235231954 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.935441
+Retrieving audit records for activities performed between 07/20/2026 15:16:49 and 07/20/2026 15:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 15:16:49 -EndDate 07/20/2026 15:46:49 -SessionId 7f8d82d4-8307-41d1-bd35-1751d59c6ac6_ExtractLogs20260728235236893 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9672112
+Retrieving audit records for activities performed between 07/20/2026 15:46:49 and 07/20/2026 16:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 15:46:49 -EndDate 07/20/2026 16:16:49 -SessionId 2160336f-a263-4af8-b0c3-b8629ebed9c3_ExtractLogs20260728235241864 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9696186
+Retrieving audit records for activities performed between 07/20/2026 16:16:49 and 07/20/2026 16:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 16:16:49 -EndDate 07/20/2026 16:46:49 -SessionId 7bd6b07c-0fcc-4a80-8c90-167dfca4a85e_ExtractLogs20260728235246838 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0287645
+Retrieving audit records for activities performed between 07/20/2026 16:46:49 and 07/20/2026 17:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 16:46:49 -EndDate 07/20/2026 17:16:49 -SessionId 62d2f69e-53b3-4eb1-9e7e-45eb4f2406c0_ExtractLogs20260728235251870 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7597854
+Retrieving audit records for activities performed between 07/20/2026 17:16:49 and 07/20/2026 17:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 17:16:49 -EndDate 07/20/2026 17:46:49 -SessionId d83b2bf2-ecec-4bc9-8ddf-b1c0daa67bc7_ExtractLogs20260728235256634 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8629356
+Retrieving audit records for activities performed between 07/20/2026 17:46:49 and 07/20/2026 18:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 17:46:49 -EndDate 07/20/2026 18:16:49 -SessionId 1d1a060a-7a4f-41a5-b05d-328e98d3764b_ExtractLogs20260728235301501 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7261577
+Retrieving audit records for activities performed between 07/20/2026 18:16:49 and 07/20/2026 18:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 18:16:49 -EndDate 07/20/2026 18:46:49 -SessionId e78e96c1-c1fa-4409-968f-106eda4bc440_ExtractLogs20260728235306231 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3064648
+Retrieving audit records for activities performed between 07/20/2026 18:46:49 and 07/20/2026 19:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 18:46:49 -EndDate 07/20/2026 19:16:49 -SessionId 095e5a04-fd74-4bf3-ac55-ae01f71bf0fe_ExtractLogs20260728235311543 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0692586
+Retrieving audit records for activities performed between 07/20/2026 19:16:49 and 07/20/2026 19:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 19:16:49 -EndDate 07/20/2026 19:46:49 -SessionId c217b43c-7277-479a-8418-aefd2adb7e7e_ExtractLogs20260728235316615 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9261526
+Retrieving audit records for activities performed between 07/20/2026 19:46:49 and 07/20/2026 20:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 19:46:49 -EndDate 07/20/2026 20:16:49 -SessionId 5415cea9-e729-4f34-846e-67caa2d4624e_ExtractLogs20260728235321545 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8738529
+Retrieving audit records for activities performed between 07/20/2026 20:16:49 and 07/20/2026 20:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 20:16:49 -EndDate 07/20/2026 20:46:49 -SessionId 5075f663-15b9-4a36-8a19-90d56d58f0ec_ExtractLogs20260728235326423 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.0363119
+Retrieving audit records for activities performed between 07/20/2026 20:46:49 and 07/20/2026 21:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 20:46:49 -EndDate 07/20/2026 21:16:49 -SessionId b0681bbd-af25-426e-a016-1811f2f3cad0_ExtractLogs20260728235332464 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0440948
+Retrieving audit records for activities performed between 07/20/2026 21:16:49 and 07/20/2026 21:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 21:16:49 -EndDate 07/20/2026 21:46:49 -SessionId 23a1bfe3-03ce-455a-9996-4476d6189498_ExtractLogs20260728235337511 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4638531
+Retrieving audit records for activities performed between 07/20/2026 21:46:49 and 07/20/2026 22:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 21:46:49 -EndDate 07/20/2026 22:16:49 -SessionId 31099483-0eba-4900-bd1b-7b888de47e51_ExtractLogs20260728235341979 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3485952
+Retrieving audit records for activities performed between 07/20/2026 22:16:49 and 07/20/2026 22:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 22:16:49 -EndDate 07/20/2026 22:46:49 -SessionId d9eb7629-ea92-4510-9aa3-f679dd89bd18_ExtractLogs20260728235347331 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.4873004
+Retrieving audit records for activities performed between 07/20/2026 22:46:49 and 07/20/2026 23:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 22:46:49 -EndDate 07/20/2026 23:16:49 -SessionId 3025b804-fbcd-4e74-9492-1d7d494e57fa_ExtractLogs20260728235352822 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4768134
+Retrieving audit records for activities performed between 07/20/2026 23:16:49 and 07/20/2026 23:46:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 23:16:49 -EndDate 07/20/2026 23:46:49 -SessionId 1de1ba03-44e9-4a62-b7d4-9b85ea434453_ExtractLogs20260728235357303 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1434566
+Retrieving audit records for activities performed between 07/20/2026 23:46:49 and 07/21/2026 00:16:49
+Search-UnifiedAuditLog -StartDate 07/20/2026 23:46:49 -EndDate 07/21/2026 00:16:49 -SessionId eac5d697-db7c-4b62-9a69-7428249fc978_ExtractLogs20260728235402451 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6413289
+Retrieving audit records for activities performed between 07/21/2026 00:16:49 and 07/21/2026 00:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 00:16:49 -EndDate 07/21/2026 00:46:49 -SessionId c0285d1e-ed2f-4d29-9601-5c6fc15666c4_ExtractLogs20260728235407097 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4409413
+Retrieving audit records for activities performed between 07/21/2026 00:46:49 and 07/21/2026 01:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 00:46:49 -EndDate 07/21/2026 01:16:49 -SessionId 47eefcb9-53e5-4d82-a216-882015f45303_ExtractLogs20260728235411541 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8052402
+Retrieving audit records for activities performed between 07/21/2026 01:16:49 and 07/21/2026 01:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 01:16:49 -EndDate 07/21/2026 01:46:49 -SessionId d3c8b81e-5b71-4396-9948-059cc69c4b63_ExtractLogs20260728235416350 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.4056894
+Retrieving audit records for activities performed between 07/21/2026 01:46:49 and 07/21/2026 02:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 01:46:49 -EndDate 07/21/2026 02:16:49 -SessionId da02c1d4-6962-44fe-8e5b-fd745b999d3c_ExtractLogs20260728235422759 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4098516
+Retrieving audit records for activities performed between 07/21/2026 02:16:49 and 07/21/2026 02:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 02:16:49 -EndDate 07/21/2026 02:46:49 -SessionId 8d6a5413-ea81-42b9-980a-39d618ee62af_ExtractLogs20260728235427173 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5596183
+Retrieving audit records for activities performed between 07/21/2026 02:46:49 and 07/21/2026 03:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 02:46:49 -EndDate 07/21/2026 03:16:49 -SessionId af82f146-fd62-4eb9-8626-33224f3ea345_ExtractLogs20260728235432737 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0959305
+Retrieving audit records for activities performed between 07/21/2026 03:16:49 and 07/21/2026 03:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 03:16:49 -EndDate 07/21/2026 03:46:49 -SessionId eeafc67e-109b-4424-8eb9-095c8087ac1a_ExtractLogs20260728235437837 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.9407792
+Retrieving audit records for activities performed between 07/21/2026 03:46:49 and 07/21/2026 04:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 03:46:49 -EndDate 07/21/2026 04:16:49 -SessionId 2c48aa63-27fc-4ea6-9f4d-e9f35d39f266_ExtractLogs20260728235444781 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.4331731
+Retrieving audit records for activities performed between 07/21/2026 04:16:49 and 07/21/2026 04:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 04:16:49 -EndDate 07/21/2026 04:46:49 -SessionId eff03846-4b30-41df-8d5a-96904bee2063_ExtractLogs20260728235450218 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.774539
+Retrieving audit records for activities performed between 07/21/2026 04:46:49 and 07/21/2026 05:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 04:46:49 -EndDate 07/21/2026 05:16:49 -SessionId 78a9caf9-154e-4d27-92c4-b552f67269fc_ExtractLogs20260728235455996 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8863403
+Retrieving audit records for activities performed between 07/21/2026 05:16:49 and 07/21/2026 05:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 05:16:49 -EndDate 07/21/2026 05:46:49 -SessionId f7766eb9-9f5c-4baf-a891-57690298d756_ExtractLogs20260728235500886 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 8.0373201
+Retrieving audit records for activities performed between 07/21/2026 05:46:49 and 07/21/2026 06:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 05:46:49 -EndDate 07/21/2026 06:16:49 -SessionId 02956d62-d6d7-4f6e-84fc-b79c4f6b554e_ExtractLogs20260728235508927 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.8983762
+Retrieving audit records for activities performed between 07/21/2026 06:16:49 and 07/21/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 06:16:49 -EndDate 07/21/2026 06:46:49 -SessionId c0ed7d7e-8d4f-4507-afc6-2cd55bdce1f5_ExtractLogs20260728235514829 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3367037
+Retrieving audit records for activities performed between 07/21/2026 06:46:49 and 07/21/2026 07:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 06:46:49 -EndDate 07/21/2026 07:16:49 -SessionId cae59554-25c1-4760-befb-7c3f3bb9d8b8_ExtractLogs20260728235520170 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.115541
+Retrieving audit records for activities performed between 07/21/2026 07:16:49 and 07/21/2026 07:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 07:16:49 -EndDate 07/21/2026 07:46:49 -SessionId 987a970f-5108-43e2-9d81-88b5cc8b07a1_ExtractLogs20260728235525288 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2055339
+Retrieving audit records for activities performed between 07/21/2026 07:46:49 and 07/21/2026 08:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 07:46:49 -EndDate 07/21/2026 08:16:49 -SessionId 61deac55-e546-4839-afa6-700237e87542_ExtractLogs20260728235530498 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5127123
+Retrieving audit records for activities performed between 07/21/2026 08:16:49 and 07/21/2026 08:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 08:16:49 -EndDate 07/21/2026 08:46:49 -SessionId dfab6559-23aa-4d4b-a567-b63db585289d_ExtractLogs20260728235536017 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.8836479
+Retrieving audit records for activities performed between 07/21/2026 08:46:49 and 07/21/2026 09:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 08:46:49 -EndDate 07/21/2026 09:16:49 -SessionId ef1d7e10-acbd-4ee4-8990-3e038497c9d6_ExtractLogs20260728235541905 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5650437
+Retrieving audit records for activities performed between 07/21/2026 09:16:49 and 07/21/2026 09:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 09:16:49 -EndDate 07/21/2026 09:46:49 -SessionId 23990308-ad6e-4c42-9b93-3a16b1607e00_ExtractLogs20260728235546474 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.6311049
+Retrieving audit records for activities performed between 07/21/2026 09:46:49 and 07/21/2026 10:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 09:46:49 -EndDate 07/21/2026 10:16:49 -SessionId aa2921ba-08a5-4467-abf9-091a4eaadf03_ExtractLogs20260728235553109 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5778699
+Retrieving audit records for activities performed between 07/21/2026 10:16:49 and 07/21/2026 10:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 10:16:49 -EndDate 07/21/2026 10:46:49 -SessionId dccb8cc2-a07f-48b1-b609-59e64d4e662e_ExtractLogs20260728235558689 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2826681
+Retrieving audit records for activities performed between 07/21/2026 10:46:49 and 07/21/2026 11:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 10:46:49 -EndDate 07/21/2026 11:16:49 -SessionId 2538068e-3530-4519-96b4-444809daa23e_ExtractLogs20260728235603974 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.704942
+Retrieving audit records for activities performed between 07/21/2026 11:16:49 and 07/21/2026 11:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 11:16:49 -EndDate 07/21/2026 11:46:49 -SessionId 54da91a1-e414-4591-8399-dea31d610b40_ExtractLogs20260728235608683 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.611122
+Retrieving audit records for activities performed between 07/21/2026 11:46:49 and 07/21/2026 12:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 11:46:49 -EndDate 07/21/2026 12:16:49 -SessionId 0158f264-5701-4d08-a4d6-ec1b7e3f47aa_ExtractLogs20260728235614299 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.584353
+Retrieving audit records for activities performed between 07/21/2026 12:16:49 and 07/21/2026 12:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 12:16:49 -EndDate 07/21/2026 12:46:49 -SessionId 4e9afb94-d133-41eb-9579-2588ceff63b4_ExtractLogs20260728235618885 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1500411
+Retrieving audit records for activities performed between 07/21/2026 12:46:49 and 07/21/2026 13:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 12:46:49 -EndDate 07/21/2026 13:16:49 -SessionId 8e80ae23-e46d-40a3-891a-6dde3407bc85_ExtractLogs20260728235624039 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8748959
+Retrieving audit records for activities performed between 07/21/2026 13:16:49 and 07/21/2026 13:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 13:16:49 -EndDate 07/21/2026 13:46:49 -SessionId 614bbed8-e59b-45a6-a57a-961964de20ff_ExtractLogs20260728235628918 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8983252
+Retrieving audit records for activities performed between 07/21/2026 13:46:49 and 07/21/2026 14:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 13:46:49 -EndDate 07/21/2026 14:16:49 -SessionId 18454400-387e-4a2c-b18c-7891a0ec305b_ExtractLogs20260728235633820 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5020636
+Retrieving audit records for activities performed between 07/21/2026 14:16:49 and 07/21/2026 14:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 14:16:49 -EndDate 07/21/2026 14:46:49 -SessionId 5f14b485-c29c-4686-b7e6-99aba99829cd_ExtractLogs20260728235638326 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7656341
+Retrieving audit records for activities performed between 07/21/2026 14:46:49 and 07/21/2026 15:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 14:46:49 -EndDate 07/21/2026 15:16:49 -SessionId 66dcbc06-7afc-485b-a61d-1b2e4a879936_ExtractLogs20260728235644095 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7044625
+Retrieving audit records for activities performed between 07/21/2026 15:16:49 and 07/21/2026 15:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 15:16:49 -EndDate 07/21/2026 15:46:49 -SessionId 61db3ba9-8e36-4667-8bc2-c6d75aed88d5_ExtractLogs20260728235649806 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0574835
+Retrieving audit records for activities performed between 07/21/2026 15:46:49 and 07/21/2026 16:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 15:46:49 -EndDate 07/21/2026 16:16:49 -SessionId 1387bcb7-7603-4c8d-84be-079633d76661_ExtractLogs20260728235654867 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.2888081
+Retrieving audit records for activities performed between 07/21/2026 16:16:49 and 07/21/2026 16:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 16:16:49 -EndDate 07/21/2026 16:46:49 -SessionId 69889498-0881-4c0a-b384-7cff36bcb34c_ExtractLogs20260728235659160 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.109986
+Retrieving audit records for activities performed between 07/21/2026 16:46:49 and 07/21/2026 17:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 16:46:49 -EndDate 07/21/2026 17:16:49 -SessionId 33762bd0-ca9b-4d8c-a660-c62438fd522f_ExtractLogs20260728235704273 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6568304
+Retrieving audit records for activities performed between 07/21/2026 17:16:49 and 07/21/2026 17:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 17:16:49 -EndDate 07/21/2026 17:46:49 -SessionId b4cde6ea-b9a4-43cf-a54c-d7c8d37e0b37_ExtractLogs20260728235708933 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7828522
+Retrieving audit records for activities performed between 07/21/2026 17:46:49 and 07/21/2026 18:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 17:46:49 -EndDate 07/21/2026 18:16:49 -SessionId fd4917be-204a-48ce-9ce7-a5124028f0a4_ExtractLogs20260728235713719 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7086803
+Retrieving audit records for activities performed between 07/21/2026 18:16:49 and 07/21/2026 18:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 18:16:49 -EndDate 07/21/2026 18:46:49 -SessionId 61f9855d-7704-4bca-b046-bc038a843d4d_ExtractLogs20260728235719431 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2085722
+Retrieving audit records for activities performed between 07/21/2026 18:46:49 and 07/21/2026 19:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 18:46:49 -EndDate 07/21/2026 19:16:49 -SessionId 8a082dc2-7f86-41c6-b51f-ad33b6e40ea3_ExtractLogs20260728235724643 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1416634
+Retrieving audit records for activities performed between 07/21/2026 19:16:49 and 07/21/2026 19:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 19:16:49 -EndDate 07/21/2026 19:46:49 -SessionId 1b6696af-a077-4c20-b7e4-f79bd0be958a_ExtractLogs20260728235729787 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1069818
+Retrieving audit records for activities performed between 07/21/2026 19:46:49 and 07/21/2026 20:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 19:46:49 -EndDate 07/21/2026 20:16:49 -SessionId 2d1ebc82-2e99-4a7b-a5db-abe13ec7c25c_ExtractLogs20260728235734897 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.3587396
+Retrieving audit records for activities performed between 07/21/2026 20:16:49 and 07/21/2026 20:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 20:16:49 -EndDate 07/21/2026 20:46:49 -SessionId dc2a5246-6307-447c-8a99-cf16d901e65d_ExtractLogs20260728235739259 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 31 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.7259272
+Retrieving audit records for activities performed between 07/21/2026 20:46:49 and 07/21/2026 21:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 20:46:49 -EndDate 07/21/2026 21:16:49 -SessionId 5f7e11b4-6b83-4678-a348-ed1e59e207d2_ExtractLogs20260728235744987 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3668165
+Retrieving audit records for activities performed between 07/21/2026 21:16:49 and 07/21/2026 21:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 21:16:49 -EndDate 07/21/2026 21:46:49 -SessionId 84e75ee9-ef3e-4b01-8643-72420195575b_ExtractLogs20260728235750356 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6538731
+Retrieving audit records for activities performed between 07/21/2026 21:46:49 and 07/21/2026 22:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 21:46:49 -EndDate 07/21/2026 22:16:49 -SessionId af49e70c-a9da-477a-aa2f-240c26277db7_ExtractLogs20260728235755014 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9672205
+Retrieving audit records for activities performed between 07/21/2026 22:16:49 and 07/21/2026 22:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 22:16:49 -EndDate 07/21/2026 22:46:49 -SessionId 26dee671-d253-478e-9920-e2d7a80b763b_ExtractLogs20260728235759983 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 10 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.2252558
+Retrieving audit records for activities performed between 07/21/2026 22:46:49 and 07/21/2026 23:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 22:46:49 -EndDate 07/21/2026 23:16:49 -SessionId fffb7b03-4996-41d3-8c3c-e4aaccd112af_ExtractLogs20260728235806210 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4705297
+Retrieving audit records for activities performed between 07/21/2026 23:16:49 and 07/21/2026 23:46:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 23:16:49 -EndDate 07/21/2026 23:46:49 -SessionId fd807d50-8c67-474d-9651-9b7f6e01421b_ExtractLogs20260728235810685 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.1849824
+Retrieving audit records for activities performed between 07/21/2026 23:46:49 and 07/22/2026 00:16:49
+Search-UnifiedAuditLog -StartDate 07/21/2026 23:46:49 -EndDate 07/22/2026 00:16:49 -SessionId 893b51d6-2b93-47b6-9ced-3c73fa4c6669_ExtractLogs20260728235814873 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4235104
+Retrieving audit records for activities performed between 07/22/2026 00:16:49 and 07/22/2026 00:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 00:16:49 -EndDate 07/22/2026 00:46:49 -SessionId d5d10d7d-bd40-4fd0-833a-26526f0f5341_ExtractLogs20260728235819304 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.1744182
+Retrieving audit records for activities performed between 07/22/2026 00:46:49 and 07/22/2026 01:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 00:46:49 -EndDate 07/22/2026 01:16:49 -SessionId 90a18351-e984-4347-9d5e-db8a58b055a4_ExtractLogs20260728235823482 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9979399
+Retrieving audit records for activities performed between 07/22/2026 01:16:49 and 07/22/2026 01:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 01:16:49 -EndDate 07/22/2026 01:46:49 -SessionId 26a273d1-e867-441b-ac72-adf6a9e08d56_ExtractLogs20260728235828485 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9238477
+Retrieving audit records for activities performed between 07/22/2026 01:46:49 and 07/22/2026 02:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 01:46:49 -EndDate 07/22/2026 02:16:49 -SessionId 3af9427a-9915-4b04-9b12-29b259493b2f_ExtractLogs20260728235833411 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.346945
+Retrieving audit records for activities performed between 07/22/2026 02:16:49 and 07/22/2026 02:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 02:16:49 -EndDate 07/22/2026 02:46:49 -SessionId a278921a-8c3b-46ff-bbe0-8bf9ac8da311_ExtractLogs20260728235838762 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6619112
+Retrieving audit records for activities performed between 07/22/2026 02:46:49 and 07/22/2026 03:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 02:46:49 -EndDate 07/22/2026 03:16:49 -SessionId 22744af9-c26c-4ab0-b9d8-7fbf6a7d1697_ExtractLogs20260728235843427 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 91 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.2928591
+Retrieving audit records for activities performed between 07/22/2026 03:16:49 and 07/22/2026 03:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 03:16:49 -EndDate 07/22/2026 03:46:49 -SessionId e2c4012b-c181-41be-b1ac-5d7d896434ac_ExtractLogs20260728235849723 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 14.8525222
+Retrieving audit records for activities performed between 07/22/2026 03:46:49 and 07/22/2026 04:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 03:46:49 -EndDate 07/22/2026 04:16:49 -SessionId 2f2770d8-2ae7-460a-a183-4e8c3052afd3_ExtractLogs20260728235904579 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.824597
+Retrieving audit records for activities performed between 07/22/2026 04:16:49 and 07/22/2026 04:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 04:16:49 -EndDate 07/22/2026 04:46:49 -SessionId cd0bb9b5-5397-4df6-bfe3-bb5f75d3e056_ExtractLogs20260728235910407 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 247 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.5021776
+Retrieving audit records for activities performed between 07/22/2026 04:46:49 and 07/22/2026 05:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 04:46:49 -EndDate 07/22/2026 05:16:49 -SessionId 392f8516-d77e-4a43-96e8-1b48c98dcaf1_ExtractLogs20260728235916912 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 9 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.8097279
+Retrieving audit records for activities performed between 07/22/2026 05:16:49 and 07/22/2026 05:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 05:16:49 -EndDate 07/22/2026 05:46:49 -SessionId 4e86d0b5-3a5e-4f81-aa71-07f5a3608abb_ExtractLogs20260728235921723 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 2 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.627243
+Retrieving audit records for activities performed between 07/22/2026 05:46:49 and 07/22/2026 06:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 05:46:49 -EndDate 07/22/2026 06:16:49 -SessionId 29c6f464-15ab-4e55-8fd6-310355ff7b75_ExtractLogs20260728235927354 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 7 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.9177705
+Retrieving audit records for activities performed between 07/22/2026 06:16:49 and 07/22/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 06:16:49 -EndDate 07/22/2026 06:46:49 -SessionId 9553ea1e-100a-4967-ab07-512dc47f9a4f_ExtractLogs20260728235932275 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 6 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.1464292
+Retrieving audit records for activities performed between 07/22/2026 06:46:49 and 07/22/2026 07:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 06:46:49 -EndDate 07/22/2026 07:16:49 -SessionId 8961a108-ae8c-4678-8cfb-dfa6ce95f2b1_ExtractLogs20260728235937424 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 9 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.4255166
+Retrieving audit records for activities performed between 07/22/2026 07:16:49 and 07/22/2026 07:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 07:16:49 -EndDate 07/22/2026 07:46:49 -SessionId b0995e4d-0708-4d64-a18e-4bd122f788b5_ExtractLogs20260728235942853 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 7.7903414
+Retrieving audit records for activities performed between 07/22/2026 07:46:49 and 07/22/2026 08:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 07:46:49 -EndDate 07/22/2026 08:16:49 -SessionId 1fcc71ce-f933-4452-92e3-3a5a132facc6_ExtractLogs20260728235950648 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0110977
+Retrieving audit records for activities performed between 07/22/2026 08:16:49 and 07/22/2026 08:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 08:16:49 -EndDate 07/22/2026 08:46:49 -SessionId 19662948-a1cd-4fc1-9ffc-f397addbb0fc_ExtractLogs20260728235955662 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9678606
+Retrieving audit records for activities performed between 07/22/2026 08:46:49 and 07/22/2026 09:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 08:46:49 -EndDate 07/22/2026 09:16:49 -SessionId 4a1e7e6f-4603-4ab9-9e98-fe4847ef6f8d_ExtractLogs20260729000001634 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.4715942
+Retrieving audit records for activities performed between 07/22/2026 09:16:49 and 07/22/2026 09:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 09:16:49 -EndDate 07/22/2026 09:46:49 -SessionId 936dda44-2a3f-4e06-990b-991b5abc2ced_ExtractLogs20260729000007110 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.8447675
+Retrieving audit records for activities performed between 07/22/2026 09:46:49 and 07/22/2026 10:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 09:46:49 -EndDate 07/22/2026 10:16:49 -SessionId ebb199e2-7cd2-4923-bdf0-f882c1822d18_ExtractLogs20260729000012959 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0028945
+Retrieving audit records for activities performed between 07/22/2026 10:16:49 and 07/22/2026 10:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 10:16:49 -EndDate 07/22/2026 10:46:49 -SessionId d1114513-ef36-4de2-87e1-33b82623965a_ExtractLogs20260729000017965 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5128163
+Retrieving audit records for activities performed between 07/22/2026 10:46:49 and 07/22/2026 11:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 10:46:49 -EndDate 07/22/2026 11:16:49 -SessionId 5b4aff1d-6636-487e-84e3-7346f24f9f99_ExtractLogs20260729000022482 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.6913455
+Retrieving audit records for activities performed between 07/22/2026 11:16:49 and 07/22/2026 11:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 11:16:49 -EndDate 07/22/2026 11:46:49 -SessionId e5eca0d4-bd2f-4ccb-8777-e7566b8478e8_ExtractLogs20260729000028177 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.2906894
+Retrieving audit records for activities performed between 07/22/2026 11:46:49 and 07/22/2026 12:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 11:46:49 -EndDate 07/22/2026 12:16:49 -SessionId 48b4930f-7bf7-4025-a7d1-b93c9fb73adb_ExtractLogs20260729000032470 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1089677
+Retrieving audit records for activities performed between 07/22/2026 12:16:49 and 07/22/2026 12:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 12:16:49 -EndDate 07/22/2026 12:46:49 -SessionId 827f9b32-26b1-4dbb-bdff-c782f642d0f1_ExtractLogs20260729000037583 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9231842
+Retrieving audit records for activities performed between 07/22/2026 12:46:49 and 07/22/2026 13:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 12:46:49 -EndDate 07/22/2026 13:16:49 -SessionId 94038cfb-aa5e-49db-8d2a-5a83c04a4229_ExtractLogs20260729000042510 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.570406
+Retrieving audit records for activities performed between 07/22/2026 13:16:49 and 07/22/2026 13:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 13:16:49 -EndDate 07/22/2026 13:46:49 -SessionId baab78d3-445b-4dcd-8c5a-116fa85f5096_ExtractLogs20260729000047084 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1384997
+Retrieving audit records for activities performed between 07/22/2026 13:46:49 and 07/22/2026 14:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 13:46:49 -EndDate 07/22/2026 14:16:49 -SessionId ababa75c-141e-4a18-9cc1-7e586292a0ad_ExtractLogs20260729000052226 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7141742
+Retrieving audit records for activities performed between 07/22/2026 14:16:49 and 07/22/2026 14:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 14:16:49 -EndDate 07/22/2026 14:46:49 -SessionId 9c376474-cf6b-4683-97b9-2d207980ba48_ExtractLogs20260729000057945 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5800855
+Retrieving audit records for activities performed between 07/22/2026 14:46:49 and 07/22/2026 15:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 14:46:49 -EndDate 07/22/2026 15:16:49 -SessionId 18e342ba-aff7-4b15-a1d6-fa2e5d9fd7f6_ExtractLogs20260729000102527 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0638455
+Retrieving audit records for activities performed between 07/22/2026 15:16:49 and 07/22/2026 15:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 15:16:49 -EndDate 07/22/2026 15:46:49 -SessionId 1b748f12-9bf3-4a1d-9ebd-03c24a039fd4_ExtractLogs20260729000107595 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7070627
+Retrieving audit records for activities performed between 07/22/2026 15:46:49 and 07/22/2026 16:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 15:46:49 -EndDate 07/22/2026 16:16:49 -SessionId 8b226b99-cf0b-400e-b881-3b5bfa549012_ExtractLogs20260729000113304 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.6574263
+Retrieving audit records for activities performed between 07/22/2026 16:16:49 and 07/22/2026 16:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 16:16:49 -EndDate 07/22/2026 16:46:49 -SessionId 78b37c4d-bc51-40b2-8b27-02bf5773d348_ExtractLogs20260729000119966 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6775174
+Retrieving audit records for activities performed between 07/22/2026 16:46:49 and 07/22/2026 17:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 16:46:49 -EndDate 07/22/2026 17:16:49 -SessionId 0df9a783-0fbf-446b-8e98-4950fcf2ae99_ExtractLogs20260729000124647 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.373525
+Retrieving audit records for activities performed between 07/22/2026 17:16:49 and 07/22/2026 17:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 17:16:49 -EndDate 07/22/2026 17:46:49 -SessionId 307482d0-c90e-47b6-bca6-0cd37ef20ee3_ExtractLogs20260729000129025 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.648029
+Retrieving audit records for activities performed between 07/22/2026 17:46:49 and 07/22/2026 18:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 17:46:49 -EndDate 07/22/2026 18:16:49 -SessionId dd0a78bb-9809-41a1-bee2-7b0ec7d7dff2_ExtractLogs20260729000133677 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4753848
+Retrieving audit records for activities performed between 07/22/2026 18:16:49 and 07/22/2026 18:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 18:16:49 -EndDate 07/22/2026 18:46:49 -SessionId bf8ccd94-2dcf-4793-a1ee-3e41529f3db9_ExtractLogs20260729000138156 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.0841509
+Retrieving audit records for activities performed between 07/22/2026 18:46:49 and 07/22/2026 19:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 18:46:49 -EndDate 07/22/2026 19:16:49 -SessionId 903fabd0-9f6b-47d0-8e17-58cb090e6089_ExtractLogs20260729000144242 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.4341215
+Retrieving audit records for activities performed between 07/22/2026 19:16:49 and 07/22/2026 19:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 19:16:49 -EndDate 07/22/2026 19:46:49 -SessionId 1e966755-4034-4230-900c-7ba42d48aeba_ExtractLogs20260729000149680 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7511749
+Retrieving audit records for activities performed between 07/22/2026 19:46:49 and 07/22/2026 20:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 19:46:49 -EndDate 07/22/2026 20:16:49 -SessionId 534ad960-1105-4647-b67e-f16bf2ea9722_ExtractLogs20260729000154435 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.833118
+Retrieving audit records for activities performed between 07/22/2026 20:16:49 and 07/22/2026 20:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 20:16:49 -EndDate 07/22/2026 20:46:49 -SessionId 08acf703-ddb3-49ff-9567-34f2382e5997_ExtractLogs20260729000159272 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8882328
+Retrieving audit records for activities performed between 07/22/2026 20:46:49 and 07/22/2026 21:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 20:46:49 -EndDate 07/22/2026 21:16:49 -SessionId 268c18ce-fb48-4641-bec7-3510546c5d67_ExtractLogs20260729000204164 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.1763403
+Retrieving audit records for activities performed between 07/22/2026 21:16:49 and 07/22/2026 21:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 21:16:49 -EndDate 07/22/2026 21:46:49 -SessionId baca4c66-568f-43ae-be72-e6c8e54435ce_ExtractLogs20260729000210343 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.3171739
+Retrieving audit records for activities performed between 07/22/2026 21:46:49 and 07/22/2026 22:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 21:46:49 -EndDate 07/22/2026 22:16:49 -SessionId 29bfb278-b892-43ff-a69d-3724ce0059fb_ExtractLogs20260729000214664 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1036405
+Retrieving audit records for activities performed between 07/22/2026 22:16:49 and 07/22/2026 22:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 22:16:49 -EndDate 07/22/2026 22:46:49 -SessionId 1f986fcc-67ac-4753-91e4-d9f255d6b189_ExtractLogs20260729000219772 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0608048
+Retrieving audit records for activities performed between 07/22/2026 22:46:49 and 07/22/2026 23:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 22:46:49 -EndDate 07/22/2026 23:16:49 -SessionId 9a2695dd-383a-49d4-a3e3-accf415813b0_ExtractLogs20260729000224839 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9990394
+Retrieving audit records for activities performed between 07/22/2026 23:16:49 and 07/22/2026 23:46:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 23:16:49 -EndDate 07/22/2026 23:46:49 -SessionId 5fd1ae11-62e1-4456-90ea-dc5e63cedac5_ExtractLogs20260729000229842 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7473641
+Retrieving audit records for activities performed between 07/22/2026 23:46:49 and 07/23/2026 00:16:49
+Search-UnifiedAuditLog -StartDate 07/22/2026 23:46:49 -EndDate 07/23/2026 00:16:49 -SessionId 944250cc-a03b-4e46-80d6-866783dc45f9_ExtractLogs20260729000234594 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.3840962
+Retrieving audit records for activities performed between 07/23/2026 00:16:49 and 07/23/2026 00:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 00:16:49 -EndDate 07/23/2026 00:46:49 -SessionId 7b703520-ab8f-4d2a-8950-02195a604e00_ExtractLogs20260729000240982 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.958386
+Retrieving audit records for activities performed between 07/23/2026 00:46:49 and 07/23/2026 01:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 00:46:49 -EndDate 07/23/2026 01:16:49 -SessionId 26df6e95-ba05-489a-995f-b64c7d3a5ddc_ExtractLogs20260729000245946 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 2 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.9200013
+Retrieving audit records for activities performed between 07/23/2026 01:16:49 and 07/23/2026 01:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 01:16:49 -EndDate 07/23/2026 01:46:49 -SessionId 6ee13c02-8ed6-40c6-a95b-8af821850d07_ExtractLogs20260729000250868 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 3 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.7846057
+Retrieving audit records for activities performed between 07/23/2026 01:46:49 and 07/23/2026 02:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 01:46:49 -EndDate 07/23/2026 02:16:49 -SessionId 6834311f-6411-416d-b228-6da3e9dc2d55_ExtractLogs20260729000255656 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 7 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.254
+Retrieving audit records for activities performed between 07/23/2026 02:16:49 and 07/23/2026 02:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 02:16:49 -EndDate 07/23/2026 02:46:49 -SessionId 0734453c-710b-45d3-899d-ed935bef1867_ExtractLogs20260729000300912 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 3 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.9547182
+Retrieving audit records for activities performed between 07/23/2026 02:46:49 and 07/23/2026 03:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 02:46:49 -EndDate 07/23/2026 03:16:49 -SessionId e5aac96c-82a5-4ecd-9546-921d607a1afe_ExtractLogs20260729000305870 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8586473
+Retrieving audit records for activities performed between 07/23/2026 03:16:49 and 07/23/2026 03:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 03:16:49 -EndDate 07/23/2026 03:46:49 -SessionId f0351bee-3c34-469b-a55e-d9f784950202_ExtractLogs20260729000310733 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9622081
+Retrieving audit records for activities performed between 07/23/2026 03:46:49 and 07/23/2026 04:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 03:46:49 -EndDate 07/23/2026 04:16:49 -SessionId 7e642e6d-d4fd-462f-bd86-b2dc71df928f_ExtractLogs20260729000315698 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0596324
+Retrieving audit records for activities performed between 07/23/2026 04:16:49 and 07/23/2026 04:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 04:16:49 -EndDate 07/23/2026 04:46:49 -SessionId 6d7b08b2-c9f3-41db-831a-100c7b0f964f_ExtractLogs20260729000320762 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.6266733
+Retrieving audit records for activities performed between 07/23/2026 04:46:49 and 07/23/2026 05:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 04:46:49 -EndDate 07/23/2026 05:16:49 -SessionId d52568a8-fc15-4a67-8a69-1598235c87bf_ExtractLogs20260729000327392 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 2 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.6259394
+Retrieving audit records for activities performed between 07/23/2026 05:16:49 and 07/23/2026 05:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 05:16:49 -EndDate 07/23/2026 05:46:49 -SessionId 37654991-5792-417e-a68a-ebcc59f4da6c_ExtractLogs20260729000333022 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.8714802
+Retrieving audit records for activities performed between 07/23/2026 05:46:49 and 07/23/2026 06:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 05:46:49 -EndDate 07/23/2026 06:16:49 -SessionId d11a892d-29b1-4ce3-8578-2bffb0f51ad6_ExtractLogs20260729000338896 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 241 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 7.0868158
+Retrieving audit records for activities performed between 07/23/2026 06:16:49 and 07/23/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 06:16:49 -EndDate 07/23/2026 06:46:49 -SessionId 6baf21ad-40c5-4033-8770-c193bf644b4a_ExtractLogs20260729000345986 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 16 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.533525
+Retrieving audit records for activities performed between 07/23/2026 06:46:49 and 07/23/2026 07:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 06:46:49 -EndDate 07/23/2026 07:16:49 -SessionId 8ae2861f-0f31-4627-bc75-d879ac286eb1_ExtractLogs20260729000351523 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 13 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.6179662
+Retrieving audit records for activities performed between 07/23/2026 07:16:49 and 07/23/2026 07:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 07:16:49 -EndDate 07/23/2026 07:46:49 -SessionId e1060939-90bd-4303-ad48-88cfaea28fce_ExtractLogs20260729000357144 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.2728665
+Retrieving audit records for activities performed between 07/23/2026 07:46:49 and 07/23/2026 08:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 07:46:49 -EndDate 07/23/2026 08:16:49 -SessionId 450cf648-74de-4e7f-b2b6-d2d04d1b30be_ExtractLogs20260729000403421 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 9 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.9245379
+Retrieving audit records for activities performed between 07/23/2026 08:16:49 and 07/23/2026 08:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 08:16:49 -EndDate 07/23/2026 08:46:49 -SessionId 22aa113c-6474-4f76-a0a2-44a030b77949_ExtractLogs20260729000408349 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 4 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.597087
+Retrieving audit records for activities performed between 07/23/2026 08:46:49 and 07/23/2026 09:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 08:46:49 -EndDate 07/23/2026 09:16:49 -SessionId fd5335ec-cdbe-4ca8-b5eb-4a4e75279f25_ExtractLogs20260729000412950 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 8 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.4238807
+Retrieving audit records for activities performed between 07/23/2026 09:16:49 and 07/23/2026 09:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 09:16:49 -EndDate 07/23/2026 09:46:49 -SessionId c5422d75-21b9-41a6-b391-d927e80bae7d_ExtractLogs20260729000418377 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 4 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.9269155
+Retrieving audit records for activities performed between 07/23/2026 09:46:49 and 07/23/2026 10:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 09:46:49 -EndDate 07/23/2026 10:16:49 -SessionId 8ca4cfd6-92cc-44f7-a9e8-28115b321da8_ExtractLogs20260729000424306 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.6872179
+Retrieving audit records for activities performed between 07/23/2026 10:16:49 and 07/23/2026 10:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 10:16:49 -EndDate 07/23/2026 10:46:49 -SessionId b3fc3791-2738-4938-b055-fc986d687153_ExtractLogs20260729000429996 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.5805852
+Retrieving audit records for activities performed between 07/23/2026 10:46:49 and 07/23/2026 11:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 10:46:49 -EndDate 07/23/2026 11:16:49 -SessionId 1a7c188a-f0db-4117-b0dd-121c893473a0_ExtractLogs20260729000436580 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9055639
+Retrieving audit records for activities performed between 07/23/2026 11:16:49 and 07/23/2026 11:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 11:16:49 -EndDate 07/23/2026 11:46:49 -SessionId f4c882f4-1a63-4701-84f1-9d0cb70ccb56_ExtractLogs20260729000442488 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5170176
+Retrieving audit records for activities performed between 07/23/2026 11:46:49 and 07/23/2026 12:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 11:46:49 -EndDate 07/23/2026 12:16:49 -SessionId fb36a53b-f72b-442e-853a-3ed30096b78c_ExtractLogs20260729000447008 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3166992
+Retrieving audit records for activities performed between 07/23/2026 12:16:49 and 07/23/2026 12:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 12:16:49 -EndDate 07/23/2026 12:46:49 -SessionId c54d8b7f-7a1a-46b7-ab3e-47b2a433c040_ExtractLogs20260729000452329 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6202738
+Retrieving audit records for activities performed between 07/23/2026 12:46:49 and 07/23/2026 13:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 12:46:49 -EndDate 07/23/2026 13:16:49 -SessionId 3e50b485-0f2b-44f1-a547-6ab3bf155829_ExtractLogs20260729000456954 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.247748
+Retrieving audit records for activities performed between 07/23/2026 13:16:49 and 07/23/2026 13:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 13:16:49 -EndDate 07/23/2026 13:46:49 -SessionId 549935d8-abb9-4a80-bbc1-8fa7f748db17_ExtractLogs20260729000503204 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3985418
+Retrieving audit records for activities performed between 07/23/2026 13:46:49 and 07/23/2026 14:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 13:46:49 -EndDate 07/23/2026 14:16:49 -SessionId 2686d1f2-7844-4913-a8dc-0aab9e34c9bb_ExtractLogs20260729000508606 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0829069
+Retrieving audit records for activities performed between 07/23/2026 14:16:49 and 07/23/2026 14:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 14:16:49 -EndDate 07/23/2026 14:46:49 -SessionId 96c150a4-0ab1-422e-86c8-78a7c229557e_ExtractLogs20260729000513693 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6796532
+Retrieving audit records for activities performed between 07/23/2026 14:46:49 and 07/23/2026 15:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 14:46:49 -EndDate 07/23/2026 15:16:49 -SessionId 459f607b-4ef0-45db-91dd-5a253b68a927_ExtractLogs20260729000518376 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.121073
+Retrieving audit records for activities performed between 07/23/2026 15:16:49 and 07/23/2026 15:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 15:16:49 -EndDate 07/23/2026 15:46:49 -SessionId 5d9acd84-6151-404a-8517-ce044de3b57c_ExtractLogs20260729000524501 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.4330612
+Retrieving audit records for activities performed between 07/23/2026 15:46:49 and 07/23/2026 16:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 15:46:49 -EndDate 07/23/2026 16:16:49 -SessionId abe4c7c8-c9e0-49e4-b420-f9dcaa583340_ExtractLogs20260729000529938 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9942895
+Retrieving audit records for activities performed between 07/23/2026 16:16:49 and 07/23/2026 16:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 16:16:49 -EndDate 07/23/2026 16:46:49 -SessionId d7b83f78-ac5c-4392-9b32-ce13eec053bb_ExtractLogs20260729000534934 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0033221
+Retrieving audit records for activities performed between 07/23/2026 16:46:49 and 07/23/2026 17:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 16:46:49 -EndDate 07/23/2026 17:16:49 -SessionId ae9741ba-6176-4b36-9da3-4b13a66ec9f1_ExtractLogs20260729000539941 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5190369
+Retrieving audit records for activities performed between 07/23/2026 17:16:49 and 07/23/2026 17:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 17:16:49 -EndDate 07/23/2026 17:46:49 -SessionId db8e33d3-c1df-4041-b96c-01e23aea7a2f_ExtractLogs20260729000544465 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 7.8649036
+Retrieving audit records for activities performed between 07/23/2026 17:46:49 and 07/23/2026 18:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 17:46:49 -EndDate 07/23/2026 18:16:49 -SessionId 22f97663-b91b-4466-a880-feb7a843c73d_ExtractLogs20260729000552333 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2287347
+Retrieving audit records for activities performed between 07/23/2026 18:16:49 and 07/23/2026 18:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 18:16:49 -EndDate 07/23/2026 18:46:49 -SessionId b8978de0-ac36-4f93-b044-418c59b4ea26_ExtractLogs20260729000557566 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.0600317
+Retrieving audit records for activities performed between 07/23/2026 18:46:49 and 07/23/2026 19:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 18:46:49 -EndDate 07/23/2026 19:16:49 -SessionId 27bf0c9d-cd72-4131-b0e9-355fb7d8e5c3_ExtractLogs20260729000603629 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1525916
+Retrieving audit records for activities performed between 07/23/2026 19:16:49 and 07/23/2026 19:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 19:16:49 -EndDate 07/23/2026 19:46:49 -SessionId 12a89416-2318-4529-ab85-c25f3dd5fd02_ExtractLogs20260729000608786 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9601213
+Retrieving audit records for activities performed between 07/23/2026 19:46:49 and 07/23/2026 20:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 19:46:49 -EndDate 07/23/2026 20:16:49 -SessionId 835874f6-f577-462e-802a-83a0d2ba6bfb_ExtractLogs20260729000613750 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9694598
+Retrieving audit records for activities performed between 07/23/2026 20:16:49 and 07/23/2026 20:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 20:16:49 -EndDate 07/23/2026 20:46:49 -SessionId 43f619e6-94cb-47a2-9ca7-c0bac37479d5_ExtractLogs20260729000619724 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4353977
+Retrieving audit records for activities performed between 07/23/2026 20:46:49 and 07/23/2026 21:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 20:46:49 -EndDate 07/23/2026 21:16:49 -SessionId c94a4754-bc65-465f-9275-57908e2d31de_ExtractLogs20260729000624164 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7205589
+Retrieving audit records for activities performed between 07/23/2026 21:16:49 and 07/23/2026 21:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 21:16:49 -EndDate 07/23/2026 21:46:49 -SessionId bc8c1d29-1b6d-42b6-aa1d-402263362d68_ExtractLogs20260729000628887 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4292492
+Retrieving audit records for activities performed between 07/23/2026 21:46:49 and 07/23/2026 22:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 21:46:49 -EndDate 07/23/2026 22:16:49 -SessionId 6f5dcf2c-1948-4a8c-90ad-85e8db52c1e2_ExtractLogs20260729000633320 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7729991
+Retrieving audit records for activities performed between 07/23/2026 22:16:49 and 07/23/2026 22:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 22:16:49 -EndDate 07/23/2026 22:46:49 -SessionId 9ed263a4-be3e-454c-b1a8-e21f351eb21e_ExtractLogs20260729000638097 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5583362
+Retrieving audit records for activities performed between 07/23/2026 22:46:49 and 07/23/2026 23:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 22:46:49 -EndDate 07/23/2026 23:16:49 -SessionId 8d22122f-128e-4fa5-ba8a-0bb23a18d0f4_ExtractLogs20260729000642659 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.1749464
+Retrieving audit records for activities performed between 07/23/2026 23:16:49 and 07/23/2026 23:46:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 23:16:49 -EndDate 07/23/2026 23:46:49 -SessionId aa62c519-61d5-4e0c-8742-ad4da8e004d5_ExtractLogs20260729000646840 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9608872
+Retrieving audit records for activities performed between 07/23/2026 23:46:49 and 07/24/2026 00:16:49
+Search-UnifiedAuditLog -StartDate 07/23/2026 23:46:49 -EndDate 07/24/2026 00:16:49 -SessionId 33ff628a-37d2-4cca-afce-a73c959d3d52_ExtractLogs20260729000651805 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.1358519
+Retrieving audit records for activities performed between 07/24/2026 00:16:49 and 07/24/2026 00:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 00:16:49 -EndDate 07/24/2026 00:46:49 -SessionId 968e24af-eed7-41cd-ad1f-180563962caf_ExtractLogs20260729000655943 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0568723
+Retrieving audit records for activities performed between 07/24/2026 00:46:49 and 07/24/2026 01:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 00:46:49 -EndDate 07/24/2026 01:16:49 -SessionId 7857fb01-1e69-4917-9287-184a8a0a4715_ExtractLogs20260729000701004 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2452452
+Retrieving audit records for activities performed between 07/24/2026 01:16:49 and 07/24/2026 01:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 01:16:49 -EndDate 07/24/2026 01:46:49 -SessionId 78070f34-b219-4c3b-8322-52bcb90c9c51_ExtractLogs20260729000706253 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4268971
+Retrieving audit records for activities performed between 07/24/2026 01:46:49 and 07/24/2026 02:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 01:46:49 -EndDate 07/24/2026 02:16:49 -SessionId 7d330188-1d81-4320-a8cb-dd5442a39f09_ExtractLogs20260729000710684 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.3165018
+Retrieving audit records for activities performed between 07/24/2026 02:16:49 and 07/24/2026 02:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 02:16:49 -EndDate 07/24/2026 02:46:49 -SessionId 8a2642b2-1e83-4024-ad47-a68dd5802311_ExtractLogs20260729000715003 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8949947
+Retrieving audit records for activities performed between 07/24/2026 02:46:49 and 07/24/2026 03:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 02:46:49 -EndDate 07/24/2026 03:16:49 -SessionId 6da6c77d-5807-47f7-a0f2-807bd79879f9_ExtractLogs20260729000719901 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 82 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.0712243
+Retrieving audit records for activities performed between 07/24/2026 03:16:49 and 07/24/2026 03:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 03:16:49 -EndDate 07/24/2026 03:46:49 -SessionId b6224581-316d-4dc1-8c5e-03b470fe1082_ExtractLogs20260729000725976 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 64 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.8112084
+Retrieving audit records for activities performed between 07/24/2026 03:46:49 and 07/24/2026 04:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 03:46:49 -EndDate 07/24/2026 04:16:49 -SessionId e21cadf8-61b8-4242-af5e-a32da30733b8_ExtractLogs20260729000730791 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 14 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.4931025
+Retrieving audit records for activities performed between 07/24/2026 04:16:49 and 07/24/2026 04:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 04:16:49 -EndDate 07/24/2026 04:46:49 -SessionId 223391dd-3887-457c-b259-63eddb44b0b0_ExtractLogs20260729000736287 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1208055
+Retrieving audit records for activities performed between 07/24/2026 04:46:49 and 07/24/2026 05:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 04:46:49 -EndDate 07/24/2026 05:16:49 -SessionId fd724c17-ea31-4a9c-89f3-ba6b89deddd3_ExtractLogs20260729000741410 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.3974659
+Retrieving audit records for activities performed between 07/24/2026 05:16:49 and 07/24/2026 05:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 05:16:49 -EndDate 07/24/2026 05:46:49 -SessionId a832fc87-7ef9-4aab-9449-f15740d60a33_ExtractLogs20260729000746811 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9594881
+Retrieving audit records for activities performed between 07/24/2026 05:46:49 and 07/24/2026 06:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 05:46:49 -EndDate 07/24/2026 06:16:49 -SessionId d94cafa8-13e5-4adb-86b6-1f528a982d6b_ExtractLogs20260729000751774 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7367074
+Retrieving audit records for activities performed between 07/24/2026 06:16:49 and 07/24/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 06:16:49 -EndDate 07/24/2026 06:46:49 -SessionId f00bb88e-c5c4-466d-9763-4a04503522fd_ExtractLogs20260729000756518 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 2 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.8377478
+Retrieving audit records for activities performed between 07/24/2026 06:46:49 and 07/24/2026 07:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 06:46:49 -EndDate 07/24/2026 07:16:49 -SessionId 5b8f65b5-ef9f-42e8-83ac-c90cfd1b499d_ExtractLogs20260729000801358 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1011207
+Retrieving audit records for activities performed between 07/24/2026 07:16:49 and 07/24/2026 07:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 07:16:49 -EndDate 07/24/2026 07:46:49 -SessionId ea29f7ca-cb9e-427d-b150-906e2e2d58ff_ExtractLogs20260729000806462 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 14 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.4357564
+Retrieving audit records for activities performed between 07/24/2026 07:46:49 and 07/24/2026 08:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 07:46:49 -EndDate 07/24/2026 08:16:49 -SessionId 4b308d00-8331-4cff-80e6-a0b9e62b0671_ExtractLogs20260729000811902 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 32 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.214396
+Retrieving audit records for activities performed between 07/24/2026 08:16:49 and 07/24/2026 08:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 08:16:49 -EndDate 07/24/2026 08:46:49 -SessionId 9fdc00b6-4c2b-4be5-9f74-6d38551d012f_ExtractLogs20260729000817120 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 34 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.5987118
+Retrieving audit records for activities performed between 07/24/2026 08:46:49 and 07/24/2026 09:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 08:46:49 -EndDate 07/24/2026 09:16:49 -SessionId a2f859c5-3c02-47c2-be06-3062063eab3a_ExtractLogs20260729000822720 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 163 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.9271554
+Retrieving audit records for activities performed between 07/24/2026 09:16:49 and 07/24/2026 09:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 09:16:49 -EndDate 07/24/2026 09:46:49 -SessionId 7af879a9-2a9c-4e7d-858d-2af1e85ad110_ExtractLogs20260729000828651 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 121 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.9698725
+Retrieving audit records for activities performed between 07/24/2026 09:46:49 and 07/24/2026 10:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 09:46:49 -EndDate 07/24/2026 10:16:49 -SessionId 2c6ee1d1-7ad8-4881-a59b-79fbca65f3fa_ExtractLogs20260729000833624 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 31 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.4903417
+Retrieving audit records for activities performed between 07/24/2026 10:16:49 and 07/24/2026 10:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 10:16:49 -EndDate 07/24/2026 10:46:49 -SessionId b605a2b4-0046-4645-823b-56959f9f3f83_ExtractLogs20260729000839117 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 3 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 8.0019698
+Retrieving audit records for activities performed between 07/24/2026 10:46:49 and 07/24/2026 11:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 10:46:49 -EndDate 07/24/2026 11:16:49 -SessionId 766f450c-e1c8-4b92-a051-ca5b2b13e998_ExtractLogs20260729000847123 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.6121313
+Retrieving audit records for activities performed between 07/24/2026 11:16:49 and 07/24/2026 11:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 11:16:49 -EndDate 07/24/2026 11:46:49 -SessionId 13e8224e-dc8e-492c-b414-4b1a22a41c8f_ExtractLogs20260729000853738 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 6 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.1941505
+Retrieving audit records for activities performed between 07/24/2026 11:46:49 and 07/24/2026 12:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 11:46:49 -EndDate 07/24/2026 12:16:49 -SessionId 38e7beba-58f8-4090-b229-7b489dce4ffb_ExtractLogs20260729000858935 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.5680337
+Retrieving audit records for activities performed between 07/24/2026 12:16:49 and 07/24/2026 12:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 12:16:49 -EndDate 07/24/2026 12:46:49 -SessionId bb7d124c-ba22-48b2-9c48-64ca06f65197_ExtractLogs20260729000903507 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.2364278
+Retrieving audit records for activities performed between 07/24/2026 12:46:49 and 07/24/2026 13:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 12:46:49 -EndDate 07/24/2026 13:16:49 -SessionId 567ed5d0-8eb7-4f34-bdd4-279fca5fd817_ExtractLogs20260729000907747 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5602271
+Retrieving audit records for activities performed between 07/24/2026 13:16:49 and 07/24/2026 13:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 13:16:49 -EndDate 07/24/2026 13:46:49 -SessionId 887cfb03-f41f-4e46-a9d5-c109bec7bd84_ExtractLogs20260729000912311 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 7.9565104
+Retrieving audit records for activities performed between 07/24/2026 13:46:49 and 07/24/2026 14:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 13:46:49 -EndDate 07/24/2026 14:16:49 -SessionId bf48a755-4708-4493-bc3f-8a699b8f9b9d_ExtractLogs20260729000920272 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7223502
+Retrieving audit records for activities performed between 07/24/2026 14:16:49 and 07/24/2026 14:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 14:16:49 -EndDate 07/24/2026 14:46:49 -SessionId 282e22fb-56c7-47eb-a632-e4ee94db7805_ExtractLogs20260729000924998 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 11 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.5137442
+Retrieving audit records for activities performed between 07/24/2026 14:46:49 and 07/24/2026 15:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 14:46:49 -EndDate 07/24/2026 15:16:49 -SessionId 49bd68c7-785e-4700-a631-7fc198a159b4_ExtractLogs20260729000931516 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 60 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.3253549
+Retrieving audit records for activities performed between 07/24/2026 15:16:49 and 07/24/2026 15:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 15:16:49 -EndDate 07/24/2026 15:46:49 -SessionId 3a3a8dec-4c77-4e24-a3c5-4f672f06ae01_ExtractLogs20260729000936845 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.6476104
+Retrieving audit records for activities performed between 07/24/2026 15:46:49 and 07/24/2026 16:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 15:46:49 -EndDate 07/24/2026 16:16:49 -SessionId bf4457a6-de81-420e-a1bf-e22556ce1350_ExtractLogs20260729000943496 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 8.9543887
+Retrieving audit records for activities performed between 07/24/2026 16:16:49 and 07/24/2026 16:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 16:16:49 -EndDate 07/24/2026 16:46:49 -SessionId 2f504aa8-4489-4626-b936-bf75b22a4afe_ExtractLogs20260729000952454 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 7.6996336
+Retrieving audit records for activities performed between 07/24/2026 16:46:49 and 07/24/2026 17:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 16:46:49 -EndDate 07/24/2026 17:16:49 -SessionId 910f74a2-f14d-43a4-96f4-6224ff65cb61_ExtractLogs20260729001000158 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2185787
+Retrieving audit records for activities performed between 07/24/2026 17:16:49 and 07/24/2026 17:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 17:16:49 -EndDate 07/24/2026 17:46:49 -SessionId 36f000ae-f2d1-420a-9a0b-8f4e52e1a276_ExtractLogs20260729001005381 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1724028
+Retrieving audit records for activities performed between 07/24/2026 17:46:49 and 07/24/2026 18:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 17:46:49 -EndDate 07/24/2026 18:16:49 -SessionId 1d4c4f45-4ed3-4987-accd-256e999a14ac_ExtractLogs20260729001010557 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0961011
+Retrieving audit records for activities performed between 07/24/2026 18:16:49 and 07/24/2026 18:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 18:16:49 -EndDate 07/24/2026 18:46:49 -SessionId 2c1bd2ea-a3e4-42c8-9973-11134fe9454c_ExtractLogs20260729001015657 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 5 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.5835652
+Retrieving audit records for activities performed between 07/24/2026 18:46:49 and 07/24/2026 19:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 18:46:49 -EndDate 07/24/2026 19:16:49 -SessionId ddfe7527-2417-4e6f-8eb5-a6553431830a_ExtractLogs20260729001020244 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 3 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.7066245
+Retrieving audit records for activities performed between 07/24/2026 19:16:49 and 07/24/2026 19:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 19:16:49 -EndDate 07/24/2026 19:46:49 -SessionId c937216c-3227-472f-bea6-b7f1cc9a1c85_ExtractLogs20260729001026956 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0221951
+Retrieving audit records for activities performed between 07/24/2026 19:46:49 and 07/24/2026 20:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 19:46:49 -EndDate 07/24/2026 20:16:49 -SessionId b8662cd0-4731-434f-84b6-5c88971d13a5_ExtractLogs20260729001031982 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3294096
+Retrieving audit records for activities performed between 07/24/2026 20:16:49 and 07/24/2026 20:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 20:16:49 -EndDate 07/24/2026 20:46:49 -SessionId 306cd4a7-4bc5-46f2-b02e-39cb5537997d_ExtractLogs20260729001037315 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6241528
+Retrieving audit records for activities performed between 07/24/2026 20:46:49 and 07/24/2026 21:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 20:46:49 -EndDate 07/24/2026 21:16:49 -SessionId 920fc95a-a7e2-4d0b-8dd4-ade8c4617203_ExtractLogs20260729001041943 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.106531
+Retrieving audit records for activities performed between 07/24/2026 21:16:49 and 07/24/2026 21:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 21:16:49 -EndDate 07/24/2026 21:46:49 -SessionId 7319717e-c5c1-4792-aa1b-370f1d0e8f5e_ExtractLogs20260729001047053 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 7.3987802
+Retrieving audit records for activities performed between 07/24/2026 21:46:49 and 07/24/2026 22:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 21:46:49 -EndDate 07/24/2026 22:16:49 -SessionId 3f3171d5-6350-47d4-98f8-3575b93d4537_ExtractLogs20260729001054454 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.586232
+Retrieving audit records for activities performed between 07/24/2026 22:16:49 and 07/24/2026 22:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 22:16:49 -EndDate 07/24/2026 22:46:49 -SessionId 0bf75cb8-d7f3-49bd-8d45-902c42a39b22_ExtractLogs20260729001100044 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.569932
+Retrieving audit records for activities performed between 07/24/2026 22:46:49 and 07/24/2026 23:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 22:46:49 -EndDate 07/24/2026 23:16:49 -SessionId eab9c513-a0d8-423f-8185-cf30d80a2ea7_ExtractLogs20260729001106617 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.4388951
+Retrieving audit records for activities performed between 07/24/2026 23:16:49 and 07/24/2026 23:46:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 23:16:49 -EndDate 07/24/2026 23:46:49 -SessionId 65c5b922-40e5-480b-81de-c1d2914800bb_ExtractLogs20260729001111060 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.80787
+Retrieving audit records for activities performed between 07/24/2026 23:46:49 and 07/25/2026 00:16:49
+Search-UnifiedAuditLog -StartDate 07/24/2026 23:46:49 -EndDate 07/25/2026 00:16:49 -SessionId 5df016a4-7faf-4bd9-8e4b-6f533c371d5a_ExtractLogs20260729001115871 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9301621
+Retrieving audit records for activities performed between 07/25/2026 00:16:49 and 07/25/2026 00:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 00:16:49 -EndDate 07/25/2026 00:46:49 -SessionId 21f6788a-1259-4082-9e81-9c88d6a8987c_ExtractLogs20260729001120805 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6048165
+Retrieving audit records for activities performed between 07/25/2026 00:46:49 and 07/25/2026 01:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 00:46:49 -EndDate 07/25/2026 01:16:49 -SessionId 3c217f4f-3b6a-46a8-9898-bf9829cabd81_ExtractLogs20260729001125415 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9432282
+Retrieving audit records for activities performed between 07/25/2026 01:16:49 and 07/25/2026 01:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 01:16:49 -EndDate 07/25/2026 01:46:49 -SessionId c3ef90de-b5dc-4604-8364-86af925e871a_ExtractLogs20260729001130360 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0142819
+Retrieving audit records for activities performed between 07/25/2026 01:46:49 and 07/25/2026 02:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 01:46:49 -EndDate 07/25/2026 02:16:49 -SessionId 8ce3abf3-5ba4-4208-93e4-628cee154a35_ExtractLogs20260729001135378 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2658846
+Retrieving audit records for activities performed between 07/25/2026 02:16:49 and 07/25/2026 02:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 02:16:49 -EndDate 07/25/2026 02:46:49 -SessionId db783353-6d55-402d-92f7-5f214d484fb6_ExtractLogs20260729001140649 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7629368
+Retrieving audit records for activities performed between 07/25/2026 02:46:49 and 07/25/2026 03:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 02:46:49 -EndDate 07/25/2026 03:16:49 -SessionId 36771339-57df-43ac-bdf5-4c70577f3d56_ExtractLogs20260729001145415 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.006963
+Retrieving audit records for activities performed between 07/25/2026 03:16:49 and 07/25/2026 03:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 03:16:49 -EndDate 07/25/2026 03:46:49 -SessionId 2b7dd92a-26a7-407e-a2a3-00546a29ba07_ExtractLogs20260729001150426 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1947554
+Retrieving audit records for activities performed between 07/25/2026 03:46:49 and 07/25/2026 04:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 03:46:49 -EndDate 07/25/2026 04:16:49 -SessionId 0506e60f-2fec-4fb7-911f-b63dc4b4ad49_ExtractLogs20260729001155625 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2144
+Retrieving audit records for activities performed between 07/25/2026 04:16:49 and 07/25/2026 04:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 04:16:49 -EndDate 07/25/2026 04:46:49 -SessionId b2596a60-b70e-4d51-a182-ce1b7564e5d9_ExtractLogs20260729001200843 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9210678
+Retrieving audit records for activities performed between 07/25/2026 04:46:49 and 07/25/2026 05:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 04:46:49 -EndDate 07/25/2026 05:16:49 -SessionId ba09e397-e256-43ec-b113-17ea4e5276e8_ExtractLogs20260729001206768 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 4 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.8478565
+Retrieving audit records for activities performed between 07/25/2026 05:16:49 and 07/25/2026 05:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 05:16:49 -EndDate 07/25/2026 05:46:49 -SessionId a2f4bf06-ac48-49d0-96e7-cf33a70fa8d1_ExtractLogs20260729001212620 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9079175
+Retrieving audit records for activities performed between 07/25/2026 05:46:49 and 07/25/2026 06:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 05:46:49 -EndDate 07/25/2026 06:16:49 -SessionId 21c12971-a562-4a8b-9415-e2aaaee15579_ExtractLogs20260729001218531 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 8 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.6930703
+Retrieving audit records for activities performed between 07/25/2026 06:16:49 and 07/25/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 06:16:49 -EndDate 07/25/2026 06:46:49 -SessionId dc133aa2-8f15-44a9-b7c2-061b04f294dd_ExtractLogs20260729001225228 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.6998527
+Retrieving audit records for activities performed between 07/25/2026 06:46:49 and 07/25/2026 07:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 06:46:49 -EndDate 07/25/2026 07:16:49 -SessionId c6cc083a-3ed2-4a0a-92ae-8c7a1c813048_ExtractLogs20260729001230931 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8615952
+Retrieving audit records for activities performed between 07/25/2026 07:16:49 and 07/25/2026 07:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 07:16:49 -EndDate 07/25/2026 07:46:49 -SessionId 366d97a5-a071-4649-8c6a-7a543506d59d_ExtractLogs20260729001235796 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.354265
+Retrieving audit records for activities performed between 07/25/2026 07:46:49 and 07/25/2026 08:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 07:46:49 -EndDate 07/25/2026 08:16:49 -SessionId dff599af-5729-49e5-a466-7b5cd34f8de5_ExtractLogs20260729001241155 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.532733
+Retrieving audit records for activities performed between 07/25/2026 08:16:49 and 07/25/2026 08:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 08:16:49 -EndDate 07/25/2026 08:46:49 -SessionId c5ff7060-f0b2-4c77-90e7-2a620d0036f2_ExtractLogs20260729001246690 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.2157208
+Retrieving audit records for activities performed between 07/25/2026 08:46:49 and 07/25/2026 09:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 08:46:49 -EndDate 07/25/2026 09:16:49 -SessionId 65fee587-3c33-444c-b5b1-86ef7dfba810_ExtractLogs20260729001251910 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8658409
+Retrieving audit records for activities performed between 07/25/2026 09:16:49 and 07/25/2026 09:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 09:16:49 -EndDate 07/25/2026 09:46:49 -SessionId bc6ccbaa-7494-46c1-b5e4-4b6ecc3e85d7_ExtractLogs20260729001256779 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6134992
+Retrieving audit records for activities performed between 07/25/2026 09:46:49 and 07/25/2026 10:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 09:46:49 -EndDate 07/25/2026 10:16:49 -SessionId 6765e37d-840d-4728-b8fa-ba9bf71e37e0_ExtractLogs20260729001301396 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 3 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.9616541
+Retrieving audit records for activities performed between 07/25/2026 10:16:49 and 07/25/2026 10:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 10:16:49 -EndDate 07/25/2026 10:46:49 -SessionId c3291634-58cf-4f7c-a917-5d890c84c9c9_ExtractLogs20260729001307361 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0388027
+Retrieving audit records for activities performed between 07/25/2026 10:46:49 and 07/25/2026 11:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 10:46:49 -EndDate 07/25/2026 11:16:49 -SessionId 3e5c386f-5dba-4ba4-a966-4f1996184db9_ExtractLogs20260729001312404 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 3 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.6396725
+Retrieving audit records for activities performed between 07/25/2026 11:16:49 and 07/25/2026 11:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 11:16:49 -EndDate 07/25/2026 11:46:49 -SessionId f55d43eb-283c-4549-9d96-55b9d03b7aee_ExtractLogs20260729001318048 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 4 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.8496362
+Retrieving audit records for activities performed between 07/25/2026 11:46:49 and 07/25/2026 12:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 11:46:49 -EndDate 07/25/2026 12:16:49 -SessionId 4595831e-ebc1-46a9-b5ed-d8a819f94003_ExtractLogs20260729001323900 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 5 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.5175292
+Retrieving audit records for activities performed between 07/25/2026 12:16:49 and 07/25/2026 12:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 12:16:49 -EndDate 07/25/2026 12:46:49 -SessionId 0db7be58-4399-4843-8aa4-f5a48a2d5b42_ExtractLogs20260729001329421 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.9373064
+Retrieving audit records for activities performed between 07/25/2026 12:46:49 and 07/25/2026 13:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 12:46:49 -EndDate 07/25/2026 13:16:49 -SessionId ffa7779f-31cd-4e1c-9681-165641d14edb_ExtractLogs20260729001334361 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 6 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.1664211
+Retrieving audit records for activities performed between 07/25/2026 13:16:49 and 07/25/2026 13:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 13:16:49 -EndDate 07/25/2026 13:46:49 -SessionId b3426a0c-bf7b-44ed-aa12-022476183b58_ExtractLogs20260729001339530 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9864854
+Retrieving audit records for activities performed between 07/25/2026 13:46:49 and 07/25/2026 14:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 13:46:49 -EndDate 07/25/2026 14:16:49 -SessionId 489972a8-6fe2-4027-8f4f-b2f1102cf6d6_ExtractLogs20260729001344522 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9048518
+Retrieving audit records for activities performed between 07/25/2026 14:16:49 and 07/25/2026 14:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 14:16:49 -EndDate 07/25/2026 14:46:49 -SessionId 8bd4fb70-cec1-4260-8d24-5851e50439d6_ExtractLogs20260729001349431 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3020066
+Retrieving audit records for activities performed between 07/25/2026 14:46:49 and 07/25/2026 15:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 14:46:49 -EndDate 07/25/2026 15:16:49 -SessionId d47e76ce-b5a6-421b-9b1d-c2d07218494d_ExtractLogs20260729001354738 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8260947
+Retrieving audit records for activities performed between 07/25/2026 15:16:49 and 07/25/2026 15:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 15:16:49 -EndDate 07/25/2026 15:46:49 -SessionId c550acab-c901-4f31-a6aa-7eaffa560573_ExtractLogs20260729001359567 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2801681
+Retrieving audit records for activities performed between 07/25/2026 15:46:49 and 07/25/2026 16:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 15:46:49 -EndDate 07/25/2026 16:16:49 -SessionId 38893712-32c6-42c8-a0f1-4b6172a27f74_ExtractLogs20260729001404851 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.0378214
+Retrieving audit records for activities performed between 07/25/2026 16:16:49 and 07/25/2026 16:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 16:16:49 -EndDate 07/25/2026 16:46:49 -SessionId 8fa3c400-a0b5-49a8-9c38-7fbbad9ee080_ExtractLogs20260729001410893 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.6115243
+Retrieving audit records for activities performed between 07/25/2026 16:46:49 and 07/25/2026 17:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 16:46:49 -EndDate 07/25/2026 17:16:49 -SessionId 73d8a064-8672-41ca-ae2b-716246363afe_ExtractLogs20260729001417508 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6866776
+Retrieving audit records for activities performed between 07/25/2026 17:16:49 and 07/25/2026 17:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 17:16:49 -EndDate 07/25/2026 17:46:49 -SessionId 7e2a56c1-05be-4541-8268-d3d4e41c85f3_ExtractLogs20260729001422199 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7263339
+Retrieving audit records for activities performed between 07/25/2026 17:46:49 and 07/25/2026 18:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 17:46:49 -EndDate 07/25/2026 18:16:49 -SessionId fd9d6517-3770-4d06-89ab-ec8d1e5b08e9_ExtractLogs20260729001426929 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3476724
+Retrieving audit records for activities performed between 07/25/2026 18:16:49 and 07/25/2026 18:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 18:16:49 -EndDate 07/25/2026 18:46:49 -SessionId 3f5b1a19-c24a-47f7-9b1d-8dd686c061f7_ExtractLogs20260729001432280 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6799743
+Retrieving audit records for activities performed between 07/25/2026 18:46:49 and 07/25/2026 19:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 18:46:49 -EndDate 07/25/2026 19:16:49 -SessionId 6c2b115f-64de-4a24-abdf-f6d2d3d85996_ExtractLogs20260729001436964 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2044043
+Retrieving audit records for activities performed between 07/25/2026 19:16:49 and 07/25/2026 19:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 19:16:49 -EndDate 07/25/2026 19:46:49 -SessionId 5052330a-1f58-44c9-ad67-55e7e5a6d0d2_ExtractLogs20260729001442172 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0324379
+Retrieving audit records for activities performed between 07/25/2026 19:46:49 and 07/25/2026 20:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 19:46:49 -EndDate 07/25/2026 20:16:49 -SessionId c20a56b5-5347-4a6c-8724-0b1b5d3a7cc8_ExtractLogs20260729001447207 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0440998
+Retrieving audit records for activities performed between 07/25/2026 20:16:49 and 07/25/2026 20:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 20:16:49 -EndDate 07/25/2026 20:46:49 -SessionId 2c23f01e-31f6-43cb-aece-ee768ffc600d_ExtractLogs20260729001452253 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.8927943
+Retrieving audit records for activities performed between 07/25/2026 20:46:49 and 07/25/2026 21:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 20:46:49 -EndDate 07/25/2026 21:16:49 -SessionId 46fbf8c6-f323-4da8-b118-26d66f83577d_ExtractLogs20260729001459150 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7452762
+Retrieving audit records for activities performed between 07/25/2026 21:16:49 and 07/25/2026 21:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 21:16:49 -EndDate 07/25/2026 21:46:49 -SessionId 8a6f6e83-2319-408a-a1e4-f932f18360e6_ExtractLogs20260729001503898 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2237699
+Retrieving audit records for activities performed between 07/25/2026 21:46:49 and 07/25/2026 22:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 21:46:49 -EndDate 07/25/2026 22:16:49 -SessionId f7c07f84-057b-4511-b871-97095b73c27b_ExtractLogs20260729001509127 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5569823
+Retrieving audit records for activities performed between 07/25/2026 22:16:49 and 07/25/2026 22:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 22:16:49 -EndDate 07/25/2026 22:46:49 -SessionId 2a69a826-3c4b-4552-9c82-262109badd80_ExtractLogs20260729001514687 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5620001
+Retrieving audit records for activities performed between 07/25/2026 22:46:49 and 07/25/2026 23:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 22:46:49 -EndDate 07/25/2026 23:16:49 -SessionId 86c2c039-76be-47ff-9f32-5609e7a50d95_ExtractLogs20260729001520253 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7762256
+Retrieving audit records for activities performed between 07/25/2026 23:16:49 and 07/25/2026 23:46:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 23:16:49 -EndDate 07/25/2026 23:46:49 -SessionId 2aebce8b-ecb7-4902-b4aa-601789a3e784_ExtractLogs20260729001525033 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5955232
+Retrieving audit records for activities performed between 07/25/2026 23:46:49 and 07/26/2026 00:16:49
+Search-UnifiedAuditLog -StartDate 07/25/2026 23:46:49 -EndDate 07/26/2026 00:16:49 -SessionId e7d1cefd-61fd-48fd-8fc9-3fb27a36e70d_ExtractLogs20260729001530631 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9937351
+Retrieving audit records for activities performed between 07/26/2026 00:16:49 and 07/26/2026 00:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 00:16:49 -EndDate 07/26/2026 00:46:49 -SessionId 26947ec6-8aa5-4779-b462-1f23f174078f_ExtractLogs20260729001535628 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5557505
+Retrieving audit records for activities performed between 07/26/2026 00:46:49 and 07/26/2026 01:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 00:46:49 -EndDate 07/26/2026 01:16:49 -SessionId 3b6fac23-161c-4f59-878f-acec00ebc2af_ExtractLogs20260729001541188 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.474502
+Retrieving audit records for activities performed between 07/26/2026 01:16:49 and 07/26/2026 01:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 01:16:49 -EndDate 07/26/2026 01:46:49 -SessionId c14b2417-9e4d-475f-85b4-24d322e660b4_ExtractLogs20260729001547665 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8160343
+Retrieving audit records for activities performed between 07/26/2026 01:46:49 and 07/26/2026 02:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 01:46:49 -EndDate 07/26/2026 02:16:49 -SessionId d0ff18f0-f149-4177-b1df-4ca9fc336909_ExtractLogs20260729001552484 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8837383
+Retrieving audit records for activities performed between 07/26/2026 02:16:49 and 07/26/2026 02:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 02:16:49 -EndDate 07/26/2026 02:46:49 -SessionId 88127e6d-7fa4-447b-9a82-edbb74a52fca_ExtractLogs20260729001557371 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.9046348
+Retrieving audit records for activities performed between 07/26/2026 02:46:49 and 07/26/2026 03:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 02:46:49 -EndDate 07/26/2026 03:16:49 -SessionId 262aa072-762b-4dfa-9b09-84cc2e9dc5e9_ExtractLogs20260729001604280 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5733755
+Retrieving audit records for activities performed between 07/26/2026 03:16:49 and 07/26/2026 03:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 03:16:49 -EndDate 07/26/2026 03:46:49 -SessionId 1f8f7286-a4a5-4728-a9d1-e4c647af026b_ExtractLogs20260729001608859 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1583457
+Retrieving audit records for activities performed between 07/26/2026 03:46:49 and 07/26/2026 04:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 03:46:49 -EndDate 07/26/2026 04:16:49 -SessionId 6217385b-173d-4640-9b3a-33f5ef20d6bc_ExtractLogs20260729001614021 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.441137
+Retrieving audit records for activities performed between 07/26/2026 04:16:49 and 07/26/2026 04:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 04:16:49 -EndDate 07/26/2026 04:46:49 -SessionId bb9ae6ce-0624-4fc1-af1f-e4c7c18f0929_ExtractLogs20260729001619466 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2038842
+Retrieving audit records for activities performed between 07/26/2026 04:46:49 and 07/26/2026 05:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 04:46:49 -EndDate 07/26/2026 05:16:49 -SessionId bd218c5b-03a0-48f8-b91e-a8fda4304ada_ExtractLogs20260729001624673 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.771947
+Retrieving audit records for activities performed between 07/26/2026 05:16:49 and 07/26/2026 05:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 05:16:49 -EndDate 07/26/2026 05:46:49 -SessionId be8d5dd4-1dd9-4cac-ba36-3131e1e30d37_ExtractLogs20260729001630449 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9741322
+Retrieving audit records for activities performed between 07/26/2026 05:46:49 and 07/26/2026 06:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 05:46:49 -EndDate 07/26/2026 06:16:49 -SessionId 3f8394e5-fc86-4c04-b601-0c176f94d763_ExtractLogs20260729001635426 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.1885723
+Retrieving audit records for activities performed between 07/26/2026 06:16:49 and 07/26/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 06:16:49 -EndDate 07/26/2026 06:46:49 -SessionId bc1746ae-11af-4ecd-babf-fa09bea78505_ExtractLogs20260729001641618 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9343961
+Retrieving audit records for activities performed between 07/26/2026 06:46:49 and 07/26/2026 07:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 06:46:49 -EndDate 07/26/2026 07:16:49 -SessionId 321dec09-873c-4ce6-a1a9-b21a09041539_ExtractLogs20260729001646557 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.7180889
+Retrieving audit records for activities performed between 07/26/2026 07:16:49 and 07/26/2026 07:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 07:16:49 -EndDate 07/26/2026 07:46:49 -SessionId 78924f40-c8d6-4339-b061-5c4515098359_ExtractLogs20260729001653279 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 3 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.1484062
+Retrieving audit records for activities performed between 07/26/2026 07:46:49 and 07/26/2026 08:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 07:46:49 -EndDate 07/26/2026 08:16:49 -SessionId 88dece19-9fb6-490c-beef-8e0d956d1f28_ExtractLogs20260729001658430 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 2 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.0621625
+Retrieving audit records for activities performed between 07/26/2026 08:16:49 and 07/26/2026 08:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 08:16:49 -EndDate 07/26/2026 08:46:49 -SessionId 648d5137-69df-4c71-9315-1b304b89f216_ExtractLogs20260729001703496 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.636645
+Retrieving audit records for activities performed between 07/26/2026 08:46:49 and 07/26/2026 09:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 08:46:49 -EndDate 07/26/2026 09:16:49 -SessionId 6efbbde1-1c58-425b-8ac7-7e85e7e5c0c9_ExtractLogs20260729001708137 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8737734
+Retrieving audit records for activities performed between 07/26/2026 09:16:49 and 07/26/2026 09:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 09:16:49 -EndDate 07/26/2026 09:46:49 -SessionId df406527-80f3-41b6-bacc-9319540f5e8f_ExtractLogs20260729001713013 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7002998
+Retrieving audit records for activities performed between 07/26/2026 09:46:49 and 07/26/2026 10:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 09:46:49 -EndDate 07/26/2026 10:16:49 -SessionId d3067b15-5c53-4e4f-b271-738e8140fd4c_ExtractLogs20260729001717717 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7588604
+Retrieving audit records for activities performed between 07/26/2026 10:16:49 and 07/26/2026 10:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 10:16:49 -EndDate 07/26/2026 10:46:49 -SessionId 1f0fc98d-a360-4392-b056-b62f52e3d452_ExtractLogs20260729001723480 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.6891931
+Retrieving audit records for activities performed between 07/26/2026 10:46:49 and 07/26/2026 11:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 10:46:49 -EndDate 07/26/2026 11:16:49 -SessionId 63bbf1bc-2dce-4204-908e-2a7d2db80f7f_ExtractLogs20260729001729173 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.7140601
+Retrieving audit records for activities performed between 07/26/2026 11:16:49 and 07/26/2026 11:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 11:16:49 -EndDate 07/26/2026 11:46:49 -SessionId 76836f5b-4fca-4200-aaee-fcb028384b37_ExtractLogs20260729001733890 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8187077
+Retrieving audit records for activities performed between 07/26/2026 11:46:49 and 07/26/2026 12:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 11:46:49 -EndDate 07/26/2026 12:16:49 -SessionId 96072abe-f371-4ee3-b7e8-c0f778f16c0d_ExtractLogs20260729001738714 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.8168999
+Retrieving audit records for activities performed between 07/26/2026 12:16:49 and 07/26/2026 12:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 12:16:49 -EndDate 07/26/2026 12:46:49 -SessionId 7cc1f06d-3c62-4617-a5ee-4ae3cbd8bdf2_ExtractLogs20260729001743534 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.5556137
+Retrieving audit records for activities performed between 07/26/2026 12:46:49 and 07/26/2026 13:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 12:46:49 -EndDate 07/26/2026 13:16:49 -SessionId 5f65e67e-90ce-4e54-b505-fb45f5aa7f82_ExtractLogs20260729001748093 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.8647642
+Retrieving audit records for activities performed between 07/26/2026 13:16:49 and 07/26/2026 13:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 13:16:49 -EndDate 07/26/2026 13:46:49 -SessionId 811774c8-c86b-41d5-a0ee-a742e207759e_ExtractLogs20260729001753961 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 3 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.0764127
+Retrieving audit records for activities performed between 07/26/2026 13:46:49 and 07/26/2026 14:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 13:46:49 -EndDate 07/26/2026 14:16:49 -SessionId 350697e9-98f7-48f3-b923-af434544b4d8_ExtractLogs20260729001759041 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 5.0630192
+Retrieving audit records for activities performed between 07/26/2026 14:16:49 and 07/26/2026 14:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 14:16:49 -EndDate 07/26/2026 14:46:49 -SessionId 601023d0-9ff6-41d1-8fed-482398fd7269_ExtractLogs20260729001804107 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.45494
+Retrieving audit records for activities performed between 07/26/2026 14:46:49 and 07/26/2026 15:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 14:46:49 -EndDate 07/26/2026 15:16:49 -SessionId 5017f9da-59a4-4db6-ac41-9d3354d8078a_ExtractLogs20260729001810566 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 3 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 4.892929
+Retrieving audit records for activities performed between 07/26/2026 15:16:49 and 07/26/2026 15:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 15:16:49 -EndDate 07/26/2026 15:46:49 -SessionId f4680937-4258-4db9-bf58-ceb33275e884_ExtractLogs20260729001815462 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.4605667
+Retrieving audit records for activities performed between 07/26/2026 15:46:49 and 07/26/2026 16:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 15:46:49 -EndDate 07/26/2026 16:16:49 -SessionId 15aeaef8-87c7-4019-997e-a07db8b86d3f_ExtractLogs20260729001820927 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5463679
+Retrieving audit records for activities performed between 07/26/2026 16:16:49 and 07/26/2026 16:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 16:16:49 -EndDate 07/26/2026 16:46:49 -SessionId dc06ed8e-9b50-4d9f-8cfd-6e30b4a7b5ce_ExtractLogs20260729001826477 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.326543
+Retrieving audit records for activities performed between 07/26/2026 16:46:49 and 07/26/2026 17:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 16:46:49 -EndDate 07/26/2026 17:16:49 -SessionId ccef477d-76f7-4bdb-ad71-12963a1eb4d0_ExtractLogs20260729001830807 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.6512361
+Retrieving audit records for activities performed between 07/26/2026 17:16:49 and 07/26/2026 17:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 17:16:49 -EndDate 07/26/2026 17:46:49 -SessionId d8d76348-bfad-401c-83e1-d56047160ec4_ExtractLogs20260729001836462 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.286471
+Retrieving audit records for activities performed between 07/26/2026 17:46:49 and 07/26/2026 18:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 17:46:49 -EndDate 07/26/2026 18:16:49 -SessionId f6ef74d2-0096-49ee-aac1-87a4dddc8254_ExtractLogs20260729001841752 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9547206
+Retrieving audit records for activities performed between 07/26/2026 18:16:49 and 07/26/2026 18:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 18:16:49 -EndDate 07/26/2026 18:46:49 -SessionId 6d7a02d0-e535-40be-8dbb-bebfe26795d8_ExtractLogs20260729001847711 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1109167
+Retrieving audit records for activities performed between 07/26/2026 18:46:49 and 07/26/2026 19:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 18:46:49 -EndDate 07/26/2026 19:16:49 -SessionId 85640525-2f58-4a04-8d60-d03946b28d71_ExtractLogs20260729001852826 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0661803
+Retrieving audit records for activities performed between 07/26/2026 19:16:49 and 07/26/2026 19:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 19:16:49 -EndDate 07/26/2026 19:46:49 -SessionId ffdc673e-3284-41bd-9d62-346d2fd04b43_ExtractLogs20260729001857896 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7737387
+Retrieving audit records for activities performed between 07/26/2026 19:46:49 and 07/26/2026 20:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 19:46:49 -EndDate 07/26/2026 20:16:49 -SessionId 1088064f-cb58-470c-ad9f-5f2ee8f31b37_ExtractLogs20260729001902673 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.1683288
+Retrieving audit records for activities performed between 07/26/2026 20:16:49 and 07/26/2026 20:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 20:16:49 -EndDate 07/26/2026 20:46:49 -SessionId b6ced6ec-b49e-4cf1-8ebe-b2b76f7e3b54_ExtractLogs20260729001906845 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.6180773
+Retrieving audit records for activities performed between 07/26/2026 20:46:49 and 07/26/2026 21:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 20:46:49 -EndDate 07/26/2026 21:16:49 -SessionId 91c46c5c-05d8-4012-a8fb-9a62025fc6bb_ExtractLogs20260729001912467 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7644058
+Retrieving audit records for activities performed between 07/26/2026 21:16:49 and 07/26/2026 21:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 21:16:49 -EndDate 07/26/2026 21:46:49 -SessionId b393fe73-6174-4459-a660-d5c47ad202b9_ExtractLogs20260729001917235 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7956473
+Retrieving audit records for activities performed between 07/26/2026 21:46:49 and 07/26/2026 22:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 21:46:49 -EndDate 07/26/2026 22:16:49 -SessionId 3052993b-a267-45cc-85d4-d0a8434c7131_ExtractLogs20260729001922035 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9679193
+Retrieving audit records for activities performed between 07/26/2026 22:16:49 and 07/26/2026 22:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 22:16:49 -EndDate 07/26/2026 22:46:49 -SessionId 626e434a-afb9-4b1d-aad5-9b1b8f81e54d_ExtractLogs20260729001928007 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.6969339
+Retrieving audit records for activities performed between 07/26/2026 22:46:49 and 07/26/2026 23:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 22:46:49 -EndDate 07/26/2026 23:16:49 -SessionId 639924b5-ac5e-468f-91f3-4a031083e7d9_ExtractLogs20260729001934708 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0313383
+Retrieving audit records for activities performed between 07/26/2026 23:16:49 and 07/26/2026 23:46:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 23:16:49 -EndDate 07/26/2026 23:46:49 -SessionId 9c12e2b0-5271-407a-a0c5-a5b26a30f049_ExtractLogs20260729001939743 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9024085
+Retrieving audit records for activities performed between 07/26/2026 23:46:49 and 07/27/2026 00:16:49
+Search-UnifiedAuditLog -StartDate 07/26/2026 23:46:49 -EndDate 07/27/2026 00:16:49 -SessionId ee722fb2-db88-4d5c-9b88-29ff88eb3248_ExtractLogs20260729001944650 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9106808
+Retrieving audit records for activities performed between 07/27/2026 00:16:49 and 07/27/2026 00:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 00:16:49 -EndDate 07/27/2026 00:46:49 -SessionId 9956a466-ff3b-44a6-a9b6-323a6a611cb4_ExtractLogs20260729001950565 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 8.041517
+Retrieving audit records for activities performed between 07/27/2026 00:46:49 and 07/27/2026 01:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 00:46:49 -EndDate 07/27/2026 01:16:49 -SessionId 0f7cb200-0f95-480b-b9c7-030d544b4a09_ExtractLogs20260729001958611 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.4360338
+Retrieving audit records for activities performed between 07/27/2026 01:16:49 and 07/27/2026 01:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 01:16:49 -EndDate 07/27/2026 01:46:49 -SessionId b0b17e80-19d2-4191-b0d7-c6fa30e7f450_ExtractLogs20260729002004050 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7226486
+Retrieving audit records for activities performed between 07/27/2026 01:46:49 and 07/27/2026 02:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 01:46:49 -EndDate 07/27/2026 02:16:49 -SessionId 2c6e9ca5-00e7-421c-b332-4c2ef76a40fc_ExtractLogs20260729002008777 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7952766
+Retrieving audit records for activities performed between 07/27/2026 02:16:49 and 07/27/2026 02:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 02:16:49 -EndDate 07/27/2026 02:46:49 -SessionId 017610a2-37d3-4bfe-a59d-77c450126623_ExtractLogs20260729002013576 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0281846
+Retrieving audit records for activities performed between 07/27/2026 02:46:49 and 07/27/2026 03:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 02:46:49 -EndDate 07/27/2026 03:16:49 -SessionId 3e8b7199-1c72-48e9-a56f-d693d83f635f_ExtractLogs20260729002018608 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.3447512
+Retrieving audit records for activities performed between 07/27/2026 03:16:49 and 07/27/2026 03:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 03:16:49 -EndDate 07/27/2026 03:46:49 -SessionId e3dcf76a-968e-4ce7-b82f-0ddef984ed64_ExtractLogs20260729002022956 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1391288
+Retrieving audit records for activities performed between 07/27/2026 03:46:49 and 07/27/2026 04:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 03:46:49 -EndDate 07/27/2026 04:16:49 -SessionId de4e7792-da1c-47b1-8e96-9ad0cee7ea19_ExtractLogs20260729002028099 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1467958
+Retrieving audit records for activities performed between 07/27/2026 04:16:49 and 07/27/2026 04:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 04:16:49 -EndDate 07/27/2026 04:46:49 -SessionId 0b675e7c-8dee-4142-9fc1-145addc2c13f_ExtractLogs20260729002033250 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9186528
+Retrieving audit records for activities performed between 07/27/2026 04:46:49 and 07/27/2026 05:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 04:46:49 -EndDate 07/27/2026 05:16:49 -SessionId 3597d616-598c-404e-ad73-97f7e1946901_ExtractLogs20260729002038172 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.249944
+Retrieving audit records for activities performed between 07/27/2026 05:16:49 and 07/27/2026 05:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 05:16:49 -EndDate 07/27/2026 05:46:49 -SessionId 2f31724b-424b-4d09-8b54-c64fd9390d4c_ExtractLogs20260729002043425 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8752645
+Retrieving audit records for activities performed between 07/27/2026 05:46:49 and 07/27/2026 06:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 05:46:49 -EndDate 07/27/2026 06:16:49 -SessionId 8f9a5c99-a329-460d-b573-154a3c95de5b_ExtractLogs20260729002048304 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.4520724
+Retrieving audit records for activities performed between 07/27/2026 06:16:49 and 07/27/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 06:16:49 -EndDate 07/27/2026 06:46:49 -SessionId fe052685-3df0-4ca3-8ed3-f67eaaede489_ExtractLogs20260729002054760 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0930999
+Retrieving audit records for activities performed between 07/27/2026 06:46:49 and 07/27/2026 07:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 06:46:49 -EndDate 07/27/2026 07:16:49 -SessionId 2f296ac2-91bb-4d06-9573-c5e8373a85cf_ExtractLogs20260729002059857 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.1783267
+Retrieving audit records for activities performed between 07/27/2026 07:16:49 and 07/27/2026 07:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 07:16:49 -EndDate 07/27/2026 07:46:49 -SessionId 5615abeb-6476-4c66-9cc8-b6625930c852_ExtractLogs20260729002104039 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7234106
+Retrieving audit records for activities performed between 07/27/2026 07:46:49 and 07/27/2026 08:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 07:46:49 -EndDate 07/27/2026 08:16:49 -SessionId 5fec81b3-4799-4abd-8861-f95895b9330c_ExtractLogs20260729002108766 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6867687
+Retrieving audit records for activities performed between 07/27/2026 08:16:49 and 07/27/2026 08:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 08:16:49 -EndDate 07/27/2026 08:46:49 -SessionId afb6933b-f01b-44f9-b671-f02a6007f42a_ExtractLogs20260729002113457 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.5195941
+Retrieving audit records for activities performed between 07/27/2026 08:46:49 and 07/27/2026 09:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 08:46:49 -EndDate 07/27/2026 09:16:49 -SessionId 827d6f43-92cf-4f2f-93c2-60d52acc022b_ExtractLogs20260729002118980 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5155613
+Retrieving audit records for activities performed between 07/27/2026 09:16:49 and 07/27/2026 09:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 09:16:49 -EndDate 07/27/2026 09:46:49 -SessionId 27dc9711-afe3-44ec-aff2-0df5de7d49b3_ExtractLogs20260729002123502 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7490213
+Retrieving audit records for activities performed between 07/27/2026 09:46:49 and 07/27/2026 10:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 09:46:49 -EndDate 07/27/2026 10:16:49 -SessionId 5464036c-9c89-406a-a0b4-4768307ac696_ExtractLogs20260729002129254 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.760218
+Retrieving audit records for activities performed between 07/27/2026 10:16:49 and 07/27/2026 10:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 10:16:49 -EndDate 07/27/2026 10:46:49 -SessionId 06920d3c-0f12-4456-8255-7209ed7bd9b6_ExtractLogs20260729002134018 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.507847
+Retrieving audit records for activities performed between 07/27/2026 10:46:49 and 07/27/2026 11:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 10:46:49 -EndDate 07/27/2026 11:16:49 -SessionId 68e59c09-b622-4cbf-b4a5-97219413ce87_ExtractLogs20260729002138529 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.6620635
+Retrieving audit records for activities performed between 07/27/2026 11:16:49 and 07/27/2026 11:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 11:16:49 -EndDate 07/27/2026 11:46:49 -SessionId d6963313-3c36-41d0-be55-e3e21e6a99c9_ExtractLogs20260729002144195 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6620047
+Retrieving audit records for activities performed between 07/27/2026 11:46:49 and 07/27/2026 12:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 11:46:49 -EndDate 07/27/2026 12:16:49 -SessionId 059f00af-879a-44ab-868a-746a166de5d0_ExtractLogs20260729002148861 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7449055
+Retrieving audit records for activities performed between 07/27/2026 12:16:49 and 07/27/2026 12:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 12:16:49 -EndDate 07/27/2026 12:46:49 -SessionId b144924f-b2c6-442e-a6c8-d0e0869ce560_ExtractLogs20260729002153609 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7365401
+Retrieving audit records for activities performed between 07/27/2026 12:46:49 and 07/27/2026 13:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 12:46:49 -EndDate 07/27/2026 13:16:49 -SessionId 8e806798-ba0d-4036-9fb5-afc3e7482678_ExtractLogs20260729002158350 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0821309
+Retrieving audit records for activities performed between 07/27/2026 13:16:49 and 07/27/2026 13:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 13:16:49 -EndDate 07/27/2026 13:46:49 -SessionId 84482b0b-2697-42b8-9031-7e3a05f50b0b_ExtractLogs20260729002203435 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9858745
+Retrieving audit records for activities performed between 07/27/2026 13:46:49 and 07/27/2026 14:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 13:46:49 -EndDate 07/27/2026 14:16:49 -SessionId 5d9728e6-5ce5-4ab4-9ece-b7088e9f73a9_ExtractLogs20260729002208425 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.8846044
+Retrieving audit records for activities performed between 07/27/2026 14:16:49 and 07/27/2026 14:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 14:16:49 -EndDate 07/27/2026 14:46:49 -SessionId cff06c85-4958-42d0-bb88-5d134c40776d_ExtractLogs20260729002214312 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8193728
+Retrieving audit records for activities performed between 07/27/2026 14:46:49 and 07/27/2026 15:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 14:46:49 -EndDate 07/27/2026 15:16:49 -SessionId d3acab26-fbc6-496e-bfb2-e87f5f91931d_ExtractLogs20260729002219137 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1857442
+Retrieving audit records for activities performed between 07/27/2026 15:16:49 and 07/27/2026 15:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 15:16:49 -EndDate 07/27/2026 15:46:49 -SessionId 6c0f3909-ab66-404b-bea1-a4404ccb04d3_ExtractLogs20260729002224325 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9241749
+Retrieving audit records for activities performed between 07/27/2026 15:46:49 and 07/27/2026 16:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 15:46:49 -EndDate 07/27/2026 16:16:49 -SessionId cfc552ba-b0bf-4bf5-8bcb-b4efa55cf2c9_ExtractLogs20260729002229254 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.0123829
+Retrieving audit records for activities performed between 07/27/2026 16:16:49 and 07/27/2026 16:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 16:16:49 -EndDate 07/27/2026 16:46:49 -SessionId fbcd4131-e6c2-4cf7-8807-7353a7bf698d_ExtractLogs20260729002235273 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3727856
+Retrieving audit records for activities performed between 07/27/2026 16:46:49 and 07/27/2026 17:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 16:46:49 -EndDate 07/27/2026 17:16:49 -SessionId dbea2a3b-9aaf-4ac7-91d3-5dee8c76875b_ExtractLogs20260729002240650 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9540755
+Retrieving audit records for activities performed between 07/27/2026 17:16:49 and 07/27/2026 17:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 17:16:49 -EndDate 07/27/2026 17:46:49 -SessionId 26d35fd2-9b19-41ec-84b9-3fe9719673b4_ExtractLogs20260729002245607 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6145109
+Retrieving audit records for activities performed between 07/27/2026 17:46:49 and 07/27/2026 18:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 17:46:49 -EndDate 07/27/2026 18:16:49 -SessionId 5682255e-e2c6-4580-b678-a1d1069306cd_ExtractLogs20260729002250226 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5562895
+Retrieving audit records for activities performed between 07/27/2026 18:16:49 and 07/27/2026 18:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 18:16:49 -EndDate 07/27/2026 18:46:49 -SessionId adf4d8f6-910c-4128-9f51-d24fec86ff85_ExtractLogs20260729002254786 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7153855
+Retrieving audit records for activities performed between 07/27/2026 18:46:49 and 07/27/2026 19:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 18:46:49 -EndDate 07/27/2026 19:16:49 -SessionId 2489820b-6adb-4a68-9539-31d4df714aef_ExtractLogs20260729002259505 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6068588
+Retrieving audit records for activities performed between 07/27/2026 19:16:49 and 07/27/2026 19:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 19:16:49 -EndDate 07/27/2026 19:46:49 -SessionId 0589c71e-a4ab-4e9a-82cf-b397e29da032_ExtractLogs20260729002304116 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.2982362
+Retrieving audit records for activities performed between 07/27/2026 19:46:49 and 07/27/2026 20:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 19:46:49 -EndDate 07/27/2026 20:16:49 -SessionId c1a24e9e-a034-43df-8812-fe69176b9803_ExtractLogs20260729002308418 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0957798
+Retrieving audit records for activities performed between 07/27/2026 20:16:49 and 07/27/2026 20:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 20:16:49 -EndDate 07/27/2026 20:46:49 -SessionId 93c5c820-e009-4e2d-8087-1b1004bbb032_ExtractLogs20260729002313518 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5435861
+Retrieving audit records for activities performed between 07/27/2026 20:46:49 and 07/27/2026 21:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 20:46:49 -EndDate 07/27/2026 21:16:49 -SessionId f7902d26-edab-400d-8c8e-425cccb8d0a7_ExtractLogs20260729002318065 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5663515
+Retrieving audit records for activities performed between 07/27/2026 21:16:49 and 07/27/2026 21:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 21:16:49 -EndDate 07/27/2026 21:46:49 -SessionId 91449f53-52f6-419a-86ee-ee02aa51f9ca_ExtractLogs20260729002322635 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.9787778
+Retrieving audit records for activities performed between 07/27/2026 21:46:49 and 07/27/2026 22:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 21:46:49 -EndDate 07/27/2026 22:16:49 -SessionId 5229e2aa-25fe-4855-b5f3-815678fac02e_ExtractLogs20260729002328618 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9419332
+Retrieving audit records for activities performed between 07/27/2026 22:16:49 and 07/27/2026 22:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 22:16:49 -EndDate 07/27/2026 22:46:49 -SessionId 20bba168-140d-4773-b1db-ac7a717b89a2_ExtractLogs20260729002333563 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3403324
+Retrieving audit records for activities performed between 07/27/2026 22:46:49 and 07/27/2026 23:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 22:46:49 -EndDate 07/27/2026 23:16:49 -SessionId 33175c2d-613a-4b0b-b9df-4d21ae05a2c7_ExtractLogs20260729002338908 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.1923473
+Retrieving audit records for activities performed between 07/27/2026 23:16:49 and 07/27/2026 23:46:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 23:16:49 -EndDate 07/27/2026 23:46:49 -SessionId 203985b0-ae7c-44c8-9a8e-5d77f0b24c26_ExtractLogs20260729002343104 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.9907272
+Retrieving audit records for activities performed between 07/27/2026 23:46:49 and 07/28/2026 00:16:49
+Search-UnifiedAuditLog -StartDate 07/27/2026 23:46:49 -EndDate 07/28/2026 00:16:49 -SessionId 38552f49-26f9-4a3c-932d-2e77494935fb_ExtractLogs20260729002350098 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0858758
+Retrieving audit records for activities performed between 07/28/2026 00:16:49 and 07/28/2026 00:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 00:16:49 -EndDate 07/28/2026 00:46:49 -SessionId 0d9f2e48-6ac8-4124-ad5a-5834c150be74_ExtractLogs20260729002355188 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2281993
+Retrieving audit records for activities performed between 07/28/2026 00:46:49 and 07/28/2026 01:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 00:46:49 -EndDate 07/28/2026 01:16:49 -SessionId 5add4011-8789-47c7-99e9-ce649a891364_ExtractLogs20260729002400420 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.0755932
+Retrieving audit records for activities performed between 07/28/2026 01:16:49 and 07/28/2026 01:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 01:16:49 -EndDate 07/28/2026 01:46:49 -SessionId 491a312a-fef1-434d-b8c8-ca8cfc428b0a_ExtractLogs20260729002406499 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.168611
+Retrieving audit records for activities performed between 07/28/2026 01:46:49 and 07/28/2026 02:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 01:46:49 -EndDate 07/28/2026 02:16:49 -SessionId 86d4cfb8-9585-4d11-9f1a-379fb8b884d0_ExtractLogs20260729002411672 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8063265
+Retrieving audit records for activities performed between 07/28/2026 02:16:49 and 07/28/2026 02:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 02:16:49 -EndDate 07/28/2026 02:46:49 -SessionId 9cb8af2d-8f35-4b41-8084-d8e56fc82aec_ExtractLogs20260729002416482 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.2898073
+Retrieving audit records for activities performed between 07/28/2026 02:46:49 and 07/28/2026 03:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 02:46:49 -EndDate 07/28/2026 03:16:49 -SessionId ab12ca0d-d8c7-4ed0-bac8-e87c1f1e71cd_ExtractLogs20260729002422776 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.764318
+Retrieving audit records for activities performed between 07/28/2026 03:16:49 and 07/28/2026 03:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 03:16:49 -EndDate 07/28/2026 03:46:49 -SessionId 05e54225-4757-4b5b-9218-7e4657f4ca44_ExtractLogs20260729002427544 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6084452
+Retrieving audit records for activities performed between 07/28/2026 03:46:49 and 07/28/2026 04:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 03:46:49 -EndDate 07/28/2026 04:16:49 -SessionId ddd2a89a-fa6c-41f5-a21c-997210d1fb91_ExtractLogs20260729002432157 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6569469
+Retrieving audit records for activities performed between 07/28/2026 04:16:49 and 07/28/2026 04:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 04:16:49 -EndDate 07/28/2026 04:46:49 -SessionId 286cdb94-30dc-4e71-8c5b-1a7fe2849945_ExtractLogs20260729002436816 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0400399
+Retrieving audit records for activities performed between 07/28/2026 04:46:49 and 07/28/2026 05:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 04:46:49 -EndDate 07/28/2026 05:16:49 -SessionId 00e956cc-c36f-4cf4-8bde-1a476147297f_ExtractLogs20260729002441860 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.4421339
+Retrieving audit records for activities performed between 07/28/2026 05:16:49 and 07/28/2026 05:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 05:16:49 -EndDate 07/28/2026 05:46:49 -SessionId 0173c748-ec2e-4c5f-8899-b247b59ac94e_ExtractLogs20260729002447307 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7443882
+Retrieving audit records for activities performed between 07/28/2026 05:46:49 and 07/28/2026 06:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 05:46:49 -EndDate 07/28/2026 06:16:49 -SessionId 77fc84b8-e611-44bd-a813-916ea5f079c6_ExtractLogs20260729002453057 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1415953
+Retrieving audit records for activities performed between 07/28/2026 06:16:49 and 07/28/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 06:16:49 -EndDate 07/28/2026 06:46:49 -SessionId 91f938d3-19da-406e-8db1-00559b95dd89_ExtractLogs20260729002458202 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8793061
+Retrieving audit records for activities performed between 07/28/2026 06:46:49 and 07/28/2026 07:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 06:46:49 -EndDate 07/28/2026 07:16:49 -SessionId 6e2414b2-a1c3-4ef5-94dd-8994ca85e987_ExtractLogs20260729002503086 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1448533
+Retrieving audit records for activities performed between 07/28/2026 07:16:49 and 07/28/2026 07:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 07:16:49 -EndDate 07/28/2026 07:46:49 -SessionId 5521de38-b180-48f8-91ff-639c502f798c_ExtractLogs20260729002508235 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1361818
+Retrieving audit records for activities performed between 07/28/2026 07:46:49 and 07/28/2026 08:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 07:46:49 -EndDate 07/28/2026 08:16:49 -SessionId 91074328-f653-4737-a5f0-6c39d48e1de9_ExtractLogs20260729002513375 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7338283
+Retrieving audit records for activities performed between 07/28/2026 08:16:49 and 07/28/2026 08:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 08:16:49 -EndDate 07/28/2026 08:46:49 -SessionId ed421c01-a83b-4d29-a804-1a04ba257f10_ExtractLogs20260729002519113 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.2492791
+Retrieving audit records for activities performed between 07/28/2026 08:46:49 and 07/28/2026 09:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 08:46:49 -EndDate 07/28/2026 09:16:49 -SessionId 38f0a428-7ba6-43da-acb1-53439ee126ee_ExtractLogs20260729002523366 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9357003
+Retrieving audit records for activities performed between 07/28/2026 09:16:49 and 07/28/2026 09:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 09:16:49 -EndDate 07/28/2026 09:46:49 -SessionId df950df1-a76e-4c62-bea1-01e626524a69_ExtractLogs20260729002528304 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0657971
+Retrieving audit records for activities performed between 07/28/2026 09:46:49 and 07/28/2026 10:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 09:46:49 -EndDate 07/28/2026 10:16:49 -SessionId 570b1b66-d8f7-4521-a93f-2e13d6437d47_ExtractLogs20260729002533373 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.6000011
+Retrieving audit records for activities performed between 07/28/2026 10:16:49 and 07/28/2026 10:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 10:16:49 -EndDate 07/28/2026 10:46:49 -SessionId 64733a42-77bf-4b09-b4d3-6b82ced4c1a7_ExtractLogs20260729002538977 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9041113
+Retrieving audit records for activities performed between 07/28/2026 10:46:49 and 07/28/2026 11:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 10:46:49 -EndDate 07/28/2026 11:16:49 -SessionId e4560323-2a37-48e6-a96d-0176f1fd3a8b_ExtractLogs20260729002543884 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2994521
+Retrieving audit records for activities performed between 07/28/2026 11:16:49 and 07/28/2026 11:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 11:16:49 -EndDate 07/28/2026 11:46:49 -SessionId c0846725-cf0b-463d-95d2-ba6cf06909ff_ExtractLogs20260729002549188 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.747839
+Retrieving audit records for activities performed between 07/28/2026 11:46:49 and 07/28/2026 12:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 11:46:49 -EndDate 07/28/2026 12:16:49 -SessionId 372c02b9-a59a-4723-a86c-26dc8bbabd95_ExtractLogs20260729002554940 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.977928
+Retrieving audit records for activities performed between 07/28/2026 12:16:49 and 07/28/2026 12:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 12:16:49 -EndDate 07/28/2026 12:46:49 -SessionId e14bed8b-07b7-4e43-a8d4-77103a00d3a1_ExtractLogs20260729002559921 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9019521
+Retrieving audit records for activities performed between 07/28/2026 12:46:49 and 07/28/2026 13:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 12:46:49 -EndDate 07/28/2026 13:16:49 -SessionId d6cd8db3-8e8c-4600-84e1-8efcbaa56307_ExtractLogs20260729002604828 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.8198452
+Retrieving audit records for activities performed between 07/28/2026 13:16:49 and 07/28/2026 13:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 13:16:49 -EndDate 07/28/2026 13:46:49 -SessionId 98a95f7c-f92f-4a4d-aa43-44c18ec9a772_ExtractLogs20260729002610655 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5319424
+Retrieving audit records for activities performed between 07/28/2026 13:46:49 and 07/28/2026 14:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 13:46:49 -EndDate 07/28/2026 14:16:49 -SessionId 019ba7fd-325a-4447-a00f-98e2cf4b1bb5_ExtractLogs20260729002615192 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3728973
+Retrieving audit records for activities performed between 07/28/2026 14:16:49 and 07/28/2026 14:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 14:16:49 -EndDate 07/28/2026 14:46:49 -SessionId 315966f5-87d2-4a95-8755-5e81ce588c0b_ExtractLogs20260729002620569 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2429185
+Retrieving audit records for activities performed between 07/28/2026 14:46:49 and 07/28/2026 15:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 14:46:49 -EndDate 07/28/2026 15:16:49 -SessionId 9dc912ec-5edb-49ec-9f39-3975a5cd8aaf_ExtractLogs20260729002625815 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7317122
+Retrieving audit records for activities performed between 07/28/2026 15:16:49 and 07/28/2026 15:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 15:16:49 -EndDate 07/28/2026 15:46:49 -SessionId eefee407-68c2-4fca-95ba-94b0211f6096_ExtractLogs20260729002631551 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.628794
+Retrieving audit records for activities performed between 07/28/2026 15:46:49 and 07/28/2026 16:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 15:46:49 -EndDate 07/28/2026 16:16:49 -SessionId db517fff-028c-4db4-a17d-c4d7e7d0ab4d_ExtractLogs20260729002637183 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.7729148
+Retrieving audit records for activities performed between 07/28/2026 16:16:49 and 07/28/2026 16:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 16:16:49 -EndDate 07/28/2026 16:46:49 -SessionId b393dfe2-a983-46e6-ae78-1f576705b3fb_ExtractLogs20260729002642959 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.2489256
+Retrieving audit records for activities performed between 07/28/2026 16:46:49 and 07/28/2026 17:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 16:46:49 -EndDate 07/28/2026 17:16:49 -SessionId 736ef4bf-fedd-4cf7-b390-7a5853cb8d71_ExtractLogs20260729002649210 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.3927134
+Retrieving audit records for activities performed between 07/28/2026 17:16:49 and 07/28/2026 17:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 17:16:49 -EndDate 07/28/2026 17:46:49 -SessionId 0cc64b58-2c66-4644-891d-3778014f29ff_ExtractLogs20260729002654607 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1872658
+Retrieving audit records for activities performed between 07/28/2026 17:46:49 and 07/28/2026 18:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 17:46:49 -EndDate 07/28/2026 18:16:49 -SessionId 3132718d-752b-489a-a0e8-5f11ec7b60f2_ExtractLogs20260729002659798 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 1 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.5326324
+Retrieving audit records for activities performed between 07/28/2026 18:16:49 and 07/28/2026 18:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 18:16:49 -EndDate 07/28/2026 18:46:49 -SessionId 1bd51272-6f80-42cd-91c5-bd20bc9e6d3a_ExtractLogs20260729002706337 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.0277136
+Retrieving audit records for activities performed between 07/28/2026 18:46:49 and 07/28/2026 19:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 18:46:49 -EndDate 07/28/2026 19:16:49 -SessionId 0bad1445-08e4-439a-9fea-68fe983f5675_ExtractLogs20260729002711367 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.6787999
+Retrieving audit records for activities performed between 07/28/2026 19:16:49 and 07/28/2026 19:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 19:16:49 -EndDate 07/28/2026 19:46:49 -SessionId b5db8509-5078-4b44-8d9b-2aeba9c6d033_ExtractLogs20260729002717050 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8797958
+Retrieving audit records for activities performed between 07/28/2026 19:46:49 and 07/28/2026 20:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 19:46:49 -EndDate 07/28/2026 20:16:49 -SessionId 876c83de-b3a9-46ae-87b4-744ca6f93df1_ExtractLogs20260729002721934 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2485411
+Retrieving audit records for activities performed between 07/28/2026 20:16:49 and 07/28/2026 20:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 20:16:49 -EndDate 07/28/2026 20:46:49 -SessionId 194cb90b-10dd-450a-989b-2f690b70ea51_ExtractLogs20260729002727186 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1602544
+Retrieving audit records for activities performed between 07/28/2026 20:46:49 and 07/28/2026 21:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 20:46:49 -EndDate 07/28/2026 21:16:49 -SessionId 43a2afb8-f443-4fd8-9794-25a1da41cb54_ExtractLogs20260729002732349 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.2260015
+Retrieving audit records for activities performed between 07/28/2026 21:16:49 and 07/28/2026 21:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 21:16:49 -EndDate 07/28/2026 21:46:49 -SessionId 4ebad769-4a77-4d04-be8f-b8e2da899de5_ExtractLogs20260729002737579 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9007927
+Retrieving audit records for activities performed between 07/28/2026 21:46:49 and 07/28/2026 22:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 21:46:49 -EndDate 07/28/2026 22:16:49 -SessionId cf330868-2a8e-4af1-838e-977d74cb20b0_ExtractLogs20260729002742484 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5415449
+Retrieving audit records for activities performed between 07/28/2026 22:16:49 and 07/28/2026 22:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 22:16:49 -EndDate 07/28/2026 22:46:49 -SessionId 7e5abd45-3dd0-45ad-9dda-8b93f827ee6a_ExtractLogs20260729002747030 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8613675
+Retrieving audit records for activities performed between 07/28/2026 22:46:49 and 07/28/2026 23:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 22:46:49 -EndDate 07/28/2026 23:16:49 -SessionId 9b0b8a0c-8ba1-448c-b312-3ca5069c9e7d_ExtractLogs20260729002751896 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1136463
+Retrieving audit records for activities performed between 07/28/2026 23:16:49 and 07/28/2026 23:46:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 23:16:49 -EndDate 07/28/2026 23:46:49 -SessionId 791091ed-09c9-4a61-af9e-15abf2c44b8d_ExtractLogs20260729002757012 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7098693
+Retrieving audit records for activities performed between 07/28/2026 23:46:49 and 07/29/2026 00:16:49
+Search-UnifiedAuditLog -StartDate 07/28/2026 23:46:49 -EndDate 07/29/2026 00:16:49 -SessionId e16792ed-0b07-4c66-afae-70e7e05486c4_ExtractLogs20260729002801727 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.017156
+Retrieving audit records for activities performed between 07/29/2026 00:16:49 and 07/29/2026 00:46:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 00:16:49 -EndDate 07/29/2026 00:46:49 -SessionId 556c68e2-e905-44fb-9192-b02e095c13b8_ExtractLogs20260729002806748 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 70 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 6.0949806
+Retrieving audit records for activities performed between 07/29/2026 00:46:49 and 07/29/2026 01:16:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 00:46:49 -EndDate 07/29/2026 01:16:49 -SessionId b8d04889-eaa8-44a5-a0a2-9fb3df6e1f31_ExtractLogs20260729002812847 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.8903717
+Retrieving audit records for activities performed between 07/29/2026 01:16:49 and 07/29/2026 01:46:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 01:16:49 -EndDate 07/29/2026 01:46:49 -SessionId 6e213e42-2b78-4460-ba41-80897e55885b_ExtractLogs20260729002817740 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1662082
+Retrieving audit records for activities performed between 07/29/2026 01:46:49 and 07/29/2026 02:16:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 01:46:49 -EndDate 07/29/2026 02:16:49 -SessionId ef6c7d3b-0cba-4b31-ac7b-0ef693036fb3_ExtractLogs20260729002822910 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9682681
+Retrieving audit records for activities performed between 07/29/2026 02:16:49 and 07/29/2026 02:46:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 02:16:49 -EndDate 07/29/2026 02:46:49 -SessionId eaab98ae-493d-4394-a79f-ed1dfceb0ffc_ExtractLogs20260729002827881 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.14753
+Retrieving audit records for activities performed between 07/29/2026 02:46:49 and 07/29/2026 03:16:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 02:46:49 -EndDate 07/29/2026 03:16:49 -SessionId d12ce139-29fa-431b-afb6-86d5688652e1_ExtractLogs20260729002833032 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.5280998
+Retrieving audit records for activities performed between 07/29/2026 03:16:49 and 07/29/2026 03:46:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 03:16:49 -EndDate 07/29/2026 03:46:49 -SessionId 9eab94ee-da5c-4af4-84fe-4ac98f30691f_ExtractLogs20260729002837562 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.3624816
+Retrieving audit records for activities performed between 07/29/2026 03:46:49 and 07/29/2026 04:16:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 03:46:49 -EndDate 07/29/2026 04:16:49 -SessionId 87f6f1e6-a907-4442-b291-5b847d7e31f3_ExtractLogs20260729002843928 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.6116611
+Retrieving audit records for activities performed between 07/29/2026 04:16:49 and 07/29/2026 04:46:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 04:16:49 -EndDate 07/29/2026 04:46:49 -SessionId b1b8ac6d-4cea-497a-9404-0a76c10788a1_ExtractLogs20260729002848544 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9605124
+Retrieving audit records for activities performed between 07/29/2026 04:46:49 and 07/29/2026 05:16:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 04:46:49 -EndDate 07/29/2026 05:16:49 -SessionId 7e7b469c-5b74-4714-b860-92d2ee61ce52_ExtractLogs20260729002853509 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.9454761
+Retrieving audit records for activities performed between 07/29/2026 05:16:49 and 07/29/2026 05:46:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 05:16:49 -EndDate 07/29/2026 05:46:49 -SessionId 2663b354-8be0-4c5e-b5d9-892aed84d44d_ExtractLogs20260729002858457 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 6.112554
+Retrieving audit records for activities performed between 07/29/2026 05:46:49 and 07/29/2026 06:16:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 05:46:49 -EndDate 07/29/2026 06:16:49 -SessionId 0d84a238-2518-441d-8e55-45147dde6ef9_ExtractLogs20260729002904574 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 5.1783313
+Retrieving audit records for activities performed between 07/29/2026 06:16:49 and 07/29/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 06:16:49 -EndDate 07/29/2026 06:46:49 -SessionId 2d458041-abaa-4ad0-89b0-77e982f94391_ExtractLogs20260729002909755 -SessionCommand ReturnLargeSet -ResultSize 5000
+Successfully retrieved 127 audit records for the current time range. Moving on to the next interval.
+Seconds elapsed for query: 7.1783609
+Retrieving audit records for activities performed between 07/29/2026 06:46:49 and 07/29/2026 06:46:49
+Search-UnifiedAuditLog -StartDate 07/29/2026 06:46:49 -EndDate 07/29/2026 06:46:49 -SessionId 08535777-b814-4ed8-aa54-b5b04c92c918_ExtractLogs20260729002916937 -SessionCommand ReturnLargeSet -ResultSize 5000
+Seconds elapsed for query: 4.7893703
+
+ The Output file is available at:
+C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\UnifiedAuditLog_From_20260719064649UTC_To_20260729064649UTC_20260728234649.csv
+Script complete.
+Seconds elapsed for script execution: 2555.3290445
+
+Done! Check output path for results.
+
+==================== RUN MANIFEST ====================
+Script          : Get-UnifiedAuditLogEntries v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : eb174bbc-fe94-4978-95b9-a616457dd489
+Graph scopes    : Agreement.Read.All, Application.Read.All, Application.ReadWrite.All, AppRoleAssignment.ReadWrite.All, AuditLog.Read.All, AuditLogsQuery.Read.All, DelegatedPermissionGrant.Read.All, DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, Domain.Read.All, Files.Read.All, Files.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All, IdentityRiskEvent.Read.All, IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All, Mail.Read, Mail.Send, openid, Organization.Read.All, Organization.ReadWrite.All, Policy.Read.All, Policy.Read.ConditionalAccess, Policy.ReadWrite.ConditionalAccess, profile, Reports.Read.All, RoleManagement.Read.Directory, SecurityEvents.Read.All, SecurityEvents.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All, User.Read, User.Read.All, User.ReadWrite.All, UserAuthenticationMethod.Read.All, UserAuthenticationMethod.ReadWrite.All, email
+UTC start       : 2026-07-29 06:46:46Z
+UTC stop        : 2026-07-29 07:29:21Z
+Elapsed seconds : 2555.33
+Output files (SHA256):
+  F240E20435920BE02FE90332AD20E3DA2C9B4DDF5C33CF1EE40D82603256961B  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\AuditLogs_2026-07-28.csv
+  545A4246E306D12347C78F807A835B3189E451E5E59D858DDDB06C5279445F6F  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\InteractiveSignIns_2026-06-29_2026-07-29_Processed_IPEnriched_geolite2local_ipapiis_scamalytics_findipnet.csv
+  E6AFBC1C12ED8FB0594A6BDB4004CD61F4DC1557C6C1A7667F676BBDEF7312F7  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\InteractiveSignIns_2026-06-29_2026-07-29_Processed_IPEnriched_geolite2local_ipapiis_scamalytics_findipnet.xlsx
+  34026A047B2324F77FAA6597C5F12B308B33E5A3F4B073251DCA2D87300FD42A  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\InteractiveSignIns_2026-06-29_2026-07-29_Processed.csv
+  6047546E0E93C4954FE43F1BFD2F2EA09AC071886A16BB5A0897DD900F663231  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\NonInteractiveSignIns_2026-06-29_2026-07-29.csv
+  AF1BDC5D6161CB37268F787627912B17D1811EFE180985C01F9573B9B37FC5D9  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\UnifiedAuditLog_From_20260719064649UTC_To_20260729064649UTC_20260728234649.csv
+  6B9CFE7AE1AFDAECFB49B13CA263E8BA9C1AD277B9EEE3F97BCA22670A289B2F  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\UnifiedAuditLog_From_20260719064649UTC_To_20260729064649UTC_LOG_20260728234649.txt
+=====================================================

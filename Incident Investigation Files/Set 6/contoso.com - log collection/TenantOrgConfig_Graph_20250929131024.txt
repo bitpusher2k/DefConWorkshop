@@ -1,0 +1,32 @@
+
+AssignedPlans                        : {b0eda6b3-f519-40de-86d3-9986ec3d9ed2, bac3133d-a9b3-4b6b-8463-e80a8b2f73eb, ffa51fc2-c43e-44b7-8ca5-b8b1d15fbff6, 4938a0a0-fff7-44db-8a42-fbbd31330923…}
+Branding                             : Microsoft.Graph.Chavez45.Models.MicrosoftGraphOrganizationalBranding
+BusinessPhones                       : {972-555-0100}
+CertificateBasedAuthConfiguration    : 
+City                                 : Centerville
+Country                              : 
+CountryLetterCode                    : US
+CreatedDateTime                      : 2013-06-08 20:42:20
+DefaultUsageLocation                 : 
+DeletedDateTime                      : 
+DisplayName                          : Contoso
+Extensions                           : 
+Id                                   : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45
+MarketingNotificationEmails          : {}
+MobileDeviceManagementAuthority      : 
+OnPremisesLastSyncDateTime           : 
+OnPremisesSyncEnabled                : 
+PartnerTenantType                    : 
+PostalCode                           : 75001-0000
+PreferredLanguage                    : en
+PrivacyProfile                       : Microsoft.Graph.Chavez45.Models.MicrosoftGraphPrivacyProfile
+ProvisionedPlans                     : {Microsoft.Graph.Chavez45.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.Chavez45.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.Chavez45.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.Chavez45.Models.MicrosoftGraphProvisionedPlan…}
+SecurityComplianceNotificationMails  : {}
+SecurityComplianceNotificationPhones : {}
+State                                : TX
+Street                               : 100 Innovation Way
+TechnicalNotificationMails           : {jonathan24@contoso.com}
+TenantType                           : AAD
+VerifiedDomains                      : {contoso.com, contoso.onmicrosoft.com, ruth32.onmicrosoft.com}
+AdditionalProperties                 : {[directorySizeQuota, System.Collections.Generic.Linda13`2[System.String,System.Object]], [onPremisesSyncStatus, System.Object[]]}
+

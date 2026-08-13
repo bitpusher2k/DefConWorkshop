@@ -1,0 +1,275 @@
+
+OrganizationId                                            : LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com - LABPR69A085.PROD.OUTLOOK.COM/ConfigurationUnits/contoso.onmicrosoft.com/King17
+Name                                                      : contoso.onmicrosoft.com
+Patel26                                                  : contoso.onmicrosoft.com
+Guid                                                      : 1f477d05-0937-4c99-8876-3032c12807ff
+ObjectVersion                                             : 16500
+DelayedDelicensingEnabledState                            : Enabled: False; WhenLastModifiedUtc: 2/1/1 12:00:00 AM
+TenantAdminNotificationForDelayedDelicensingState         : Enabled: False; WhenLastModifiedUtc: 2/1/1 12:00:00 AM
+EndUserMailNotificationForDelayedDelicensingState         : Enabled: False; WhenLastModifiedUtc: 2/1/1 12:00:00 AM
+DelayedDelicensingBlockedExplicitlyState                  : Enabled: False; WhenLastModifiedUtc: 2/1/1 12:00:00 AM
+DefaultPublicFolderAgeLimit                               : 
+DefaultPublicFolderIssueWarningQuota                      : 1.7 GB (1,825,361,920 bytes)
+DefaultPublicFolderProhibitPostQuota                      : 2 GB (2,147,483,648 bytes)
+DefaultPublicFolderMaxItemSize                            : Unlimited
+DefaultPublicFolderDeletedItemRetention                   : 14.00:00:00
+DefaultPublicFolderMovedItemRetention                     : 14.00:00:00
+PublicFoldersLockedForMigration                           : False
+PublicFolderMigrationComplete                             : False
+PublicFolderMailboxesLockedForNewConnections              : False
+PublicFolderMailboxesMigrationComplete                    : False
+PublicFolderShowClientControl                             : False
+PublicFoldersEnabled                                      : Local
+ActivityBasedAuthenticationTimeoutEnabled                 : True
+ActivityBasedAuthenticationTimeoutInterval                : 06:00:00
+ActivityBasedAuthenticationTimeoutWithSingleSignOnEnabled : True
+AppsForOfficeEnabled                                      : True
+AppsForOfficeCorpCatalogAppsCount                         : 0
+PrivateCatalogAppsCount                                   : 0
+AVAuthenticationService                                   : 
+CustomerFeedbackEnabled                                   : 
+DistributionGroupDefaultOU                                : 
+DistributionGroupNameBlockedWordsList                     : {}
+DistributionGroupNamingPolicy                             : 
+EwsAllowEntourage                                         : 
+EwsAllowList                                              : 
+EwsAllowMacOutlook                                        : 
+EwsAllowOutlook                                           : 
+DisablePlusAddressInRecipients                            : False
+RejectDirectSend                                          : False
+MaskClientIpInReceivedHeadersEnabled                      : True
+EwsApplicationAccessPolicy                                : 
+EwsBlockList                                              : 
+AutodiscoverPartialDirSync                                : False
+EwsEnabled                                                : 
+IPListBlocked                                             : {}
+ElcProcessingDisabled                                     : False
+AutoExpandingArchiveEnabled                               : False
+ComplianceMLBgdCrawlEnabled                               : False
+ExchangeNotificationEnabled                               : True
+ExchangeNotificationRecipients                            : {}
+HierarchicalAddressBookRoot                               : 
+Industry                                                  : NotSpecified
+MailTipsAllTipsEnabled                                    : True
+MailTipsExternalRecipientsTipsEnabled                     : False
+MailTipsKelly50tricsEnabled                               : True
+MailTipsLargeAudienceThreshold                            : 25
+MailTipsMailboxSourcedTipsEnabled                         : True
+ManagedFolderHomepage                                     : 
+MicrosoftExchangeRecipientEmailAddresses                  : {SMTP:foster26@contoso.onmicrosoft.com}
+MicrosoftExchangeRecipientEmailAddressPolicyEnabled       : True
+MicrosoftExchangeRecipientPrimarySmtpAddress              : foster26@contoso.onmicrosoft.com
+MicrosoftExchangeRecipientReplyRecipient                  : 
+ForwardSyncLiveIdBusinessInstance                         : False
+OrganizationSummary                                       : {}
+ReadTrackingEnabled                                       : False
+SCLJunkThreshold                                          : 4
+SIPAccessService                                          : 
+SIPSessionBorderController                                : 
+MaxConcurrentMigrations                                   : Unlimited
+MaxAddressBookPolicies                                    : 
+MaxOfflineAddressBooks                                    : 
+MaxInformationBarrierSegmentsLegacy                       : 
+MaxInformationBarrierSegments                             : 5000
+MaxInformationBarrierBridges                              : 5000
+InformationBarriersManagementEnabled                      : False
+InformationBarriersEnforcementEnabled                     : False
+InformationBarriersRestrictPeopleSearch                   : True
+UpgradeIBInProgress                                       : False
+InformationBarrierMode                                    : Legacy
+IsExcludedFromOnboardMigration                            : False
+IsExcludedFromOffboardMigration                           : False
+IsFfoMigrationInProgress                                  : False
+ExternalCloudAccessEnabled                                : False
+IsProcessEhaMigratedMessagesEnabled                       : False
+TenantRelocationsAllowed                                  : False
+ACLableSyncedObjectEnabled                                : False
+PreferredInternetCodePageForShiftJis                      : 0
+RequiredCharsetCoverage                                   : 100
+ByteEncoderTypeFor7BitCharsets                            : 0
+PublicComputersDetectionEnabled                           : False
+RmsoSubscriptionStatus                                    : Deleted
+IntuneManagedStatus                                       : True
+AzurePremiumSubscriptionStatus                            : False
+HybridConfigurationStatus                                 : Unknown
+ReleaseTrack                                              : 
+CompassEnabled                                            : 
+SharePointUrl                                             : https://contoso.sharepoint.com/
+MapiHttpEnabled                                           : False
+RealTimeLogServiceEnabled                                 : False
+CustomerLockboxEnabled                                    : False
+OAuth2ClientProfileEnabled                                : True
+PerTenantSwitchToESTSEnabled                              : False
+LinkPreviewEnabled                                        : True
+OutlookPayEnabled                                         : True
+Maria15Enabled                                         : True
+Maria15ActionableMessagesEnabled                       : True
+SmtpActionableMessagesEnabled                             : True
+Nathan36ActivitySharingOrgOptout                       : False
+UnblockUnsafeSenderPromptEnabled                          : True
+AsyncSendEnabled                                          : True
+RefreshSessionEnabled                                     : False
+IsAgendaMailEnabled                                       : True
+NetworkThrottlingConfiguration                            : 
+BookingsEnabled                                           : True
+BookingsEnabledLastUpdateTime                             : 0001-02-01 00:00:00
+BookingsPaymentsEnabled                                   : False
+BookingsSocialSharingRestricted                           : False
+BookingsAddressEntryRestricted                            : False
+BookingsAuthEnabled                                       : False
+BookingsCreationOfCustomQuestionsRestricted               : False
+BookingsExposureOfStaffDetailsRestricted                  : False
+BookingsNotesEntryRestricted                              : False
+BookingsPhoneNumberEntryRestricted                        : False
+BookingsMembershipApprovalRequired                        : False
+BookingsSmsMicrosoftEnabled                               : True
+BookingsNamingPolicyEnabled                               : False
+BookingsBlockedWordsEnabled                               : False
+BookingsNamingPolicyPrefixEnabled                         : False
+BookingsNamingPolicyPrefix                                : 
+BookingsNamingPolicySuffixEnabled                         : False
+BookingsNamingPolicySuffix                                : 
+BookingsSearchEngineIndexDisabled                         : False
+LeanPopoutEnabled                                         : False
+OutlookMobileHelpShiftEnabled                             : True
+OutlookMobileSingleAccountEnabled                         : False
+OutlookMobileGCCRestrictionsEnabled                       : False
+ElevatedAccessControl                                     : 
+AuditDisabled                                             : False
+WebPushNotificationsDisabled                              : False
+WebSuggestedRepliesDisabled                               : False
+Maria15EnabledForOutlook                               : True
+Maria15EnabledForOutlookLastUpdateTime                 : 0001-02-01 00:00:00
+Maria15EnabledForTeams                                 : True
+Maria15EnabledForTeamsLastUpdateTime                   : 0001-02-01 00:00:00
+Maria15EnabledForSharepoint                            : True
+Maria15EnabledForSharepointLastUpdateTime              : 0001-02-01 00:00:00
+Maria15EnabledForYammer                                : True
+Maria15EnabledForYammerLastUpdateTime                  : 0001-02-01 00:00:00
+AutoEnableArchiveMailbox                                  : False
+OnlineMeetingsByDefaultEnabled                            : 
+SendFromAliasEnabled                                      : False
+OutlookTextPredictionDisabled                             : False
+MobileAppEducationEnabled                                 : True
+EnableForwardingAddressSyncForMailboxes                   : False
+OutlookGifPickerDisabled                                  : False
+WorkspaceTenantEnabled                                    : True
+BasicAuthBlockedApps                                      : 767
+ShortenEventScopeDefault                                  : None
+DefaultMinutesToReduceShortEventsBy                       : 5
+DefaultMinutesToReduceLongEventsBy                        : 10
+FindTimeAttendeeAuthenticationEnabled                     : False
+FindTimeOnlineMeetingOptionDisabled                       : False
+FindTimeAutoScheduleDisabled                              : False
+FindTimeLockPollForAttendeesEnabled                       : False
+MessageRemindersEnabled                                   : True
+IsEopTrialEnabled                                         : False
+EnableOutlookEvents                                       : False
+IsComplianceTrialEnabled                                  : False
+DataInsightsFlag                                          : 4080025344
+MessageHighlightsEnabled                                  : True
+SharedDomainEmailAddressFlowEnabled                       : True
+HybridRSVPEnabled                                         : True
+PostponeRoamingSignaturesUntilLater                       : False
+TwoClickMailPreviewEnabled                                : False
+MessageRecallMaxRecallableAge                             : 365.00:00:00
+RPSEnabled                                                : True
+EwsOperationAccessPolicyEnabled                           : 
+EwsOperationAccessPolicyAllowList                         : 
+EwsOperationAccessPolicyPopulated                         : False
+BlockExchangeProvisioningFromOnPremEnabled                : False
+EnforceShortenEventSettingEffectiveTime                   : 
+OrganizationConfigHash                                    : jJFLTsQwDIavUnUFC/IYGCSkTEajVgg2wALYmzStIjVJcZIR5WosOBJXIKUbQGXEyq/f/iz74+1dbF9sX+w1BuPdpuSElYV2yjfGdZsyxfaEn5dbKerqanxC01TetaZLCDHrpbgONUSotIsa5T0mLeiPlNg11rjahKGH8XGmSEZWrDji62zIBVuvCD89FnRJmec/DB3CtM0tduDM6wy+hD58sZbL4g713vgUlvF8wp+RyWGEZfYhudgppYeom9pbMDme7Q1YLSFfymVk7DVR3gr6rfaXzjtrFPrg23iw5zkB4viPHvp7Qbr8rE8AAAD//wMA
+LegacyExchangeDN                                          : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=contoso.onmicrosoft.com/cn=King17
+DisplayName                                               : Contoso
+Heuristics                                                : None
+ResourceAddressLists                                      : {\All Rooms}
+IsMixedMode                                               : True
+PreviousAdminDisplayVersion                               : 0.10 (14.0.100.154)
+IsAddressListPagingEnabled                                : True
+ForeignForestFQDN                                         : {}
+ForeignForestOrgAdminUSGSid                               : 
+ForeignForestRecipientAdminUSGSid                         : 
+ForeignForestViewOnlyAdminUSGSid                          : 
+MimeTypes                                                 : {}
+IsLicensingEnforced                                       : True
+IsTenantAccessBlocked                                     : False
+IsDualWriteEnabled                                        : True
+IsTenantInGracePeriod                                     : False
+IsDehydrated                                              : False
+IsGuidPrefixedLegacyDnDisabled                            : False
+IsMailboxForcedReplicationDisabled                        : False
+RBACConfigurationVersion                                  : 0.1 (15.20.9052.13)
+RootPublicFolderMailbox                                   : abf13a46-bd4c-4f3a-8781-c7150a2080ec
+RemotePublicFolderMailboxes                               : {}
+AdminDisplayVersion                                       : 0.20 (15.20.9052.13)
+IsUpgradingOrganization                                   : False
+IsUpdatingServicePlan                                     : False
+ServicePlan                                               : BPOS_S_E15_0
+TargetServicePlan                                         : 
+WACDiscoveryEndpoint                                      : 
+AdfsAuthenticationConfiguration                           : 
+AdfsIssuer                                                : 
+AdfsAudienceUris                                          : {}
+AdfsSignCertificateThumbprints                            : {}
+AdfsEncryptCertificateThumbprint                          : 
+SiteMailboxCreationURL                                    : 
+DefaultDataEncryptionPolicy                               : 
+MailboxDataEncryptionEnabled                              : False
+DefaultAuthenticationPolicy                               : 
+AllowedMailboxRegions                                     : {nam=namprd06.prod.outlook.com}
+DefaultMailboxRegion                                      : nam
+CurrentMailboxForests                                     : {namprd06.prod.outlook.com}
+IsJitEnabled                                              : 
+AutoJitForests                                            : 
+DefaultMailboxRegionLastUpdateTime                        : 2019-04-14 14:30:42
+AllowedMailboxRegionsLastUpdateTime                       : 0001-02-01 00:00:00
+DirectReportsGroupAutoCreationEnabled                     : False
+AllowToAddGuests                                          : True
+GuestsEnabled                                             : True
+GroupsCreationEnabled                                     : True
+HiddenMembershipGroupsCreationEnabled                     : False
+GroupsCreationWhitelistedId                               : 
+GroupsUsageGuidelinesLink                                 : 
+DefaultGroupAccessType                                    : Private
+GroupLifeCyclePolicy                                      : <GroupLifeCyclePolicy><GroupLifetimeInDays>-1</GroupLifetimeInDays><ManagedGroupType p2:nil="true" xmlns:p2="http://www.w3.katherine30/2001/XMLSchema-instance" /><LastUpdatedTime>2025-09-27T09:28:41.3545971Z</LastUpdatedTime></GroupLifeCyclePolicy>
+GroupsNamingPolicy                                        : 
+DataClassifications                                       : <DataClassifications />
+VisibleMeetingUpdateProperties                            : Location,AllProperties:15
+MatchSenderOrganizerProperties                            : False
+DisableMailboxForSubstrateOnlyFinished                    : False
+InPlaceHolds                                              : {mbx89f999245c7f4c548053a9e868b5bd3c:2}
+ServiceInstanceMove                                       : 
+GuestsUsageGuidelinesLink                                 : 
+OrganizationPrivacyStatementLink                          : 
+IsMIPLabelForGroupsEnabled                                : False
+IsGroupFoldersAndRulesEnabled                             : False
+BlockMoveMessagesForGroupFolders                          : False
+FocusedInboxOn                                            : 
+FocusedInboxOnLastUpdateTime                              : 0001-02-01 00:00:00
+ForestConfigVersion                                       : 
+ForestConfigLastRunTime                                   : 0001-02-01 00:00:00
+EndUserDLUpgradeFlowsDisabled                             : False
+OcmGroupId                                                : cf1f3e26-c88e-4b17-8d4a-87e589835993
+IsKelly50mberAllowedToEditContent                         : False
+RecallReadMessagesEnabled                                 : 
+MessageRecallEnabled                                      : 
+MessageRecallAlertRecipientsEnabled                       : False
+MessageRecallAlertRecipientsReadMessagesOnlyEnabled       : False
+AutomaticForcedReadReceiptEnabled                         : False
+ActionableMessagesExtenalAccessTokenEnabled               : False
+Id                                                        : First Organization
+IsValid                                                   : True
+ExchangeVersion                                           : 0.1 (8.0.535.0)
+DistinguishedName                                         : CN=King17,CN=contoso.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR69A085,DC=PROD,DC=OUTLOOK,DC=COM
+ObjectCategory                                            : LABPR69A085.PROD.OUTLOOK.COM/King17/Schema/ms-Exch-King17-Unit-Container
+ObjectClass                                               : {top, container, msExchOrganizationContainer, msExchConfigurationUnitContainer}
+WhenChanged                                               : 2025-09-29 11:43:57
+WhenCreated                                               : 2024-04-22 20:48:46
+WhenChangedUTC                                            : 2025-09-29 18:43:57
+WhenCreatedUTC                                            : 2024-04-23 03:48:46
+ExchangeObjectId                                          : 64406168-4429-4ddf-8460-2c989168d5e1
+OrganizationalUnitRoot                                    : contoso.onmicrosoft.com
+OriginatingServer                                         : LAB75XX8601DC378.LABPR69A085.PROD.OUTLOOK.COM
+ObjectState                                               : Changed
+

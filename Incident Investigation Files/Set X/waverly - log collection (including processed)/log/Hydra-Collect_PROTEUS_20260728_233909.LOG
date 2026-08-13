@@ -1,0 +1,138 @@
+Hydra-Collect started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-28 23:39:09]
+Setting process priority to "Normal"
+Exchange Online connection status:
+Connected
+Connected
+eb174bbc-fe94-4978-95b9-a616457dd489
+eb174bbc-fe94-4978-95b9-a616457dd489
+bitpusher@854jpt.onmicrosoft.com
+bitpusher@854jpt.onmicrosoft.com
+Graph connection status:
+Delegated
+eb174bbc-fe94-4978-95b9-a616457dd489
+bitpusher@854jpt.onmicrosoft.com
+Agreement.Read.All
+Application.Read.All
+Application.ReadWrite.All
+AppRoleAssignment.ReadWrite.All
+AuditLog.Read.All
+AuditLogsQuery.Read.All
+DelegatedPermissionGrant.Read.All
+DelegatedPermissionGrant.ReadWrite.All
+Directory.AccessAsUser.All
+Directory.Read.All
+Directory.ReadWrite.All
+Domain.Read.All
+Files.Read.All
+Files.ReadWrite.All
+Group.Read.All
+Group.ReadWrite.All
+GroupMember.Read.All
+IdentityRiskEvent.Read.All
+IdentityRiskyUser.Read.All
+IdentityRiskyUser.ReadWrite.All
+Mail.Read
+Mail.Send
+openid
+Organization.Read.All
+Organization.ReadWrite.All
+Policy.Read.All
+Policy.Read.ConditionalAccess
+Policy.ReadWrite.ConditionalAccess
+profile
+Reports.Read.All
+RoleManagement.Read.Directory
+SecurityEvents.Read.All
+SecurityEvents.ReadWrite.All
+Sites.Read.All
+Sites.ReadWrite.All
+User.Read
+User.Read.All
+User.ReadWrite.All
+UserAuthenticationMethod.Read.All
+UserAuthenticationMethod.ReadWrite.All
+email
+Output base path will be in C:\Users\Bitpusher\Desktop\Investigation
+Output path does not exist. Directory will be created.
+Domain sub-directory does not exist. Sub-directory "854jpt.onmicrosoft.com" will be created.
+
+Script will search UAC 10 days back from today for relevant events.
+StartDate: 07/19/2026 06:39:15 (UTC)
+EndDate: 07/29/2026 06:39:15 (UTC)
+
+Running 10-Get-BasicTenantInformation.ps1...
+
+Running 18-Search-InboxRuleChanges.ps1... First pass...
+
+Running 13-Get-AllM365EmailAddresses.ps1...
+
+Running 14-Get-AllUserPasswordReport.ps1...
+
+Running 17-Search-MailboxSuspiciousRules.ps1...
+
+Running 19-Get-AllInboxRules.ps1...
+
+Running 22-Get-EnterpriseApplications.ps1...
+
+Running 20-Get-ForwardingSettings.ps1...
+
+Running 21-Get-MailboxPermissions.ps1...
+
+Running 23-Get-DefenderInformation.ps1...
+
+Running 24-Get-EntraIDRisk.ps1...
+
+Running 90-Get-MFAReport.ps1...
+
+Running 91-Get-CAPReport-P1.ps1...
+
+Running 93-Get-SecureScoreInformation.ps1...
+
+Running 18-Search-InboxRuleChanges.ps1... Second pass (often is able to retrieve entries when first pass is blank)...
+
+Running 12-Search-UnifiedAuditLogSignIn.ps1...
+
+Running 11-Get-EntraIDAuditAndSignInLogs30-P1.ps1...
+
+Script complete.
+Seconds elapsed for script execution: 199.6698849
+
+Done! Check output path for results.
+After identifying suspect IP addresses recommend pulling all logged actions with:
+.\36-Search-UALActivityByIPAddress.ps1
+
+==================== RUN MANIFEST ====================
+Script          : Hydra-Collect v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : eb174bbc-fe94-4978-95b9-a616457dd489
+Graph scopes    : Agreement.Read.All, Application.Read.All, Application.ReadWrite.All, AppRoleAssignment.ReadWrite.All, AuditLog.Read.All, AuditLogsQuery.Read.All, DelegatedPermissionGrant.Read.All, DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, Domain.Read.All, Files.Read.All, Files.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All, IdentityRiskEvent.Read.All, IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All, Mail.Read, Mail.Send, openid, Organization.Read.All, Organization.ReadWrite.All, Policy.Read.All, Policy.Read.ConditionalAccess, Policy.ReadWrite.ConditionalAccess, profile, Reports.Read.All, RoleManagement.Read.Directory, SecurityEvents.Read.All, SecurityEvents.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All, User.Read, User.Read.All, User.ReadWrite.All, UserAuthenticationMethod.Read.All, UserAuthenticationMethod.ReadWrite.All, email
+UTC start       : 2026-07-29 06:39:09Z
+UTC stop        : 2026-07-29 06:42:29Z
+Elapsed seconds : 199.67
+Output files (SHA256):
+  97EE60B32B6BD694FAEF26826CE1A1530BB7CE50A6D2D73C77262D773A3A1D95  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\AccountPasswordReport_Graph_20260728234001.csv
+  5B0ABE02ACBFD6C9E1AE651B998933B211BB9B0F07D38B09B50D288850E150AC  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\AllEnterpriseApplications_20260728234040.csv
+  E44C17DD28724FBE13986A27948CDF73FEC21EE1EF78F3A8B1580DBAEA015BAA  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\AllMailboxRules_20260728234024.csv
+  659E0A41FF3CFC9C01B42368DAE3776773F386C3800B4BB41ACA072257F139A5  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\DefenderAlertConfiguration_20260728234052.csv
+  4B5420714CBF37435CB56A33A2A1E56DA1244FBFD7A161FD3F0AA899A9294367  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\DefenderThreatDetections_20260728234052.csv
+  6207A47B4633ADF71F417835200A4FD8C3511CCF48F75FB15B6308503D22BC08  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\EntraRiskDetection_20260728234110.csv
+  80BA8D29C00A554DE1CCDF6E79CEF6B932202E0976EAA3BFF25353920E818B12  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\EntraRiskyUsers_20260728234110.csv
+  5BD47E0A2E246F821B2E43CCA531DA26220CB8020897A07865E96900FB9E3530  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\InboxRuleChanges_From_20260719063915UTC_To_20260729063915UTC_Processed.csv
+  FF063D6BBEF282A40066486D39D45AE8783EBFA8A7BAA36E801432C92C7A86DF  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\InboxRuleChanges_From_20260719063915UTC_To_20260729063915UTC.csv
+  7EE5B766C8D16807D82BC9A80AC0ABA849FAB73B04EEEF14A262EF185F9E4E91  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\InboxRuleChangesSetMailbox_From_20260719063915UTC_To_20260729063915UTC.csv
+  428E552ED7D2F164177B7FC73ACAAA15F668274005672417D93A4E5A6BCC1889  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\Licenses_20260728233921.txt
+  164DC72E995D893A6645030E1E8F7CC7E40F11D34D1EFE197F6F172296979023  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\M365EmailAddressesReport_20260728233959.csv
+  6361FD39DCD82983CD6A4947EAE812574B142A0BDE28BE773DE88203BBB7A030  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\MailboxForwardingSettings_20260728234042.csv
+  9A84D0F173088363B04A681832729DC9E67174454C71CC7497B2C45E8F828F30  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\MfaAccountSettingsReport_20260728234111.csv
+  6367B1B67B5BC9072128FE3BCA29FBBC37FEE3B58E226184038F006CA2687D95  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\QuarantinedMessages_20260728234052.csv
+  10A0707ECEC6704062E3E2123157ACF4AD67768D3DA3C20504092D4003C83E28  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\QuarantinePolicy_20260728234052.csv
+  EAC3549DCBE6B5546016536B146A654B5386146009EAE5E60131E17943971BE1  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\SuspiciousInboxRulesForManualReview_20260728234003.csv
+  D95E039A6CA88794E1E4B6602B7DAC82EA303162808C4D31E8C087136FD791BA  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\TenantAdmins_20260728233921.txt
+  B0C5397F8282504577EA70C6AFC7E1437D196BE3BBFDC340DD9FD65C0C1656BE  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\TenantAuditLogConfig_20260728233921.txt
+  E79EA2E9BC8AB499DE5EFC6BF8970388FB37952E15E23768242A877568C8F3B5  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\TenantCompanyInfo_20260728233921.txt
+  8107227997A1C663FD4EAC12ACBE7BD78018F79CD928B771D62B8C31CA4140E8  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\TenantOrgConfig_20260728233921.txt
+  E79EA2E9BC8AB499DE5EFC6BF8970388FB37952E15E23768242A877568C8F3B5  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\TenantOrgConfig_Graph_20260728233921.txt
+  D4563D8E325D2795BE55E4DC83315FFB860C10CC10B063CA406A1CE5C9C6B945  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\UnifiedAuditLogSignIns_ALL_between_202607190639_and_202607290639_10_days_Processed.csv
+  ED207414A2F54F39F2D3C6577AAAA151D6107D785AD1C96D0EEA876E06557326  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\UnifiedAuditLogSignIns_ALL_between_202607190639_and_202607290639_10_days.csv
+=====================================================

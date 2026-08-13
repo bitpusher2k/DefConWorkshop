@@ -1,0 +1,26 @@
+Get-BasicTenantInformation started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-28 23:39:21]
+Setting process priority to "Normal"
+$connectors is empty - skipping ConnectorConfig output
+$rules is empty - skipping TransportRuleConfig output
+Script complete.
+Seconds elapsed for script execution: 11.3421486
+
+Done! Check output path for results.
+
+==================== RUN MANIFEST ====================
+Script          : Get-BasicTenantInformation v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : eb174bbc-fe94-4978-95b9-a616457dd489
+Graph scopes    : Agreement.Read.All, Application.Read.All, Application.ReadWrite.All, AppRoleAssignment.ReadWrite.All, AuditLog.Read.All, AuditLogsQuery.Read.All, DelegatedPermissionGrant.Read.All, DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, Domain.Read.All, Files.Read.All, Files.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All, IdentityRiskEvent.Read.All, IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All, Mail.Read, Mail.Send, openid, Organization.Read.All, Organization.ReadWrite.All, Policy.Read.All, Policy.Read.ConditionalAccess, Policy.ReadWrite.ConditionalAccess, profile, Reports.Read.All, RoleManagement.Read.Directory, SecurityEvents.Read.All, SecurityEvents.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All, User.Read, User.Read.All, User.ReadWrite.All, UserAuthenticationMethod.Read.All, UserAuthenticationMethod.ReadWrite.All, email
+UTC start       : 2026-07-29 06:39:21Z
+UTC stop        : 2026-07-29 06:39:32Z
+Elapsed seconds : 11.35
+Output files (SHA256):
+  428E552ED7D2F164177B7FC73ACAAA15F668274005672417D93A4E5A6BCC1889  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\Licenses_20260728233921.txt
+  D95E039A6CA88794E1E4B6602B7DAC82EA303162808C4D31E8C087136FD791BA  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\TenantAdmins_20260728233921.txt
+  B0C5397F8282504577EA70C6AFC7E1437D196BE3BBFDC340DD9FD65C0C1656BE  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\TenantAuditLogConfig_20260728233921.txt
+  E79EA2E9BC8AB499DE5EFC6BF8970388FB37952E15E23768242A877568C8F3B5  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\TenantCompanyInfo_20260728233921.txt
+  8107227997A1C663FD4EAC12ACBE7BD78018F79CD928B771D62B8C31CA4140E8  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\TenantOrgConfig_20260728233921.txt
+  E79EA2E9BC8AB499DE5EFC6BF8970388FB37952E15E23768242A877568C8F3B5  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\TenantOrgConfig_Graph_20260728233921.txt
+=====================================================

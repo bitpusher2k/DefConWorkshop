@@ -1,0 +1,32 @@
+Message-ID: <ce7744b8-765f-4e2f-b137-5f09c2e31605@854jpt.onmicrosoft.com>
+Date: Tue, 21 Jul 2026 21:36:49 -0700
+User-Agent: Mozilla Thunderbird
+To: <AlexW@854jpt.onmicrosoft.com>
+CC: <HenriettaM@854jpt.onmicrosoft.com>
+Subject: Prototype Test Results - Strato SD-900 Bracket Assembly
+From: Pradeep Gupta <PradeepG@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>Alex,<br><br>First article prototype testing on the SD-900 brack=
+et assembly is complete. Overall results are very good, but we have one ite=
+m to address.<br><br>Test Results Summary:<br><br>Tensile Strength: PASS<br=
+>- Requirement: 65 ksi minimum<br>- Actual: 72.4 ksi (average of 5 specimen=
+s)<br>- Well above spec<br><br>Fatigue Testing: PASS<br>- Requirement: 10,0=
+00 cycles at 75% ultimate load<br>- Actual: Survived 14,200 cycles before f=
+ailure<br>- Exceeds requirement by 42%<br><br>Dimensional Inspection: CONDI=
+TIONAL PASS<br>- 22 of 23 dimensional callouts within tolerance<br>- One ca=
+llout (datum B to hole pattern C, 1.875&quot; +/- 0.002&quot;) measured at =
+1.8726&quot; on 2 of 5 samples<br>- Technically in tolerance but uncomforta=
+bly close to the upper limit<br><br>Surface Finish: PASS<br>- Requirement: =
+63 Ra maximum<br>- Actual: 48 Ra average<br><br>My recommendation: we need =
+to tighten our process on the datum B relationship. Likely a fixturing adju=
+stment. I'd like to run another 5 samples with an updated fixture before we=
+ submit for FAI.<br><br>Henrietta - can you confirm the inspection method y=
+ou'll use for the production FAI? CMM vs. optical comparator on the hole pa=
+ttern?<br><br>Pradeep Gupta<br>Senior Design Engineer<br>Waverly Industrial=
+ Solutions, Inc.</body></html>
+

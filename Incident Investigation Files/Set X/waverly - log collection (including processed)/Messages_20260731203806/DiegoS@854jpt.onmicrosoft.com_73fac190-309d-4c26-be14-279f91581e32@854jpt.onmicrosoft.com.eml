@@ -1,0 +1,126 @@
+Message-ID: <73fac190-309d-4c26-be14-279f91581e32@854jpt.onmicrosoft.com>
+Date: Fri, 24 Jul 2026 02:25:17 -0700
+User-Agent: Mozilla Thunderbird
+To: Patti Fernandez <PattiF@854jpt.onmicrosoft.com>
+CC: Nestor Wilke <NestorW@854jpt.onmicrosoft.com>, Alex Wilber
+	<AlexW@854jpt.onmicrosoft.com>
+Subject: Re: Capital Equipment Request - Haas UMC-750 5-Axis CNC
+References: <3b48bba2-2d97-4c4d-bcb4-3a7a96eb2123@854jpt.onmicrosoft.com>
+In-Reply-To: <3b48bba2-2d97-4c4d-bcb4-3a7a96eb2123@854jpt.onmicrosoft.com>
+From: Diego Siciliani <DiegoS@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>Patti, Nestor, Alex,<br><br>Thanks for running those numbers, Pa=
+tti. Here's the ROI analysis from the operations side to complement your fi=
+nancial models:<br><br>Production efficiency gains with 5-axis:<br>- Curren=
+t process: SD-900 bracket requires 3 setups on our 3-axis VF-4s, ~45 min to=
+tal cycle time per unit<br>- 5-axis single-setup: estimated 18-22 min cycle=
+ time (based on Haas UMC-750 specs and similar bracket geometry)<br>- That'=
+s a 50-55% cycle time reduction per unit<br><br>Volume math at 200 units/mo=
+nth (Strato contract):<br>- Current method: 200 units x 45 min =3D 150 hour=
+s/month on 3-axis machines<br>- 5-axis method: 200 units x 20 min =3D ~67 h=
+ours/month<br>- Net savings: 83 machine hours/month freed up for other work=
+<br><br>Dollar impact:<br>- Machine hour rate (fully burdened): $125/hr<br>=
+- Monthly capacity freed: 83 hrs x $125 =3D $10,375/month<br>- Annual capac=
+ity value: ~$124,500<br>- Additional scrap reduction (fewer setups =3D fewe=
+r first-article rejects): estimated $8,000-12,000/year<br><br>Payback analy=
+sis:<br>- Purchase at $284,500: payback in ~21 months on capacity savings a=
+lone<br>- With scrap reduction: payback closer to 18-19 months<br>- If we f=
+actor the overtime premium we're currently paying for multi-setup work: pay=
+back drops to ~16 months<br><br>My recommendation: BUY, not lease. The Stra=
+to contract is 3 years, and we'll use this machine well beyond that. Leasin=
+g makes sense for uncertain demand, but the aerospace pipeline (Strato + Ae=
+rolinx + potential GreenTech EV work) tells me we'll need 5-axis capability=
+ permanently.<br><br>One more thing - if we move quickly, Haas has availabi=
+lity for a September delivery. Their lead times are stretching to 14-16 wee=
+ks, so if we wait we're looking at January at the earliest.<br><br>Diego<br=
+><br>On 7/23/2026, 8:13:28 PM, &quot;Patti Fernandez&quot; &lt;PattiF@854jp=
+t.onmicrosoft.com&gt; wrote:<br>&gt; Diego, Nestor, Alex,
+<br>&gt;=20
+<br>&gt; I understand the operational need and Nestor's endorsement carries=
+ weight. Before I sign off on $285K, I need to see the lease-vs-buy analysi=
+s.
+<br>&gt;=20
+<br>&gt; I've run preliminary numbers on both options:
+<br>&gt; - Purchase: $284,500 upfront. We can depreciate over 7 years (MACR=
+S). With the Section 179 deduction we could write off up to $250K in Year 1=
+.
+<br>&gt; - Lease: Haas Financial Services offers 60-month FMV lease at appr=
+oximately $5,200/month ($312K total). Keeps the capital expenditure off the=
+ balance sheet but costs more long-term.
+<br>&gt;=20
+<br>&gt; Diego - can you put together a simple ROI projection? I need estim=
+ated annual revenue this machine enables, cycle time savings vs. running mu=
+lti-setup on the 3-axis machines, and labor cost reduction. If the payback =
+is under 24 months I'm inclined to recommend purchase over lease.
+<br>&gt;=20
+<br>&gt; I'll have a recommendation for Grady by end of next week.
+<br>&gt;=20
+<br>&gt; Patti
+<br>&gt;=20
+<br>&gt; On 7/22/2026, 10:57:27 PM, &quot;Nestor Wilke&quot; &lt;NestorW@85=
+4jpt.onmicrosoft.com&gt; wrote:
+<br>&gt; &gt; Diego,
+<br>&gt; &gt;
+<br>&gt; &gt; I fully support this request. The 5-axis capability is essent=
+ial for the Strato work and the ROI numbers are solid. We can't afford to r=
+un multi-setup on 3-axis machines for 200 units a month - the cycle time pe=
+nalty alone would eat into our margins.
+<br>&gt; &gt;
+<br>&gt; &gt; Patti - I'd recommend we look at a lease option to preserve c=
+ash. Haas Financial Services typically offers 60-month terms at competitive=
+ rates. That would keep our monthly outlay around $5,200 instead of a $284K=
+ lump sum hit to capital.
+<br>&gt; &gt;
+<br>&gt; &gt; Diego, can you check with our Haas distributor on current lea=
+d times? If it's really 8-10 weeks, we need to get the PO in by end of next=
+ week to have it installed before the October FAI deadline.
+<br>&gt; &gt;
+<br>&gt; &gt; Nestor Wilke
+<br>&gt; &gt; COO
+<br>&gt; &gt; Waverly Industrial Solutions, Inc.
+<br>&gt; &gt;
+<br>&gt; &gt; On 7/21/2026, 9:34:25 PM, &quot;Diego Siciliani&quot; &lt;Die=
+goS@854jpt.onmicrosoft.com&gt; wrote:
+<br>&gt; &gt; &gt; Patti,
+<br>&gt; &gt; &gt;
+<br>&gt; &gt; &gt; I'd like to formally request budget approval for a new H=
+aas UMC-750 5-axis CNC machining center. This is critical for the Strato Dy=
+namics contract work.
+<br>&gt; &gt; &gt;
+<br>&gt; &gt; &gt; Details:
+<br>&gt; &gt; &gt; - Equipment: Haas UMC-750 5-Axis Universal Machining Cen=
+ter
+<br>&gt; &gt; &gt; - Cost: $284,500 (includes tooling package and installat=
+ion)
+<br>&gt; &gt; &gt; - Lead time: 8-10 weeks from order
+<br>&gt; &gt; &gt; - Justification: The SD-900 bracket assemblies require s=
+imultaneous 5-axis machining that our current 3-axis VMCs cannot efficientl=
+y produce. We'd need to run multiple setups per part on existing equipment,=
+ increasing cycle time by approximately 340% and introducing tolerance stac=
+k-up risk.
+<br>&gt; &gt; &gt;
+<br>&gt; &gt; &gt; ROI summary:
+<br>&gt; &gt; &gt; - Estimated annual revenue from Strato contract parts ru=
+n on this machine: $1.2M
+<br>&gt; &gt; &gt; - Cycle time reduction vs. multi-setup on existing equip=
+ment: 65%
+<br>&gt; &gt; &gt; - Payback period: approximately 14 months
+<br>&gt; &gt; &gt;
+<br>&gt; &gt; &gt; Alex can speak to the engineering requirements. Nestor h=
+as reviewed and supports this request.
+<br>&gt; &gt; &gt;
+<br>&gt; &gt; &gt; I'd like to get this ordered within the next two weeks t=
+o have it installed before the first production run target in October.
+<br>&gt; &gt; &gt;
+<br>&gt; &gt; &gt; Diego Siciliani
+<br>&gt; &gt; &gt; Plant Manager
+<br>&gt; &gt; &gt; Waverly Industrial Solutions, Inc.
+<br>&gt; &gt; &gt;
+<br>&gt; &gt;
+<br>&gt; </body></html>
+

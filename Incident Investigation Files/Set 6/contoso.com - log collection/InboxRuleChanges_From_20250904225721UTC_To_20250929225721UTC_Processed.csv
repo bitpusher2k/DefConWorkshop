@@ -1,0 +1,82 @@
+"RecordType","CreationDateUTC","UserIds","Operations","ResultIndex","ResultCount","ClientIP","UserId","ExternalAccess","ResultStatus","ObjectId","CmdletParameter_AlwaysDeleteOutlookRulesBlob","CmdletParameter_Force","CmdletParameter_Patel26","InboxRule_Description"
+"ExchangeAdmin","2025-09-27 07:32:20 PM","james105@contoso.com","Remove-InboxRule","1","28","[2603:3016:1212:da15:5be5:c5bc:3659:9fca]:25302","james105@contoso.com","False","True","James105\10773118291766411265","False","False","55adaa4f-9e68-4d27-821f-8d4806cfbec4\10773118291766411265","Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 02:01:10 PM","betty20@contoso.com","Disable-InboxRule","2","28","191.101.130.55:14120","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\2298125932252102657","False","False","abc48516-ff07-4546-89cd-650657222bab\2298125932252102657","Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 01:53:13 PM","betty20@contoso.com","Set-InboxRule","3","28","191.101.130.55:16377","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\2298125932252102657","False","False","...","Rule not found - check manually."
+"ExchangeAdmin","2025-09-26 04:15:30 PM","green34@contoso.com","Set-InboxRule","4","28","50.77.53.225:25953","green34@contoso.com","False","True","green34\8501485040612409345","False","False","MidCountry Bank","If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop cooper26 more rules on this message
+"
+"ExchangeAdmin","2025-09-26 04:14:58 PM","green34@contoso.com","Set-InboxRule","5","28","50.77.53.225:30478","green34@contoso.com","False","True","green34\8429427446574481409","False","False","MidCountry Bank (1)","If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop cooper26 more rules on this message
+"
+"ExchangeAdmin","2025-09-26 04:15:30 PM","green34@contoso.com","Set-InboxRule","6","28","50.77.53.225:25953","green34@contoso.com","False","True","green34\8501485040612409345","False","False","MidCountry Bank","If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop cooper26 more rules on this message
+"
+"ExchangeAdmin","2025-09-26 04:14:58 PM","green34@contoso.com","Set-InboxRule","7","28","50.77.53.225:30478","green34@contoso.com","False","True","green34\8429427446574481409","False","False","MidCountry Bank (1)","If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop cooper26 more rules on this message
+"
+"ExchangeAdmin","2025-09-26 04:15:30 PM","green34@contoso.com","Set-InboxRule","8","28","50.77.53.225:25953","green34@contoso.com","False","True","green34\8501485040612409345","False","False","MidCountry Bank","If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop cooper26 more rules on this message
+"
+"ExchangeAdmin","2025-09-26 04:14:58 PM","green34@contoso.com","Set-InboxRule","9","28","50.77.53.225:30478","green34@contoso.com","False","True","green34\8429427446574481409","False","False","MidCountry Bank (1)","If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop cooper26 more rules on this message
+"
+"ExchangeAdmin","2025-09-26 04:15:30 PM","green34@contoso.com","Set-InboxRule","10","28","50.77.53.225:25953","green34@contoso.com","False","True","green34\8501485040612409345","False","False","MidCountry Bank","If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop cooper26 more rules on this message
+"
+"ExchangeAdmin","2025-09-26 04:14:58 PM","green34@contoso.com","Set-InboxRule","11","28","50.77.53.225:30478","green34@contoso.com","False","True","green34\8429427446574481409","False","False","MidCountry Bank (1)","If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop cooper26 more rules on this message
+"
+"ExchangeAdmin","2025-09-15 02:12:43 PM","betty20@contoso.com","New-InboxRule","12","28","191.101.130.55:14126","betty20@contoso.com","False","True","LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com/52b9c00a-3d50-4d6f-8452-6d833f86f23b\support","False","False",,"Rule not found - check manually."
+"ExchangeAdmin","2025-09-14 08:31:13 AM","betty20@contoso.com","New-InboxRule","13","28","102.129.145.101:16972","betty20@contoso.com","False","True","LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com/52b9c00a-3d50-4d6f-8452-6d833f86f23b\...","False","False",,"Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 08:33:32 PM","betty20@contoso.com","Remove-InboxRule","14","28","137.27.96.204:20642","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\10512691652575887361","False","False","abc48516-ff07-4546-89cd-650657222bab\10512691652575887361","Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 08:33:43 PM","betty20@contoso.com","Remove-InboxRule","15","28","137.27.96.204:12759","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\18012047856701014017","False","False","abc48516-ff07-4546-89cd-650657222bab\18012047856701014017","Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 08:33:33 PM","betty20@contoso.com","Remove-InboxRule","16","28","137.27.96.204:19239","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\2298125932252102657","False","False","abc48516-ff07-4546-89cd-650657222bab\2298125932252102657","Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 08:33:39 PM","betty20@contoso.com","Remove-InboxRule","17","28","137.27.96.204:20631","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\18228220638814797825","False","False","abc48516-ff07-4546-89cd-650657222bab\18228220638814797825","Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 08:33:32 PM","betty20@contoso.com","Remove-InboxRule","18","28","137.27.96.204:20642","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\10512691652575887361","False","False","abc48516-ff07-4546-89cd-650657222bab\10512691652575887361","Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 08:33:43 PM","betty20@contoso.com","Remove-InboxRule","19","28","137.27.96.204:12759","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\18012047856701014017","False","False","abc48516-ff07-4546-89cd-650657222bab\18012047856701014017","Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 08:33:33 PM","betty20@contoso.com","Remove-InboxRule","20","28","137.27.96.204:19239","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\2298125932252102657","False","False","abc48516-ff07-4546-89cd-650657222bab\2298125932252102657","Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 08:33:39 PM","betty20@contoso.com","Remove-InboxRule","21","28","137.27.96.204:20631","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\18228220638814797825","False","False","abc48516-ff07-4546-89cd-650657222bab\18228220638814797825","Rule not found - check manually."
+"ExchangeAdmin","2025-09-29 02:01:10 PM","betty20@contoso.com","Disable-InboxRule","22","28","191.101.130.55:14120","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\2298125932252102657","False","False","abc48516-ff07-4546-89cd-650657222bab\2298125932252102657","Rule not found - check manually."
+"ExchangeAdmin","2025-09-22 02:07:27 PM","betty20@contoso.com","Set-InboxRule","23","28","191.101.130.55:24108","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\10512691652575887361","False","False","support","Rule not found - check manually."
+"ExchangeAdmin","2025-09-22 02:07:27 PM","betty20@contoso.com","Set-InboxRule","24","28","191.101.130.55:24108","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\10512691652575887361","False","False","support","Rule not found - check manually."
+"ExchangeAdmin","2025-09-20 01:55:22 PM","betty20@contoso.com","Set-InboxRule","25","28","191.101.130.55:27230","betty20@contoso.com","False","True","52b9c00a-3d50-4d6f-8452-6d833f86f23b\10512691652575887361","False","False","support","Rule not found - check manually."
+"ExchangeAdmin","2025-09-05 03:49:27 PM","george26@contoso.com","Set-InboxRule","26","28","184.83.255.228:30448","george26@contoso.com","False","True","George26\153361973491269633","False","False","MidCountry Bank","If the message:
+	the message was received from 'sanchez27@cruz297.example'
+Take the following actions:
+	move the message to folder 'Melissa27 Morgan50'
+	and stop cooper26 more rules on this message
+"
+"ExchangeAdmin","2025-09-05 03:48:43 PM","george26@contoso.com","Remove-InboxRule","27","28","184.83.255.228:30448","george26@contoso.com","False","True","George26\1139916262097289217","False","False","c8989292-829c-465e-8521-337e6d8b3a69\1139916262097289217","Rule not found - check manually."
+"ExchangeAdmin","2025-09-05 03:48:39 PM","george26@contoso.com","Remove-InboxRule","28","28","184.83.255.228:28689","george26@contoso.com","False","True","George26\3085471301121343489","False","False","c8989292-829c-465e-8521-337e6d8b3a69\3085471301121343489","Rule not found - check manually."

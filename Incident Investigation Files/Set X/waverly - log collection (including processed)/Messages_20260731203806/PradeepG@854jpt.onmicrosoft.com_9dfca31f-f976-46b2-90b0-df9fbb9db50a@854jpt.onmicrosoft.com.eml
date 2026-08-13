@@ -1,0 +1,14 @@
+Message-ID: <9dfca31f-f976-46b2-90b0-df9fbb9db50a@854jpt.onmicrosoft.com>
+Date: Tue, 21 Jul 2026 21:36:29 -0700
+User-Agent: Mozilla Thunderbird
+To: <AlexW@854jpt.onmicrosoft.com>
+CC: <JohannaL@854jpt.onmicrosoft.com>
+Subject: Rev C Drawing Update - Part #7815
+From: Pradeep Gupta <PradeepG@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>Alex,<br><br>I've completed the Rev C update on Part #7815 (Pacific Automotive mounting plate) per the customer redline we received last week.<br><br>Changes in Rev C:<br>- Added 0.015&quot; chamfer on all edges per customer request<br>- Updated true position on 4x mounting holes from 0.010&quot; to 0.008&quot;<br>- Added surface finish callout of 125 Ra on mating face (was previously unspecified)<br>- Updated material note to reference AMS 4027 instead of generic 6061-T6 call<br><br>Drawing is saved to Engineering &gt; Drawings &gt; Pacific-Auto &gt; 7815-RevC.pdf<br><br>Can you review and approve before I send to Johanna for customer sign-off? The tighter true position shouldn't be an issue with our current process, but the surface finish callout might require an additional polishing op.<br><br>Pradeep Gupta<br>Senior Design Engineer<br>Waverly Industrial Solutions, Inc.</body></html>
+

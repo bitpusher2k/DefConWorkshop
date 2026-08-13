@@ -1,0 +1,34 @@
+﻿
+AdminAuditLogEnabled            : True
+LogLevel                        : None
+TestCmdletLoggingEnabled        : False
+AdminAuditLogCmdlets            : {*}
+AdminAuditLogParameters         : {*}
+AdminAuditLogExcludedCmdlets    : {}
+AdminAuditLogAgeLimit           : 90.00:00:00
+LoadBalancerCount               : 3
+RefreshInterval                 : 10
+PartitionInfo                   : {}
+AdminAuditLogMailbox            : 
+UnifiedAuditLogIngestionEnabled : True
+UnifiedAuditLogFirstOptInDate   : 2026-07-06 15:23:52
+AdminDisplayName                : 
+ExchangeVersion                 : 0.10 (14.0.100.0)
+Name                            : Admin Audit Log Settings
+DistinguishedName               : CN=Admin Audit Log Settings,CN=Global Settings,CN=Configuration,CN=854jpt.onmicrosoft.com,CN=ConfigurationUnits,DC=NAMPR10A011,DC=PROD,DC=OUTLOOK,DC=COM
+Identity                        : Admin Audit Log Settings
+ObjectCategory                  : NAMPR10A011.PROD.OUTLOOK.COM/Configuration/Schema/ms-Exch-Admin-Audit-Log-Config
+ObjectClass                     : {top, msExchAdminAuditLogConfig}
+WhenChanged                     : 2026-07-06 08:23:54
+WhenCreated                     : 2026-07-05 22:45:44
+WhenChangedUTC                  : 2026-07-06 15:23:54
+WhenCreatedUTC                  : 2026-07-06 05:45:44
+ExchangeObjectId                : e8af16e1-58f8-4e45-a361-2cb56fdfce08
+OrganizationalUnitRoot          : 854jpt.onmicrosoft.com
+OrganizationId                  : NAMPR10A011.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/854jpt.onmicrosoft.com - NAMPR10A011.PROD.OUTLOOK.COM/ConfigurationUnits/854jpt.onmicrosoft.com/Configuration
+Id                              : Admin Audit Log Settings
+Guid                            : e8af16e1-58f8-4e45-a361-2cb56fdfce08
+OriginatingServer               : DS0PR10A11DC001.NAMPR10A011.PROD.OUTLOOK.COM
+IsValid                         : True
+ObjectState                     : Changed
+

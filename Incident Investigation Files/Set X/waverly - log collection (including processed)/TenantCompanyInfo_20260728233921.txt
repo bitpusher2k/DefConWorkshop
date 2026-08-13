@@ -1,0 +1,32 @@
+﻿
+AssignedPlans                        : {2a4baa0e-5e99-4c38-b1f2-6864960f1bd1, 3eeb8536-fecf-41bf-a3f8-d6f17a9f3efc, d9923fe3-a2de-4d29-a5be-e3e83bb786be, 3afa0b92-83ef-41c1-8d64-586ab882a951…}
+Branding                             : Microsoft.Graph.PowerShell.Models.MicrosoftGraphOrganizationalBranding
+BusinessPhones                       : {18057544008}
+CertificateBasedAuthConfiguration    : 
+City                                 : Redmond
+Country                              : 
+CountryLetterCode                    : US
+CreatedDateTime                      : 2025-05-22 04:57:04
+DefaultUsageLocation                 : 
+DeletedDateTime                      : 
+DisplayName                          : MSFT
+Extensions                           : 
+Id                                   : eb174bbc-fe94-4978-95b9-a616457dd489
+MarketingNotificationEmails          : {vince@ineed.to}
+MobileDeviceManagementAuthority      : 
+OnPremisesLastSyncDateTime           : 
+OnPremisesSyncEnabled                : 
+PartnerTenantType                    : 
+PostalCode                           : 98052
+PreferredLanguage                    : en
+PrivacyProfile                       : Microsoft.Graph.PowerShell.Models.MicrosoftGraphPrivacyProfile
+ProvisionedPlans                     : {Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan…}
+SecurityComplianceNotificationMails  : {vince@ineed.to}
+SecurityComplianceNotificationPhones : {18057544008}
+State                                : WA
+Street                               : One Microsoft Way
+TechnicalNotificationMails           : {vince@ineed.to}
+TenantType                           : AAD
+VerifiedDomains                      : {854jpt.onmicrosoft.com}
+AdditionalProperties                 : {[directorySizeQuota, System.Collections.Generic.Dictionary`2[System.String,System.Object]], [onPremisesSyncStatus, System.Object[]]}
+

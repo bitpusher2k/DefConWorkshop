@@ -1,0 +1,1719 @@
+Description,Enabled,Patel26,InError,ErrorType,Name,Priority,RuleIdentity,SupportedByTask,Legacy,BodyContainsWords,ExceptIfBodyContainsWords,FlaggedForAction,ExceptIfFlaggedForAction,FromAddressContainsWords,ExceptIfFromAddressContainsWords,From,ExceptIfFrom,HasAttachment,ExceptIfHasAttachment,HasClassification,ExceptIfHasClassification,HeaderContainsWords,ExceptIfHeaderContainsWords,MessageTypeMatches,ExceptIfMessageTypeMatches,MyNameInCcBox,ExceptIfMyNameInCcBox,MyNameInToBox,ExceptIfMyNameInToBox,MyNameInToOrCcBox,ExceptIfMyNameInToOrCcBox,MyNameNotInToBox,ExceptIfMyNameNotInToBox,ReceivedAfterDate,ExceptIfReceivedAfterDate,ReceivedBeforeDate,ExceptIfReceivedBeforeDate,RecipientAddressContainsWords,ExceptIfRecipientAddressContainsWords,SentOnlyToMe,ExceptIfSentOnlyToMe,SentTo,ExceptIfSentTo,SubjectContainsWords,ExceptIfSubjectContainsWords,SubjectOrBodyContainsWords,ExceptIfSubjectOrBodyContainsWords,WithImportance,ExceptIfWithImportance,WithinSizeRangeMaximum,ExceptIfWithinSizeRangeMaximum,WithinSizeRangeMinimum,ExceptIfWithinSizeRangeMinimum,WithSensitivity,ExceptIfWithSensitivity,ApplyCategory,ApplySystemCategory,CopyToFolder,DeleteMessage,DeleteSystemCategory,ForwardAsAttachmentTo,ForwardTo,MarkAsRead,MarkImportance,MoveToFolder,PinMessage,RedirectTo,SendTextMessageNotificationTo,SoftDeleteMessage,StopProcessingRules,DisplayAlert,PlaySound,MailboxOwnerId,IsValid,ObjectState
+"If the message:
+	the message was received from 'carolyn27.paul28@cruz291.example'
+Take the following actions:
+	move the message to folder 'Gomez45'
+	and stop processing more rules on this message
+",TRUE,ruiz15\8107123003214528513,FALSE,None,carolyn27.paul28@cruz291.example,1,8.11E+18,TRUE,,,,,,,,"""carolyn27.paul28@cruz291.example"" [SMTP:carolyn27.paul28@cruz291.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Gomez45,FALSE,,,FALSE,TRUE,,,ruiz15,TRUE,Unchanged
+"If the message:
+	the message was received from 'info@cruz292.example'
+Take the following actions:
+	move the message to folder 'Gomez45'
+	and stop processing more rules on this message
+",TRUE,ruiz15\8035065409176600577,FALSE,None,info@cruz292.example,2,8.04E+18,TRUE,,,,,,,,"""info@cruz292.example"" [SMTP:info@cruz292.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Gomez45,FALSE,,,FALSE,TRUE,,,ruiz15,TRUE,Unchanged
+"If the message:
+	the message was received from 'support@cruz293.example'
+	and the message includes specific words in the subject 'Summary of Loan Changes'
+Take the following actions:
+	move the message to folder '[folder not found]'
+",TRUE,ruiz15\7475723971279716353,TRUE,PropertiesInError,support@cruz293.example,4,7.48E+18,TRUE,,,,,,,,"""support@cruz293.example"" [SMTP:support@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Summary of Loan Changes,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,FALSE,,,ruiz15,TRUE,Unchanged
+"If the message:
+	the message was received from 'support@cruz293.example'
+	and the message includes specific words in the subject 'Notice of Recorded Anna26'
+Take the following actions:
+	move the message to folder 'Catherine33 Notices'
+	and stop processing more rules on this message
+",TRUE,ruiz15\7547781565317644289,FALSE,None,Catherine33 Timothy41,5,7.55E+18,TRUE,,,,,,,,"""support@cruz293.example"" [SMTP:support@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Notice of Recorded Anna26,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Catherine33 Notices,FALSE,,,FALSE,TRUE,,,ruiz15,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Catherine33'
+Take the following actions:
+	move the message to folder 'Courier'
+	and stop processing more rules on this message
+",TRUE,Parker13\6880828012472827905,FALSE,None,Catherine33,1,6.88E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Catherine33,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Courier,FALSE,,,FALSE,TRUE,,,Parker13,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Rejection '
+Take the following actions:
+	move the message to folder 'Rejections'
+	and stop processing more rules on this message
+",TRUE,Parker13\6952885606510755841,FALSE,None,Rejection ,2,6.95E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,eCourier Rejection ,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Rejections,FALSE,,,FALSE,TRUE,,,Parker13,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Notice of Rejected Anna26'
+Take the following actions:
+	move the message to folder 'Melissa28 Nathan38 Rejections'
+	and stop processing more rules on this message
+",TRUE,Parker13\7097000794586611713,FALSE,None,Notice of Rejected Anna26 (1),4,7.10E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Notice of Rejected Anna26,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Melissa28 Nathan38 Rejections,FALSE,,,FALSE,TRUE,,,Parker13,TRUE,Unchanged
+"If the message:
+	the message was received from 'External Vendor 5 - System Message'
+Take the following actions:
+	move the message to folder 'External Vendor 5'
+	and stop processing more rules on this message
+",TRUE,Parker13\7169058388624539649,FALSE,None,External Vendor 5 - System Message (1),5,7.17E+18,TRUE,,,,,,,,"""External Vendor 5 - System Message"" [SMTP:eric25-phillips34@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,External Vendor 5,FALSE,,,FALSE,TRUE,,,Parker13,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Notice of Rejected Anna26'
+Take the following actions:
+	move the message to folder 'Melissa28 Nathan38 Rejections'
+	and stop processing more rules on this message
+",TRUE,Parker13\7241115982662467585,FALSE,None,Notice of Rejected Anna26,6,7.24E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Notice of Rejected Anna26,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Melissa28 Nathan38 Rejections,FALSE,,,FALSE,TRUE,,,Parker13,TRUE,Unchanged
+"If the message:
+	the message was received from 'External Vendor 5 - System Message'
+Take the following actions:
+	move the message to folder 'External Vendor 5'
+	and stop processing more rules on this message
+",TRUE,Parker13\7313173576700395521,FALSE,None,External Vendor 5 - System Message,7,7.31E+18,TRUE,,,,,,,,"""External Vendor 5 - System Message"" [SMTP:support@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,External Vendor 5,FALSE,,,FALSE,TRUE,,,Parker13,TRUE,Unchanged
+"If the message:
+	the message was received from 'eric25-phillips34@cruz295.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,benjamin13\4573858063919874049,FALSE,None,Move all messages from Chase to Inbox,1,4.57E+18,TRUE,,,,,,,,"""eric25-phillips34@cruz295.example"" [SMTP:eric25-phillips34@cruz295.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,benjamin13,TRUE,Unchanged
+"If the message:
+	the message was received from 'gary25@freemail1.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Heather13\6322272875763990530,FALSE,None,gary25@freemail1.example,1,6.32E+18,TRUE,,,,,,,,"""gary25@freemail1.example"" [SMTP:gary25@freemail1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Heather13,TRUE,Unchanged
+"If the message:
+	the message was received from 'Janet20 Butcher'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Heather13\6394330469801918466,FALSE,None,Janet20 Butcher (2),2,6.39E+18,TRUE,,,,,,,,"""Janet20 Butcher"" [SMTP:morgan24@cruz296.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Heather13,TRUE,Unchanged
+"If the message:
+	the message was received from 'Janet20 Butcher'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Heather13\6466388063839846402,FALSE,None,Janet20 Butcher (1),3,6.47E+18,TRUE,,,,,,,,"""Janet20 Butcher"" [SMTP:morgan24@cruz296.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Heather13,TRUE,Unchanged
+"If the message:
+	the message was received from 'Janet20 Butcher'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Heather13\6538445657877774338,FALSE,None,Janet20 Butcher,4,6.54E+18,TRUE,,,,,,,,"""Janet20 Butcher"" [SMTP:morgan24@cruz296.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Heather13,TRUE,Unchanged
+"If the message:
+	the message was received from 'Betty12 Production'
+Take the following actions:
+	move the message to folder 'Production'
+	and stop processing more rules on this message
+",TRUE,Heather13\6610503251915702274,FALSE,None,Betty12 Production (1),5,6.61E+18,TRUE,,,,,,,,"""Betty12 Production"" [SMTP:campbell60@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Production,FALSE,,,FALSE,TRUE,,,Heather13,TRUE,Unchanged
+"If the message:
+	the message was received from 'Betty12 Production'
+Take the following actions:
+	move the message to folder 'Production'
+	and stop processing more rules on this message
+",TRUE,Heather13\6682560845953630210,FALSE,None,Betty12 Production,6,6.68E+18,TRUE,,,,,,,,"""Betty12 Production"" [SMTP:campbell60@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Production,FALSE,,,FALSE,TRUE,,,Heather13,TRUE,Unchanged
+"If the message:
+	the message was received from 'MidCountry Bank'
+Take the following actions:
+	move the message to folder 'MidCountry Morgan50'
+	and stop processing more rules on this message
+",TRUE,Heather13\6754618439991558146,FALSE,None,MidCountry Bank,7,6.75E+18,TRUE,,,,,,,,"""MidCountry Bank"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,MidCountry Morgan50,FALSE,,,FALSE,TRUE,,,Heather13,TRUE,Unchanged
+"If the message:
+	the message was received from 'Betty12 Accounting'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Completed (Sent)'
+	and stop processing more rules on this message
+",TRUE,Phillips14\3831351187337117697,FALSE,None,Accounting Sent Items,6,3.83E+18,TRUE,,,,,,,,"""Betty12 Accounting"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=be1d8b09d50e436da6930a57f7a34220-AnconaAccou]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Completed (Sent),FALSE,,,FALSE,TRUE,,,Phillips14,TRUE,Unchanged
+"If the message:
+	the message was received from 'Ramirez28 Lewis' or 'Ramirez28 Edward40 Diaz35' or 'Ramos24 Foss' or 'Christine13 Ortiz24' or 'Bennett18 Gordon' or 'Betty20 Helms' or 'Bob Bodine' or 'Walker21 Donna18-Gary22'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",FALSE,Phillips14\4110116958790221825,TRUE,PropertiesInError,Teresa,7,4.11E+18,TRUE,,,,,,,,"""Ramirez28 Lewis"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=76959b19b77d4685a36f82343cc3eaf1-Ramirez28] ""Ramirez28 Edward40 Diaz35"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6f80605f6f6b40dd88b34f38efff7d21-Gutierrez15] ""Ramos24 Foss"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9a99f186bb024e1cbf9aa2a9bce6ee8c-mfoss] ""Christine13 Ortiz24"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2c50a7c563894f87a57c718b66d84a29-Christine13] ""Bennett18 Gordon"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1216ba39da564f0abd3f2c65abe9635a-bennett18] ""Betty20 Helms"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a8aa7d24960e4f669edd73b60b0f42d7-Betty20] ""Bob Bodine"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d6b9a74acc9c4c978a7373c40f956993-young14] ""Walker21 Donna18-Gary22"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fb328b2498e647f2892bc483fbe64b8e-walker21]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,Phillips14,TRUE,Unchanged
+"If the message:
+	the message was received from 'Janelle Larson' or 'Tyler25 Bennett12' or 'Noah Larson' or 'Pat Mohs' or 'Urvanie Persaud' or 'Green22 Evelyn15' or 'Vicki Moe' or 'Shelly Confair' or 'Zach Hardin' or 'Tyler25 Richard37' or 'Linda Spryshak' or 'Patricia12 Paul37'or...
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",FALSE,Phillips14\4182174552828149761,TRUE,PropertiesInError,Green22,8,4.18E+18,TRUE,,,,,,,,"""Janelle Larson"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=eb0455f8ec4b4f259b97fc14daada63b-janelle] ""Tyler25 Bennett12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=576509372f814c528949df2ac90151b0-rBuendiger] ""Noah Larson"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=28ed6a03c3b344629998771e47089c2d-Noah] ""Pat Mohs"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6980617850944539bb0400b052502192-Pat] ""Urvanie Persaud"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c6400d0ec3874b03b99b7ca10b399576-urvanie] ""Green22 Evelyn15"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=860c9244ec69435e8c9447beaa18d997-Patel13] ""Vicki Moe"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=856ae26cd4f545d1af9a3e4c6dffec2f-Vickie] ""Shelly Confair"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7a72432de572411c8e73c38a395ebbba-shelly] ""Zach Hardin"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9b528b2657ee4d7e9598d8315d883b03-zhardin] ""Tyler25 Richard37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d912965e58c24b0fb33a90871a12e338-Tyler25] ""Linda Spryshak"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=08df6889d1e94e298175bbacdee1f719-Linda] ""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""James105 Patrick46"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a3bcd4a04f74b5592c0064fa64ef28c-James105] ""Grace Shaw"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=306e22b4651142e89bc95a4e8176f625-Grace] ""Bobbi Ronald34"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ac9c3d2c953c4b9aa547a2d9421c55f8-Bobbi] ""Ruiz18 Benson"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6254f5955292437181dbb37fe9aaaa20-ruiz18] ""Cooper27 Dombrovski"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1876d27d68bb45b6b25e5c627b8a3bc9-Joyce39] ""Tyler25 R. Petermeier"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6fcb01ce84c8401f99183a59c098d3aa-robinp]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,Phillips14,TRUE,Unchanged
+"If the message:
+	the message was received from 'Scott59 Kelly52' or 'Johnson24 Holleran' or 'Kristin Thrush' or 'Tim Thrush' or 'Zachary Jensen' or 'Kari Ronsberg' or 'Patrick15 Ronald34' or 'Patrick15 Lee' or 'Jonathan24 Katherine13' or 'Taylor Schaber' or 'Sabrina Richards'or...
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",FALSE,Phillips14\4254232146866077697,TRUE,PropertiesInError,Ramos24,9,4.25E+18,TRUE,,,,,,,,"""Scott59 Kelly52"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fb7e53ccedfb45aebec4d3d164f2b77c-Scott59] ""Johnson24 Holleran"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=055a2b82c32f40b3ad3cde027d7c62fc-Johnson24] ""Kristin Thrush"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e2781e2c50b14f3d87fa707d31cbeef4-kthrush] ""Tim Thrush"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=23c76b11123843c19a34929ed8784cc1-tthrush] ""Zachary Jensen"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=16d91bad66a94f07b156727cec6532fe-zjensen] ""Kari Ronsberg"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9fa76a32b6f44e658610a4cefed86d51-Kari] ""Patrick15 Ronald34"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0d453556e0b2487589a7458fcca6b576-patrick15] ""Patrick15 Lee"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d32ec87c265b409395411f1b780be105-Brenda19] ""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f] ""Taylor Schaber"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b6d5d07c3ce648a680576ecb5db734cf-kim] ""Sabrina Richards"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d1f9819b1ee84f65829435596f1e2180-sabrina] ""Diaz30 Erickson"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9f34377d06334fc29e7d1620430cb70b-diaz30] ""Ramos24 Nelson15"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e28b43017ebb446d974c621c8c4fa994-taylor32]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,Phillips14,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Outgoing Morgan502'
+	and stop processing more rules on this message
+",TRUE,Phillips14\4326289740904005633,FALSE,None,Outgoing Morgan50,10,4.33E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Outgoing Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Outgoing Morgan502,FALSE,,,FALSE,TRUE,,,Phillips14,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Melissa27 Morgan502'
+",TRUE,Phillips14\4398347334941933569,FALSE,None,Melissa27 Wire,11,4.40E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27 Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Melissa27 Morgan502,FALSE,,,FALSE,FALSE,,,Phillips14,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Betty12 Morgan50'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,dennis25\7115795524246044673,FALSE,None,For all messages sent to Betty12 Morgan50,1,7.12E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Morgan50"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=452031fbb014409b81009320adaa2c3d-Betty12 Wire]",,,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,dennis25,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Johnson24 Holleran'
+Take the following actions:
+	move the message to folder 'Johnson24 Forwards'
+	and stop processing more rules on this message
+",TRUE,dennis25\7187853118283972609,FALSE,None,Johnson24 Forwards,2,7.19E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Johnson24 Holleran"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=055a2b82c32f40b3ad3cde027d7c62fc-Johnson24]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Johnson24 Forwards,FALSE,,,FALSE,TRUE,,,dennis25,TRUE,Unchanged
+"If the message:
+	the body of the message contains the words 'Jones35 Type: Dennis25'
+	and the message was received from 'Betty12 Support'
+Take the following actions:
+	move the message to folder 'Title Laura30'
+	and stop processing more rules on this message
+",FALSE,dennis25\7259910712321900545,FALSE,None,Website Title Laura30,3,7.26E+18,TRUE,,Jones35 Type: Dennis25,,,,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Title Laura30,FALSE,,,FALSE,TRUE,,,dennis25,TRUE,Unchanged
+"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Betty12 Dennis25'
+Take the following actions:
+	move the message to folder 'C Faxes'
+	and stop processing more rules on this message
+",FALSE,dennis25\7331968306359828481,FALSE,None,Move messages from eFax Corporate,4,7.33E+18,TRUE,,,,,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Dennis25"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=aa92f761c97b4bd9a9d03d45b39d5e99-dennis25]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,C Faxes,FALSE,,,FALSE,TRUE,,,dennis25,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message was sent to 'Betty12 Morgan50'
+	and the message includes specific words in the subject 'Melissa27'
+Take the following actions:
+	move the message to folder 'Melissa27 Morgan50'
+	and stop processing more rules on this message
+",TRUE,sandoval19\7684584983939252225,FALSE,None,Melissa27 Morgan50,1,7.68E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Morgan50"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=452031fbb014409b81009320adaa2c3d-Betty12 Wire]",,Melissa27,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Melissa27 Morgan50,FALSE,,,FALSE,TRUE,,,sandoval19,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message was sent to 'Betty12 Morgan50'
+	and the message includes specific words in the subject 'Outgoing'
+Take the following actions:
+	move the message to folder 'Outgoing Morgan50'
+	and stop processing more rules on this message
+",TRUE,sandoval19\7756642577977180161,FALSE,None,Outgoing Morgan50,2,7.76E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Morgan50"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=452031fbb014409b81009320adaa2c3d-Betty12 Wire]",,Outgoing,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Outgoing Morgan50,FALSE,,,FALSE,TRUE,,,sandoval19,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Stephanie23 Sandoval14' or 'Alexander18 Gutierrez19'
+Take the following actions:
+	move the message to folder 'Stephanie23 - Alexander18 Emails'
+	and stop processing more rules on this message
+",TRUE,sandoval19\7828700172015108097,FALSE,None,Stephanie23 and Alexander18 - Sandoval19 Copy,3,7.83E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Stephanie23 Sandoval14"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f2f639e1f3b74a5b92b120aa975fd429-stephanie23] ""Alexander18 Gutierrez19"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=acf0a9ac0ec1483b89be665b419c6b00-Alexander18]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Stephanie23 - Alexander18 Emails,FALSE,,,FALSE,TRUE,,,sandoval19,TRUE,Unchanged
+"If the message:
+	the message was received from 'nelson24@cruz298.example'
+Take the following actions:
+	move the message to folder 'Faxes'
+	and stop processing more rules on this message
+",TRUE,sandoval19\7900757766053036033,FALSE,None,Faxes,4,7.90E+18,TRUE,,,,,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Faxes,FALSE,,,FALSE,TRUE,,,sandoval19,TRUE,Unchanged
+"If the message:
+	the message was received from 'Linda Spryshak'
+Take the following actions:
+	apply the following category: ''Linda''
+	and mark the message as Read
+	and move the message to folder 'Linda Responses'
+	and stop processing more rules on this message
+",TRUE,processing\16164561167467937793,FALSE,None,Linda Responses,1,1.62E+19,TRUE,,,,,,,,"""Linda Spryshak"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=08df6889d1e94e298175bbacdee1f719-Linda]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,Linda,,,FALSE,,,,TRUE,,Linda Responses,FALSE,,,FALSE,TRUE,,,processing,TRUE,Unchanged
+"If the message:
+	the message was received from 'Tracy Vogt'
+Take the following actions:
+	apply the following category: ''Tracy''
+	and mark the message as Read
+	and move the message to folder 'Tracy Responses'
+	and stop processing more rules on this message
+",TRUE,processing\16092503573430009857,FALSE,None,Tracy Responses,2,1.61E+19,TRUE,,,,,,,,"""Tracy Vogt"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=951f7f651c5841dbae0123378d7a0935-TVogt]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,Tracy,,,FALSE,,,,TRUE,,Tracy Responses,FALSE,,,FALSE,TRUE,,,processing,TRUE,Unchanged
+"If the message:
+	the header of the message contains the words 'amy34-ronald38@contoso.com'
+Take the following actions:
+	move the message to folder 'SATISFACTIONS'
+	and stop processing more rules on this message
+",TRUE,processing\13563523793279778817,FALSE,None,Satisfactions,3,1.36E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,amy34-ronald38@contoso.com,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,SATISFACTIONS,FALSE,,,FALSE,TRUE,,,processing,TRUE,Unchanged
+"If the message:
+	the header of the message contains the words 'bailey35-ronald38@contoso.com'
+Take the following actions:
+	move the message to folder 'BAILEY35'
+	and stop processing more rules on this message
+",TRUE,processing\13635581387317706753,FALSE,None,Bailey35,4,1.36E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,bailey35-ronald38@contoso.com,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,BAILEY35,FALSE,,,FALSE,TRUE,,,processing,TRUE,Unchanged
+"If the message:
+	the message was received from 'Tyler25 Richard37'
+Take the following actions:
+	apply the following category: ''Tyler25''
+	and mark the message as Read
+	and move the message to folder 'Tyler25 Responses'
+	and stop processing more rules on this message
+",TRUE,processing\13923811763469418497,FALSE,None,Tyler25 Responses,6,1.39E+19,TRUE,,,,,,,,"""Tyler25 Richard37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d912965e58c24b0fb33a90871a12e338-Tyler25]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,Tyler25,,,FALSE,,,,TRUE,,Tyler25 Responses,FALSE,,,FALSE,TRUE,,,processing,TRUE,Unchanged
+"If the message:
+	the message was received from 'Jonathan24 Katherine13'
+Take the following actions:
+	apply the following category: ''Jonathan24''
+	and mark the message as Read
+	and move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+Except if the message:
+	the message was sent to 'Betty12 processing'
+",TRUE,processing\13995869357507346433,TRUE,PropertiesInError,Jonathan24 Responses,7,1.40E+19,TRUE,,,,,,,,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,"""Betty12 processing"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=221fea68dc444bd18a809233c142f335-processing]",,,,,,,,,,,,,Jonathan24,,,FALSE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,processing,TRUE,Unchanged
+"If the message:
+	the message was received from 'Green22 Evelyn15'
+Take the following actions:
+	apply the following category: ''Green22''
+	and mark the message as Read
+	and move the message to folder 'Green22 Responses'
+	and stop processing more rules on this message
+",TRUE,processing\14139984545583202305,FALSE,None,Green22 Responses,9,1.41E+19,TRUE,,,,,,,,"""Green22 Evelyn15"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=860c9244ec69435e8c9447beaa18d997-Patel13]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,Green22,,,FALSE,,,,TRUE,,Green22 Responses,FALSE,,,FALSE,TRUE,,,processing,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'New Sale' or 'New Donna15' or 'New Thompson27 Agreement'
+Take the following actions:
+	move the message to folder 'Title Laura30 (Thompson27)'
+Except if the message:
+	the message includes specific words in the subject 'RE: ' or 'RE:'
+",TRUE,thompson27\13827798486877208577,FALSE,None,Title Laura30 (Subject),2,1.38E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,New Sale New Donna15 New Thompson27 Agreement,RE:  RE:,,,,,,,,,,,,,,FALSE,,,,FALSE,,Title Laura30 (Thompson27),FALSE,,,FALSE,FALSE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject or body 'New Order' or 'Title Order' or 'Title Request'
+Take the following actions:
+	move the message to folder 'Title Laura30 (Thompson27)'
+Except if the message:
+	the message includes specific words in the subject 'RE:' or 'RE: '
+",TRUE,thompson27\13899856080915136513,FALSE,None,Title Laura30 (Subject or Body),3,1.39E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,RE: RE: ,New Order Title Order Title Request,,,,,,,,,,,,,FALSE,,,,FALSE,,Title Laura30 (Thompson27),FALSE,,,FALSE,FALSE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the message was received from 'Betty22 Jeffrey21' or 'Corrina Bouthilet' or 'Jonathan24 Katherine13' or 'Patricia12 Paul37'
+	and the message has an attachment
+	and the message includes specific words in the subject or body 'sale side' or 'New PA' or 'buyside' or 'thompson27 agreement' or 'buy side' or 'FWD: ' or 'FWD:' or 'FW:' or 'FW: ' or 'Title order' or 'order'
+Take the following actions:
+	move the message to folder 'Title Laura30 (Thompson27)'
+	and stop processing more rules on this message
+",TRUE,thompson27\13971913674953064449,FALSE,None,Title Laura30 (Internal Sender),4,1.40E+19,TRUE,,,,,,,,"""Betty22 Jeffrey21"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=80cb42b43eb34cdcb7efbe33cc47c456-betty22] ""Corrina Bouthilet"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=705ed798391c4b569789d1f6b9b0de2b-Corrina] ""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f] ""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",,TRUE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,sale side New PA buyside thompson27 agreement buy side FWD:  FWD: FW: FW:  Title order order,,,,,,,,,,,,,FALSE,,,,FALSE,,Title Laura30 (Thompson27),FALSE,,,FALSE,TRUE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: 'elliemae.com' or 'myers42@cruz2911.example'
+	and the message includes specific words in the subject or body 'Click here to visit the website' or 'Click here to download'
+Take the following actions:
+	move the message to folder 'Watson24'
+",TRUE,thompson27\14043971268990992385,FALSE,None,Watson24 Rules (Sender & Subject/Body),5,1.40E+19,TRUE,,,,,,elliemae.com myers42@cruz2911.example,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Click here to visit the website Click here to download,,,,,,,,,,,,,FALSE,,,,FALSE,,Watson24,FALSE,,,FALSE,FALSE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: 'elliemae.com' or 'remotedocs.com' or 'heather25_laura29@cruz2912.example' or 'cruz2910.example' or 'lendingpartner' or 'richardson26@cruz2913.example' or 'nathan37@cruz2913.example'
+	and the message includes specific words in the subject 'Donna15 anna26' or 'RemoteDocs Kelly58' or 'completed' or 'donna15 carter17' or 'Secure Message' or 'Secure Document'
+Take the following actions:
+	move the message to folder 'Watson24'
+Except if the message:
+	the message includes specific words in the subject 'RE:'
+",TRUE,thompson27\14116028863028920321,FALSE,None,Watson24 Rules (Sender & Subject),6,1.41E+19,TRUE,,,,,,elliemae.com remotedocs.com heather25_laura29@cruz2912.example cruz2910.example lendingpartner richardson26@cruz2913.example nathan37@cruz2913.example,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Donna15 anna26 RemoteDocs Kelly58 completed donna15 carter17 Secure Message Secure Document,RE:,,,,,,,,,,,,,,FALSE,,,,FALSE,,Watson24,FALSE,,,FALSE,FALSE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: 'richardson48@cruz2914.example' or 'securemailer.d' or 'brenda48@cruz2915.example'
+Take the following actions:
+	move the message to folder 'Watson24'
+	and stop processing more rules on this message
+Except if the message:
+	the message includes specific words in the subject 'RE:'
+",TRUE,thompson27\14188086457066848257,FALSE,None,Watson24 Rules (Sender Address),7,1.42E+19,TRUE,,,,,,richardson48@cruz2914.example securemailer.d brenda48@cruz2915.example,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,RE:,,,,,,,,,,,,,,FALSE,,,,FALSE,,Watson24,FALSE,,,FALSE,TRUE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'New secure message from Summit Lending' or 'Title'
+	and the message includes specific words in the subject or body 'These are your wood21 to be signed and notarized' or 'Request for title'
+Take the following actions:
+	move the message to folder 'Watson24'
+Except if the message:
+	the message includes specific words in the subject 'RE:'
+",TRUE,thompson27\14260144051104776193,FALSE,None,Watson24 Rules (Subject and Subject & Body),8,1.43E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,New secure message from Summit Lending Title,RE:,These are your wood21 to be signed and notarized Request for title,,,,,,,,,,,,,FALSE,,,,FALSE,,Watson24,FALSE,,,FALSE,FALSE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Your wood21 for' or 'Donna15 wood21 are available' or 'Preliminary HUD and Donna15 instructions' or 'Donna15 Anna26' or 'Donna15 Figures' or 'Donna15 Wood21 for'
+Take the following actions:
+	move the message to folder 'Watson24'
+Except if the message:
+	the message includes specific words in the subject 'RE:'
+",TRUE,thompson27\14332201645142704129,FALSE,None,Watson24 Rules (Subject Melissa29),9,1.43E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Your wood21 for Donna15 wood21 are available Preliminary HUD and Donna15 instructions Donna15 Anna26 Donna15 Figures Donna15 Wood21 for,RE:,,,,,,,,,,,,,,FALSE,,,,FALSE,,Watson24,FALSE,,,FALSE,FALSE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the message was received from 'kenneth26.collins17@cruz2916.example' or 'kathleen9.steven22.hughes14@freemail1.example' or 'price34@cruz2916.example' or 'king12@cruz2917.example' or 'morgan47@cruz2916.example' or 'alvarez19@cruz2918.example' or 'christina15@cruz2919.example'or...
+Take the following actions:
+	move the message to folder 'Walker16'
+",TRUE,thompson27\14404259239180632065,FALSE,None,Walker16,10,1.44E+19,TRUE,,,,,,,,"""kenneth26.collins17@cruz2916.example"" [SMTP:kenneth26.collins17@cruz2916.example] ""kathleen9.steven22.hughes14@freemail1.example"" [SMTP:kathleen9.steven22.hughes14@freemail1.example] ""price34@cruz2916.example"" [SMTP:price34@cruz2916.example] ""king12@cruz2917.example"" [SMTP:king12@cruz2917.example] ""morgan47@cruz2916.example"" [SMTP:morgan47@cruz2916.example] ""alvarez19@cruz2918.example"" [SMTP:alvarez19@cruz2918.example] ""christina15@cruz2919.example"" [SMTP:christina15@cruz2919.example] ""green32@cruz2916.example"" [SMTP:green32@cruz2916.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Walker16,FALSE,,,FALSE,FALSE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'pages fax message from' or 'page fax message from'
+Take the following actions:
+	move the message to folder 'Faxes'
+",TRUE,thompson27\14476316833218560001,FALSE,None,Faxes (Subject),11,1.45E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,pages fax message from page fax message from,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Faxes,FALSE,,,FALSE,FALSE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the message was received from 'eFax Corporate' or 'thompson24@cruz2920.example'
+Take the following actions:
+	move the message to folder 'Faxes'
+	and stop processing more rules on this message
+",TRUE,thompson27\14548374427256487937,FALSE,None,Faxes (Sender Address),12,1.45E+19,TRUE,,,,,,,,"""eFax Corporate"" [SMTP:nelson24@cruz298.example] ""thompson24@cruz2920.example"" [SMTP:thompson24@cruz2920.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Faxes,FALSE,,,FALSE,TRUE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Patricia12 Paul37' or 'Corrina Bouthilet' or 'Scott59 Cochran' or 'Sheri Haines' or 'Christine13 Ortiz24' or 'Kari Ronsberg'
+",TRUE,thompson27\14620432021294415873,FALSE,None,Closer Recipient Rule,13,1.46E+19,FALSE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Corrina Bouthilet"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=705ed798391c4b569789d1f6b9b0de2b-Corrina] ""Scott59 Cochran"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fb7e53ccedfb45aebec4d3d164f2b77c-Scott59] ""Sheri Haines"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=101da0799cbe4cd294a55712b4576a32-Sheri] ""Christine13 Ortiz24"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2c50a7c563894f87a57c718b66d84a29-Christine13] ""Kari Ronsberg"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9fa76a32b6f44e658610a4cefed86d51-Kari]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,FALSE,,,thompson27,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,support\14239932304427319297,FALSE,None,MidCountry Morgan50 - Outgoing,1,1.42E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Outgoing Wire Kelly58,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,support\14311989898465247233,FALSE,None,MidCountry Morgan50 - Melissa27,2,1.43E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27 Wire Kelly58,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the body of the message contains the words 'Refinance'
+	and the message was received from 'brooks37@cruz2921.example'
+Take the following actions:
+	move the message to folder '.Refi - Title Laura30'
+	and stop processing more rules on this message
+",TRUE,support\14456105086541103105,FALSE,None,Website Laura30 - Refinance,3,1.45E+19,TRUE,,Refinance,,,,,,"""brooks37@cruz2921.example"" [SMTP:brooks37@cruz2921.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Refi - Title Laura30,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'hughes31.davis44@cruz2922.example' or 'noreply@cruz2922.example'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Completed'
+	and stop processing more rules on this message
+",TRUE,support\14528162680579031041,FALSE,None,"Well Disclosures, ECRVs",4,1.45E+19,TRUE,,,,,,,,"""hughes31.davis44@cruz2922.example"" [SMTP:hughes31.davis44@cruz2922.example] ""noreply@cruz2922.example"" [SMTP:noreply@cruz2922.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Completed,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'nancy29-service@cruz2923.example'
+Take the following actions:
+	forward the message to 'Betty12 Sales'
+	and mark the message as Read
+	and move the message to folder 'Completed'
+	and stop processing more rules on this message
+",TRUE,support\14600220274616958977,FALSE,None,For all messages from Title Quote App - Message Center,5,1.46E+19,TRUE,,,,,,,,"""nancy29-service@cruz2923.example"" [SMTP:nancy29-service@cruz2923.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Sales"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=57bb7c8caa1f4b2eb5f598baa609dac5-Betty12 Sale]",TRUE,,Completed,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Betty12 Dennis25'
+Take the following actions:
+	move the message to folder 'Dennis25'
+	and stop processing more rules on this message
+",TRUE,support\14672277868654886913,FALSE,None,Dennis25,6,1.47E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Dennis25"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=aa92f761c97b4bd9a9d03d45b39d5e99-dennis25]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Dennis25,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'OpCity'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,support\14888450650768670721,TRUE,PropertiesInError,Move all messages from OpCity to OpCity,7,1.49E+19,TRUE,,,,,,,,"""OpCity"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6c6852a675d342a6a50d4a138aa90e70-OpCity]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the body of the message contains the words 'Parker34 Larry20' or 'Savannah Jeans' or 'Heather13 George54' or 'Shirley15 Katherine36'
+	and the message includes specific words in the subject 'Betty12 Title and Escrow Document Attached for Torres23 No.'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Completed'
+	and redirect the message to 'Jonathan24 Katherine13'
+	and stop processing more rules on this message
+",FALSE,support\14960508244806598657,FALSE,None,TC Production Replies,8,1.50E+19,TRUE,,Parker34 Larry20 Savannah Jeans Heather13 George54 Shirley15 Katherine36,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Betty12 Title and Escrow Document Attached for Torres23 No.,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Completed,FALSE,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'cruz20@cruz2924.example'
+	and the message includes specific words in the subject 'Your Pending Melissa28 Order'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Completed'
+	and stop processing more rules on this message
+",TRUE,support\15032565838844526593,FALSE,None,Title Laura30 - cruz20@cruz2924.example (Pending),9,1.50E+19,TRUE,,,,,,,,"""cruz20@cruz2924.example"" [SMTP:cruz20@cruz2924.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Your Pending Melissa28 Order,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Completed,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the body of the message contains the words 'O&E' or 'JR Policy' or '(Melissa28 Donna15 in-house)'
+	and the message was received from 'brooks37@cruz2921.example'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,support\15104623432882454529,FALSE,None,Website Laura30 - Melissa28 Nathan38,10,1.51E+19,TRUE,,O&E JR Policy (Melissa28 Donna15 in-house),,,,,,"""brooks37@cruz2921.example"" [SMTP:brooks37@cruz2921.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the body of the message contains the words 'Jones35 Type: Dennis25'
+	and the message was received from 'brooks37@cruz2921.example'
+Take the following actions:
+	move the message to folder 'Dennis25'
+	and stop processing more rules on this message
+",TRUE,support\15176681026920382465,FALSE,None,Website Laura30 - Dennis25,11,1.52E+19,TRUE,,Jones35 Type: Dennis25,,,,,,"""brooks37@cruz2921.example"" [SMTP:brooks37@cruz2921.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Dennis25,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Kelly63 Betty12'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,support\15248738620958310401,TRUE,PropertiesInError,Move messages sent to Kelly63 Betty12,12,1.52E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Kelly63 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a416eb48bf14e10b0f07137d6589ea4-kelly63]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the body of the message contains the words 'Thompson27'
+	and the message was received from 'brooks37@cruz2921.example'
+Take the following actions:
+	move the message to folder '.Thompson27 - Title Laura30'
+	and stop processing more rules on this message
+",TRUE,support\15320796214996238337,FALSE,None,Website laura30 - Thompson27,13,1.53E+19,TRUE,,Thompson27,,,,,,"""brooks37@cruz2921.example"" [SMTP:brooks37@cruz2921.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Thompson27 - Title Laura30,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Garcia63 Cruz28'
+Take the following actions:
+	move the message to folder 'Kelly67 Cloud'
+	and stop processing more rules on this message
+",TRUE,support\636963767774609409,FALSE,None,Garcia63 Cruz28 Emails,14,6.37E+17,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Garcia63 Cruz28"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=29a022610b644203a40d4017089ca426-9499a203-9e]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Kelly67 Cloud,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Powell18 Betty12'
+Take the following actions:
+	move the message to folder 'Powell18'
+	and stop processing more rules on this message
+",TRUE,support\15392853809034166273,FALSE,None,Powell18 Emails,15,1.54E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Powell18 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=46d3acc35c7e4f299b471fa85c615f0b-powell18]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Powell18,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Charles33 Sandoval15 Betty12'
+Take the following actions:
+	move the message to folder 'North Sandoval15'
+	and stop processing more rules on this message
+",TRUE,support\15464911403072094209,FALSE,None,North Sandoval15 Emails,16,1.55E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Charles33 Sandoval15 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c318f6aa619d4341ae9dbc0d3334f4a8-sandoval26]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,North Sandoval15,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Kelly63 Betty12'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,support\15536968997110022145,TRUE,PropertiesInError,Kelly63 Emails,17,1.55E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Kelly63 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a416eb48bf14e10b0f07137d6589ea4-kelly63]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Donna18 Betty12'
+Take the following actions:
+	move the message to folder 'Donna18'
+	and stop processing more rules on this message
+",TRUE,support\15609026591147950081,FALSE,None,Donna18 Emails,18,1.56E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Donna18 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=da3422ddfc85435e9b95ea0d46b29e26-donna18]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Donna18,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Edward69 Ruth19 Betty12'
+Take the following actions:
+	move the message to folder 'White Ruth19 Lake'
+	and stop processing more rules on this message
+",TRUE,support\15681084185185878017,FALSE,None,White Ruth19 Emails,19,1.57E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Edward69 Ruth19 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bf3ceaa6ebcf4415a56b9e7210455460-robinson45]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,White Ruth19 Lake,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Kelly67 Linda12 Betty12' or 'Joshua30 Support' or 'Clark14 Fouquette' or 'ruth32-melissa27@cruz2925.example'
+Take the following actions:
+	move the message to folder 'Kelly67 Cloud'
+	and stop processing more rules on this message
+",TRUE,support\15753141779223805953,FALSE,None,Kelly67 Cloud Emails,20,1.58E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Kelly67 Linda12 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cbb15689d56448088e7c89a47d697394-Bailey39] ""Joshua30 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3731d65ffdb84703aa8bdb09104647fe-Powell38] ""Clark14 Fouquette"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=157fca36fb6e4d4986239ad78c4edbf0-Clark14] ""ruth32-melissa27@cruz2925.example"" [SMTP:ruth32-melissa27@cruz2925.example]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Kelly67 Cloud,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Price16 Perez28 Betty12'
+Take the following actions:
+	move the message to folder 'Price16 Lake'
+	and stop processing more rules on this message
+",TRUE,support\15825199373261733889,FALSE,None,Price16 Lake Emails,21,1.58E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Price16 Perez28 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=351f784399ac417eb5dae83447f7fb88-bennett14]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Price16 Lake,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Donald25 Betty12'
+Take the following actions:
+	move the message to folder 'Donald25'
+	and stop processing more rules on this message
+",TRUE,support\15897256967299661825,FALSE,None,Donald25 Emails,22,1.59E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Donald25 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=036e75fe084845559b20ae13cda7227a-donald25]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Donald25,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Jose17 Cruz28 Betty12'
+Take the following actions:
+	move the message to folder 'Jose17 Park'
+	and stop processing more rules on this message
+",TRUE,support\15969314561337589761,FALSE,None,Jose17 Park Emails,23,1.60E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Jose17 Cruz28 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a7d63f8539564b6da4b4e1e7ad65ddaa-brooklynpar]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Jose17 Park,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Evelyn25 Samantha21 Betty12'
+Take the following actions:
+	move the message to folder 'Evelyn25 Samantha21'
+	and stop processing more rules on this message
+",TRUE,support\16041372155375517697,FALSE,None,Evelyn25 Samantha21 Emails,24,1.60E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Evelyn25 Samantha21 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bea494afc06144a69fa8edcbbd04d191-mendotaheig]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Evelyn25 Samantha21,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Minntetonka Betty12'
+Take the following actions:
+	move the message to folder 'Nancy30'
+	and stop processing more rules on this message
+",TRUE,support\16113429749413445633,FALSE,None,Nancy30 Emails,25,1.61E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Minntetonka Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f611703c9f7342558920c5339c3aeb97-nancy30]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Nancy30,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'garcia43@cruz294.example'
+	and the message includes specific words in the subject or body 'North Sandoval15 - Betty12'
+Take the following actions:
+	move the message to folder 'North Sandoval15'
+	and stop processing more rules on this message
+",TRUE,support\16185487343451373569,FALSE,None,Assessment Emails - North Sandoval15,26,1.62E+19,TRUE,,,,,,,,"""garcia43@cruz294.example"" [SMTP:garcia43@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,North Sandoval15 - Betty12,,,,,,,,,,,,,FALSE,,,,FALSE,,North Sandoval15,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'garcia43@cruz294.example'
+	and the message includes specific words in the subject or body 'White Ruth19 Lake - Betty12'
+Take the following actions:
+	move the message to folder 'White Ruth19 Lake'
+	and stop processing more rules on this message
+",TRUE,support\16257544937489301505,FALSE,None,Assessment Emails - White  Ruth19,27,1.63E+19,TRUE,,,,,,,,"""garcia43@cruz294.example"" [SMTP:garcia43@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,White Ruth19 Lake - Betty12,,,,,,,,,,,,,FALSE,,,,FALSE,,White Ruth19 Lake,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'garcia43@cruz294.example'
+	and the message includes specific words in the subject or body 'Kelly67 Cloud - Betty12'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,support\16329602531527229441,TRUE,PropertiesInError,Assessment Emails - Kelly67 Cloud,28,1.63E+19,TRUE,,,,,,,,"""garcia43@cruz294.example"" [SMTP:garcia43@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Kelly67 Cloud - Betty12,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'price34@cruz2916.example'
+	and the message includes specific words in the subject or body 'Evelyn25 Samantha21 - Betty12'
+Take the following actions:
+	move the message to folder 'Evelyn25 Samantha21'
+	and stop processing more rules on this message
+",TRUE,support\16401660125565157377,FALSE,None,Assessment Emails - Evelyn25 Samantha21,29,1.64E+19,TRUE,,,,,,,,"""price34@cruz2916.example"" [SMTP:price34@cruz2916.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Evelyn25 Samantha21 - Betty12,,,,,,,,,,,,,FALSE,,,,FALSE,,Evelyn25 Samantha21,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'garcia43@cruz294.example'
+	and the message includes specific words in the subject or body 'Price16 Lake - Betty12'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,support\16473717719603085313,TRUE,PropertiesInError,Assessment Emails - Price16 Lake,30,1.65E+19,TRUE,,,,,,,,"""garcia43@cruz294.example"" [SMTP:garcia43@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Price16 Lake - Betty12,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'garcia43@cruz294.example'
+	and the message includes specific words in the subject or body 'Donna18 - Betty12'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,support\16545775313641013249,TRUE,PropertiesInError,Assessment Emails - Donna18,31,1.65E+19,TRUE,,,,,,,,"""garcia43@cruz294.example"" [SMTP:garcia43@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Donna18 - Betty12,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message has an attachment
+	and the message was sent to 'Betty12 Thompson27' or 'Betty12 Support'
+	and the message includes specific words in the subject 'FSBO' or 'Thompson27 Agreement' or ' PA ' or 'Document PA Uploaded'
+Take the following actions:
+	move the message to folder '.Thompson27 - Title Laura30'
+	and stop processing more rules on this message
+",TRUE,support\16617832907678941185,FALSE,None,"P - Title Laura30 (Attachmnt, Subject)",32,1.66E+19,TRUE,,,,,,,,,,TRUE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Thompson27"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1aaf732fb6104513a87b6448dbaa7ed2-thompson27] ""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,FSBO Thompson27 Agreement  PA  Document PA Uploaded,,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Thompson27 - Title Laura30,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'garcia43@cruz294.example'
+	and the message includes specific words in the subject or body 'Nancy30 - Betty12'
+Take the following actions:
+	move the message to folder 'Nancy30'
+	and stop processing more rules on this message
+",TRUE,support\16689890501716869121,FALSE,None,Assessment Emails - Nancy30,33,1.67E+19,TRUE,,,,,,,,"""garcia43@cruz294.example"" [SMTP:garcia43@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Nancy30 - Betty12,,,,,,,,,,,,,FALSE,,,,FALSE,,Nancy30,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'price34@cruz2916.example'
+Take the following actions:
+	move the message to folder 'Jose17 Park'
+	and stop processing more rules on this message
+",TRUE,support\16761948095754797057,FALSE,None,Assessment Emails - Jose17 Park,34,1.68E+19,TRUE,,,,,,,,"""price34@cruz2916.example"" [SMTP:price34@cruz2916.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Jose17 Park,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'garcia43@cruz294.example'
+	and the message includes specific words in the subject or body 'Kelly67 Cloud - Betty12'
+Take the following actions:
+	forward the message to 'Joshua30 Support'
+	and stop processing more rules on this message
+",TRUE,support\16834005689792724993,FALSE,None,Assessment Emails - St Cloud,35,1.68E+19,TRUE,,,,,,,,"""garcia43@cruz294.example"" [SMTP:garcia43@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Kelly67 Cloud - Betty12,,,,,,,,,,,,,FALSE,,,"""Joshua30 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3731d65ffdb84703aa8bdb09104647fe-Powell38]",FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'flores32@cruz294.example'
+	and the message includes specific words in the subject 'PROGRAMX'
+Take the following actions:
+	move the message to folder '.Thompson27 - Title Laura30'
+	and stop processing more rules on this message
+",TRUE,support\16906063283830652929,FALSE,None,TItle Laura30 - Client Uploaded PA,36,1.69E+19,TRUE,,,,,,,,"""flores32@cruz294.example"" [SMTP:flores32@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,PROGRAMX,,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Thompson27 - Title Laura30,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message was sent to 'Betty12 Support'
+	and the message includes specific words in the subject 'Unsuccessful fax transmission' or 'Successful transmission'
+	and the message includes specific words in the subject or body 'Jonathan24 B'
+Take the following actions:
+	redirect the message to 'Jonathan24 Katherine13'
+	and stop processing more rules on this message
+",TRUE,support\16978120877868580865,FALSE,None,Fax Kelly58 - Jonathan24 B,37,1.70E+19,TRUE,,,,,,,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,Unsuccessful fax transmission Successful transmission,,Jonathan24 B,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'noreply@cruz2922.example'
+	and the message was sent to 'Betty12 Support'
+	and the message includes specific words in the subject or body 'submitted successfully'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,support\17050178471906508801,FALSE,None,Delete messages from noreply@cruz2922.example,38,1.71E+19,TRUE,,,,,,,,"""noreply@cruz2922.example"" [SMTP:noreply@cruz2922.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,submitted successfully,,,,,,,,,,,,,TRUE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'Ramos24 Kimberly21'
+	and the message includes specific words in the subject 'wire'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,support\17122236065944436737,FALSE,None,Ramos24 Kimberly21,39,1.71E+19,TRUE,,,,,,,,"""Ramos24 Kimberly21"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5c008bb3b3a446d9b1279df2bcfcc6d3-Ramos24]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,wire,,,,,,,,,,,,,,,TRUE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: 'torres23 created@e-donna15' or 'thompson47@cruz294.example' or 'barbara36@cruz294.example' or 'torres23_andrew26@cruz2927.example'
+Take the following actions:
+	move the message to folder '.Refi - Title Laura30'
+",TRUE,support\17194293659982364673,FALSE,None,Torres23 Created,40,1.72E+19,TRUE,,,,,,torres23 created@e-donna15 thompson47@cruz294.example barbara36@cruz294.example torres23_andrew26@cruz2927.example,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Refi - Title Laura30,FALSE,,,FALSE,FALSE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'kenneth26.collins17@cruz2916.example' or 'kathleen9.steven22.hughes14@freemail1.example' or 'price34@cruz2916.example' or 'king12@cruz2917.example' or 'morgan47@cruz2916.example' or 'alvarez19@cruz2918.example' or 'christina15@cruz2919.example'or...
+	and the message was sent to 'Betty12 Thompson27' or 'Betty12 Support'
+Take the following actions:
+	move the message to folder '.Thompson27 - Walker16'
+	and stop processing more rules on this message
+",TRUE,support\17266351254020292609,FALSE,None,Walker16,41,1.73E+19,TRUE,,,,,,,,"""kenneth26.collins17@cruz2916.example"" [SMTP:kenneth26.collins17@cruz2916.example] ""kathleen9.steven22.hughes14@freemail1.example"" [SMTP:kathleen9.steven22.hughes14@freemail1.example] ""price34@cruz2916.example"" [SMTP:price34@cruz2916.example] ""king12@cruz2917.example"" [SMTP:king12@cruz2917.example] ""morgan47@cruz2916.example"" [SMTP:morgan47@cruz2916.example] ""alvarez19@cruz2918.example"" [SMTP:alvarez19@cruz2918.example] ""christina15@cruz2919.example"" [SMTP:christina15@cruz2919.example] ""green32@cruz2916.example"" [SMTP:green32@cruz2916.example] ""king12@cruz2917.example"" [SMTP:king12@cruz2917.example] ""Kenneth26 Ball"" [SMTP:kenneth26.collins17@cruz2916.example] ""price17.walker16@freemail1.example"" [SMTP:price17.walker16@freemail1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Thompson27"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1aaf732fb6104513a87b6448dbaa7ed2-thompson27] ""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Thompson27 - Walker16,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'thompson24@cruz2920.example' or 'edward48@cruz2926.example' or 'eFax Corporate' or 'thompson24@cruz2920.example' or 'edward48@cruz2926.example' or 'nelson24@cruz298.example'
+	and the message was sent to 'Betty12 Thompson27' or 'Betty12 Support'
+Take the following actions:
+	move the message to folder 'Faxes'
+	and stop processing more rules on this message
+",TRUE,support\17338408848058220545,FALSE,None,Faxes,42,1.73E+19,TRUE,,,,,,,,"""thompson24@cruz2920.example"" [SMTP:thompson24@cruz2920.example] ""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example] ""eFax Corporate"" [SMTP:nelson24@cruz298.example] ""thompson24@cruz2920.example"" [SMTP:thompson24@cruz2920.example] ""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example] ""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Thompson27"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1aaf732fb6104513a87b6448dbaa7ed2-thompson27] ""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Faxes,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'chavez38@cruz299.example' or 'ramos19@cruz299.example'
+	and the message includes specific words in the subject or body ' PA '
+Take the following actions:
+	move the message to folder '.Thompson27 - Title Laura30'
+	and stop processing more rules on this message
+",TRUE,support\17482524036134076417,FALSE,None,Title Laura30 (Thompson27 Internal),44,1.75E+19,TRUE,,,,,,,,"""chavez38@cruz299.example"" [SMTP:chavez38@cruz299.example] ""ramos19@cruz299.example"" [SMTP:ramos19@cruz299.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,, PA ,,,,,,,,,,,,,FALSE,,,,FALSE,,.Thompson27 - Title Laura30,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Betty12 Support' or 'Betty12 Thompson27'
+	and the message includes specific words in the subject or body 'New Request for Thompson27' or 'Donna15 Worksheet and PA' or 'New Thompson27 torres23' or 'attached the thompson27 agreement'
+Take the following actions:
+	move the message to folder '.Thompson27 - Title Laura30'
+Except if the message:
+	the message includes specific words in the subject 'RE: '
+",TRUE,support\17554581630172004353,FALSE,None,Title Laura30 (Thompson27),45,1.76E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support] ""Betty12 Thompson27"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1aaf732fb6104513a87b6448dbaa7ed2-thompson27]",,,RE: ,New Request for Thompson27 Donna15 Worksheet and PA New Thompson27 torres23 attached the thompson27 agreement,,,,,,,,,,,,,FALSE,,,,FALSE,,.Thompson27 - Title Laura30,FALSE,,,FALSE,FALSE,,,support,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject or body 'New torres23' or 'New order' or 'Title order' or 'title request'
+Take the following actions:
+	move the message to folder '.Refi - Title Laura30'
+	and stop processing more rules on this message
+Except if the message:
+	the sender's address contains these words: 'jimenez31@cruz2929.example'
+",TRUE,support\17626639224209932289,FALSE,None,Title Laura30 (S&B),46,1.76E+19,TRUE,,,,,,,jimenez31@cruz2929.example,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,New torres23 New order Title order title request,,,,,,,,,,,,,FALSE,,,,FALSE,,.Refi - Title Laura30,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject or body 'https://lendingpartner.cruz29531.example' or 'you will be receiving under a separate email with the link to the wood21'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+Except if the message:
+	the message includes specific words in the subject 'Application for Title Insurance'
+",TRUE,support\17770754412285788161,TRUE,PropertiesInError,Watson24 (Subject or Body),48,1.78E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,Application for Title Insurance,https://lendingpartner.cruz29531.example you will be receiving under a separate email with the link to the wood21,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Loan wood21' or 'Electronic Wood21 are ready for pickup' or 'New Secure message from secure document exchange' or 'Anna26' or 'Donna15 carter17' or 'Donna15 pkg' or 'Electronic wood21 available for'or...
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,support\17842812006323716097,TRUE,PropertiesInError,Watson24 (Subject Melissa29),49,1.78E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Loan wood21 Electronic Wood21 are ready for pickup New Secure message from secure document exchange Anna26 Donna15 carter17 Donna15 pkg Electronic wood21 available for Donna15 Wood21,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: 'amecinc.katherine30' or 'carter17@cruz2930.example' or 'rachel18@cruz2929.example' or 'homewisedocs.com' or 'wood21@cruz2931.example' or 'carter17@cruz2932.example'
+	and the message includes specific words in the subject 'Donna15 Anna26' or 'Donna15 Wood21' or 'Your Wood21 For' or 'Instructions' or 'Order is complete' or 'e-carter17'
+Take the following actions:
+	move the message to folder '[folder not found]'
+Except if the message:
+	the message includes specific words in the subject 'RE: '
+",TRUE,support\17914869600361644033,TRUE,PropertiesInError,Watson24 (Sender & S),50,1.79E+19,TRUE,,,,,,amecinc.katherine30 carter17@cruz2930.example rachel18@cruz2929.example homewisedocs.com wood21@cruz2931.example carter17@cruz2932.example,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Donna15 Anna26 Donna15 Wood21 Your Wood21 For Instructions Order is complete e-carter17,RE: ,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,FALSE,,,support,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: 'efolder' or 'elynx' or 'flagstar' or 'mitchell25@cruz2913.example'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+Except if the message:
+	the message includes specific words in the subject 'RE:' or 'Jimenez31 Confirmation'
+",TRUE,support\17986927194399571969,TRUE,PropertiesInError,Watson24 (Sender Criteria),51,1.80E+19,TRUE,,,,,,efolder elynx flagstar mitchell25@cruz2913.example,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,RE: Jimenez31 Confirmation,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject or body 'Donna15 Wood21' or 'Donna15 Anna26' or 'Your wood21 for'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+Except if the message:
+	the message includes specific words in the subject 'RE:'
+",TRUE,support\18058984788437499905,TRUE,PropertiesInError,Watson24 (Sender & Sub),52,1.81E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,RE:,Donna15 Wood21 Donna15 Anna26 Your wood21 for,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'You have a new Title & Donna15 request from the Cornerstone Title Center' or 'New submission from Detailed Title Form' or 'New submission from Quick Title' or 'Request for Title' or 'Title Request' or 'Application for Title Insurance'or...
+Take the following actions:
+	move the message to folder '.Refi - Title Laura30'
+	and stop processing more rules on this message
+Except if the message:
+	the sender's address contains these words: 'hughes30@cruz2928.example' or 'morgan50@cruz2932.example'
+	or the message includes specific words in the subject 'RE:'
+",TRUE,support\18131042382475427841,FALSE,None,Title Laura30 (Subject),53,1.81E+19,TRUE,,,,,,,hughes30@cruz2928.example morgan50@cruz2932.example,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,You have a new Title & Donna15 request from the Cornerstone Title Center New submission from Detailed Title Form New submission from Quick Title Request for Title Title Request Application for Title Insurance Order,RE:,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Refi - Title Laura30,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'Betty22 Jeffrey21' or 'Benjamin13 Sandoval14' or 'Al Werling' or 'Mark Jeffrey21' or 'Jonathan24 Smith' or 'Sheri Haines' or 'Lorelei Koenig' or 'Cooper27 Dombrovski'
+	and the message has an attachment
+	and the message includes specific words in the subject 'FW:' or 'fwd:'
+Take the following actions:
+	move the message to folder '.Refi - Title Laura30'
+	and stop processing more rules on this message
+",TRUE,support\18203099976513355777,FALSE,None,Title Laura30 (Internal),54,1.82E+19,TRUE,,,,,,,,"""Betty22 Jeffrey21"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=80cb42b43eb34cdcb7efbe33cc47c456-betty22] ""Benjamin13 Sandoval14"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c0691b144dd84976978ae9f900c69119-jonathan24] ""Al Werling"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cfe028a029814470999dc1a10e0af8d3-betty14] ""Mark Jeffrey21"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e9a50233823749dc97f888a77140dfc2-tracy] ""Jonathan24 Smith"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8ba2251346d844c39638ac528dad2568-rsmith] ""Sheri Haines"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=101da0799cbe4cd294a55712b4576a32-Sheri] ""Lorelei Koenig"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3d1c54cdd3884035ab0e438d4244fdff-Lorelei] ""Cooper27 Dombrovski"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1876d27d68bb45b6b25e5c627b8a3bc9-Joyce39]",,TRUE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,FW: fwd:,,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Refi - Title Laura30,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Ruiz15 Castillo35' or 'Amy14 Gary24' or 'Benjamin13 Sandoval14' or 'Heather13 George54' or 'Betty12 processing' or 'Christine13 Ortiz24' or 'Roberts10 Watson30' or 'Green22 Evelyn15' or 'Patricia12 Paul37' or 'Patrick15 Lee' or 'Patrick15 Ronald34'or...
+Take the following actions:
+	move the message to folder 'Betty12 CC'd'
+	and stop processing more rules on this message
+Except if the message:
+	the message was sent to 'Price16 Perez28 Betty12' or 'Donna18 Betty12' or 'Edward69 Ruth19 Betty12' or 'Evelyn25 Samantha21 Betty12' or 'Minntetonka Betty12' or 'Powell18 Betty12' or 'Joshua30 Support' or 'Jose17 Cruz28 Betty12' or 'Charles33 Sandoval15 Betty12'or...
+",TRUE,support\18275157570551283713,FALSE,None,Betty12 Copied Rule (emailed to Support and Betty12 Foster24),55,1.83E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Ruiz15 Castillo35"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=69fea32f3af04a2f82c04d396c6ad70f-ruiz15] ""Amy14 Gary24"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b38a4d3a9373402cb8e6c952e955b182-Parker13] ""Benjamin13 Sandoval14"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4051345a41ea46489f63f76619410f03-benjamin13] ""Heather13 George54"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=12e18334305e430c9044ba7735d76854-Heather13] ""Betty12 processing"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=221fea68dc444bd18a809233c142f335-processing] ""Christine13 Ortiz24"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2c50a7c563894f87a57c718b66d84a29-Christine13] ""Roberts10 Watson30"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3e04dffdff624c869e9a59cc69d3de18-jimenez20] ""Green22 Evelyn15"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=860c9244ec69435e8c9447beaa18d997-Patel13] ""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Patrick15 Lee"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d32ec87c265b409395411f1b780be105-Brenda19] ""Patrick15 Ronald34"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0d453556e0b2487589a7458fcca6b576-patrick15] ""anthony18@contoso.com"" [SMTP:anthony18@contoso.com] ""Anthony18 Jafvert"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9b76e0c546cf4f8cb35f80e0662cc574-bjafvert] ""Karen15 Hemmah"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3fe80e09334b4fde83303f5d18069e4d-karen15] ""Betty Bernier"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6098fc7fece945cc81115de34143ee1b-betty] ""Ruiz18 Benson"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6254f5955292437181dbb37fe9aaaa20-ruiz18] ""Ross13 Patricia41"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=05bcae1d28d242a88540992a41240d84-Ross13] ""samuel14@contoso.com"" [SMTP:samuel14@contoso.com] ""Walker21 Donna18-Gary22"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fb328b2498e647f2892bc483fbe64b8e-walker21] ""Morgan16 Christine16"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e0fd923ebc554658b9f88596a90bf13a-ChelseyCarr] ""Shirley15 Katherine36"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=be1fb605b6ed4fa09b785675f7b6204a-Shirley15] ""Chrissy Hillman"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a7945069b13544e092207030d4945ae8-chrissy] ""Martinez23 Johnson34"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=94b3c8d18f38424e9294aeaeb7374fad-martinez23] ""Castillo21 Reyes26"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0cc0be72c58e4b4bbd0029f985290ed0-Rebecca23] ""Alexander18 Gutierrez19"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=acf0a9ac0ec1483b89be665b419c6b00-Alexander18] ""Emma Ronald34"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=37181d6f21ef417382d13098be64e306-emma] ""Janet20 Leischke"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1bc3c4e2c22c47f1af4a80f4ac0e4916-JLeischke] ""Howard28 Anthony54"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9315f79aaad943ea88c36c7447d4ec74-Howard28] ""Green34 Foster29"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e80428fbbbc04b5892ac0ec6a1b60e96-green34] ""Nancy28 First"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3cd484eddd854340ac12d2bbecd94ded-nancy28] ""Rodriguez27 Nelson15"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9a1104a8c0a54be697c1bb94425c46a7-rodriguez27] ""Lopez17 Wickham"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=030ce46f2b084bdab9c25138c61e91a4-lopez17] ""Kalee Stanke"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a5f1b2f09bcd475bac247e669ce809e8-Kalee] ""Scott59 Kelly52"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fb7e53ccedfb45aebec4d3d164f2b77c-Scott59] ""Katie Van Brocklin"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c665faac89e342c491cb674887092dca-KVBrocklin] ""Catherine24 Castillo27"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d2a36a55dcda422e8da1bafeac911b52-Catherine24] ""Jimenez32 Wickham"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b295525994034f6b9cc02181d70cd1d0-jimenez32] ""Gomez22 Isaacson-Hawker"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4469bea9ef2040f9886ad92f4edf5317-Gomez22] ""Nguyen22 Ronald30"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1267bcb1819348ab823445112e011b00-Nguyen22] ""Kennedy Osterhues"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f8330564a7484d2990ec915dbadd912e-Kennedy] ""Kenzie Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=584cdab7ca994bec86dc5cef1d7af26f-kenzie] ""Linda Spryshak"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=08df6889d1e94e298175bbacdee1f719-Linda] ""Ramirez28 Edward40 Diaz35"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6f80605f6f6b40dd88b34f38efff7d21-Gutierrez15] ""Macie Rajkowski"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c13469de83db4a2fa560afbf4031462a-macie] ""Mai Xiong Price35"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b9f1e07378d6423c9d5beea8a3767d39-Mai] ""Ross26 Xi Wright37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1c156882267f46249cd878402b26aa11-Ross26] ""Ramos24 Nelson15"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e28b43017ebb446d974c621c8c4fa994-taylor32] ""Ramos24 Kimberly21"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5c008bb3b3a446d9b1279df2bcfcc6d3-Ramos24] ""Daniel29 O'Connor"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=81f4103b635140f5ab225ff3b74359e8-Daniel29] ""Stephanie23 Sandoval14"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f2f639e1f3b74a5b92b120aa975fd429-stephanie23] ""Pamela29 Sandoval43"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4be02404c44345e180bdd9fa0d60ebb6-pamela29] ""Cook32 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7f67d3f8224d4956808c4069950c5909-Cook32] ""Tyler25 Bennett12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=576509372f814c528949df2ac90151b0-rBuendiger] ""Tyler25 Richard37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d912965e58c24b0fb33a90871a12e338-Tyler25] ""Catherine34 George54"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9b2023f408d9430dba5a2c47819f42f2-catherine34] ""Parker34 Larry20"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1d8948e298f04fce992f2d99e97417be-Parker34] ""Savannah Jeans"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=79722c66f91e4896940cb42c1d4ce238-sjeans] ""Shelly Confair"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=16e8fa2cb1544547be1a68838d94d666-sconfair] ""Stacy Lee"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=57feec55176c4aaf9658f49ec4c64ce2-Stacy] ""Taylor Jeans"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b6d5d07c3ce648a680576ecb5db734cf-kim] ""Teresa Johnson"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=03e68afd075042bbb5dd2117f904f57f-Teresa] ""Carolyn49 Wright37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0314dcc8bfb2450fab4f9e32acdb1805-carolyn49] ""James105 Patrick46"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a3bcd4a04f74b5592c0064fa64ef28c-James105] ""Tracy Vogt"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=951f7f651c5841dbae0123378d7a0935-TVogt] ""Donyele Oundo"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1cea044cd53c4c1f8e9a5c9c0846c8dc-Donyele]","""Price16 Perez28 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=351f784399ac417eb5dae83447f7fb88-bennett14] ""Donna18 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=da3422ddfc85435e9b95ea0d46b29e26-donna18] ""Edward69 Ruth19 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bf3ceaa6ebcf4415a56b9e7210455460-robinson45] ""Evelyn25 Samantha21 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bea494afc06144a69fa8edcbbd04d191-mendotaheig] ""Minntetonka Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f611703c9f7342558920c5339c3aeb97-nancy30] ""Powell18 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=46d3acc35c7e4f299b471fa85c615f0b-powell18] ""Joshua30 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3731d65ffdb84703aa8bdb09104647fe-Powell38] ""Jose17 Cruz28 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a7d63f8539564b6da4b4e1e7ad65ddaa-brooklynpar] ""Charles33 Sandoval15 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c318f6aa619d4341ae9dbc0d3334f4a8-sandoval26] ""Donald25 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=036e75fe084845559b20ae13cda7227a-donald25]",,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Betty12 CC'd,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the message was received from 'alexander44@cruz2933.example'
+Take the following actions:
+	move the message to folder 'Price16 Lake'
+	and stop processing more rules on this message
+",TRUE,support\18347215164589211649,FALSE,None,alexander44@cruz2933.example,56,1.83E+19,TRUE,,,,,,,,"""alexander44@cruz2933.example"" [SMTP:alexander44@cruz2933.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Price16 Lake,FALSE,,,FALSE,TRUE,,,support,TRUE,Unchanged
+"If the message:
+	the body of the message contains the words 'Recordable Wood21'
+	and the sender's address contains these words: 'cruz294.example'
+",TRUE,support\18419272758627139585,FALSE,None,Recordable Wood21,57,1.84E+19,FALSE,,Recordable Wood21,,,,cruz294.example,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,FALSE,,,support,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Powell18 Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Jonathan24 Katherine13'
+	and stop processing more rules on this message
+",TRUE,powell18\10715254228856602625,FALSE,None,Powell18 Declined,1,1.07E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Powell18 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=46d3acc35c7e4f299b471fa85c615f0b-powell18]",,,,Declined,,,,,,,,,,,,,FALSE,,,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",FALSE,,,FALSE,,,FALSE,TRUE,,,powell18,TRUE,Unchanged
+"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,powell18\10787311822894530561,FALSE,None,Email Forwarding - Support,2,1.08E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,powell18,TRUE,Unchanged
+"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Powell18 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,powell18\10859369416932458497,FALSE,None,Fax forwarding,3,1.09E+19,TRUE,,,,,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Powell18 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=46d3acc35c7e4f299b471fa85c615f0b-powell18]",,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,powell18,TRUE,Unchanged
+"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message was sent to 'Powell18 Betty12'
+	and the message includes specific words in the subject 'UnSuccessful' or 'Successful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,powell18\10931427010970386433,FALSE,None,Successful / Unsuccessful,4,1.09E+19,TRUE,,,,,,,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Powell18 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=46d3acc35c7e4f299b471fa85c615f0b-powell18]",,UnSuccessful Successful,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,powell18,TRUE,Unchanged
+"If the message:
+	the message was received from 'notifyme=brooks41.walker31.ronald32@cruz2936.example'
+Take the following actions:
+	move the message to folder 'Kids school/sports'
+	and stop processing more rules on this message
+",TRUE,Christine13\18077153140066484225,FALSE,None,notifyme=brooks41.walker31.ronald32@cruz2936.example,5,1.81E+19,TRUE,,,,,,,,"""notifyme=brooks41.walker31.ronald32@cruz2936.example"" [SMTP:notifyme=brooks41.walker31.ronald32@cruz2936.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Kids school/sports,FALSE,,,FALSE,TRUE,,,Christine13,TRUE,Unchanged
+"If the message:
+	the message was received from 'noreply@cruz2937.example'
+Take the following actions:
+	move the message to folder 'Frank45/Edward68/Promos'
+	and stop processing more rules on this message
+",TRUE,Christine13\18149210734104412161,FALSE,None,noreply@cruz2937.example,6,1.81E+19,TRUE,,,,,,,,"""noreply@cruz2937.example"" [SMTP:noreply@cruz2937.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Frank45/Edward68/Promos,FALSE,,,FALSE,TRUE,,,Christine13,TRUE,Unchanged
+"If the message:
+	the message was received from 'Samantha46 A. Rachel17'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Christine13\135093699599138817,FALSE,None,Samantha46 A. Rachel17,12,1.35E+17,TRUE,,,,,,,,"""Samantha46 A. Rachel17"" [SMTP:samantha46.rachel17@cruz2942.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Christine13,TRUE,Unchanged
+"If the message:
+	the message was received from 'noreply@cruz2945.example'
+Take the following actions:
+	move the message to folder 'Frank45/Edward68/Promos'
+	and stop processing more rules on this message
+",TRUE,Christine13\351266481712922625,FALSE,None,noreply@cruz2945.example,15,3.51E+17,TRUE,,,,,,,,"""noreply@cruz2945.example"" [SMTP:noreply@cruz2945.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Frank45/Edward68/Promos,FALSE,,,FALSE,TRUE,,,Christine13,TRUE,Unchanged
+"If the message:
+	the message was received from 'AA'
+Take the following actions:
+	move the message to folder 'Frank45/Edward68/Promos'
+	and stop processing more rules on this message
+",TRUE,Christine13\927727234016346113,FALSE,None,AA,23,9.28E+17,TRUE,,,,,,,,"""AA"" [SMTP:mitchell23@cruz2948.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Frank45/Edward68/Promos,FALSE,,,FALSE,TRUE,,,Christine13,TRUE,Unchanged
+"If the message:
+	the message was received from 'support@cruz2958.example'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,Christine13\2801224679002472449,TRUE,PropertiesInError,support@cruz2958.example,49,2.80E+18,TRUE,,,,,,,,"""support@cruz2958.example"" [SMTP:support@cruz2958.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,Christine13,TRUE,Unchanged
+"If the message:
+	the header of the message contains the words 'Betty12 Wood21 Torres23 No.'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,Christine13\2873282273040400385,TRUE,PropertiesInError,Production,50,2.87E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,Betty12 Wood21 Torres23 No.,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,Christine13,TRUE,Unchanged
+"If the message:
+	the message was received from 'Lively'
+Take the following actions:
+	move the message to folder 'Frank45/Edward68/Promos'
+	and stop processing more rules on this message
+",TRUE,Christine13\2945339867078328321,FALSE,None,Lively,51,2.95E+18,TRUE,,,,,,,,"""Lively"" [SMTP:gary23@cruz2958.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Frank45/Edward68/Promos,FALSE,,,FALSE,TRUE,,,Christine13,TRUE,Unchanged
+"If the message:
+	the message was received from 'brenda26@cruz2959.example'
+Take the following actions:
+	move the message to folder 'Frank45/Edward68/Promos'
+	and stop processing more rules on this message
+",TRUE,Christine13\3017397461116256257,FALSE,None,brenda26@cruz2959.example,52,3.02E+18,TRUE,,,,,,,,"""brenda26@cruz2959.example"" [SMTP:brenda26@cruz2959.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Frank45/Edward68/Promos,FALSE,,,FALSE,TRUE,,,Christine13,TRUE,Unchanged
+"If the message:
+	the message was received from 'Internet'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,Christine13\8565832202036707329,FALSE,None,Internet,129,8.57E+18,TRUE,,,,,,,,"""Internet"" [SMTP:support@cruz2992.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,TRUE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,Christine13,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message was sent to 'Betty12 Morgan50'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,Patel13\10778000608674709505,FALSE,None,Delete messages from MidCountry Bank,3,1.08E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Morgan50"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=452031fbb014409b81009320adaa2c3d-Betty12 Wire]",,Outgoing Wire Kelly58,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,Patel13,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message was sent to 'Betty12 Morgan50'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,Patel13\10850058202712637441,FALSE,None,Move messages from MidCountry Bank,5,1.09E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Morgan50"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=452031fbb014409b81009320adaa2c3d-Betty12 Wire]",,Melissa27 Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,Patel13,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez53@cruz2995.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Patricia12\5884857549303316482,FALSE,None,sanchez53@cruz2995.example,4,5.88E+18,TRUE,,,,,,,,"""sanchez53@cruz2995.example"" [SMTP:sanchez53@cruz2995.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Patricia12,TRUE,Unchanged
+"If the message:
+	the message was received from 'wood21@cruz2996.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Patricia12\7292979993389301762,FALSE,None,wood21@cruz2996.example (3),5,7.29E+18,TRUE,,,,,,,,"""wood21@cruz2996.example"" [SMTP:wood21@cruz2996.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Patricia12,TRUE,Unchanged
+"If the message:
+	the message was received from 'wood21@cruz2996.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Patricia12\9018301723793424386,FALSE,None,wood21@cruz2996.example (2),6,9.02E+18,TRUE,,,,,,,,"""wood21@cruz2996.example"" [SMTP:wood21@cruz2996.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Patricia12,TRUE,Unchanged
+"If the message:
+	the message was received from 'wood21@cruz2996.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Patricia12\6568343526503874562,FALSE,None,wood21@cruz2996.example (1),7,6.57E+18,TRUE,,,,,,,,"""wood21@cruz2996.example"" [SMTP:wood21@cruz2996.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Patricia12,TRUE,Unchanged
+"If the message:
+	the message was received from 'Scott Diane19'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Patricia12\15565077599506923522,FALSE,None,Scott Diane19,8,1.56E+19,TRUE,,,,,,,,"""Scott Diane19"" [SMTP:larry28@cruz2994.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Patricia12,TRUE,Unchanged
+"If the message:
+	the message was received from 'wood21@cruz2996.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Patricia12\17222120787402555394,FALSE,None,wood21@cruz2996.example,9,1.72E+19,TRUE,,,,,,,,"""wood21@cruz2996.example"" [SMTP:wood21@cruz2996.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Patricia12,TRUE,Unchanged
+"If the message:
+	the message was received from 'Floral & Gifts'
+Take the following actions:
+	move the message to folder 'Junk Email'
+	and stop processing more rules on this message
+",TRUE,Patricia12\2974570881835073538,FALSE,None,Floral & Gifts,10,2.97E+18,TRUE,,,,,,,,"""Floral & Gifts"" [SMTP:info@cruz2997.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Junk Email,FALSE,,,FALSE,TRUE,,,Patricia12,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Benjamin13 Sandoval14'
+",FALSE,Patricia12\17294178381440483330,FALSE,None,Benjamin13 emails,11,1.73E+19,FALSE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Benjamin13 Sandoval14"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c0691b144dd84976978ae9f900c69119-jonathan24]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,FALSE,,,Patricia12,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Sheri Haines'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,Patricia12\3046628475873001474,TRUE,PropertiesInError,Sheri Emails,12,3.05E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Sheri Haines"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=101da0799cbe4cd294a55712b4576a32-Sheri]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,Patricia12,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+",TRUE,Patricia12\3190743663948857346,FALSE,None,Wire Timothy41,14,3.19E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27 Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,FALSE,,,Patricia12,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject or body 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,patrick15\5069581346716778497,FALSE,None,Wire timothy41,1,5.07E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Melissa27 Wire Kelly58,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,patrick15,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Jose17 Cruz28 Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37'
+	and stop processing more rules on this message
+",TRUE,justin19\11877498561291616257,FALSE,None,Declined,1,1.19E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Jose17 Cruz28 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a7d63f8539564b6da4b4e1e7ad65ddaa-brooklynpar]",,,,Declined,,,,,,,,,,,,,FALSE,,,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",FALSE,,,FALSE,,,FALSE,TRUE,,,justin19,TRUE,Unchanged
+"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+Except if the message:
+	the message is Stephanie19 Request.
+",FALSE,justin19\11949556155329544193,FALSE,None,Email Forwarding,2,1.19E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,Calendaring,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,justin19,TRUE,Unchanged
+"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message was sent to 'Jose17 Cruz28 Betty12'
+	and the message includes specific words in the subject 'unsuccessful' or 'Successful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,justin19\12021613749367472129,FALSE,None,Fax Success / Failure,3,1.20E+19,TRUE,,,,,,,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Jose17 Cruz28 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a7d63f8539564b6da4b4e1e7ad65ddaa-brooklynpar]",,unsuccessful Successful,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,justin19,TRUE,Unchanged
+"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Jose17 Cruz28 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,justin19\12093671343405400065,FALSE,None,Faxes,4,1.21E+19,TRUE,,,,,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Jose17 Cruz28 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a7d63f8539564b6da4b4e1e7ad65ddaa-brooklynpar]",,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,justin19,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,Ross13\11876258161767743489,FALSE,None,Morgan50 Rule ,1,1.19E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,Ross13,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,Shirley15\5674664723170197505,FALSE,None,Morgan502,1,5.67E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,Shirley15,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,betty14_83b6b2c1d9\11107208417427587073,TRUE,PropertiesInError,Melissa27 Wire Kelly58,2,1.11E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27 Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,betty14_83b6b2c1d9,TRUE,Unchanged
+"If the message:
+	the message was received from 'support@cruz293.example'
+	and the message was sent to 'Janet18 Katherine13'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,betty14_83b6b2c1d9\11179266011465515009,FALSE,None,Forward messages from External Vendor 5 - System Message,3,1.12E+19,TRUE,,,,,,,,"""support@cruz293.example"" [SMTP:support@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Janet18 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d77fca56ee694ed9a33ec6bb48a5b5a1-betty14_83b6]",,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,betty14_83b6b2c1d9,TRUE,Unchanged
+"If the message:
+	the message was received from 'Jonathan24 Katherine13'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,betty14_83b6b2c1d9\11251323605503442945,FALSE,None,Jonathan24 Katherine13,4,1.13E+19,TRUE,,,,,,,,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,betty14_83b6b2c1d9,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Outgoing Morgan50'
+	and stop processing more rules on this message
+",FALSE,martinez23\12064638648662884353,FALSE,None,Outgoing Morgan50,5,1.21E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Outgoing Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Outgoing Morgan50,FALSE,,,FALSE,TRUE,,,martinez23,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",FALSE,martinez23\12136696242700812289,FALSE,None,Morgan50,6,1.21E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,martinez23,TRUE,Unchanged
+"Take the following actions:
+	forward the message to 'Daniel29 O'Connor'
+",FALSE,Rebecca23\11614776476896854017,FALSE,None,Daniel29 O'Connor,3,1.16E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,"""Daniel29 O'Connor"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=81f4103b635140f5ab225ff3b74359e8-Daniel29]",FALSE,,,FALSE,,,FALSE,FALSE,,,Rebecca23,TRUE,Unchanged
+"If the message:
+	the message was received from 'Darla East'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Alexander18\11194332808262713345,FALSE,None,Darla East,1,1.12E+19,TRUE,,,,,,,,"""Darla East"" [SMTP:alvarez17@cruz29103.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Alexander18,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,Alexander18\11266390402300641281,FALSE,None,Morgan50,2,1.13E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,Alexander18,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37' and 'Jonathan24 Katherine13'
+	and stop processing more rules on this message
+",TRUE,bennett14\9742089964752994305,FALSE,None,Declined,1,9.74E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Declined,,,,,,,,,,,,,FALSE,,,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",FALSE,,,FALSE,,,FALSE,TRUE,,,bennett14,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Your mailbox is almost full'
+Take the following actions:
+	forward the message to 'Jonathan24 Katherine13'
+	and stop processing more rules on this message
+",TRUE,evelyn30\7062252889959301121,FALSE,None,Full Mailbox Rule,1,7.06E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Your mailbox is almost full,,,,,,,,,,,,,,,FALSE,,,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",FALSE,,,FALSE,,,FALSE,TRUE,,,evelyn30,TRUE,Unchanged
+"If the message:
+	the message was received from 'Patrick22 watson54 Evelyn30'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,evelyn30\7134310483997229057,FALSE,None,Delete messages from Patrick22 watson54 Evelyn30,2,7.13E+18,TRUE,,,,,,,,"""Patrick22 watson54 Evelyn30"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bf59656c4d474947bb4f12625925f976-evelyn30]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,TRUE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,evelyn30,TRUE,Unchanged
+"If the message:
+	the message was received from 'Jacob34 Parent, Jr.'
+Take the following actions:
+	apply the following category: ''Jacob34''
+	and mark the message as Read
+	and move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,internal\6825312407716364289,TRUE,PropertiesInError,Phillips34 Cleanup - Jacob34,1,6.83E+18,TRUE,,,,,,,,"""Jacob34 Parent, Jr."" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=dfb65bc01838448394d09ac148d3e981-8738ecb0-12]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,Jacob34,,,FALSE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,internal,TRUE,Unchanged
+"If the message:
+	the message was received from 'Green22 Evelyn15'
+Take the following actions:
+	apply the following category: ''Green22''
+	and mark the message as Read
+	and move the message to folder 'Green22'
+	and stop processing more rules on this message
+",TRUE,internal\6969427595792220161,FALSE,None,Phillips34 Cleanup - Green22,2,6.97E+18,TRUE,,,,,,,,"""Green22 Evelyn15"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=860c9244ec69435e8c9447beaa18d997-Patel13]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,Green22,,,FALSE,,,,TRUE,,Green22,FALSE,,,FALSE,TRUE,,,internal,TRUE,Unchanged
+"If the message:
+	the message was received from 'Rodriguez27 Nelson15'
+Take the following actions:
+	apply the following category: ''Forwarded to Rodriguez27''
+	and mark the message as Read
+	and move the message to folder 'Rodriguez27'
+	and stop processing more rules on this message
+",TRUE,internal\7041485189830148097,FALSE,None,Phillips34 Cleanup - Rodriguez27,3,7.04E+18,TRUE,,,,,,,,"""Rodriguez27 Nelson15"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9a1104a8c0a54be697c1bb94425c46a7-rodriguez27]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,Forwarded to Rodriguez27,,,FALSE,,,,TRUE,,Rodriguez27,FALSE,,,FALSE,TRUE,,,internal,TRUE,Unchanged
+"If the message:
+	the message was received from 'Ramirez28 Lewis'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",FALSE,internal\7113542783868076033,TRUE,PropertiesInError,Ramirez28 Phillips34 Cleanup,4,7.11E+18,TRUE,,,,,,,,"""Ramirez28 Lewis"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=34a63eb688e840deaefb9e5ad587b58c-ramirez28]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,internal,TRUE,Unchanged
+"If the message:
+	the message was received from 'Heather13 George54' or 'Green34 Foster29' or 'Savannah Jeans' or 'Katie Van Brocklin'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",FALSE,internal\7185600377906003969,TRUE,PropertiesInError,Ramirez28 Messages,5,7.19E+18,TRUE,,,,,,,,"""Heather13 George54"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=12e18334305e430c9044ba7735d76854-Heather13] ""Green34 Foster29"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e80428fbbbc04b5892ac0ec6a1b60e96-green34] ""Savannah Jeans"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=79722c66f91e4896940cb42c1d4ce238-sjeans] ""Katie Van Brocklin"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c665faac89e342c491cb674887092dca-KVBrocklin]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,internal,TRUE,Unchanged
+"If the message:
+	the message was received from 'Castillo21 Reyes26'
+Take the following actions:
+	apply the following category: ''Castillo21''
+	and mark the message as Read
+	and move the message to folder 'Castillo21'
+	and stop processing more rules on this message
+",TRUE,internal\7257657971943931905,FALSE,None,Phillips34 Cleanup - Castillo21,6,7.26E+18,TRUE,,,,,,,,"""Castillo21 Reyes26"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0cc0be72c58e4b4bbd0029f985290ed0-Rebecca23]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,Castillo21,,,FALSE,,,,TRUE,,Castillo21,FALSE,,,FALSE,TRUE,,,internal,TRUE,Unchanged
+"If the message:
+	the message is classified as 'Message Header Internal'
+Take the following actions:
+	move the message to folder '.Jonathan24 Internal'
+	and stop processing more rules on this message
+",FALSE,internal\7545888348095643649,FALSE,None,Jonathan24 Message Header,10,7.55E+18,TRUE,,,,,,,,,,FALSE,FALSE,Default\Message Header Internal,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Jonathan24 Internal,FALSE,,,FALSE,TRUE,,,internal,TRUE,Unchanged
+"If the message:
+	the message was received from 'Powell33 Support'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Completed Internal'
+	and stop processing more rules on this message
+",TRUE,internal\7617945942133571585,FALSE,None,Phillips34 Cleanup,11,7.62E+18,TRUE,,,,,,,,"""Powell33 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7af8ea7d8b4649988814bb32949b4dc8-internal]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Completed Internal,FALSE,,,FALSE,TRUE,,,internal,TRUE,Unchanged
+"If the message:
+	the message was received from 'James105 Patrick46' or 'Betty12 Sandoval19' or 'Betty22 Jeffrey21' or 'Valerie Buckhouse'
+Take the following actions:
+	move the message to folder '.Cook32 Internal'
+	and stop processing more rules on this message
+",FALSE,internal\7690003536171499521,FALSE,None,Emails forwarded to Cook32,12,7.69E+18,TRUE,,,,,,,,"""James105 Patrick46"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a3bcd4a04f74b5592c0064fa64ef28c-James105] ""Betty12 Sandoval19"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=28bdfcfa3c904530801af2f4d05e21d9-constructio] ""Betty22 Jeffrey21"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=80cb42b43eb34cdcb7efbe33cc47c456-betty22] ""Valerie Buckhouse"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c2a00d2eff4b4d97bf317d24ee941324-valerie]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Cook32 Internal,FALSE,,,FALSE,TRUE,,,internal,TRUE,Unchanged
+"If the message:
+	the message was received from 'Janet18 Katherine13' or 'Mark Jeffrey21' or 'Ramos24 Kimberly21' or 'Cooper27 Dombrovski' or 'Ruiz18 Benson' or 'Joshua30 Support' or 'Shelly Confair' or 'Karen15 Hemmah' or 'Tyler25 Richard37' or 'Patricia12 Paul37' or 'Parker34 Larry20'or...
+Take the following actions:
+	move the message to folder '.Jonathan24 Internal'
+	and stop processing more rules on this message
+",FALSE,internal\7762061130209427457,FALSE,None,Emails forwarded to Jonathan24,13,7.76E+18,TRUE,,,,,,,,"""Janet18 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d77fca56ee694ed9a33ec6bb48a5b5a1-betty14_83b6] ""Mark Jeffrey21"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e9a50233823749dc97f888a77140dfc2-tracy] ""Ramos24 Kimberly21"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5c008bb3b3a446d9b1279df2bcfcc6d3-Ramos24] ""Cooper27 Dombrovski"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1876d27d68bb45b6b25e5c627b8a3bc9-Joyce39] ""Ruiz18 Benson"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6254f5955292437181dbb37fe9aaaa20-ruiz18] ""Joshua30 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3731d65ffdb84703aa8bdb09104647fe-Powell38] ""Shelly Confair"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7a72432de572411c8e73c38a395ebbba-shelly] ""Karen15 Hemmah"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3fe80e09334b4fde83303f5d18069e4d-karen15] ""Tyler25 Richard37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d912965e58c24b0fb33a90871a12e338-Tyler25] ""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Parker34 Larry20"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1d8948e298f04fce992f2d99e97417be-Parker34] ""Jeni Rue"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=84b6b5480f6c4831bdba08c326525434-Jeni] ""Shirley15 Katherine36"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=be1fb605b6ed4fa09b785675f7b6204a-Shirley15] ""Nancy28 First"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3cd484eddd854340ac12d2bbecd94ded-nancy28]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,.Jonathan24 Internal,FALSE,,,FALSE,TRUE,,,internal,TRUE,Unchanged
+"If the message:
+	the message was received from 'MidCountry Bank'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,scott58\16334172810454761473,FALSE,None,MidCountry Bank (1),1,1.63E+19,TRUE,,,,,,,,"""MidCountry Bank"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,scott58,TRUE,Unchanged
+"Take the following actions:
+	redirect the message to 'Shirley15 Katherine36'
+	and stop processing more rules on this message
+",FALSE,scott58\6953202248662908929,FALSE,None,Shirley15 Katherine36 (1),2,6.95E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,"""Shirley15 Katherine36"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=be1fb605b6ed4fa09b785675f7b6204a-Shirley15]",,FALSE,TRUE,,,scott58,TRUE,Unchanged
+,TRUE,scott58\14211127869966385153,FALSE,None,after the message arrives,3,1.42E+19,FALSE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,FALSE,,,scott58,TRUE,Unchanged
+"Take the following actions:
+	redirect the message to 'Shirley15 Katherine36'
+	and stop processing more rules on this message
+",FALSE,scott58\4927370461240623105,FALSE,None,Shirley15 Katherine36,6,4.93E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,"""Shirley15 Katherine36"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=be1fb605b6ed4fa09b785675f7b6204a-Shirley15]",,FALSE,TRUE,,,scott58,TRUE,Unchanged
+"If the message:
+	the message was received from 'MidCountry Bank'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,scott58\7467510228544651265,FALSE,None,MidCountry Bank,7,7.47E+18,TRUE,,,,,,,,"""MidCountry Bank"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,scott58,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27'
+Take the following actions:
+	move the message to folder 'Melissa27 Morgan50'
+	and stop processing more rules on this message
+",TRUE,scott58\7539567822582579201,FALSE,None,Melissa27 Morgan50,8,7.54E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Melissa27 Morgan50,FALSE,,,FALSE,TRUE,,,scott58,TRUE,Unchanged
+"If the message:
+	the message was received from 'Patricia12 Paul37'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,scott58\7683683010658435073,FALSE,None,Patricia12 Paul37,9,7.68E+18,TRUE,,,,,,,,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,scott58,TRUE,Unchanged
+"If the message:
+	the message was received from 'Jonathan24 Katherine13'
+Take the following actions:
+	move the message to folder 'Jonathan24'
+	and stop processing more rules on this message
+",TRUE,scott58\7755740604696363009,FALSE,None,Jonathan24 Katherine13,10,7.76E+18,TRUE,,,,,,,,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Jonathan24,FALSE,,,FALSE,TRUE,,,scott58,TRUE,Unchanged
+"If the message:
+	the message was received from 'Martinez23 Johnson34'
+Take the following actions:
+	move the message to folder 'Martinez23'
+	and stop processing more rules on this message
+",TRUE,scott58\7899855792772218881,FALSE,None,Martinez23 Johnson34,11,7.90E+18,TRUE,,,,,,,,"""Martinez23 Johnson34"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=94b3c8d18f38424e9294aeaeb7374fad-martinez23]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Martinez23,FALSE,,,FALSE,TRUE,,,scott58,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Outgoing Wire '
+	and stop processing more rules on this message
+",TRUE,samuel20\3201742770217680897,FALSE,None,Outgoing Wire Kelly58,1,3.20E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Outgoing Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Outgoing Wire ,FALSE,,,FALSE,TRUE,,,samuel20,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Melissa27 Wire'
+	and stop processing more rules on this message
+",TRUE,samuel20\3273800364255608833,FALSE,None,Melissa27 Wire Kelly58,2,3.27E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27 Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Melissa27 Wire,FALSE,,,FALSE,TRUE,,,samuel20,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject or body 'payoff'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Morales23 History'
+	and stop processing more rules on this message
+",FALSE,3632a556-2d60-4220-8d26-68c14d38baaf\6924145965926449153,FALSE,None,The Loan Allen35,1,6.92E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,payoff,,,,,,,,,,,,,FALSE,,,,TRUE,,Morales23 History,FALSE,,,FALSE,TRUE,,,3632a556-2d60-4220-8d26-68c14d38baaf,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Morgan50 - Melissa27'
+	and stop processing more rules on this message
+",TRUE,9704dd93-e0d1-4d31-8f29-39081c0e50be\7437062586891239425,FALSE,None,Melissa27 Morgan50,1,7.44E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27 Wire,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Morgan50 - Melissa27,FALSE,,,FALSE,TRUE,,,9704dd93-e0d1-4d31-8f29-39081c0e50be,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Wire'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Morgan50 - Outgoing'
+	and stop processing more rules on this message
+",TRUE,9704dd93-e0d1-4d31-8f29-39081c0e50be\7004717022663671809,FALSE,None,Outgoing Morgan50,2,7.00E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Outgoing Wire,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Morgan50 - Outgoing,FALSE,,,FALSE,TRUE,,,9704dd93-e0d1-4d31-8f29-39081c0e50be,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,Scott59\18273892973231996929,FALSE,None,Wire kelly58,1,1.83E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27 Wire,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,Scott59,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+Take the following actions:
+	move the message to folder 'Melissa27 Morgan502'
+",TRUE,Catherine24\11095660401335992321,FALSE,None,sanchez27@cruz297.example,3,1.11E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Melissa27 Morgan502,FALSE,,,FALSE,FALSE,,,Catherine24,TRUE,Unchanged
+"If the message:
+	the header of the message contains the words 'Melissa27 Wire' or 'Wire Kelly58 '
+Take the following actions:
+	move the message to folder 'Morgan50'
+Except if the message:
+	the message includes specific words in the subject or body 'Donna18'
+",TRUE,david30\7052071949140230145,FALSE,None,'Melissa27 Wire' or 'Wire Kelly58 ',1,7.05E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,Melissa27 Wire Wire Kelly58 ,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,Donna18,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,FALSE,,,david30,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,Nguyen22\17810612176910548993,FALSE,None,sanchez27@cruz297.example (1),1,1.78E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Outgoing Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,Nguyen22,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,Nguyen22\17882669770948476929,FALSE,None,sanchez27@cruz297.example,2,1.79E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27 Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,Nguyen22,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Donald25 Betty12'
+	and the message includes specific words in the subject or body 'declined'
+Take the following actions:
+	forward the message to 'Jonathan24 Katherine13' and 'Patricia12 Paul37' and 'Betty12 Support'
+	and stop processing more rules on this message
+",TRUE,donald25\13730946235651588097,FALSE,None,Declined,1,1.37E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Donald25 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=036e75fe084845559b20ae13cda7227a-donald25]",,,,declined,,,,,,,,,,,,,FALSE,,,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f] ""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,donald25,TRUE,Unchanged
+"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,donald25\13803003829689516033,FALSE,None,Email Forwarding,2,1.38E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,donald25,TRUE,Unchanged
+"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Donald25 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,donald25\13875061423727443969,FALSE,None,Faxes,3,1.39E+19,TRUE,,,,,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Donald25 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=036e75fe084845559b20ae13cda7227a-donald25]",,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,donald25,TRUE,Unchanged
+"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message includes specific words in the subject or body 'successful' or 'unsuccessful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,donald25\13947119017765371905,FALSE,None,Forward Successful/Unsuccessful,4,1.39E+19,TRUE,,,,,,,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,successful unsuccessful,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,donald25,TRUE,Unchanged
+"If the message:
+	the message was received from 'brooks37@cruz2921.example'
+	and the message includes specific words in the subject or body 'starbank' or 'Star Bank'
+Take the following actions:
+	move the message to folder 'Title Laura30'
+	and stop processing more rules on this message
+",TRUE,sanchez31\16174467080072986625,FALSE,None,Star Bank laura30,6,1.62E+19,TRUE,,,,,,,,"""brooks37@cruz2921.example"" [SMTP:brooks37@cruz2921.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,starbank Star Bank,,,,,,,,,,,,,FALSE,,,,FALSE,,Title Laura30,FALSE,,,FALSE,TRUE,,,sanchez31,TRUE,Unchanged
+"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Donna18 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,donna18\8980811220604944385,FALSE,None,Forward messages from Fax,2,8.98E+18,TRUE,,,,,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Donna18 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=da3422ddfc85435e9b95ea0d46b29e26-donna18]",,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,donna18,TRUE,Unchanged
+"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Donna18 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,donna18\9052868814642872321,FALSE,None,Fax Forwarding,3,9.05E+18,TRUE,,,,,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Donna18 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=da3422ddfc85435e9b95ea0d46b29e26-donna18]",,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,donna18,TRUE,Unchanged
+"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message was sent to 'Donna18 Betty12'
+	and the message includes specific words in the subject 'unsuccessful' or 'Successful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,donna18\9124926408680800257,FALSE,None,Successful or unsuccessful fax,4,9.12E+18,TRUE,,,,,,,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Donna18 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=da3422ddfc85435e9b95ea0d46b29e26-donna18]",,unsuccessful Successful,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,donna18,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,Gutierrez15\4082253216740278273,FALSE,None,MidCountry Bank,1,4.08E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Morgan50,FALSE,,,FALSE,TRUE,,,Gutierrez15,TRUE,Unchanged
+"If the message:
+	the message was received from 'sandra48@freemail2.example' or 'carter24@cruz29107.example' or 'torres15@cruz29108.example' or 'reyes33@freemail1.example'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'RSS Feeds'
+	and stop processing more rules on this message
+",TRUE,52b9c00a-3d50-4d6f-8452-6d833f86f23b\10512691652575887361,FALSE,None,support,1,1.05E+19,TRUE,,,,,,,,"""sandra48@freemail2.example"" [SMTP:sandra48@freemail2.example] ""carter24@cruz29107.example"" [SMTP:carter24@cruz29107.example] ""torres15@cruz29108.example"" [SMTP:torres15@cruz29108.example] ""reyes33@freemail1.example"" [SMTP:reyes33@freemail1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,TRUE,,RSS Feeds,FALSE,,,FALSE,TRUE,,,52b9c00a-3d50-4d6f-8452-6d833f86f23b,TRUE,Unchanged
+"Take the following actions:
+	mark the message as Read
+	and move the message to folder 'RSS Feeds'
+	and stop processing more rules on this message
+",FALSE,52b9c00a-3d50-4d6f-8452-6d833f86f23b\2298125932252102657,FALSE,None,...,2,2.30E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,TRUE,,RSS Feeds,FALSE,,,FALSE,TRUE,,,52b9c00a-3d50-4d6f-8452-6d833f86f23b,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Morgan50 - Outgoing'
+	and stop processing more rules on this message
+",TRUE,52b9c00a-3d50-4d6f-8452-6d833f86f23b\18228220638814797825,FALSE,None,Outgoing Morgan50,3,1.82E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Outgoing Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Morgan50 - Outgoing,FALSE,,,FALSE,TRUE,,,52b9c00a-3d50-4d6f-8452-6d833f86f23b,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Morgan50 - Melissa27'
+	and stop processing more rules on this message
+",TRUE,52b9c00a-3d50-4d6f-8452-6d833f86f23b\18012047856701014017,FALSE,None,Melissa27 Morgan50,4,1.80E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Melissa27 Wire Kelly58,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Morgan50 - Melissa27,FALSE,,,FALSE,TRUE,,,52b9c00a-3d50-4d6f-8452-6d833f86f23b,TRUE,Unchanged
+"If the message:
+	the message was received from 'Jambor, Kathy M'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,taylor32\7789179622452625409,FALSE,None,"Jambor, Kathy M",1,7.79E+18,TRUE,,,,,,,,"""Jambor, Kathy M"" [SMTP:collins27@cruz29109.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,TRUE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,taylor32,TRUE,Unchanged
+"If the message:
+	the message was received from 'Janet18 Wilkens'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,taylor32\7861237216490553345,FALSE,None,Janet18 Wilkens,2,7.86E+18,TRUE,,,,,,,,"""Janet18 Wilkens"" [SMTP:cooper19@freemail1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,taylor32,TRUE,Unchanged
+"If the message:
+	the message was received from 'anthony35@cruz29110.example'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,taylor32\7933294810528481281,FALSE,None,anthony35@cruz29110.example,3,7.93E+18,TRUE,,,,,,,,"""anthony35@cruz29110.example"" [SMTP:anthony35@cruz29110.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,TRUE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,taylor32,TRUE,Unchanged
+"If the message:
+	the message was sent to 'ramos24@cruz2976.example'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and redirect the message to 'Ramos24 Foss'
+	and stop processing more rules on this message
+",TRUE,Ramos24\4346819594502012929,FALSE,None,Redirect messages sent to ramos24@cruz2976.example,1,4.35E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""ramos24@cruz2976.example"" [SMTP:ramos24@cruz2976.example]",,,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,FALSE,"""Ramos24 Foss"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9a99f186bb024e1cbf9aa2a9bce6ee8c-mfoss]",,FALSE,TRUE,,,Ramos24,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Evelyn25 Samantha21 Betty12'
+	and the message includes specific words in the subject or body 'declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37' and 'Jonathan24 Katherine13' and 'Betty12 Support'
+	and stop processing more rules on this message
+",TRUE,jack20\2889367410861670401,FALSE,None,Declined,1,2.89E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Evelyn25 Samantha21 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bea494afc06144a69fa8edcbbd04d191-mendotaheig]",,,,declined,,,,,,,,,,,,,FALSE,,,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f] ""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,jack20,TRUE,Unchanged
+"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,jack20\2961425004899598337,FALSE,None,Email Forwarding,2,2.96E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,jack20,TRUE,Unchanged
+"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message includes specific words in the subject or body 'unsuccessful' or 'successful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,jack20\3033482598937526273,FALSE,None,Forward messages from edward48@cruz2926.example,3,3.03E+18,TRUE,,,,,,,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,unsuccessful successful,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,jack20,TRUE,Unchanged
+"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Evelyn25 Samantha21 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,jack20\3105540192975454209,FALSE,None,Faxes,4,3.11E+18,TRUE,,,,,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Evelyn25 Samantha21 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bea494afc06144a69fa8edcbbd04d191-mendotaheig]",,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,jack20,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Minntetonka Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Jonathan24 Katherine13' and 'Patricia12 Paul37'
+	and stop processing more rules on this message
+",TRUE,nancy30\744307954089459713,FALSE,None,Nancy30 Declined,1,7.44E+17,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Minntetonka Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f611703c9f7342558920c5339c3aeb97-nancy30]",,,,Declined,,,,,,,,,,,,,FALSE,,,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f] ""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",FALSE,,,FALSE,,,FALSE,TRUE,,,nancy30,TRUE,Unchanged
+"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,nancy30\816365548127387649,FALSE,None,Email Forwarding,2,8.16E+17,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,nancy30,TRUE,Unchanged
+"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message was sent to 'Minntetonka Betty12'
+	and the message includes specific words in the subject 'unsuccessful' or 'Successful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,nancy30\888423142165315585,FALSE,None,Sucessful or unsuccessful,3,8.88E+17,TRUE,,,,,,,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Minntetonka Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f611703c9f7342558920c5339c3aeb97-nancy30]",,unsuccessful Successful,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,nancy30,TRUE,Unchanged
+"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Minntetonka Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,nancy30\960480736203243521,FALSE,None,Fax Forwarding,4,9.60E+17,TRUE,,,,,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Minntetonka Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f611703c9f7342558920c5339c3aeb97-nancy30]",,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,nancy30,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+Take the following actions:
+	move the message to folder 'MORGAN50'
+	and stop processing more rules on this message
+",TRUE,Daniel29\4828253765767266305,FALSE,None,For all messages sent to Betty12 Morgan50,1,4.83E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,MORGAN50,FALSE,,,FALSE,TRUE,,,Daniel29,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'fax'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'RSS Feeds'
+	and stop processing more rules on this message
+",FALSE,Daniel29\4900311359805194241,FALSE,None,For all messages sent to Betty12 Morgan50,2,4.90E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,fax,,,,,,,,,,,,,,,FALSE,,,,TRUE,,RSS Feeds,FALSE,,,FALSE,TRUE,,,Daniel29,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject or body 'payoff'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'RSS Feeds'
+	and stop processing more rules on this message
+",FALSE,Daniel29\4972368953843122177,FALSE,None,For all messages sent to Betty12 Morgan50,3,4.97E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,payoff,,,,,,,,,,,,,FALSE,,,,TRUE,,RSS Feeds,FALSE,,,FALSE,TRUE,,,Daniel29,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37' and 'Jonathan24 Katherine13'
+	and stop processing more rules on this message
+",TRUE,sandoval26\12649844315174993921,FALSE,None,Declined,1,1.26E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Declined,,,,,,,,,,,,,FALSE,,,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",FALSE,,,FALSE,,,FALSE,TRUE,,,sandoval26,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Rebecca30 Sandoval28'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Jonathan24 Katherine13' and 'Patricia12 Paul37'
+	and stop processing more rules on this message
+",TRUE,Ronald33\2667152378494451713,FALSE,None,Rebecca30 Sandoval28 Declined,1,2.67E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Rebecca30 Sandoval28"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=74829b952f9a4a34be13693c2c385ca2-Ronald33]",,,,Declined,,,,,,,,,,,,,FALSE,,,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f] ""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",FALSE,,,FALSE,,,FALSE,TRUE,,,Ronald33,TRUE,Unchanged
+"If the message:
+	the message was received from 'External Vendor 5 - System Message'
+Take the following actions:
+	move the message to folder 'External Vendor 5'
+	and stop processing more rules on this message
+",TRUE,Eric26\2735666873621282817,FALSE,None,External Vendor 5 - System Message (4),1,2.74E+18,TRUE,,,,,,,,"""External Vendor 5 - System Message"" [SMTP:eric25-phillips34@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,External Vendor 5,FALSE,,,FALSE,TRUE,,,Eric26,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Notice of Rejected Anna26'
+Take the following actions:
+	move the message to folder 'Rejections'
+	and stop processing more rules on this message
+",TRUE,Eric26\16154496096293355521,FALSE,None,Notice of Rejected Anna26 (1),2,1.62E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Notice of Rejected Anna26,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Rejections,FALSE,,,FALSE,TRUE,,,Eric26,TRUE,Unchanged
+"If the message:
+	the message was received from 'External Vendor 5 - System Message'
+Take the following actions:
+	move the message to folder 'External Vendor 5'
+	and stop processing more rules on this message
+",TRUE,Eric26\1210927997188571137,FALSE,None,External Vendor 5 - System Message (3),3,1.21E+18,TRUE,,,,,,,,"""External Vendor 5 - System Message"" [SMTP:eric25-phillips34@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,External Vendor 5,FALSE,,,FALSE,TRUE,,,Eric26,TRUE,Unchanged
+"If the message:
+	the message was received from 'External Vendor 5 - System Message'
+Take the following actions:
+	move the message to folder 'Rejections'
+	and stop processing more rules on this message
+",TRUE,Eric26\1282985591226499073,FALSE,None,External Vendor 5 - System Message (2),4,1.28E+18,TRUE,,,,,,,,"""External Vendor 5 - System Message"" [SMTP:eric25-phillips34@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Rejections,FALSE,,,FALSE,TRUE,,,Eric26,TRUE,Unchanged
+"If the message:
+	the message was received from 'External Vendor 5 - System Message'
+Take the following actions:
+	move the message to folder 'External Vendor 5'
+	and stop processing more rules on this message
+",TRUE,Eric26\1499158373340282881,FALSE,None,External Vendor 5 - System Message (1),7,1.50E+18,TRUE,,,,,,,,"""External Vendor 5 - System Message"" [SMTP:eric25-phillips34@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,External Vendor 5,FALSE,,,FALSE,TRUE,,,Eric26,TRUE,Unchanged
+"If the message:
+	the message was received from 'External Vendor 5 - System Message'
+Take the following actions:
+	move the message to folder 'External Vendor 5'
+	and stop processing more rules on this message
+",TRUE,Eric26\1643273561416138753,FALSE,None,External Vendor 5 - System Message,9,1.64E+18,TRUE,,,,,,,,"""External Vendor 5 - System Message"" [SMTP:support@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,External Vendor 5,FALSE,,,FALSE,TRUE,,,Eric26,TRUE,Unchanged
+"If the message:
+	the message was received from 'Ruth55 Paul28'
+Take the following actions:
+	move the message to folder 'Junk Email'
+	and stop processing more rules on this message
+",TRUE,stephanie23\252464439838638081,FALSE,None,Ruth55 Paul28,3,2.52E+17,TRUE,,,,,,,,"""Ruth55 Paul28"" [SMTP:ruth55@cruz29112.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Junk Email,FALSE,,,FALSE,TRUE,,,stephanie23,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,stephanie23\324522033876566017,FALSE,None,Morgan50,4,3.25E+17,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,stephanie23,TRUE,Unchanged
+"If the message:
+	the body of the message contains the words 'Cooper27 Mendoza10'
+	and a recipient address contains the words 'william20@cruz29113.example'
+Take the following actions:
+	apply the following category: ''Mail Original Mortgage''
+	and stop processing more rules on this message
+",TRUE,ruth31\12803176494478131201,FALSE,None,Final Policy - Mail Originals - (Kelly67 Cloud),1,1.28E+19,TRUE,,Cooper27 Mendoza10,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,william20@cruz29113.example,,FALSE,FALSE,,,,,,,,,,,,,,,Mail Original Mortgage,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,ruth31,TRUE,Unchanged
+"If the message:
+	the message was received from 'eric25-phillips34@cruz293.example'
+	and the message includes specific words in the subject 'Notice of Recorded'
+Take the following actions:
+	move the message to folder 'External Vendor 5 - Recordings'
+	and stop processing more rules on this message
+",TRUE,ruth31\3390044684981108737,FALSE,None,External Vendor 5 - Recordings,9,3.39E+18,TRUE,,,,,,,,"""eric25-phillips34@cruz293.example"" [SMTP:eric25-phillips34@cruz293.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Notice of Recorded,,,,,,,,,,,,,,,FALSE,,,,FALSE,,External Vendor 5 - Recordings,FALSE,,,FALSE,TRUE,,,ruth31,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: 'evelyn30'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,ruth31\3462102279019036673,TRUE,PropertiesInError,Uploads,10,3.46E+18,TRUE,,,,,,evelyn30,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,ruth31,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: 'cruz294.example'
+	and the message includes specific words in the subject or body 'Catherine33 Anna26'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,ruth31\3534159873056964609,TRUE,PropertiesInError,Catherine33 Packages,11,3.53E+18,TRUE,,,,,,cruz294.example,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,Catherine33 Anna26,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,ruth31,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Kelly63 Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'James59 Sandoval24'
+	and stop processing more rules on this message
+",TRUE,kelly63\7459845438565253121,FALSE,None,Kelly63 Declined,1,7.46E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Kelly63 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a416eb48bf14e10b0f07137d6589ea4-kelly63]",,,,Declined,,,,,,,,,,,,,FALSE,,,"""James59 Sandoval24"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e2b4575270d44fce8abc4f6201a3fc17-rivera21]",FALSE,,,FALSE,,,FALSE,TRUE,,,kelly63,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Betty12 Morgan50'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,Rogers27\3120196339275661313,FALSE,None,Betty12 Morgan50,1,3.12E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Betty12 Morgan50"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=452031fbb014409b81009320adaa2c3d-Betty12 Wire]",,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,Rogers27,TRUE,Unchanged
+"If the message:
+	the message was received from 'Bank'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,Rogers27\2904023557161877505,FALSE,None,Bank,2,2.90E+18,TRUE,,,,,,,,"""Bank"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,Rogers27,TRUE,Unchanged
+"If the message:
+	the message was received from 'Rewards'
+Take the following actions:
+	move the message to folder 'Junk Email'
+	and stop processing more rules on this message
+",TRUE,Cook32\18097493495311761409,FALSE,None,Rewards,2,1.81E+19,TRUE,,,,,,,,"""Rewards"" [SMTP:robert46@cruz29116.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Junk Email,FALSE,,,FALSE,TRUE,,,Cook32,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+Take the following actions:
+	move the message to folder 'Morgan50'
+	and stop processing more rules on this message
+",TRUE,rBuendiger\15701490128843177985,FALSE,None,Morgan50,1,1.57E+19,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Morgan50,FALSE,,,FALSE,TRUE,,,rBuendiger,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: '@indeedemail.com'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,Jonathan24_a9d16fd067\9931967406580695042,TRUE,PropertiesInError,Indeed,2,9.93E+18,TRUE,,,,,,@indeedemail.com,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,Jonathan24_a9d16fd067,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: '.xyz'
+	and the message includes specific words in the subject 'About Betty12' or 'Regarding Betty12'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,Jonathan24_a9d16fd067\8921137490438389762,FALSE,None,"About Betty12 Emails "".xyz""",3,8.92E+18,TRUE,,,,,,.xyz,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,About Betty12 Regarding Betty12,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,Jonathan24_a9d16fd067,TRUE,Unchanged
+"If the message:
+	the message was received from 'victoria30@cruz29119.example'
+Take the following actions:
+	forward the message to 'Janet18 Katherine13'
+	and stop processing more rules on this message
+",TRUE,Jonathan24_a9d16fd067\12331229420504219650,FALSE,None,victoria30@cruz29119.example - Forward,6,1.23E+19,TRUE,,,,,,,,"""victoria30@cruz29119.example"" [SMTP:victoria30@cruz29119.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,"""Janet18 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d77fca56ee694ed9a33ec6bb48a5b5a1-betty14_83b6]",FALSE,,,FALSE,,,FALSE,TRUE,,,Jonathan24_a9d16fd067,TRUE,Unchanged
+"If the message:
+	a recipient address contains the words 'amy30.ward20@freemail1.example'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,Jonathan24_a9d16fd067\12475344608580075522,FALSE,None,For all messages to Nick Ward20,8,1.25E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,amy30.ward20@freemail1.example,,FALSE,FALSE,,,,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,Jonathan24_a9d16fd067,TRUE,Unchanged
+"If the message:
+	the sender's address contains these words: 'amy30.ward20@freemail1.example'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,Jonathan24_a9d16fd067\12547402202618003458,FALSE,None,For all messages from Nick Ward20,9,1.25E+19,TRUE,,,,,,amy30.ward20@freemail1.example,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,TRUE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,Jonathan24_a9d16fd067,TRUE,Unchanged
+"If the message:
+	the message includes specific words in the subject 'Document uploaded'
+Take the following actions:
+	mark the message as Read
+	and stop processing more rules on this message
+",TRUE,Jonathan24_a9d16fd067\13267978142997282818,FALSE,None,Uploads,19,1.33E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Document uploaded,,,,,,,,,,,,,,,FALSE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,Jonathan24_a9d16fd067,TRUE,Unchanged
+"If the message:
+	the message was received from 'postmaster@contoso.com'
+	and the message was sent to 'christina12@contoso.com'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,Jonathan24_a9d16fd067\13340035737035210754,FALSE,None,Postmaster Receipt Through garcia38-Valids,20,1.33E+19,TRUE,,,,,,,,"""postmaster@contoso.com"" [SMTP:postmaster@contoso.com]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""christina12@contoso.com"" [SMTP:christina12@contoso.com]",,,,,,,,,,,,,,,,,TRUE,,,,TRUE,,,FALSE,,,FALSE,TRUE,,,Jonathan24_a9d16fd067,TRUE,Unchanged
+"If the message:
+	the message was received from 'taylor31.lee26@cruz2927.example'
+	and the message includes specific words in the subject or body 'files_received_by_catherine33'
+Take the following actions:
+	forward the message to 'Ruiz15 Castillo35'
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,Jonathan24_a9d16fd067\13412093331073138690,FALSE,None,files_received_by_catherine33,21,1.34E+19,TRUE,,,,,,,,"""taylor31.lee26@cruz2927.example"" [SMTP:taylor31.lee26@cruz2927.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,files_received_by_catherine33,,,,,,,,,,,,,FALSE,,,"""Ruiz15 Castillo35"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=69fea32f3af04a2f82c04d396c6ad70f-ruiz15]",TRUE,,,FALSE,,,FALSE,TRUE,,,Jonathan24_a9d16fd067,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Kelly67 Linda12 Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37'
+	and stop processing more rules on this message
+",TRUE,Bailey39\14964739238547947521,FALSE,None,Declined,1,1.50E+19,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Kelly67 Linda12 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cbb15689d56448088e7c89a47d697394-Bailey39]",,,,Declined,,,,,,,,,,,,,FALSE,,,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",FALSE,,,FALSE,,,FALSE,TRUE,,,Bailey39,TRUE,Unchanged
+"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Morgan50'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Outgoing Morgan50'
+	and stop processing more rules on this message
+",TRUE,8e13759f-a1b0-446a-8fb6-8a678b0353f0\8863930969791397889,FALSE,None,Outgoing Morgan50,1,8.86E+18,TRUE,,,,,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,Outgoing Morgan50,,,,,,,,,,,,,,,FALSE,,,,TRUE,,Outgoing Morgan50,FALSE,,,FALSE,TRUE,,,8e13759f-a1b0-446a-8fb6-8a678b0353f0,TRUE,Unchanged
+"If the message:
+	the message was received from 'James19 Karen52'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\4188880951071211522,FALSE,None,James19 Karen52 (3),1,4.19E+18,TRUE,,,,,,,,"""James19 Karen52"" [SMTP:james19.karen52@cruz29124.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'James19 Karen52'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\225713278985175042,FALSE,None,James19 Karen52 (2),2,2.26E+17,TRUE,,,,,,,,"""James19 Karen52"" [SMTP:james19.karen52@cruz29124.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'James19 Karen52'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\153655684947247106,FALSE,None,James19 Karen52 (1),3,1.54E+17,TRUE,,,,,,,,"""James19 Karen52"" [SMTP:james19.karen52@cruz29124.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'James19 Karen52'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\16294275274466394114,FALSE,None,James19 Karen52,4,1.63E+19,TRUE,,,,,,,,"""James19 Karen52"" [SMTP:james19.karen52@cruz29124.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Adam27 Barrett'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\1495302046843142146,FALSE,None,Adam27 Barrett,5,1.50E+18,TRUE,,,,,,,,"""Adam27 Barrett"" [SMTP:adam27@cruz29125.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Adams20 Messner'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\5873862982814924802,FALSE,None,Adams20 Messner,6,5.87E+18,TRUE,,,,,,,,"""Adams20 Messner"" [SMTP:adams20@cruz29126.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'kimberly17@cruz29127.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\1594912654932049922,FALSE,None,kimberly17@cruz29127.example (3),7,1.59E+18,TRUE,,,,,,,,"""kimberly17@cruz29127.example"" [SMTP:kimberly17@cruz29127.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'kimberly17@cruz29127.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\1666970248969977858,FALSE,None,kimberly17@cruz29127.example (2),8,1.67E+18,TRUE,,,,,,,,"""kimberly17@cruz29127.example"" [SMTP:kimberly17@cruz29127.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'kimberly17@cruz29127.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\1739027843007905794,FALSE,None,kimberly17@cruz29127.example (1),9,1.74E+18,TRUE,,,,,,,,"""kimberly17@cruz29127.example"" [SMTP:kimberly17@cruz29127.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'kimberly17@cruz29127.example'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\1811085437045833730,FALSE,None,kimberly17@cruz29127.example,10,1.81E+18,TRUE,,,,,,,,"""kimberly17@cruz29127.example"" [SMTP:kimberly17@cruz29127.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Orbitz'
+Take the following actions:
+	move the message to folder 'Junk Email'
+	and stop processing more rules on this message
+",TRUE,Parker34\1883143031083761666,FALSE,None,Orbitz,11,1.88E+18,TRUE,,,,,,,,"""Orbitz"" [SMTP:karen24@cruz29128.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Junk Email,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'campbell60@cruz294.example'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+",TRUE,Parker34\1955200625121689602,TRUE,PropertiesInError,For all messages from Betty12 Production,12,1.96E+18,TRUE,,,,,,,,"""campbell60@cruz294.example"" [SMTP:campbell60@cruz294.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Kelly63 Betty12'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2099315813197545474,FALSE,None,Kelly63 Betty12 (6),14,2.10E+18,TRUE,,,,,,,,"""Kelly63 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a416eb48bf14e10b0f07137d6589ea4-kelly63]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Kelly63 Betty12'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2171373407235473410,FALSE,None,Kelly63 Betty12 (5),15,2.17E+18,TRUE,,,,,,,,"""Kelly63 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a416eb48bf14e10b0f07137d6589ea4-kelly63]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Kelly63 Betty12'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2243431001273401346,FALSE,None,Kelly63 Betty12 (4),16,2.24E+18,TRUE,,,,,,,,"""Kelly63 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a416eb48bf14e10b0f07137d6589ea4-kelly63]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Kelly63 Betty12'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2315488595311329282,FALSE,None,Kelly63 Betty12 (3),17,2.32E+18,TRUE,,,,,,,,"""Kelly63 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a416eb48bf14e10b0f07137d6589ea4-kelly63]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Kelly63 Betty12'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2387546189349257218,FALSE,None,Kelly63 Betty12 (2),18,2.39E+18,TRUE,,,,,,,,"""Kelly63 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a416eb48bf14e10b0f07137d6589ea4-kelly63]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Kelly63 Betty12'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2459603783387185154,FALSE,None,Kelly63 Betty12 (1),19,2.46E+18,TRUE,,,,,,,,"""Kelly63 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a416eb48bf14e10b0f07137d6589ea4-kelly63]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Kelly63 Betty12'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2531661377425113090,FALSE,None,Kelly63 Betty12,20,2.53E+18,TRUE,,,,,,,,"""Kelly63 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3a416eb48bf14e10b0f07137d6589ea4-kelly63]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Parker34 Larry20'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2603718971463041026,FALSE,None,Parker34 Larry20 (1),21,2.60E+18,TRUE,,,,,,,,"""Parker34 Larry20"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1d8948e298f04fce992f2d99e97417be-Parker34]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Parker34 Larry20'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2675776565500968962,FALSE,None,Parker34 Larry20,22,2.68E+18,TRUE,,,,,,,,"""Parker34 Larry20"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1d8948e298f04fce992f2d99e97417be-Parker34]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Janet20 Grimm'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2747834159538896898,FALSE,None,Janet20 Grimm,23,2.75E+18,TRUE,,,,,,,,"""Janet20 Grimm"" [SMTP:janet20@cruz29129.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Janet20 Sharon30'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2819891753576824834,FALSE,None,Janet20 Sharon30 (1),24,2.82E+18,TRUE,,,,,,,,"""Janet20 Sharon30"" [SMTP:janet20.sharon30@freemail1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was received from 'Janet20 Sharon30'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+",TRUE,Parker34\2891949347614752770,FALSE,None,Janet20 Sharon30,25,2.89E+18,TRUE,,,,,,,,"""Janet20 Sharon30"" [SMTP:janet20.sharon30@freemail1.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,,FALSE,,Inbox,FALSE,,,FALSE,TRUE,,,Parker34,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Garcia63 Cruz28'
+	and the message includes specific words in the subject or body 'declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37' and 'Betty12 Support'
+	and stop processing more rules on this message
+",TRUE,368aad79-0e3f-4bca-872d-29cb81c885c7\19055846491160577,FALSE,None,Declined,1,1.91E+16,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Garcia63 Cruz28"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=29a022610b644203a40d4017089ca426-9499a203-9e]",,,,declined,,,,,,,,,,,,,FALSE,,,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,368aad79-0e3f-4bca-872d-29cb81c885c7,TRUE,Unchanged
+"If the message:
+	the message was sent to 'Edward69 Ruth19 Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37'
+	and stop processing more rules on this message
+",TRUE,robinson45\9384143636419051521,FALSE,None,Declined,1,9.38E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Edward69 Ruth19 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bf3ceaa6ebcf4415a56b9e7210455460-robinson45]",,,,Declined,,,,,,,,,,,,,FALSE,,,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",FALSE,,,FALSE,,,FALSE,TRUE,,,robinson45,TRUE,Unchanged
+"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,robinson45\9456201230456979457,FALSE,None,Email Forwarding,2,9.46E+18,TRUE,,,,,,,,,,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,,,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,robinson45,TRUE,Unchanged
+"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Edward69 Ruth19 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,robinson45\9528258824494907393,FALSE,None,Forward messages from eFax Corporate,3,9.53E+18,TRUE,,,,,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",,FALSE,FALSE,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,,,FALSE,FALSE,"""Edward69 Ruth19 Betty12"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bf3ceaa6ebcf4415a56b9e7210455460-robinson45]",,,,,,,,,,,,,,,,,FALSE,,,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",FALSE,,,FALSE,,,FALSE,TRUE,,,robinson45,TRUE,Unchanged

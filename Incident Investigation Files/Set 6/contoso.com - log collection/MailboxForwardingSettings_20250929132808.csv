@@ -1,0 +1,5 @@
+"Name","ForwardingSmtpAddress","ForwardingAddress","DeliverToMailboxAndForward"
+"dennis25","smtp:tyler21@contoso.com",,"False"
+"thompson27","smtp:tyler21@contoso.com",,"True"
+"Ross13","smtp:bailey38@contoso.com",,"False"
+"Powell38","smtp:bailey39@contoso.com",,"True"

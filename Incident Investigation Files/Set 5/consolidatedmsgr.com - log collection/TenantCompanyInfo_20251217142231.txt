@@ -1,0 +1,32 @@
+
+AssignedPlans                        : {27b28774-7f1c-4a12-8cfe-ffe6f7def33d, 92493c49-6e83-4c72-8bfa-937af969df9d, f683b928-57b1-4d03-8f6d-f9d1efd5c9f3, 33430e39-ea48-44ce-80d7-3b201e081e45…}
+Branding                             : Microsoft.Graph.PowerShell.Models.MicrosoftGraphOrganizationalBranding
+BusinessPhones                       : {972-555-0100}
+CertificateBasedAuthConfiguration    : 
+City                                 : Centerville
+Country                              : 
+CountryLetterCode                    : US
+CreatedDateTime                      : 2011-09-10 04:46:37
+DefaultUsageLocation                 : 
+DeletedDateTime                      : 
+DisplayName                          : Consolidatedmsgr
+Extensions                           : 
+Id                                   : 9fc57536-e8d3-4117-8537-fc27bc714352
+MarketingNotificationEmails          : {}
+MobileDeviceManagementAuthority      : 
+OnPremisesLastSyncDateTime           : 2025-12-17 22:04:48
+OnPremisesSyncEnabled                : True
+PartnerTenantType                    : 
+PostalCode                           : 75001-0000
+PreferredLanguage                    : en
+PrivacyProfile                       : Microsoft.Graph.PowerShell.Models.MicrosoftGraphPrivacyProfile
+ProvisionedPlans                     : {Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan, Microsoft.Graph.PowerShell.Models.MicrosoftGraphProvisionedPlan…}
+SecurityComplianceNotificationMails  : {}
+SecurityComplianceNotificationPhones : {}
+State                                : TX
+Street                               : 100 Innovation Way
+TechnicalNotificationMails           : {edwards@cook212.example}
+TenantType                           : AAD
+VerifiedDomains                      : {consolidatedmsgr.onmicrosoft.com, consolidatedmsgr.microsoftonline.com, consolidatedmsgr.com, CONSOLIDATEDMSGR.mail.onmicrosoft.com}
+AdditionalProperties                 : {[directorySizeQuota, System.Collections.Generic.Jones2`2[System.String,System.Object]], [onPremisesSyncStatus, System.Object[]]}
+

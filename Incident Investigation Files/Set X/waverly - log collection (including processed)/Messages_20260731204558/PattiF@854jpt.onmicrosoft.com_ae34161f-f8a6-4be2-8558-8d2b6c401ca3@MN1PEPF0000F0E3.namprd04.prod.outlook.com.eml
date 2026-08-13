@@ -1,0 +1,183 @@
+Received: from CH4PR10MB8170.namprd10.prod.outlook.com (::1) by
+ BY5PR10MB3746.namprd10.prod.outlook.com with HTTPS; Fri, 24 Jul 2026 08:49:13
+ +0000
+Received: from SmtpServer.Submit by CH4PR10MB8170 with Microsoft SMTP Server
+ id 15.21.245.11; Fri, 24 Jul 2026 08:49:12 +0000
+Received: from BL1PR13CA0371.namprd13.prod.outlook.com (2603:10b6:208:2c0::16)
+ by SA1PR10MB6494.namprd10.prod.outlook.com (2603:10b6:806:2b4::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.245.11; Fri, 24 Jul
+ 2026 08:18:10 +0000
+Received: from MN1PEPF0000F0E3.namprd04.prod.outlook.com
+ (2603:10b6:208:2c0:cafe::99) by BL1PR13CA0371.outlook.office365.com
+ (2603:10b6:208:2c0::16) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.270.6 via Frontend Transport; Fri, 24
+ Jul 2026 08:18:10 +0000
+Authentication-Results: spf=none (sender IP is 76.83.41.98)
+ smtp.mailfrom=fedx-tracking-update.com; dkim=none (message not signed)
+ header.d=none;dmarc=none action=none
+ header.from=fedx-tracking-update.com;compauth=fail reason=001
+Received-SPF: None (protection.outlook.com: fedx-tracking-update.com does not
+ designate permitted sender hosts)
+Received: from FMLWSUS (76.83.41.98) by
+ MN1PEPF0000F0E3.mail.protection.outlook.com (10.167.242.41) with Microsoft
+ SMTP Server id 15.21.270.5 via Frontend Transport; Fri, 24 Jul 2026 08:18:10
+ +0000
+From: shipping-notify@fedx-tracking-update.com
+To: <PattiF@854jpt.onmicrosoft.com>
+Date: Fri, 24 Jul 2026 01:18:10 -0700
+Subject: Your shipment #1Z9847293847 is on its way - Delivery Thursday
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <ae34161f-f8a6-4be2-8558-8d2b6c401ca3@MN1PEPF0000F0E3.namprd04.prod.outlook.com>
+Return-Path: shipping-notify@fedx-tracking-update.com
+X-MS-Exchange-Organization-ExpirationStartTime: 24 Jul 2026 08:18:10.3538
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 5680d2a0-31ef-4eb4-0988-08dee95c1947
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: eb174bbc-fe94-4978-95b9-a616457dd489:0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-TrafficTypeDiagnostic: MN1PEPF0000F0E3:EE_|SA1PR10MB6494:EE_|CH4PR10MB8170:EE_ReleasedQuarantineMessage|BY5PR10MB3746:EE_ReleasedQuarantineMessage
+X-MS-Exchange-Organization-AuthSource: MN1PEPF0000F0E3.namprd04.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 5680d2a0-31ef-4eb4-0988-08dee95c1947
+X-Forefront-Antispam-Report: CIP:76.83.41.98;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKQ;H:FMLWSUS;PTR:syn-076-083-041-098.biz.spectrum.com;CAT:HPHISH;SFS:(13230040)(704161111799003)(10067099003)(19002099009)(8096899003)(11063799006)(5063699009)(56012099006)(16102099003)(18002099003);DIR:INB;
+X-Microsoft-Antispam: BCL:0;ARA:13230040|704161111799003|10067099003|19002099009|8096899003|11063799006|5063699009|56012099006|16102099003|18002099003;
+X-MS-Exchange-QuarantineResubmitTime: 5hUndU7Jg5Jp1lWUKlCMy5Aki5U+kXINmFY4hebi4IQvWkkXeXl4kIkK8s5CpbW4JGhK9I2+NgV4c1qNwKlbHo7HGH1WEERSRndEPxnxBAGZ1XfkVOpVS19dswLDpe+lfbwOvUHTLa9pgNHPRC3Pt4E5LVI7+GtYC+GHcWzT4sYqk0/EaqK6M7NdrnpqirtlyWEU83Own2HDWjbf1fFrymdn1GyoMH0zdDDq+mXIpm/Fx+g0L5rUAenwKSVWrgQfoETq3CH7KJDsPdTA+bFS2XJvkEnLPF1W17peHUmbM1lyhuV6kHSVPy8M0cBUM4SLx31nT+TGwsjeIidTH/DG5WFICs3OKW4BS2vetj2LMgs=
+X-MS-PublicTrafficType: Email
+Sender: <shipping-notify@fedx-tracking-update.com>
+X-MS-Exchange-Organization-ExpirationStartTime: 24 Jul 2026 08:49:12.6445
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: QuarantineReleased
+X-MS-Exchange-Parent-Message-Id: <X7M535U6VTU4.5MLLFH3CIZ8D@ds7nam13ws0045>
+Auto-Submitted: auto-generated
+X-MS-Exchange-Generated-Message-Source: Antispam Quarantine Agent
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Jul 2026 08:18:10.1004
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5680d2a0-31ef-4eb4-0988-08dee95c1947
+X-MS-Exchange-CrossTenant-Id: eb174bbc-fe94-4978-95b9-a616457dd489
+X-MS-Exchange-CrossTenant-AuthSource: MN1PEPF0000F0E3.namprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CH4PR10MB8170
+X-MS-Exchange-Transport-EndToEndLatency: 00:31:03.7231705
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0245.008
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(4710232)(4715172)(4999285)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?rQ143KqAluC86HHkFxC/u6gTUDzIGkIovRefqOxWIHBbX1ZyrorGbTwQWeww?=
+ =?us-ascii?Q?/IHqEkiBEW8cOQgfce8BIDtNBkptPe7vnv2of4tLIgtj3OExWsKQoqnDMi/d?=
+ =?us-ascii?Q?HYPKfzoHLAIsxx2D/dX1iOxvPzR6Go+SGAFtqsmax91zTV2gS5OaqrwCNkmf?=
+ =?us-ascii?Q?gNZ+DhD2CMEZdpIKBP3oUWpKk0IZaICjeUBqsq1+uiFWJt7cBUA+2mKMlFJ2?=
+ =?us-ascii?Q?6/8YYegNUbR+BEbVK4hig4dJOT2YUJBFHAcdvt0oY+J1h5uIt9Utu5LBQd44?=
+ =?us-ascii?Q?6ABkTdf/HTEVHlLRaW00fd6YuXAv1tLnBANAZaNBy0Z1/77aB8qe3tgbu1kp?=
+ =?us-ascii?Q?m2tMayf9Ls5/RCalwbo9JyJj5iDu2n7YXYwC5OLnTII1cYWj2zwpvu2WrGkm?=
+ =?us-ascii?Q?Wjx62sp/qlUNHRv2FUi4M7+buzjDRHOx/68mt6oFUlVVAftziG8FfvxmYxjd?=
+ =?us-ascii?Q?3sXlllLuOZl9pmGPoYYx9+W8enHyrAAHZ5zKfHiLqMAS+pJVwSbc6Yd7gYl1?=
+ =?us-ascii?Q?O8hH59bjOcDaQTS+b4S3lWdtr77a+z+1beeyjj/1eZ1MbrhKubE/EXmd2IXs?=
+ =?us-ascii?Q?HcD3EsT1PAsUP4d4NLw7H4Rnq7qCorqoqAGikzuuatTOlIdBjUB9Yj2tTWbA?=
+ =?us-ascii?Q?nWzRoLs00IBHjvYWhyWXrcYrdmHGzFMtaIxr6s3Ng3j6lOXIKspCYV1c/Zx5?=
+ =?us-ascii?Q?rR7C9Vsyqw3uhBK5prfm1A3ITXI+Nw1f6lRNNoRSFh3TneyZ8AAd8DY1U+yx?=
+ =?us-ascii?Q?f2OFMX/IiU58JtQHhwsJDMH/vtlmsm++SLTLP+SQnGkTiefh6p3HEx4XYedL?=
+ =?us-ascii?Q?RanDJgTHqj5LS3UG5NxYksBS0gnr28em07sy6th+Wvvf52CIbmqxxIPvb6u7?=
+ =?us-ascii?Q?2Z2OVpw5y7O+yo6zJKUapkVI99pDj02wJOYUk6Yr+FOUBYe/emrcc5FXCr5b?=
+ =?us-ascii?Q?pkOFT7XqdJZOAuGIUPexLZOXspYz+RsZArlXhY39ri8+3tqe6jCLOlOIMfnv?=
+ =?us-ascii?Q?gWb7lNDTVL3wlwjrYv0LFgisplAHZG05ZH/prFTYOpILu7KadJWAKsU2I1Rs?=
+ =?us-ascii?Q?7rFlNuFmkA9MQCDQvEJZvnGfC5ECIliKulbAVzIS6ZoGCaM9cxWH76bjv0VX?=
+ =?us-ascii?Q?KkmE/1wVWD9Lnw+yU242tlOG4vMapHMYYCgt7yaUabjr1Sd1M7/tng9kJqed?=
+ =?us-ascii?Q?LpU/Ig7SkTC+CVHdjVgWVJp0E/kMjyMCevgD+ItT2duT7zF9LlwQacXtAf+Q?=
+ =?us-ascii?Q?Q+pmxTUrJs1f/mizkI6A6rop9B08xfLw5PeZmvDjdQagONnV1z3EYHNOHcZq?=
+ =?us-ascii?Q?rsQWv4ZrgO01hd2b96QQuXz+hgqE3pXjgkyO0sKhcEGCcz29PaJATkzTtmNf?=
+ =?us-ascii?Q?i/nlm99u4Hnp3Ev8zRQiUZSeyzU1eoajLo2R699A/Jy/jiDozEIcfdXR3BBs?=
+ =?us-ascii?Q?B6i3dGJqOwHOJl8rGVJSoKBxWRsPbRpJf5sydqfdUo9ESLQeRPESVh5f5IkN?=
+ =?us-ascii?Q?hM8s9+4xFdsFfKkBMEy6xYgy19eIDrKLkOLB4yEd9UxFo99KORZk0hlKWqfx?=
+ =?us-ascii?Q?5J6oqfBMRqatevhQk3XsiONo8B+dEo7FJ7bcih6KyOCuJ4r+j8KgexgcHHX6?=
+ =?us-ascii?Q?785fcnt/4//lYAiCFeeylYrkgujxQCUSBXB/+wyOgpJmZMkR++vORHLkVqu9?=
+ =?us-ascii?Q?QBjlPthCU7+rB7/2bwP52fHAZ0Oa3+/EZ7a8vffnZcAHrd6g7bdyqwIYFpNr?=
+ =?us-ascii?Q?NBoRpyXtOOg6k0xFIizgUwtxA38k/LpwNQ/SBKWyAeF5HxwDAiog85eeZnG6?=
+ =?us-ascii?Q?x7C7ppSHAAaagN91AuxAHeCmzDdtifvJhaeWLAwQTYsJsb6JFIXn/AZaSPUA?=
+ =?us-ascii?Q?D4L8zVouDM1757IM1QfmvSDEc3+dnPpi1O7iOwTjga9TXUs7ZQKd5ca0/vOn?=
+ =?us-ascii?Q?HXpbVp+XNe4fhDLhIpDcrK3VdgQZcL6V4olMfRsCYzcTVwRT8NSeaYGXCimg?=
+ =?us-ascii?Q?nC/Tu9DGiuUtustjQ7G5Z1+KL0fWZoFl6L8ot8EtaWI953k3JiYb/PPqFPeI?=
+ =?us-ascii?Q?M40ULAGMziNs3ohGq8Tg/bNAs0Eb+fEx+qAt4xT+JhLw0E/sp7xZ7MTzbxWR?=
+ =?us-ascii?Q?hcHLAxaAAWc3sCG1ZJt2Fwpex3gauN02wwtY05kgJIg/5QLQpGEUY+pGobpy?=
+ =?us-ascii?Q?riMq2F6mERdl3bAlqXMoOJIEodeL8bg1yeCnZHMMLtM82AUgFfQLz//1e10q?=
+ =?us-ascii?Q?bU7lrH/LeOANW2TYYBWZvT4/MXQJIVdATkB1BROzuGCAI4n/q9r2EviSp+nE?=
+ =?us-ascii?Q?reT/6gWeYQ9N2LzpyPpawR6c3jRh3URmJ9l4zaZ9GMI8zIAbJKC/xxFGJf8a?=
+ =?us-ascii?Q?ZhplaqaXxxMLNnmlb8vPS4rcwh5ApvOiPHKbjjCJFyHHBxZnZQuqJEddTv0B?=
+ =?us-ascii?Q?I0ThSgYqtpdtePtxodsyZgDD+s8Fpl7g5f4FjIhdo0RWgTL5DS1TfoOYFMmr?=
+ =?us-ascii?Q?sjDaqSm+1RDqTnio4GK7sMBOOCD7JppECM9Fn1gmG4MWuFuMr2WnBq9IMybo?=
+ =?us-ascii?Q?Y/7vkPHtkyTexyqabrcVeAvd3iqloJfeVKjBW0mQBxX+XVSjjxjoMU1v1TOl?=
+ =?us-ascii?Q?Mj69Lbf9ifoL4mFckHZQVZA1KCxowfw6/gcOYuqpzQvPU3YGJbyWIFexmmbd?=
+ =?us-ascii?Q?MMfhAwpKVqqVruB5YqpzxTOYeefgCJbluLEwS6rLnCX+TjwMpZXnTzirqqW0?=
+ =?us-ascii?Q?N06fDbFiRyTsgNcwKdr4np8fPcUG4GsmGvlqWZTYL1Uy/MLKoWjXCDp+/wbM?=
+ =?us-ascii?Q?JCaLZcVsiWTPEBnlcrMees/01Vxp5oxNVpvz6VmIxrubMpQgq30sInHsb/TC?=
+ =?us-ascii?Q?UZbm/zgdDhuvs6h0OPZYZOrpUX6Tb0PS3xaHxn22P00/hUeBYsUEAs1H5utW?=
+ =?us-ascii?Q?q2WKbKk8W3zPjWaWVcde98HablMmfx+wuLPoEUyb/qELIbUqPgF+bH3zdaFP?=
+ =?us-ascii?Q?2VK4kSrTHDv+WJ5gJ8UpYaZyeVRqUjuJbJ44ixqRlj6BV4CI1hG1dKh0MvY1?=
+ =?us-ascii?Q?N0jquDysHPDaWy6J3zLloBoUYvhJLHXwfNzUnFMBMr0XTsV4K/qxgFczIzLT?=
+ =?us-ascii?Q?hMgY9h1+0GPlloaGQWFCM3CIRUeN4DWm2s4hkaafuC3TzrSaXlGsxrh3TbTc?=
+ =?us-ascii?Q?1JjdaLIRcPL3OwkNw7ociNhn9IfMcBayk0YHoQ0tsG/uaMilaRGFAsGzfjg?=
+ =?us-ascii?Q?=3D?=
+MIME-Version: 1.0
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+></head>
+<body style=3D"font-family: Arial, sans-serif; color: #333; font-size: 13px=
+;">=0A=
+=0A=
+<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" style=3D"border: 1=
+px solid #ddd;">=0A=
+<tr style=3D"background-color: #4D148C;">=0A=
+<td style=3D"padding: 12px 20px; color: white; font-size: 18px; font-weight=
+: bold;">=0A=
+FedEx Shipment Notification=0A=
+</td>=0A=
+</tr>=0A=
+<tr>=0A=
+<td style=3D"padding: 20px;">=0A=
+=0A=
+<p>A package is on its way to you.</p>=0A=
+=0A=
+<table cellpadding=3D"6" cellspacing=3D"0" style=3D"margin: 10px 0; border-=
+collapse: collapse;">=0A=
+<tr><td style=3D"border-bottom: 1px solid #eee;"><strong>Tracking Number:</=
+strong></td><td style=3D"border-bottom: 1px solid #eee;">1Z9847293847562</t=
+d></tr>=0A=
+<tr><td style=3D"border-bottom: 1px solid #eee;"><strong>Estimated Delivery=
+:</strong></td><td style=3D"border-bottom: 1px solid #eee;">Thursday by end=
+ of day</td></tr>=0A=
+<tr><td style=3D"border-bottom: 1px solid #eee;"><strong>Ship From:</strong=
+></td><td style=3D"border-bottom: 1px solid #eee;">INDUSTRIAL SUPPLY CO - K=
+ENT, WA</td></tr>=0A=
+<tr><td><strong>Service:</strong></td><td>FedEx Ground</td></tr>=0A=
+</table>=0A=
+=0A=
+<p style=3D"margin: 16px 0;">=0A=
+<a href=3D"https://fedx-tracking-update.com/track?id=3D1Z9847293847562&amp;=
+auth=3D3k8f" style=3D"background-color: #4D148C; color: white; padding: 10p=
+x 24px; text-decoration: none; border-radius: 3px;">Track Your Package</a>=
+=0A=
+</p>=0A=
+=0A=
+<p style=3D"font-size: 11px; color: #999;">=0A=
+This is an automated notification. Please do not reply to this email.<br>=
+=0A=
+To manage your delivery preferences, visit <a href=3D"https://fedx-tracking=
+-update.com/preferences" style=3D"color: #999;">FedEx Delivery Manager</a>.=
+=0A=
+</p>=0A=
+=0A=
+</td>=0A=
+</tr>=0A=
+</table>=0A=
+=0A=
+</body>=0A=
+</html>
+
+

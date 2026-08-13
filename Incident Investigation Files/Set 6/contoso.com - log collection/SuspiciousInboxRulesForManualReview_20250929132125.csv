@@ -1,0 +1,510 @@
+SuspectTrait,DisplayName,PrimarySmtpAddress,MailboxGuid,RuleName,RulePriority,RuleIdentity,RuleDescription,RuleEnabled,RuleForwardTo,RuleForwardAttTo,ExternalRecipients,RuleMoveTo,RuleDelete,RuleSoftDelete,RuleBodyContains,RuleSubjectContains,RuleSubjectOrBodyContains,RuleFrom,RuleFromContains
+MessageForwarding,Betty12 Accounting,phillips14@contoso.com,c47ffe10-099d-4c99-85a2-e4b8519ad0a6,Trustone Melissa28 Nathan38 Morgan50,12,4.4704E+18,"If the message:
+	the body of the message contains the words 'Financial'
+	and the message was received from 'sanchez27@cruz297.example'
+	and the message was sent to 'Betty12 Accounting'
+Take the following actions:
+	forward the message to 'Melissa28 Nathan38'
+	and stop processing more rules on this message
+Except if the message:
+	the body of the message contains the words 'Torres23' or '#'
+",TRUE,"""Melissa28 Nathan38"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7486d6b235244f9d99ba8a61169d6bc8-lenderservi]",,,,FALSE,FALSE,Financial,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",
+MessageDeletion,Betty12 Dennis25,dennis25@contoso.com,6d481cbe-351d-41f1-8ffc-9c8cfaf7f6d2,For all messages sent to Betty12 Morgan50,1,7.1158E+18,"If the message:
+	the message was sent to 'Betty12 Morgan50'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,,,
+MessageForwarding,Betty12 Support,tyler21@contoso.com,8e877ee4-aaca-4a4e-8b09-15da75a5946b,For all messages from Title Quote App - Message Center,5,1.46002E+19,"If the message:
+	the message was received from 'nancy29-service@cruz2923.example'
+Take the following actions:
+	forward the message to 'Betty12 Sales'
+	and mark the message as Read
+	and move the message to folder 'Completed'
+	and stop processing more rules on this message
+",TRUE,"""Betty12 Sales"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=57bb7c8caa1f4b2eb5f598baa609dac5-Betty12 Sale]",,,Completed,FALSE,FALSE,,,,"""nancy29-service@cruz2923.example"" [SMTP:nancy29-service@cruz2923.example]",
+MessageForwarding,Betty12 Support,tyler21@contoso.com,8e877ee4-aaca-4a4e-8b09-15da75a5946b,Assessment Emails - St Cloud,35,1.6834E+19,"If the message:
+	the message was received from 'garcia43@cruz294.example'
+	and the message includes specific words in the subject or body 'Kelly67 Cloud - Betty12'
+Take the following actions:
+	forward the message to 'Joshua30 Support'
+	and stop processing more rules on this message
+",TRUE,"""Joshua30 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3731d65ffdb84703aa8bdb09104647fe-Powell38]",,,,FALSE,FALSE,,,Kelly67 Cloud - Betty12,"""garcia43@cruz294.example"" [SMTP:garcia43@cruz294.example]",
+MessageDeletion,Betty12 Support,tyler21@contoso.com,8e877ee4-aaca-4a4e-8b09-15da75a5946b,MidCountry Morgan50 - Outgoing,1,1.42399E+19,"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,Outgoing Wire Kelly58,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",
+MessageDeletion,Betty12 Support,tyler21@contoso.com,8e877ee4-aaca-4a4e-8b09-15da75a5946b,Morgan50 - Melissa27,2,1.4312E+19,"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message includes specific words in the subject 'Melissa27 Wire Kelly58'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,Melissa27 Wire Kelly58,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",
+MessageDeletion,Betty12 Support,tyler21@contoso.com,8e877ee4-aaca-4a4e-8b09-15da75a5946b,Website Laura30 - Melissa28 Nathan38,10,1.51046E+19,"If the message:
+	the body of the message contains the words  '(Melissa28 Donna15 in-house)'
+	and the message was received from 'brooks37@cruz2921.example'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,(Melissa28 Donna15 in-house),,,"""brooks37@cruz2921.example"" [SMTP:brooks37@cruz2921.example]",
+MessageDeletion,Betty12 Support,tyler21@contoso.com,8e877ee4-aaca-4a4e-8b09-15da75a5946b,Delete messages from noreply@cruz2922.example,38,1.70502E+19,"If the message:
+	the message was received from 'noreply@cruz2922.example'
+	and the message was sent to 'Betty12 Support'
+	and the message includes specific words in the subject or body 'submitted successfully'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,submitted successfully,"""noreply@cruz2922.example"" [SMTP:noreply@cruz2922.example]",
+RuleContainsKeywords,Betty12 Support,tyler21@contoso.com,8e877ee4-aaca-4a4e-8b09-15da75a5946b,Ramos24 Kimberly21,39,1.71222E+19,"If the message:
+	the message was received from 'Ramos24 Kimberly21'
+	and the message includes specific words in the subject 'wire'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,wire,,"""Ramos24 Kimberly21"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5c008bb3b3a446d9b1279df2bcfcc6d3-Ramos24]",
+RuleContainsKeywords,Betty12 Support,tyler21@contoso.com,8e877ee4-aaca-4a4e-8b09-15da75a5946b,Ramos24 Kimberly21,39,1.71222E+19,"If the message:
+	the message was received from 'Ramos24 Kimberly21'
+	and the message includes specific words in the subject 'wire'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,wire,,"""Ramos24 Kimberly21"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5c008bb3b3a446d9b1279df2bcfcc6d3-Ramos24]",
+MessageForwarding,Powell18 Betty12,powell18@contoso.com,4d99fc0c-c700-44ca-87be-c49545f12927,Powell18 Declined,1,1.07153E+19,"If the message:
+	the message was sent to 'Powell18 Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Jonathan24 Katherine13'
+	and stop processing more rules on this message
+",TRUE,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",,,,FALSE,FALSE,,,Declined,,
+MessageForwarding,Powell18 Betty12,powell18@contoso.com,4d99fc0c-c700-44ca-87be-c49545f12927,Email Forwarding - Support,2,1.07873E+19,"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,,
+MessageForwarding,Powell18 Betty12,powell18@contoso.com,4d99fc0c-c700-44ca-87be-c49545f12927,Fax forwarding,3,1.08594E+19,"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Powell18 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",
+MessageForwarding,Powell18 Betty12,powell18@contoso.com,4d99fc0c-c700-44ca-87be-c49545f12927,Successful / Unsuccessful,4,1.09314E+19,"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message was sent to 'Powell18 Betty12'
+	and the message includes specific words in the subject 'UnSuccessful' or 'Successful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,UnSuccessful Successful,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",
+RuleName,Christine13 Ortiz24,christine13@contoso.com,749c71b0-5545-4a73-843b-e8af43d0dcd9,AA,23,9.27727E+17,"If the message:
+	the message was received from 'AA'
+Take the following actions:
+	move the message to folder 'Frank45/Edward68/Promos'
+	and stop processing more rules on this message
+",TRUE,,,,Frank45/Edward68/Promos,FALSE,FALSE,,,,"""AA"" [SMTP:mitchell23@cruz2948.example]",
+MessageDeletion,Christine13 Ortiz24,christine13@contoso.com,749c71b0-5545-4a73-843b-e8af43d0dcd9,Internet,129,8.56583E+18,"If the message:
+	the message was received from 'Internet'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,,"""Internet"" [SMTP:support@cruz2992.example]",
+MessageDeletion,Green22 Evelyn15,patel13@contoso.com,8334c39b-0594-4415-8814-7c090cbe8849,Delete messages from Bank,3,1.0778E+19,"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+	and the message was sent to 'Betty12 Morgan50'
+	and the message includes specific words in the subject 'Outgoing Wire Kelly58'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,Outgoing Wire Kelly58,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",
+MessageMoveFolder,Patricia12 Paul37,patricia12@contoso.com,eb411ad0-18c0-44a3-8834-8abeec203aba,Floral & Gifts,10,2.97457E+18,"If the message:
+	the message was received from 'Floral & Gifts'
+Take the following actions:
+	move the message to folder 'Junk Email'
+	and stop processing more rules on this message
+",TRUE,,,,Junk Email,FALSE,FALSE,,,,"""Floral & Gifts"" [SMTP:info@cruz2997.example]",
+MessageForwarding,Jose17 Cruz28 Betty12,justin19@contoso.com,77a6c17b-29c2-4e47-8e84-85bdd314787a,Declined,1,1.18775E+19,"If the message:
+	the message was sent to 'Jose17 Cruz28 Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37'
+	and stop processing more rules on this message
+",TRUE,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",,,,FALSE,FALSE,,,Declined,,
+MessageForwarding,Jose17 Cruz28 Betty12,justin19@contoso.com,77a6c17b-29c2-4e47-8e84-85bdd314787a,Email Forwarding,2,1.19496E+19,"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+Except if the message:
+	the message is Stephanie19 Request.
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,,
+MessageForwarding,Jose17 Cruz28 Betty12,justin19@contoso.com,77a6c17b-29c2-4e47-8e84-85bdd314787a,Fax Success / Failure,3,1.20216E+19,"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message was sent to 'Jose17 Cruz28 Betty12'
+	and the message includes specific words in the subject 'unsuccessful' or 'Successful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,unsuccessful Successful,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",
+MessageForwarding,Jose17 Cruz28 Betty12,justin19@contoso.com,77a6c17b-29c2-4e47-8e84-85bdd314787a,Faxes,4,1.20937E+19,"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Jose17 Cruz28 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",
+MessageForwarding,Janet18 Katherine13,betty14@contoso.com,fe0da70d-10d8-42f8-817e-eef2f50d4fc4,Forward messages from External Vendor 5 - System Message,3,1.11793E+19,"If the message:
+	the message was received from 'support@cruz293.example'
+	and the message was sent to 'Janet18 Katherine13'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,"""support@cruz293.example"" [SMTP:support@cruz293.example]",
+MessageForwarding,Castillo21 Reyes26,rebecca23@contoso.com,27d16d82-858b-4318-84d1-c742b49f295c,Daniel29 O'Connor,3,1.16148E+19,"Take the following actions:
+	forward the message to 'Daniel29 O'Connor'
+",FALSE,"""Daniel29 O'Connor"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=81f4103b635140f5ab225ff3b74359e8-Daniel29]",,,,FALSE,FALSE,,,,,
+MessageForwarding,Price16 Perez28 Betty12,bennett14@contoso.com,410ba85d-3570-49d5-8d9c-61a1ed5b1d0f,Declined,1,9.74209E+18,"If the message:
+	the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37' and 'Jonathan24 Katherine13'
+	and stop processing more rules on this message
+",TRUE,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",,,,FALSE,FALSE,,,Declined,,
+MessageForwarding,Patrick22 watson54 Evelyn30,evelyn30@contoso.com,75b0c731-48f6-47a4-884a-881a82ad35b4,Full Mailbox Rule,1,7.06225E+18,"If the message:
+	the message includes specific words in the subject 'Your mailbox is almost full'
+Take the following actions:
+	forward the message to 'Jonathan24 Katherine13'
+	and stop processing more rules on this message
+",TRUE,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",,,,FALSE,FALSE,,Your mailbox is almost full,,,
+MessageDeletion,Patrick22 watson54 Evelyn30,evelyn30@contoso.com,75b0c731-48f6-47a4-884a-881a82ad35b4,Delete messages from Patrick22 watson54 Evelyn30,2,7.13431E+18,"If the message:
+	the message was received from 'Patrick22 watson54 Evelyn30'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,,"""Patrick22 watson54 Evelyn30"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bf59656c4d474947bb4f12625925f976-evelyn30]",
+MessageMoveFolder,Linda18 Cox20,linda18@contoso.com,eac74b96-0dbb-42e2-86b8-eb276ad06dd1,The Loan Allen35,1,6.92415E+18,"If the message:
+	the message includes specific words in the subject or body 'payoff'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'Morales23 History'
+	and stop processing more rules on this message
+",FALSE,,,,Morales23 History,FALSE,FALSE,,,payoff,,
+MessageForwarding,Donald25 Betty12,donald25@contoso.com,6ad2be52-163d-45ef-8d45-420b9f51dfb4,Declined,1,1.37309E+19,"If the message:
+	the message was sent to 'Donald25 Betty12'
+	and the message includes specific words in the subject or body 'declined'
+Take the following actions:
+	forward the message to 'Jonathan24 Katherine13' and 'Patricia12 Paul37' and 'Betty12 Support'
+	and stop processing more rules on this message
+",TRUE,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f] ""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,declined,,
+MessageForwarding,Donald25 Betty12,donald25@contoso.com,6ad2be52-163d-45ef-8d45-420b9f51dfb4,Email Forwarding,2,1.3803E+19,"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,,
+MessageForwarding,Donald25 Betty12,donald25@contoso.com,6ad2be52-163d-45ef-8d45-420b9f51dfb4,Faxes,3,1.38751E+19,"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Donald25 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",
+MessageForwarding,Donald25 Betty12,donald25@contoso.com,6ad2be52-163d-45ef-8d45-420b9f51dfb4,Forward Successful/Unsuccessful,4,1.39471E+19,"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message includes specific words in the subject or body 'successful' or 'unsuccessful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,successful unsuccessful,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",
+MessageDeletion,Melissa28 Nathan38,sanchez31@contoso.com,cce78f53-77d2-4a57-8ea7-0dbd2b8b0419,Garcia38- ATLS Laura30 removal,8,8.4684E+18,"If the message:
+	the body of the message contains the words 'Refinance' or 'Sandoval19' or 'Jones35 Type: Thompson27' or 'Jones35 Type: Dennis25'
+	and the message was received from 'brooks37@cruz2921.example'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+Except if the message:
+	the message includes specific words in the subject or body 'sandoval19@cruz29106.example'
+",TRUE,,,,,TRUE,FALSE,Refinance Sandoval19 Jones35 Type: Thompson27 Jones35 Type: Dennis25,,,"""brooks37@cruz2921.example"" [SMTP:brooks37@cruz2921.example]",
+MessageForwarding,Donna18 Betty12,donna18@contoso.com,d6122b4a-0800-40b1-87ac-94c146f48c6a,Forward messages from edward48@cruz2926.example,1,8.90875E+18,"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message was sent to 'Donna18 Betty12'
+	and the message includes specific words in the subject 'unsuccessful' or 'Successful' or 'Successful transmission to 18002276736. Re: Payoff Request'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",TRUE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,unsuccessful Successful Successful transmission to 18002276736. Re: Payoff Request,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",
+MessageForwarding,Donna18 Betty12,donna18@contoso.com,d6122b4a-0800-40b1-87ac-94c146f48c6a,Forward messages from eFax Corporate,2,8.98081E+18,"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Donna18 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",
+MessageForwarding,Donna18 Betty12,donna18@contoso.com,d6122b4a-0800-40b1-87ac-94c146f48c6a,Fax Forwarding,3,9.05287E+18,"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Donna18 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",
+MessageForwarding,Donna18 Betty12,donna18@contoso.com,d6122b4a-0800-40b1-87ac-94c146f48c6a,Successful or unsuccessful fax,4,9.12493E+18,"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message was sent to 'Donna18 Betty12'
+	and the message includes specific words in the subject 'unsuccessful' or 'Successful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,unsuccessful Successful,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",
+RuleName,Betty20 Deborah51,betty20@contoso.com,abc48516-ff07-4546-89cd-650657222bab,...,2,2.29813E+18,"Take the following actions:
+	mark the message as Read
+	and move the message to folder 'RSS Feeds'
+	and stop processing more rules on this message
+",FALSE,,,,RSS Feeds,FALSE,FALSE,,,,,
+MessageMoveFolder,Betty20 Deborah51,betty20@contoso.com,abc48516-ff07-4546-89cd-650657222bab,support,1,1.05127E+19,"If the message:
+	the message was received from 'sandra48@freemail2.example' or 'carter24@cruz29107.example' or 'torres15@cruz29108.example' or 'reyes33@freemail1.example'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'RSS Feeds'
+	and stop processing more rules on this message
+",TRUE,,,,RSS Feeds,FALSE,FALSE,,,,"""sandra48@freemail2.example"" [SMTP:sandra48@freemail2.example] ""carter24@cruz29107.example"" [SMTP:carter24@cruz29107.example] ""torres15@cruz29108.example"" [SMTP:torres15@cruz29108.example] ""reyes33@freemail1.example"" [SMTP:reyes33@freemail1.example]",
+RuleName,Betty20 Deborah51,betty20@contoso.com,abc48516-ff07-4546-89cd-650657222bab,...,2,2.29813E+18,"Take the following actions:
+	mark the message as Read
+	and move the message to folder 'RSS Feeds'
+	and stop processing more rules on this message
+",FALSE,,,,RSS Feeds,FALSE,FALSE,,,,,
+MessageDeletion,Ramos24 Nelson15,taylor32@contoso.com,65cee0d9-65b7-45af-8892-bfcb917c3a93,"Jambor, Kathy M",1,7.78918E+18,"If the message:
+	the message was received from 'Jambor, Kathy M'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,,"""Jambor, Kathy M"" [SMTP:collins27@cruz29109.example]",
+MessageDeletion,Ramos24 Nelson15,taylor32@contoso.com,65cee0d9-65b7-45af-8892-bfcb917c3a93,anthony35@cruz29110.example,3,7.93329E+18,"If the message:
+	the message was received from 'anthony35@cruz29110.example'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,,"""anthony35@cruz29110.example"" [SMTP:anthony35@cruz29110.example]",
+MessageDeletion,Ramos24 Kimberly21,ramos24@contoso.com,73d8502c-6c29-4546-85f2-508160253220,Redirect messages sent to ramos24@cruz2976.example,1,4.34682E+18,"If the message:
+	the message was sent to 'ramos24@cruz2976.example'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and redirect the message to 'Ramos24 Foss'
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,,,
+MessageForwarding,Evelyn25 Samantha21 Betty12,jack20@contoso.com,7ea99928-8cde-4616-8df9-0e29ff633a0d,Declined,1,2.88937E+18,"If the message:
+	the message was sent to 'Evelyn25 Samantha21 Betty12'
+	and the message includes specific words in the subject or body 'declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37' and 'Jonathan24 Katherine13' and 'Betty12 Support'
+	and stop processing more rules on this message
+",TRUE,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f] ""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,declined,,
+MessageForwarding,Evelyn25 Samantha21 Betty12,jack20@contoso.com,7ea99928-8cde-4616-8df9-0e29ff633a0d,Email Forwarding,2,2.96143E+18,"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,,
+MessageForwarding,Evelyn25 Samantha21 Betty12,jack20@contoso.com,7ea99928-8cde-4616-8df9-0e29ff633a0d,Forward messages from edward48@cruz2926.example,3,3.03348E+18,"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message includes specific words in the subject or body 'unsuccessful' or 'successful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,unsuccessful successful,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",
+MessageForwarding,Evelyn25 Samantha21 Betty12,jack20@contoso.com,7ea99928-8cde-4616-8df9-0e29ff633a0d,Faxes,4,3.10554E+18,"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Evelyn25 Samantha21 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",
+MessageForwarding,Nancy30 Betty12,nancy30@contoso.com,3d8fa69f-4f36-4dd5-84b2-010b26f8224f,Nancy30 Declined,1,7.44308E+17,"If the message:
+	the message was sent to 'Minntetonka Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Jonathan24 Katherine13' and 'Patricia12 Paul37'
+	and stop processing more rules on this message
+",TRUE,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f] ""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",,,,FALSE,FALSE,,,Declined,,
+MessageForwarding,Nancy30 Betty12,nancy30@contoso.com,3d8fa69f-4f36-4dd5-84b2-010b26f8224f,Email Forwarding,2,8.16366E+17,"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,,
+MessageForwarding,Nancy30 Betty12,nancy30@contoso.com,3d8fa69f-4f36-4dd5-84b2-010b26f8224f,Sucessful or unsuccessful,3,8.88423E+17,"If the message:
+	the message was received from 'edward48@cruz2926.example'
+	and the message was sent to 'Minntetonka Betty12'
+	and the message includes specific words in the subject 'unsuccessful' or 'Successful'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,unsuccessful Successful,,"""edward48@cruz2926.example"" [SMTP:edward48@cruz2926.example]",
+MessageForwarding,Nancy30 Betty12,nancy30@contoso.com,3d8fa69f-4f36-4dd5-84b2-010b26f8224f,Fax Forwarding,4,9.60481E+17,"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Minntetonka Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",
+MessageMoveFolder,Daniel29 O'Connor,daniel29@contoso.com,74b2971f-c2ae-4ac9-84e7-6105e5ffd68c,For all messages sent to Betty12 Morgan50,2,4.90031E+18,"If the message:
+	the message includes specific words in the subject 'fax'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'RSS Feeds'
+	and stop processing more rules on this message
+",FALSE,,,,RSS Feeds,FALSE,FALSE,,fax,,,
+MessageMoveFolder,Daniel29 O'Connor,daniel29@contoso.com,74b2971f-c2ae-4ac9-84e7-6105e5ffd68c,For all messages sent to Betty12 Morgan50,3,4.97237E+18,"If the message:
+	the message includes specific words in the subject or body 'payoff'
+Take the following actions:
+	mark the message as Read
+	and move the message to folder 'RSS Feeds'
+	and stop processing more rules on this message
+",FALSE,,,,RSS Feeds,FALSE,FALSE,,,payoff,,
+MessageForwarding,Charles33 Sandoval15 Betty12,sandoval26@contoso.com,f5728b3d-022d-4dc3-866b-bb57d0dabd96,Declined,1,1.26498E+19,"If the message:
+	the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37' and 'Jonathan24 Katherine13'
+	and stop processing more rules on this message
+",TRUE,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f]",,,,FALSE,FALSE,,,Declined,,
+MessageForwarding,Rebecca30 Sandoval28,ronald33@contoso.com,f67b1ac1-5452-4d27-871b-826765c8a1c4,Rebecca30 Sandoval28 Declined,1,2.66715E+18,"If the message:
+	the message was sent to 'Rebecca30 Sandoval28'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Jonathan24 Katherine13' and 'Patricia12 Paul37'
+	and stop processing more rules on this message
+",TRUE,"""Jonathan24 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f0639eda83bb4a368102663cb87772b5-Jonathan24_a9d16f] ""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",,,,FALSE,FALSE,,,Declined,,
+MessageMoveFolder,Stephanie23 Sandoval14,stephanie23@contoso.com,e858466e-b981-4542-8acc-7e555b4422e4,Ruth55 Paul28,3,2.52464E+17,"If the message:
+	the message was received from 'Ruth55 Paul28'
+Take the following actions:
+	move the message to folder 'Junk Email'
+	and stop processing more rules on this message
+",TRUE,,,,Junk Email,FALSE,FALSE,,,,"""Ruth55 Paul28"" [SMTP:ruth55@cruz29112.example]",
+MessageDeletion,Stephanie23 Sandoval14,stephanie23@contoso.com,e858466e-b981-4542-8acc-7e555b4422e4,TC Production,5,3.9658E+17,"If the message:
+	the message was received from 'TC Production'
+	and the message includes specific words in the subject 'RE: '
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,RE: ,,"""TC Production"" [SMTP:campbell60@cruz294.example]",
+MessageForwarding,Kelly63 Betty12,kelly63@contoso.com,9c6a482e-7e1d-4f8a-8862-3d3ea58eb5fa,Kelly63 Declined,1,7.45985E+18,"If the message:
+	the message was sent to 'Kelly63 Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'James59 Sandoval24'
+	and stop processing more rules on this message
+",TRUE,"""James59 Sandoval24"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e2b4575270d44fce8abc4f6201a3fc17-rivera21]",,,,FALSE,FALSE,,,Declined,,
+MessageMoveFolder,Cook32 Katherine13,cook32@contoso.com,e5653829-1211-4ef5-8739-f4b869274a11,Rewards,2,1.80975E+19,"If the message:
+	the message was received from 'Rewards'
+Take the following actions:
+	move the message to folder 'Junk Email'
+	and stop processing more rules on this message
+",TRUE,,,,Junk Email,FALSE,FALSE,,,,"""Rewards"" [SMTP:robert46@cruz29116.example]",
+MessageForwarding,Jonathan24 Katherine13,jonathan24@contoso.com,4a5bf195-fc1a-4d2d-820d-71cf4fd365eb,Trustone ACH Deposit Timothy41 - Forward,4,1.21151E+19,"If the message:
+	the message was received from 'brenda15@cruz29117.example'
+	and the message includes specific words in the subject 'Remittance'
+Take the following actions:
+	forward the message to 'Martinez23 Johnson34' and 'Janet18 Katherine13'
+	and stop processing more rules on this message
+",TRUE,"""Martinez23 Johnson34"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=94b3c8d18f38424e9294aeaeb7374fad-martinez23] ""Janet18 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d77fca56ee694ed9a33ec6bb48a5b5a1-betty14_83b6]",,,,FALSE,FALSE,,Remittance,,"""brenda15@cruz29117.example"" [SMTP:brenda15@cruz29117.example]",
+MessageForwarding,Jonathan24 Katherine13,jonathan24@contoso.com,4a5bf195-fc1a-4d2d-820d-71cf4fd365eb,victoria30@cruz29119.example - Forward,6,1.23312E+19,"If the message:
+	the message was received from 'victoria30@cruz29119.example'
+Take the following actions:
+	forward the message to 'Janet18 Katherine13'
+	and stop processing more rules on this message
+",TRUE,"""Janet18 Katherine13"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d77fca56ee694ed9a33ec6bb48a5b5a1-betty14_83b6]",,,,FALSE,FALSE,,,,"""victoria30@cruz29119.example"" [SMTP:victoria30@cruz29119.example]",
+MessageForwarding,Jonathan24 Katherine13,jonathan24@contoso.com,4a5bf195-fc1a-4d2d-820d-71cf4fd365eb,files_received_by_catherine33,21,1.34121E+19,"If the message:
+	the message was received from 'taylor31.lee26@cruz2927.example'
+	and the message includes specific words in the subject or body 'files_received_by_catherine33'
+Take the following actions:
+	forward the message to 'Ruiz15 Castillo35'
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,"""Ruiz15 Castillo35"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=69fea32f3af04a2f82c04d396c6ad70f-ruiz15]",,,,FALSE,FALSE,,,files_received_by_catherine33,"""taylor31.lee26@cruz2927.example"" [SMTP:taylor31.lee26@cruz2927.example]",
+MessageDeletion,Jonathan24 Katherine13,jonathan24@contoso.com,4a5bf195-fc1a-4d2d-820d-71cf4fd365eb,"About Betty12 Emails "".xyz""",3,8.92114E+18,"If the message:
+	the sender's address contains these words: '.xyz'
+	and the message includes specific words in the subject 'About Betty12' or 'Regarding Betty12'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,About Betty12 Regarding Betty12,,,.xyz
+MessageDeletion,Jonathan24 Katherine13,jonathan24@contoso.com,4a5bf195-fc1a-4d2d-820d-71cf4fd365eb,Wire Request Emails,7,1.24033E+19,"If the message:
+	the message was received from 'Betty12 Accounting'
+	and the message includes specific words in the subject 'MODIFIED: Test 1/1/2020 (1)' or 'MODIFIED:' or ''s New Wire Request'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",FALSE,,,,,TRUE,FALSE,,MODIFIED: Test 1/1/2020 (1) MODIFIED: 's New Wire Request,,"""Betty12 Accounting"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=be1d8b09d50e436da6930a57f7a34220-AnconaAccou]",
+MessageDeletion,Jonathan24 Katherine13,jonathan24@contoso.com,4a5bf195-fc1a-4d2d-820d-71cf4fd365eb,For all messages to Nick Ward20,8,1.24753E+19,"If the message:
+	a recipient address contains the words 'amy30.ward20@freemail1.example'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,,,
+MessageDeletion,Jonathan24 Katherine13,jonathan24@contoso.com,4a5bf195-fc1a-4d2d-820d-71cf4fd365eb,For all messages from Nick Ward20,9,1.25474E+19,"If the message:
+	the sender's address contains these words: 'amy30.ward20@freemail1.example'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,,,amy30.ward20@freemail1.example
+MessageDeletion,Jonathan24 Katherine13,jonathan24@contoso.com,4a5bf195-fc1a-4d2d-820d-71cf4fd365eb,For all messages from Exposed Brick,12,1.27636E+19,"If the message:
+	the message was received from 'smith19@freemail1.example'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,,"""smith19@freemail1.example"" [SMTP:smith19@freemail1.example]",
+MessageDeletion,Jonathan24 Katherine13,jonathan24@contoso.com,4a5bf195-fc1a-4d2d-820d-71cf4fd365eb,Postmaster Receipt Through garcia38-Valids,20,1.334E+19,"If the message:
+	the message was received from 'postmaster@contoso.com'
+	and the message was sent to 'christina12@contoso.com'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",TRUE,,,,,TRUE,FALSE,,,,"""postmaster@contoso.com"" [SMTP:postmaster@contoso.com]",
+MessageForwarding,Kelly67 Linda12 Betty12,bailey39@contoso.com,015c5c8b-8a00-483b-8402-2703dd664dff,Declined,1,1.49647E+19,"If the message:
+	the message was sent to 'Kelly67 Linda12 Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37'
+	and stop processing more rules on this message
+",TRUE,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",,,,FALSE,FALSE,,,Declined,,
+MessageMoveFolder,Parker34 Larry20,parker34@contoso.com,0c12e9af-4254-4117-8dbf-f71b1c518c56,Orbitz,11,1.88314E+18,"If the message:
+	the message was received from 'Orbitz'
+Take the following actions:
+	move the message to folder 'Junk Email'
+	and stop processing more rules on this message
+",TRUE,,,,Junk Email,FALSE,FALSE,,,,"""Orbitz"" [SMTP:karen24@cruz29128.example]",
+MessageDeletion,Joshua30 Support,powell38@contoso.com,d2bb4ccd-2e19-4720-85dc-bc122b7c568a,Morgan50 - Mark Read,2,3.28425E+18,"If the message:
+	the message was received from 'sanchez27@cruz297.example'
+Take the following actions:
+	delete the message
+	and mark the message as Read
+	and stop processing more rules on this message
+",FALSE,,,,,TRUE,FALSE,,,,"""sanchez27@cruz297.example"" [SMTP:sanchez27@cruz297.example]",
+MessageForwarding,Garcia63 Cruz28,katherine65@contoso.com,3f0b8de9-db81-4513-86f4-f5ce998ce8e6,Declined,1,1.90558E+16,"If the message:
+	the message was sent to 'Garcia63 Cruz28'
+	and the message includes specific words in the subject or body 'declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37' and 'Betty12 Support'
+	and stop processing more rules on this message
+",TRUE,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12] ""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,declined,,
+MessageForwarding,Edward69 Ruth19 Betty12,robinson45@contoso.com,bb213327-01c8-4511-886f-1dcc7364b575,Declined,1,9.38414E+18,"If the message:
+	the message was sent to 'Edward69 Ruth19 Betty12'
+	and the message includes specific words in the subject or body 'Declined'
+Take the following actions:
+	forward the message to 'Patricia12 Paul37'
+	and stop processing more rules on this message
+",TRUE,"""Patricia12 Paul37"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4391a39bc52346e5bb68d1874947b06c-Patricia12]",,,,FALSE,FALSE,,,Declined,,
+MessageForwarding,Edward69 Ruth19 Betty12,robinson45@contoso.com,bb213327-01c8-4511-886f-1dcc7364b575,Email Forwarding,2,9.4562E+18,"Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,,
+MessageForwarding,Edward69 Ruth19 Betty12,robinson45@contoso.com,bb213327-01c8-4511-886f-1dcc7364b575,Forward messages from fax,3,9.52826E+18,"If the message:
+	the message was received from 'nelson24@cruz298.example'
+	and the message was sent to 'Edward69 Ruth19 Betty12'
+Take the following actions:
+	forward the message to 'Betty12 Support'
+	and stop processing more rules on this message
+",FALSE,"""Betty12 Support"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c63709e32d7c4bffb9b018e5ed9c4258-support]",,,,FALSE,FALSE,,,,"""nelson24@cruz298.example"" [SMTP:nelson24@cruz298.example]",

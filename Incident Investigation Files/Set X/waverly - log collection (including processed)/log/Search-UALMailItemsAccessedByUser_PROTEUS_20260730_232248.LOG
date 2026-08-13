@@ -1,0 +1,41 @@
+Search-UALMailItemsAccessedByUser started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-30 23:22:48]
+Setting process priority to "Normal"
+Output base path will be in C:\Users\Bitpusher\Desktop\Investigation
+Domain sub-directory will be "854jpt.onmicrosoft.com"
+
+Script will search UAC 20 days back from today for relevant events.
+StartDate: 07/11/2026 06:22:54 (UTC)
+EndDate: 07/31/2026 06:22:54 (UTC)
+
+Number of MailItemsAccessed events logged for specified user(s) during time range: 1.
+
+Search-UnifiedAuditLog -StartDate 07/11/2026 06:22:54 -EndDate 07/31/2026 06:22:54 -UserIds pradeepg@854jpt.onmicrosoft.com -Operations ("MailItemsAccessed","MessageBind","FolderBind") -SessionId 1026276314 -SessionCommand ReturnLargeSet -ResultSize 5000
+Getting unified audit logs page 1 - Please wait
+Getting unified audit logs page 2 - Please wait
+
+Matching activities found in the audit log - Saving to file...
+
+Processing AuditData block of each row...
+
+Processed a total of 39 rows.
+
+See user activities report in the output path.
+
+Script complete.
+Seconds elapsed for script execution: 19.7357051
+
+Done! Check output path for results.
+
+==================== RUN MANIFEST ====================
+Script          : Search-UALMailItemsAccessedByUser v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : 854jpt.onmicrosoft.com
+Graph scopes    : (no Microsoft Graph session)
+UTC start       : 2026-07-31 06:22:48Z
+UTC stop        : 2026-07-31 06:23:08Z
+Elapsed seconds : 19.74
+Output files (SHA256):
+  06E658DF3E41BDFFE50D0A8EDF545F7CA08A10A3D6B2936A836FB351B39E71E2  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\MailItemsAccessedUALEntries_pradeepg@854jpt.onmicrosoft.com_From_20260711062254UTC_To_20260731062254UTC_Processed.csv
+  011808EE99516751A36077A4829583D47CA7965F44AFC0D1921D84B8D1B4C032  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\MailItemsAccessedUALEntries_pradeepg@854jpt.onmicrosoft.com_From_20260711062254UTC_To_20260731062254UTC.csv
+=====================================================

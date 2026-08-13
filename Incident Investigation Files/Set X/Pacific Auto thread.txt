@@ -1,0 +1,420 @@
+Delivered-To: PacificAuto@sharklasers.com
+Received: from 40.93.201.135 ([40.93.201.135])
+	by spam4.me with ESMTPS id ca1269ce43b5a5e87a99fc0da1cae019@spam4.me;
+	Fri, 24 Jul 2026 09:51:22 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=ewp+0kvnIN4MVHR8Gx6Wz3SxNrd70oGQ6zajTjxpJC179TkcEm3Sy/HisEgM8vNlzmj9+hz28IwGxNiL/W8TVhpec0yDDHD3EDaMsKTdAuCiz2/Uqg2j2LDYwPxGZU2so10UooCWVzpJrCWepQqktfIi43DIjp6j3UARNxJ0+yRM6kXwQ69GSdN1ZMHLpm6HMLnybVKwl5YJEHA7UeezQLCcEsUynDqJLw79JcFYHtvGmAI2m4mE3uAmGrX9rAreux2dNb1AS12LRf7zwovrCyhvpmCp5ThNSXP0ekFwzbGGZ3dwoLrCv4orpa5wiHL8fbgwmz4OwqCNZN3Yt1y7Wg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=j6xL0cQp3F4N0TGKZVrLGQNPVVHOJKK7Fs77/NKf/aM=;
+ b=jXJmBiJf3HdAxb4rzOSMxnr8g2PO6zNvXGTD298qWopQA5ElqyRHPOaH+UHlj6a57Hksrf8liey2Hbudy6coRbPjnNuuTq17uNXUNHvlBgDv5W4eHFFsDL4NmwZqsmiM6kmtdyU+F2VJ1H01qsKdpWLenCKh+NZ4o4pPU1XFQOpbuzsGtSbGCu1AWRaKM5eJo50l5bgs9zUamuitBoNAzMUQ4UPKzulWeNuqk+4gFHpmhq2CNYy9jpHUZKqGhhA9+9Q5p2Keau04R4wJkEKyGqpCYo4LMEOwokc+oyOrFirpn1vSVLtqLyuBJ2wyKCBqbYisO2gZSX56bMDLbcjogQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=854jpt.onmicrosoft.com; dmarc=pass action=none
+ header.from=854jpt.onmicrosoft.com; dkim=pass
+ header.d=854jpt.onmicrosoft.com; arc=none
+Received: from BY5PR10MB3746.namprd10.prod.outlook.com (2603:10b6:a03:1b5::23)
+ by IA0PR10MB7351.namprd10.prod.outlook.com (2603:10b6:208:3dd::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.245.11; Fri, 24 Jul
+ 2026 09:51:19 +0000
+Received: from BY5PR10MB3746.namprd10.prod.outlook.com
+ ([fe80::fa00:8835:ce1c:4822]) by BY5PR10MB3746.namprd10.prod.outlook.com
+ ([fe80::fa00:8835:ce1c:4822%4]) with mapi id 15.21.0245.010; Fri, 24 Jul 2026
+ 09:51:19 +0000
+From: Patti Fernandez <PattiF@854jpt.onmicrosoft.com>
+To: Adele Vance <AdeleV@854jpt.onmicrosoft.com>, "PacificAuto@spam4.me"
+	<PacificAuto@spam4.me>
+CC: "PattiF-Waverly@guerrillamail.com" <PattiF-Waverly@guerrillamail.com>
+Subject: Re: Overdue Invoice - Pacific Automotive #INV-2026-0847
+Thread-Topic: Overdue Invoice - Pacific Automotive #INV-2026-0847
+Thread-Index: AQHdGZNkmfTZbRmNeU+p+M4oBplj+7Z8AbAAgABpWYCAAANlAIAAAkhf
+Date: Fri, 24 Jul 2026 09:51:19 +0000
+Message-ID:
+ <BY5PR10MB3746E1F0FD0539E21C052071A7CF2@BY5PR10MB3746.namprd10.prod.outlook.com>
+References: <45fda60d-ef62-4dd7-89f5-2bd9261ffff2@854jpt.onmicrosoft.com>
+ <dc562fd6-29b1-4911-9796-a05ca634fef0@854jpt.onmicrosoft.com>
+In-Reply-To: <dc562fd6-29b1-4911-9796-a05ca634fef0@854jpt.onmicrosoft.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+ MSIP_Label_defa4170-0d19-0005-0004-bc88714345d2_Enabled=True;MSIP_Label_defa4170-0d19-0005-0004-bc88714345d2_SiteId=eb174bbc-fe94-4978-95b9-a616457dd489;MSIP_Label_defa4170-0d19-0005-0004-bc88714345d2_SetDate=2026-07-24T09:51:09.427Z;MSIP_Label_defa4170-0d19-0005-0004-bc88714345d2_Name=All
+ Employees
+ (unrestricted);MSIP_Label_defa4170-0d19-0005-0004-bc88714345d2_ContentBits=1;MSIP_Label_defa4170-0d19-0005-0004-bc88714345d2_Method=Standard;
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=854jpt.onmicrosoft.com;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BY5PR10MB3746:EE_|IA0PR10MB7351:EE_
+x-ms-office365-filtering-correlation-id: 5fae8795-d895-4d1b-5820-08dee9691ca1
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|34036016|376014|1800799024|23010399003|366016|41320700013|6133799003|18002099003|22082099003|38070700021|3613699012|19033499003|8096899003|4143699003|56012099006|11063799006|5023799004|10067099003;
+x-microsoft-antispam-message-info:
+ f+6l4L3AwHP8XdmV8E3P7kd4qMwT9/ckHFQwBKyhvZGLYvqAjvRkqLsqTlzT8AQ2UZyCUL4JQbx3i9SWj3kCj3EWd3xHSK2BTf2P09ZGE+4aQaPdzs/d4dz/BbjCobqWFb+Mz0JajYMANmHsGa1o1llBuw+IDvFEJoaUAF8SS0pf9kMCKA5GI+DCbokG0fr5SrE8wSbjHn2jNKLJNcuNW608G0euE6RDWsPikPmj7UzZZXAk7W9OdszRpbsbI5MZwBJrRVmrAxSf9iop1+0NCu+GKS9gPdTsGCXVMwRMqlXJZ3laZvTwhGZozxcVHXnxS4QOnj6lTjX1g37OL+2dt2oQaKlJfmsHkXxF1kRsoysLlbFe1zO9OjWJ0fHJS5i+RyL62Ll92D0OXzvKtHkE/8y+VfVUBUNNw4E2MXF+SDAKa/a3mxjD9BQzg2Tbb6wonP0s8DtU8w/C6/vRcAiB40vl6Cd0SboOckKOHFJ6pTqEahPXDjPtvPP6Suaythr9wtDTmRZYuWXPPDq+JhbebpMCaYoYeCvHiIgDu6BKh0PSx/sx728122z3xLKQ/ZHLHWoxvbPsLQkdlkgF8XDVbibRcUpmmmE9Qb4HhWucRwGTNgtWTHvgQ3yGMVb7mwzuFsPzbxGcACLmjkZQUtZSrwLGig9muDTwbpaTekdWMOlPel1sQGqIlCpsfLcbO/RIXJ5HNcn8jvl3Hc/VMdNIGyub/fkM0I24IVbFT6NyY0BOut+qk26m/PQ9Bgec8QfS
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BY5PR10MB3746.namprd10.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230040)(34036016)(376014)(1800799024)(23010399003)(366016)(41320700013)(6133799003)(18002099003)(22082099003)(38070700021)(3613699012)(19033499003)(8096899003)(4143699003)(56012099006)(11063799006)(5023799004)(10067099003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?/uRmqjPksHlOnRKmTL90NqCzUvcs5QCshuKGuRBmWpDnio0gu/t8UMMIH5sG?=
+ =?us-ascii?Q?lOwSMiGxV6Pm12zOxDNIhpgcB5NH8QrZPDJdk4xuBo9q9vfQ+JfqTq8lYvuR?=
+ =?us-ascii?Q?bB/dSktODvOt+H35q5QbWmWyHP5AT7nfclLmZL2N//iWFXMVGhE/MGVy7d4i?=
+ =?us-ascii?Q?5iiZHLTuu/pv8gl6u8lXbbIjk2Wg9W29Tux1tzu2gJ3++3K3/pGPgqVv4XTp?=
+ =?us-ascii?Q?U2BWPdRm2CB6ZZTXhcrNtGNUP3o0JadvPW1kHO2om3Vmp9orZSpm/pOdspfe?=
+ =?us-ascii?Q?7ByhnhZOqa3Q3hv6curbzjupQY3t6vBOFLAjElMm709bP+qFdxMMjwLnyKzj?=
+ =?us-ascii?Q?Tj3HyfAqL0xemWkAbqZLPXz2HkAFD3E8Mb8YIcg+DnWvN6waaXD4aoaZtd65?=
+ =?us-ascii?Q?7pZHEf+lKLTr5rXvLl+PpJ5iYusp6czM3zAUPQJGkCoXsuvfRaIYjz8bW4y+?=
+ =?us-ascii?Q?TdkSHMlygMAFeoyuNLerey4PvJsanqH8SYyd45mIqrUjwAYb9H0JzgdZOWW7?=
+ =?us-ascii?Q?VfOZRzsMsJjSFBX+1vBoAuolX07KnhaXLCxEOLpNaV7NuiE1GlT0gQdhLeu0?=
+ =?us-ascii?Q?5eSxKnunQ7lpc820uRtJLr9HEbaSLYACngkFNwRu3Q8bGg20rhfNiE1m491V?=
+ =?us-ascii?Q?qgj7/Xbbp2ScmsJ6HTYRiJZT8TEi08wj07aNx7fVuIlc7hctsgk6HgPecnMM?=
+ =?us-ascii?Q?zjeNdVFdkc1JBbEkYIa4LIJ+314yx8PR6CUyIYrA60bLqx7leRm2AlIp3zZU?=
+ =?us-ascii?Q?T6+M9DOpqjQojwa0qAG89MSEmqrNyU+Esx/QyBUL2P83d206XBrCJr4t24Zh?=
+ =?us-ascii?Q?uur4XUTav8Rq/KCLK0HP8yv5hLIKDh3+mpBQiJtsA6s2xm86OngYf5mKyA3H?=
+ =?us-ascii?Q?2CJEXdIFQtuiFtn1/kO/RJKPVhC5mpt+0dfX+99mcbShRs5opldusatmhshu?=
+ =?us-ascii?Q?pTfv5pMBzdvACVvMM8p8L8ffkHVbyHRb+plvMY7q0yATcJeppo2ODYCGH1Kd?=
+ =?us-ascii?Q?22q8E1UkA2yjJVUpDdMg11gUJaomwg5StGIzuLM9HwySJTuXhpwVFSbmnZ8A?=
+ =?us-ascii?Q?5lx2Nv9Rt6bWpZMkiBuwBUCkvcTS+FpltERMEh5gX3yWMGeyAe18Qm3JID5h?=
+ =?us-ascii?Q?J7p4y3+VWOgo4Ngk45D+cTJmxpWSggZY1PmBabnGUsJ/34t/49dSA6frmGdT?=
+ =?us-ascii?Q?R423VdGpNzuELfhEkT3VrGCQ+7zcG2FqAgjwg1+qCPLEmgF9W8VX6yHcqDmV?=
+ =?us-ascii?Q?W87XnhmBgNqHKkJ53L+YtlKE2oVOz5kZI7umDLjPxYa9szTcmvFhe9RLAiTe?=
+ =?us-ascii?Q?tQ3bWhmODlTktd6/SL/3Q+NUddxfxnD5UfT9hj6loPaeQ2winAG3Ff+GPhE9?=
+ =?us-ascii?Q?z2gQskpYrvxKIVSLJly823Wa7NfPf/4+yvb+7CP8YNg95GX4W1Hs8Vec6ej1?=
+ =?us-ascii?Q?wnubpgvcRVxpCxQyqQDQW+MojMyuYUlJF4iDih0gOZ2h8gWkl+QNkGgLBfsj?=
+ =?us-ascii?Q?AivDYBVf59qxvnpB6lihQu7HtaAs+lOm7ubUu8u4pTfM0FsTvvUOcz8Gpoam?=
+ =?us-ascii?Q?jlm4q0aTgqeA1b4T540prHNnwP7Wt4tMbZK4Wrh7B8FElQt6hSzP7xr2XWVT?=
+ =?us-ascii?Q?KfzDoi0t0MRo+B3lO41iGHKXQN6EQI0HMxvCdiqXUwlDAj5XK4i2/ECwnQDh?=
+ =?us-ascii?Q?JCftY0vM7swcuRcG5U1iB85Q0OmGEMsGqpTrvU4Hyx1IPN+BtwqpWw1H/fAG?=
+ =?us-ascii?Q?PyCiQkxYPA=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_BY5PR10MB3746E1F0FD0539E21C052071A7CF2BY5PR10MB3746namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: 854jpt.onmicrosoft.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BY5PR10MB3746.namprd10.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5fae8795-d895-4d1b-5820-08dee9691ca1
+X-MS-Exchange-CrossTenant-originalarrivaltime: 24 Jul 2026 09:51:19.4210
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: eb174bbc-fe94-4978-95b9-a616457dd489
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: uKc1LAZ82HFGyqPY3m/Y21DamZGJE/i6VHUqxgYly/+R23GwDDtuYys0ZCn6OkgkEki3fD9ZofhdOffK3dV0qlQ/oxDUbbWJzg35g24moCI=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: IA0PR10MB7351
+
+--_000_BY5PR10MB3746E1F0FD0539E21C052071A7CF2BY5PR10MB3746namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Adele,
+Actually, let me save you a step. I'm looping Jim's team in directly here s=
+o we can get this resolved before month-end close.
+Jim - we're updating our banking details for receivables. Going forward, pl=
+ease remit payment on Invoice #INV-2026-0847 ($47,250.00) and all future pa=
+yments to:
+Bank: First National Bank
+Routing: 021000089
+Account: 4758392016
+Account Name: Waverly Industrial Solutions Inc
+Reference: INV-2026-0847
+Adele, please hold off on sending anything separately. I've got it covered =
+here.
+Jim, can you confirm receipt and that your AP team can process with the upd=
+ated details? We'd like to get this squared away this week if possible.
+Thanks,
+Patti
+
+________________________________
+From: Patti Fernandez <PattiF@854jpt.onmicrosoft.com>
+Sent: Friday, July 24, 2026 2:42 AM
+To: Adele Vance <AdeleV@854jpt.onmicrosoft.com>
+Cc: PattiF-Waverly@guerrillamail.com <PattiF-Waverly@guerrillamail.com>
+Subject: Re: Overdue Invoice - Pacific Automotive #INV-2026-0847
+
+Adele,
+
+Thanks for flagging this. Good to hear Pacific Auto is ready to process pay=
+ment.
+
+Before they do, I need you to send Jim Nakamura our updated ACH information=
+. We're transitioning our primary banking relationship from prior prior Col=
+umbia Bank to First National as part of the consolidation I've been working=
+ on with the board. The new account is active and all incoming payments sho=
+uld be directed there going forward.
+
+Updated remittance details to send to Pacific Automotive:
+
+Bank: First National Bank
+Account Name: Waverly Industrial Solutions LLC
+Routing Number: 021000089
+Account Number: 4758392016
+Reference: INV-2026-0847
+
+Please send this to Jim Nakamura directly and confirm that they update thei=
+r vendor master file before processing the $47,250 payment. I want to make =
+sure this hits the new account.
+
+I'm copying my personal email on this thread so I can track it from my phon=
+e while I'm traveling next week. Please confirm once you've sent the update=
+d details.
+
+Thanks,
+Patti
+
+On 7/24/2026, 2:30:51 AM, "Adele Vance" <AdeleV@854jpt.onmicrosoft.com> wro=
+te:
+> Johanna, Megan,
+>
+> Adding Patti to this thread - she should be aware given the dollar amount=
+.
+>
+> Patti - quick summary: Pacific Automotive owes us $47,250 on invoice #INV=
+-2026-0847, now 60+ days overdue. Johanna has been in contact with their AP=
+ team (Jim Nakamura). The delay was caused by their SAP migration in June -=
+ a batch of our invoices didn't transfer into their new system correctly. J=
+im has confirmed the issue is resolved on their end and payment should proc=
+ess by August 1.
+>
+> I'm keeping this on my AR aging watchlist. If we don't see payment by Aug=
+ 1 I'll escalate to a formal demand letter, but based on Johanna's conversa=
+tion it sounds like this is a systems issue, not a willingness-to-pay issue=
+. Pacific Auto has otherwise been a reliable account.
+>
+> Adele
+>
+> On 7/23/2026, 8:13:38 PM, "Johanna Lorenz" <JohannaL@854jpt.onmicrosoft.c=
+om> wrote:
+> > Adele, Megan,
+> >
+> > Quick update - I got through to Jim Nakamura at Pacific Auto this morni=
+ng. He confirmed the payment got caught up in their AP system migration to =
+SAP. They switched over in June and apparently a batch of our invoices didn=
+'t transfer correctly.
+> >
+> > He says the $47,200 payment has been re-entered and is in their approva=
+l queue. He expects it will process in their next payment run on Friday, Au=
+gust 1. I asked him to send us a remittance confirmation once it's submitte=
+d.
+> >
+> > I also confirmed that our current open POs (the transmission housing or=
+der shipping next week) won't be affected. He assured me their purchasing s=
+ide is running normally - it's just AP that had the migration hiccup.
+> >
+> > I'll follow up if we don't see the payment by August 4.
+> >
+> > Johanna
+> >
+> > On 7/21/2026, 9:34:31 PM, "Adele Vance" <AdeleV@854jpt.onmicrosoft.com>=
+ wrote:
+> > > Johanna,
+> > >
+> > > I wanted to flag that invoice #INV-2026-0847 for Pacific Automotive i=
+s now 60 days past due. The balance is $47,200 for the April shipment of tr=
+ansmission housing components (PO #PA-2026-3391).
+> > >
+> > > I've sent two payment reminders to their AP department directly with =
+no response. Since you're the primary account contact, could you reach out =
+to your counterpart there and see what's going on? This is unusual for Paci=
+fic - they're typically Net 30 and we haven't had payment issues with them =
+before.
+> > >
+> > > If there's a dispute or quality issue holding this up, I'd rather kno=
+w now so we can resolve it.
+> > >
+> > > Thanks,
+> > > Adele Vance
+> > > Controller
+> > > Waverly Industrial Solutions, Inc.
+> > >
+> >
+>
+
+--_000_BY5PR10MB3746E1F0FD0539E21C052071A7CF2BY5PR10MB3746namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"direction: ltr; margin-top: 1em; margin-bottom: 1em; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0); --darkreader-inline-color: =
+var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=3D"">
+Adele,</div>
+<div style=3D"direction: ltr; margin-top: 1em; margin-bottom: 1em; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0); --darkreader-inline-color: =
+var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=3D"">
+Actually, let me save you a step. I'm looping Jim's team in directly here s=
+o we can get this resolved before month-end close.</div>
+<div style=3D"direction: ltr; margin-top: 1em; margin-bottom: 1em; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0); --darkreader-inline-color: =
+var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=3D"">
+Jim - we're updating our banking details for receivables. Going forward, pl=
+ease remit payment on Invoice #INV-2026-0847 ($47,250.00) and all future pa=
+yments to:</div>
+<div style=3D"direction: ltr; margin-top: 1em; margin-bottom: 1em; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0); --darkreader-inline-color: =
+var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=3D"">
+<b>Bank:</b> First National Bank<br>
+<b>Routing:</b> 021000089<br>
+<b>Account:</b> 4758392016<br>
+<b>Account Name:</b> Waverly Industrial Solutions Inc<br>
+<b>Reference:</b> INV-2026-0847</div>
+<div style=3D"direction: ltr; margin-top: 1em; margin-bottom: 1em; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0); --darkreader-inline-color: =
+var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=3D"">
+Adele, please hold off on sending anything separately. I've got it covered =
+here.</div>
+<div style=3D"direction: ltr; margin-top: 1em; margin-bottom: 1em; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0); --darkreader-inline-color: =
+var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=3D"">
+Jim, can you confirm receipt and that your AP team can process with the upd=
+ated details? We'd like to get this squared away this week if possible.</di=
+v>
+<div style=3D"direction: ltr; margin-top: 1em; margin-bottom: 1em; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0); --darkreader-inline-color: =
+var(--darkreader-text-000000, #e8e6e3);" data-darkreader-inline-color=3D"">
+Thanks,<br>
+Patti</div>
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0); --dar=
+kreader-inline-color: var(--darkreader-text-000000, #e8e6e3);" data-darkrea=
+der-inline-color=3D"">
+<br>
+</div>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Patti Fernandez &lt;P=
+attiF@854jpt.onmicrosoft.com&gt;<br>
+<b>Sent:</b> Friday, July 24, 2026 2:42 AM<br>
+<b>To:</b> Adele Vance &lt;AdeleV@854jpt.onmicrosoft.com&gt;<br>
+<b>Cc:</b> PattiF-Waverly@guerrillamail.com &lt;PattiF-Waverly@guerrillamai=
+l.com&gt;<br>
+<b>Subject:</b> Re: Overdue Invoice - Pacific Automotive #INV-2026-0847</fo=
+nt>
+<div>&nbsp;</div>
+</div>
+<div>Adele,<br>
+<br>
+Thanks for flagging this. Good to hear Pacific Auto is ready to process pay=
+ment.<br>
+<br>
+Before they do, I need you to send Jim Nakamura our updated ACH information=
+. We're transitioning our primary banking relationship from prior prior Col=
+umbia Bank to First National as part of the consolidation I've been working=
+ on with the board. The new account
+ is active and all incoming payments should be directed there going forward=
+.<br>
+<br>
+Updated remittance details to send to Pacific Automotive:<br>
+<br>
+Bank: First National Bank<br>
+Account Name: Waverly Industrial Solutions LLC<br>
+Routing Number: 021000089<br>
+Account Number: 4758392016<br>
+Reference: INV-2026-0847<br>
+<br>
+Please send this to Jim Nakamura directly and confirm that they update thei=
+r vendor master file before processing the $47,250 payment. I want to make =
+sure this hits the new account.<br>
+<br>
+I'm copying my personal email on this thread so I can track it from my phon=
+e while I'm traveling next week. Please confirm once you've sent the update=
+d details.<br>
+<br>
+Thanks,<br>
+Patti<br>
+<br>
+On 7/24/2026, 2:30:51 AM, &quot;Adele Vance&quot; &lt;AdeleV@854jpt.onmicro=
+soft.com&gt; wrote:<br>
+&gt; Johanna, Megan, <br>
+&gt; <br>
+&gt; Adding Patti to this thread - she should be aware given the dollar amo=
+unt. <br>
+&gt; <br>
+&gt; Patti - quick summary: Pacific Automotive owes us $47,250 on invoice #=
+INV-2026-0847, now 60+ days overdue. Johanna has been in contact with their=
+ AP team (Jim Nakamura). The delay was caused by their SAP migration in Jun=
+e - a batch of our invoices didn't
+ transfer into their new system correctly. Jim has confirmed the issue is r=
+esolved on their end and payment should process by August 1.
+<br>
+&gt; <br>
+&gt; I'm keeping this on my AR aging watchlist. If we don't see payment by =
+Aug 1 I'll escalate to a formal demand letter, but based on Johanna's conve=
+rsation it sounds like this is a systems issue, not a willingness-to-pay is=
+sue. Pacific Auto has otherwise been
+ a reliable account. <br>
+&gt; <br>
+&gt; Adele <br>
+&gt; <br>
+&gt; On 7/23/2026, 8:13:38 PM, &quot;Johanna Lorenz&quot; &lt;JohannaL@854j=
+pt.onmicrosoft.com&gt; wrote:
+<br>
+&gt; &gt; Adele, Megan, <br>
+&gt; &gt; <br>
+&gt; &gt; Quick update - I got through to Jim Nakamura at Pacific Auto this=
+ morning. He confirmed the payment got caught up in their AP system migrati=
+on to SAP. They switched over in June and apparently a batch of our invoice=
+s didn't transfer correctly.
+<br>
+&gt; &gt; <br>
+&gt; &gt; He says the $47,200 payment has been re-entered and is in their a=
+pproval queue. He expects it will process in their next payment run on Frid=
+ay, August 1. I asked him to send us a remittance confirmation once it's su=
+bmitted.
+<br>
+&gt; &gt; <br>
+&gt; &gt; I also confirmed that our current open POs (the transmission hous=
+ing order shipping next week) won't be affected. He assured me their purcha=
+sing side is running normally - it's just AP that had the migration hiccup.
+<br>
+&gt; &gt; <br>
+&gt; &gt; I'll follow up if we don't see the payment by August 4. <br>
+&gt; &gt; <br>
+&gt; &gt; Johanna <br>
+&gt; &gt; <br>
+&gt; &gt; On 7/21/2026, 9:34:31 PM, &quot;Adele Vance&quot; &lt;AdeleV@854j=
+pt.onmicrosoft.com&gt; wrote:
+<br>
+&gt; &gt; &gt; Johanna, <br>
+&gt; &gt; &gt; <br>
+&gt; &gt; &gt; I wanted to flag that invoice #INV-2026-0847 for Pacific Aut=
+omotive is now 60 days past due. The balance is $47,200 for the April shipm=
+ent of transmission housing components (PO #PA-2026-3391).
+<br>
+&gt; &gt; &gt; <br>
+&gt; &gt; &gt; I've sent two payment reminders to their AP department direc=
+tly with no response. Since you're the primary account contact, could you r=
+each out to your counterpart there and see what's going on? This is unusual=
+ for Pacific - they're typically Net 30 and
+ we haven't had payment issues with them before. <br>
+&gt; &gt; &gt; <br>
+&gt; &gt; &gt; If there's a dispute or quality issue holding this up, I'd r=
+ather know now so we can resolve it.
+<br>
+&gt; &gt; &gt; <br>
+&gt; &gt; &gt; Thanks, <br>
+&gt; &gt; &gt; Adele Vance <br>
+&gt; &gt; &gt; Controller <br>
+&gt; &gt; &gt; Waverly Industrial Solutions, Inc. <br>
+&gt; &gt; &gt; <br>
+&gt; &gt; <br>
+&gt; </div>
+</body>
+</html>
+
+--_000_BY5PR10MB3746E1F0FD0539E21C052071A7CF2BY5PR10MB3746namp_--

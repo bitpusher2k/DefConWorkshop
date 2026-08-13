@@ -1,0 +1,92 @@
+
+AccountId            : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45
+AccountName          : contoso
+AppliesTo            : Company
+CapabilityStatus     : Enabled
+ConsumedUnits        : 0
+Id                   : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45_578f61a0-c81d-4d63-8c81-0f4b887d1726
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {EXCHANGE_S_FOUNDATION, WINDOWS_STORE}
+SkuId                : 578f61a0-c81d-4d63-8c81-0f4b887d1726
+SkuPartNumber        : WINDOWS_STORE
+SubscriptionIds      : {abe6f49d-2e09-4642-849f-46e27b810844}
+AdditionalProperties : {}
+
+AccountId            : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45
+AccountName          : contoso
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 7
+Id                   : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45_241a0999-da32-4766-81f9-c465cb8915f6
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {EXCHANGE_S_FOUNDATION, DYN365_CDS_VIRAL, FLOW_P2_VIRAL}
+SkuId                : 241a0999-da32-4766-81f9-c465cb8915f6
+SkuPartNumber        : FLOW_FREE
+SubscriptionIds      : {d165ffcd-3881-441a-8871-76bd7ce0ff26}
+AdditionalProperties : {}
+
+AccountId            : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45
+AccountName          : contoso
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 58
+Id                   : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45_0c2237a9-cb69-41d4-8f6f-f94d65b080cc
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {INSIGHTS_BY_MYANALYTICS, MICROSOFT_MYANALYTICS_FULL, PEOPLE_SKILLS_FOUNDATION, PLACES_CORE…}
+SkuId                : 0c2237a9-cb69-41d4-8f6f-f94d65b080cc
+SkuPartNumber        : SPB
+SubscriptionIds      : {046f1b9f-6464-4c8d-82ba-8ba6ed3601c4}
+AdditionalProperties : {}
+
+AccountId            : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45
+AccountName          : contoso
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 35
+Id                   : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45_c2ce9e50-80bc-4a61-887d-5d50718b6512
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {M365_LIGHTHOUSE_CUSTOMER_PLAN1, BPOS_S_TODO_1, INTUNE_O365, EXCHANGE_S_STANDARD}
+SkuId                : c2ce9e50-80bc-4a61-887d-5d50718b6512
+SkuPartNumber        : EXCHANGESTANDARD
+SubscriptionIds      : {7a0227b3-4948-4d75-8dfd-5467ddd1f44d, aab9e5be-d463-464e-8a2e-daf72c040d62, 2adb6b4e-788d-4274-81be-569eae102b4c}
+AdditionalProperties : {}
+
+AccountId            : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45
+AccountName          : contoso
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45_e4b5d1bf-a869-4e41-854c-a3be52341b83
+PrepaidUnits         : Microsoft.Graph.Chavez45.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {INSIGHTS_BY_MYANALYTICS, MICROSOFT_MYANALYTICS_FULL, PROJECT_O365_P1, DYN365_CDS_O365_P1…}
+SkuId                : e4b5d1bf-a869-4e41-854c-a3be52341b83
+SkuPartNumber        : Microsoft_Teams_Exploratory_Dept
+SubscriptionIds      : {64b9963e-06e6-47b5-8cae-a4cbf7e7ffda}
+AdditionalProperties : {}
+
+AccountId            : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45
+AccountName          : contoso
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 0
+Id                   : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45_c3bafd9a-a5a5-493a-801d-699dd0bc6d76
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {EXCHANGE_S_FOUNDATION, RMS_S_ADHOC}
+SkuId                : c3bafd9a-a5a5-493a-801d-699dd0bc6d76
+SkuPartNumber        : RIGHTSMANAGEMENT_ADHOC
+SubscriptionIds      : {fd96d79c-b10c-4c8f-811b-2406d7db861d}
+AdditionalProperties : {}
+
+AccountId            : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45
+AccountName          : contoso
+AppliesTo            : Company
+CapabilityStatus     : Enabled
+ConsumedUnits        : 0
+Id                   : 063b27d9-43ef-4b3c-88e0-ca84cb74ae45_601a89f7-50f8-40b0-8adb-cc7dbfd3ce45
+PrepaidUnits         : Microsoft.Graph.Chavez45.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {EOP_ENTERPRISE}
+SkuId                : 45a2423b-e884-448d-a831-d9e139c52d2f
+SkuPartNumber        : ERIC17_ANTHONY30
+SubscriptionIds      : {a5416691-3bc5-4837-898b-c3d5ffcf9e9c, bed92945-e5f5-44e0-8b1c-2c411028ace5, 2c487f5d-6d3b-4fbf-89f4-5f346975f0dd}
+AdditionalProperties : {}
+

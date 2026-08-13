@@ -1,0 +1,97 @@
+Message-ID: <8fe2b886-7eff-4258-9d90-7b497ce67e93@854jpt.onmicrosoft.com>
+Date: Thu, 23 Jul 2026 20:15:04 -0700
+User-Agent: Mozilla Thunderbird
+To: Pradeep Gupta <PradeepG@854jpt.onmicrosoft.com>
+CC: Johanna Lorenz <JohannaL@854jpt.onmicrosoft.com>, Megan Bowen
+	<MeganB@854jpt.onmicrosoft.com>
+Subject: Re: RFQ from Pacific Automotive - Transmission Mounting Bracket
+References: <c34389f0-d4e5-4864-b70d-ba55bab08830@854jpt.onmicrosoft.com>
+In-Reply-To: <c34389f0-d4e5-4864-b70d-ba55bab08830@854jpt.onmicrosoft.com>
+From: Alex Wilber <AlexW@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>Pradeep, Johanna, Megan,<br><br>Good analysis, Pradeep. I agree =
+- quoting this as machined-from-billet in 6061-T6 is the right call. The ca=
+sting approach would require secondary machining anyway to hold the GD&amp;=
+T callouts, and we'd be dealing with porosity inspection headaches on every=
+ lot.<br><br>Johanna - go ahead and prepare the quote based on:<br>- Materi=
+al: 6061-T6 aluminum billet (we have reliable supply through Alcoa and pote=
+ntially Northwest Metals)<br>- Process: 3-axis CNC machining with secondary=
+ deburr and anodize<br>- Quantity breaks: 500, 1000, and 2500 pieces<br>- L=
+ead time: 4-6 weeks ARO for production quantities<br><br>Include a note exp=
+laining why we're recommending machined vs. cast. Pacific Auto may push bac=
+k on price since castings are cheaper per unit, but the quality advantage a=
+nd our ability to hold tolerances will be the differentiator.<br><br>I'll h=
+ave Pradeep run a quick DFM review and flag any features that might drive c=
+ost, so you can address them proactively in the quote.<br><br>Alex<br><br>O=
+n 7/22/2026, 10:58:29 PM, &quot;Pradeep Gupta&quot; &lt;PradeepG@854jpt.onm=
+icrosoft.com&gt; wrote:<br>&gt; Alex, Johanna,
+<br>&gt;=20
+<br>&gt; I've reviewed the Pacific Auto TMB-2028 drawings. A few observatio=
+ns:
+<br>&gt;=20
+<br>&gt; 1. Material - A356-T6 is a casting alloy. Given the GD&amp;T requi=
+rements on this part, I'd strongly recommend we quote it as a machined-from=
+-billet part in 6061-T6 instead. The true position callout of 0.005&quot; o=
+n the mounting holes is extremely tight for a casting. Machined from billet=
+, it's very achievable for us.
+<br>&gt;=20
+<br>&gt; 2. The overall geometry is straightforward - I can program this fo=
+r our Haas VF-4 in 2 setups. Cycle time estimate: approximately 18 minutes/=
+part.
+<br>&gt;=20
+<br>&gt; 3. One concern: the drawing references a proprietary surface treat=
+ment spec (PA-ST-2028-Rev.A) that I don't have. Johanna, can you request th=
+is from Pacific Auto?
+<br>&gt;=20
+<br>&gt; 4. If we quote machined instead of cast, our price point will be h=
+igher but the quality will be significantly better. I think we should posit=
+ion this as a value-add.
+<br>&gt;=20
+<br>&gt; Rough cost estimate: $38-44/unit at 8,000/year volume in 6061-T6 m=
+achined. I can have a detailed quote breakdown ready by Monday.
+<br>&gt;=20
+<br>&gt; Pradeep Gupta
+<br>&gt; Senior Design Engineer
+<br>&gt; Waverly Industrial Solutions, Inc.
+<br>&gt;=20
+<br>&gt; On 7/21/2026, 9:35:04 PM, &quot;Johanna Lorenz&quot; &lt;JohannaL@=
+854jpt.onmicrosoft.com&gt; wrote:
+<br>&gt; &gt; Alex,
+<br>&gt; &gt;
+<br>&gt; &gt; We received a new RFQ from Pacific Automotive yesterday for a=
+ transmission mounting bracket for their 2028 model year program. I've save=
+d the drawing package to the shared drive under Sales &gt; RFQs &gt; Pacifi=
+c-Auto-TMB-2028.
+<br>&gt; &gt;
+<br>&gt; &gt; Quick overview:
+<br>&gt; &gt; - Part: Transmission Mounting Bracket, P/N TM-2028-A
+<br>&gt; &gt; - Material: A356-T6 cast aluminum (they're open to machined a=
+lternative)
+<br>&gt; &gt; - Annual volume: 8,000 units
+<br>&gt; &gt; - Target price: $42-48/unit
+<br>&gt; &gt; - RFQ response due: August 8, 2026
+<br>&gt; &gt;
+<br>&gt; &gt; Could you and Pradeep review the drawings and give me a rough=
+ assessment of manufacturability and any concerns? I need to put together a=
+ preliminary quote by early next week.
+<br>&gt; &gt;
+<br>&gt; &gt; A few things I noticed in the specs that might need discussio=
+n:
+<br>&gt; &gt; - Some of the GD&amp;T callouts look tight for a casting - mi=
+ght make more sense as a machined part
+<br>&gt; &gt; - There's a true position callout of 0.005&quot; on the mount=
+ing holes that could be challenging
+<br>&gt; &gt;
+<br>&gt; &gt; Let me know your thoughts when you get a chance.
+<br>&gt; &gt;
+<br>&gt; &gt; Johanna Lorenz
+<br>&gt; &gt; Sales Account Manager
+<br>&gt; &gt; Waverly Industrial Solutions, Inc.
+<br>&gt; &gt;
+<br>&gt; </body></html>
+

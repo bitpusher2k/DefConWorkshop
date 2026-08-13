@@ -1,0 +1,97 @@
+Message-ID: <5b22b6a3-fde1-43bf-a6c7-33fa82b671d9@854jpt.onmicrosoft.com>
+Date: Thu, 23 Jul 2026 20:13:52 -0700
+User-Agent: Mozilla Thunderbird
+To: Alex Wilber <AlexW@854jpt.onmicrosoft.com>
+CC: Pradeep Gupta <PradeepG@854jpt.onmicrosoft.com>
+Subject: Re: Prototype Test Results - Strato SD-900 Bracket Assembly
+References: <ffaea680-5b99-40f6-b390-646c2233ccfc@854jpt.onmicrosoft.com>
+In-Reply-To: <ffaea680-5b99-40f6-b390-646c2233ccfc@854jpt.onmicrosoft.com>
+From: Henrietta Mueller <HenriettaM@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>Alex, Pradeep,<br><br>Agreed on the datum reference fix - that w=
+ill eliminate the ambiguity on the CMM measurement.<br><br>For the inspecti=
+on method, I'll set up a CMM program using the corrected datum scheme. I'm =
+planning a Gage R&amp;R study on the critical bore dimension (the one that =
+was borderline) to make sure our measurement system can reliably detect the=
+ 0.002&quot; tolerance band. I'll use three operators, three trials, ten pa=
+rts from the prototype run.<br><br>Target to have the CMM program validated=
+ and the R&amp;R study complete by August 8, which gives us two weeks befor=
+e the Strato FAI submission deadline.<br><br>Pradeep - can you get me five =
+additional prototype parts from the next run? I want to confirm the dimensi=
+onal fix before we lock in the production process parameters.<br><br>Henrie=
+tta<br><br>On 7/22/2026, 11:02:18 PM, &quot;Alex Wilber&quot; &lt;AlexW@854=
+jpt.onmicrosoft.com&gt; wrote:<br>&gt; Pradeep,
+<br>&gt;=20
+<br>&gt; Great results on the tensile and fatigue testing - exceeding spec =
+by that margin gives us good confidence in the material and process.
+<br>&gt;=20
+<br>&gt; On the dimensional callout issue - I looked at the Strato spec aga=
+in and I think the problem is in how we're interpreting the datum reference=
+ on Feature 14. The drawing calls out 0.003&quot; true position relative to=
+ Datum A-B-C, but our fixturing is referencing off the wrong surface for Da=
+tum B.
+<br>&gt;=20
+<br>&gt; Here's what I want to do:
+<br>&gt; 1. Have Henrietta run a CMM study on three samples using the corre=
+cted datum scheme and see if we come into tolerance
+<br>&gt; 2. If that resolves it, update the inspection fixture and work ins=
+truction accordingly
+<br>&gt; 3. If it doesn't, we may need to adjust the machining approach on =
+that feature - possibly a finish pass at reduced feed rate
+<br>&gt;=20
+<br>&gt; Henrietta - can your team run the CMM study this week? We need to =
+close this out before we submit the first article package to Strato.
+<br>&gt;=20
+<br>&gt; Alex Wilber
+<br>&gt; Director of Engineering
+<br>&gt; Waverly Industrial Solutions
+<br>&gt;=20
+<br>&gt; On 7/21/2026, 9:36:58 PM, &quot;Pradeep Gupta&quot; &lt;PradeepG@8=
+54jpt.onmicrosoft.com&gt; wrote:
+<br>&gt; &gt; Alex,
+<br>&gt; &gt;
+<br>&gt; &gt; First article prototype testing on the SD-900 bracket assembl=
+y is complete. Overall results are very good, but we have one item to addre=
+ss.
+<br>&gt; &gt;
+<br>&gt; &gt; Test Results Summary:
+<br>&gt; &gt;
+<br>&gt; &gt; Tensile Strength: PASS
+<br>&gt; &gt; - Requirement: 65 ksi minimum
+<br>&gt; &gt; - Actual: 72.4 ksi (average of 5 specimens)
+<br>&gt; &gt; - Well above spec
+<br>&gt; &gt;
+<br>&gt; &gt; Fatigue Testing: PASS
+<br>&gt; &gt; - Requirement: 10,000 cycles at 75% ultimate load
+<br>&gt; &gt; - Actual: Survived 14,200 cycles before failure
+<br>&gt; &gt; - Exceeds requirement by 42%
+<br>&gt; &gt;
+<br>&gt; &gt; Dimensional Inspection: CONDITIONAL PASS
+<br>&gt; &gt; - 22 of 23 dimensional callouts within tolerance
+<br>&gt; &gt; - One callout (datum B to hole pattern C, 1.875&quot; +/- 0.0=
+02&quot;) measured at 1.8726&quot; on 2 of 5 samples
+<br>&gt; &gt; - Technically in tolerance but uncomfortably close to the upp=
+er limit
+<br>&gt; &gt;
+<br>&gt; &gt; Surface Finish: PASS
+<br>&gt; &gt; - Requirement: 63 Ra maximum
+<br>&gt; &gt; - Actual: 48 Ra average
+<br>&gt; &gt;
+<br>&gt; &gt; My recommendation: we need to tighten our process on the datu=
+m B relationship. Likely a fixturing adjustment. I'd like to run another 5 =
+samples with an updated fixture before we submit for FAI.
+<br>&gt; &gt;
+<br>&gt; &gt; Henrietta - can you confirm the inspection method you'll use =
+for the production FAI? CMM vs. optical comparator on the hole pattern?
+<br>&gt; &gt;
+<br>&gt; &gt; Pradeep Gupta
+<br>&gt; &gt; Senior Design Engineer
+<br>&gt; &gt; Waverly Industrial Solutions, Inc.
+<br>&gt; &gt;
+<br>&gt; </body></html>
+

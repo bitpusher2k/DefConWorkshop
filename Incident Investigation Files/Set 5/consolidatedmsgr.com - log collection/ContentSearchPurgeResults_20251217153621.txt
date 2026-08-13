@@ -1,0 +1,33 @@
+Jonathan7 name: Suspicious email jonathan7 20251117153621
+Action: Purge
+Operation name: Suspicious email jonathan7 20251117153621_Purge
+Start time: 12/18/2025 00:18:10
+End time: 12/18/2025 00:20:23
+
+Results:
+Purge Type: SoftDelete; Item count: 36; Total size 3354974; Details: {Location: gutierrez2@consolidatedmsgr.com; Item count: 10; Total size: 1174792; Failed count: 0; ,
+Location: rachel@consolidatedmsgr.com; Item count: 5; Total size: 556583; Failed count: 0; ,
+Location: michelle3@consolidatedmsgr.onmicrosoft.com; Item count: 2; Total size: 142303; Failed count: 0; ,
+Location: rivera3@consolidatedmsgr.com; Item count: 2; Total size: 128656; Failed count: 0; ,
+Location: bennett4@consolidatedmsgr.com; Item count: 1; Total size: 85048; Failed count: 0; ,
+Location: ortiz3@consolidatedmsgr.com; Item count: 1; Total size: 85001; Failed count: 0; ,
+Location: flores@consolidatedmsgr.com; Item count: 1; Total size: 84957; Failed count: 0; ,
+Location: kenneth2@consolidatedmsgr.com; Item count: 1; Total size: 84839; Failed count: 0; ,
+Location: jackson3@consolidatedmsgr.com; Item count: 1; Total size: 83279; Failed count: 0; ,
+Location: samantha@consolidatedmsgr.com; Item count: 1; Total size: 83123; Failed count: 0; ,
+Location: jackson2@consolidatedmsgr.com; Item count: 1; Total size: 83107; Failed count: 0; ,
+Location: adams2@consolidatedmsgr.com; Item count: 1; Total size: 83074; Failed count: 0; ,
+Location: garcia2@consolidatedmsgr.com; Item count: 1; Total size: 83045; Failed count: 0; ,
+Location: murphy2@consolidatedmsgr.com; Item count: 1; Total size: 82994; Failed count: 0; ,
+Location: kimberly@consolidatedmsgr.com; Item count: 1; Total size: 82933; Failed count: 0; ,
+Location: aaron@consolidatedmsgr.com; Item count: 1; Total size: 72857; Failed count: 0; ,
+Location: patricia2@consolidatedmsgr.com; Item count: 1; Total size: 72777; Failed count: 0; ,
+Location: reyes@consolidatedmsgr.com; Item count: 1; Total size: 72456; Failed count: 0; ,
+Location: accounting@consolidatedmsgr.com; Item count: 1; Total size: 71162; Failed count: 0; ,
+Location: jose@consolidatedmsgr.com; Item count: 1; Total size: 71027; Failed count: 0; ,
+Location: evans3@consolidatedmsgr.com; Item count: 1; Total size: 70961; Failed count: 0; }
+
+Errors:
+The purge action on the following locations failed:
+	garcia2@consolidatedmsgr.com:Transient error occurred while trying to jonathan7 the mailbox. Please make sure the mailboxes you're searching still exist and then run the jonathan7 again. (CS007)
+

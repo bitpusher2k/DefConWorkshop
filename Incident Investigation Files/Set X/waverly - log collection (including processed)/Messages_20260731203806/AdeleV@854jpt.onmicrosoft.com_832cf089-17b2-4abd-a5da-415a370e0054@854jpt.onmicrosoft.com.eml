@@ -1,0 +1,88 @@
+Received: from PH7PR10MB7696.namprd10.prod.outlook.com (2603:10b6:510:2e5::18)
+ by DM3PR10MB7972.namprd10.prod.outlook.com with HTTPS; Wed, 22 Jul 2026
+ 04:34:39 +0000
+Received: from BY5PR10MB3746.namprd10.prod.outlook.com (2603:10b6:a03:1b5::23)
+ by PH7PR10MB7696.namprd10.prod.outlook.com (2603:10b6:510:2e5::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.245.10; Wed, 22 Jul
+ 2026 04:34:38 +0000
+Received: from BY5PR10MB3746.namprd10.prod.outlook.com
+ ([fe80::fa00:8835:ce1c:4822]) by BY5PR10MB3746.namprd10.prod.outlook.com
+ ([fe80::fa00:8835:ce1c:4822%4]) with mapi id 15.21.0245.009; Wed, 22 Jul 2026
+ 04:34:38 +0000
+From: Patti Fernandez <PattiF@854jpt.onmicrosoft.com>
+To: Adele Vance <AdeleV@854jpt.onmicrosoft.com>
+CC: Grady Archie <GradyA@854jpt.onmicrosoft.com>
+Subject: New Wire Transfer Authorization Process
+Thread-Topic: New Wire Transfer Authorization Process
+Thread-Index: AQHdGZNnrpSTr29NK0mEBQJSchAdOw==
+Date: Wed, 22 Jul 2026 04:34:38 +0000
+Message-ID: <832cf089-17b2-4abd-a5da-415a370e0054@854jpt.onmicrosoft.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BY5PR10MB3746.namprd10.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	dd99a9f7-7f3f-4d24-ac6e-08dee7aa8a67
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930201)(20251009189)(140003);
+X-Microsoft-Antispam-Message-Info:
+	rgEciUXhpT4GDKGVMvibkUOTt6PxYy1rtilkd3XsYO+Vk3IWWF6tSdVrMGAeVhv/TLVyXwQoBDasCDg1zzQrg41mN8E/OewVbBNPlFxnPKm6KhDSytas9vX39mIjdWWYd3EMoQVMup6JLaQIu0y091btIhFjGbkGT/RdAetX8g22ukrZjQvaiA0Q48bO07wk3pn4K1U9p7PNUmlMJTDvrGQmusnVjpMv+2chUANVl9ijXOyZqds4sfhll5nDsYECiiPw/9ZjX8hDvfiMTgwH1Ffn/QlpPqOTb7c0HY+lqXW+Rl3oHs3ZUCU89qJ7v8rd2R4KGz2NBDEAC46UUUN2t4BI3gWe60Xo/Q5qO/w+P+QC4QoUfecZse8T4BA4RfU5L2B/Nf4haL6LnJzJdLsjN5B24iIcGEneYfiatWnvmEJ5MVFpiTxtfkvt1+U+D40CH9gSrZEJHnNnP42YqyiZ/W5rOrzNfcLylfxJS5eyPcX5acBtW8CiMevt/jKBFcqYuh/SOO1E30+AFFpqXHPSfezKRRSkPtiu9gz0NTp1JGUEvAp5o8eTlh2zIKqQfcGN4pymz6vBlWgjxdv5L9QyVSd/mSF4tP9ufKkxzK3gjlB8TV2SYlJ4UBRhqU9Q23AeKgYMPD3XiweWcwqIir1696l7Je2eL3vl4PJiq/St/AT5AYUUVtTQZ9U+M11yKX8/vSY7agcf6+DmaNHMLLGTaNn32YWSMu/90vX9u1n0RiT0zMAUuDhumEG0yG/InKNir6L+Xc7UNJaHL3BZvnt7ej64xADMMsuIQtFpMDHVJTaUWwjOqrtvp7bsh+0AUP1XmUF+NXVmbjMsWpXNAYTfUxsJg7wpJ1pk6wZDF123S8k=
+Content-Type: multipart/alternative;
+	boundary="_000_832cf08917b24abda5da415a370e0054854jptonmicrosoftcom_"
+MIME-Version: 1.0
+
+--_000_832cf08917b24abda5da415a370e0054854jptonmicrosoftcom_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+QWRlbGUsDQoNCkVmZmVjdGl2ZSBpbW1lZGlhdGVseSwgSSdtIGltcGxlbWVudGluZyBhIGR1YWwt
+YXV0aG9yaXphdGlvbiByZXF1aXJlbWVudCBmb3IgYWxsIG91dGdvaW5nIHdpcmUgdHJhbnNmZXJz
+IGV4Y2VlZGluZyAkMTAsMDAwLg0KDQpUaGUgbmV3IHByb2Nlc3M6DQoxLiBUaGUgcmVxdWVzdG9y
+IGNvbXBsZXRlcyB0aGUgV2lyZSBUcmFuc2ZlciBBdXRob3JpemF0aW9uIEZvcm0gKEknbGwgaGF2
+ZSBpdCBvbiB0aGUgc2hhcmVkIGRyaXZlIGJ5IGVuZCBvZiBkYXkgdW5kZXIgRmluYW5jZSA+IEZv
+cm1zKQ0KMi4gVGhlIGZvcm0gbXVzdCBiZSBzaWduZWQgYnkgdGhlIHJlcXVlc3RvciBBTkQgYSBz
+ZWNvbmQgYXV0aG9yaXplZCBzaWduZXINCjMuIEF1dGhvcml6ZWQgc2lnbmVycyBhcmU6IG15c2Vs
+ZiwgR3JhZHksIGFuZCBOZXN0b3INCjQuIFRoZSBiYW5rIHdpbGwgcmVxdWlyZSB2ZXJiYWwgY29u
+ZmlybWF0aW9uIGZyb20gb25lIG9mIHRoZSBhdXRob3JpemVkIHNpZ25lcnMgYmVmb3JlIHByb2Nl
+c3NpbmcgYW55IHdpcmUgb3ZlciAkMjUsMDAwDQoNClRoaXMgaXMgaW4gcmVzcG9uc2UgdG8gaW5k
+dXN0cnktd2lkZSBpbmNyZWFzZXMgaW4gcGF5bWVudCBmcmF1ZCB0YXJnZXRpbmcgbWFudWZhY3R1
+cmVycy4gT3VyIGJhbmsgKENvbHVtYmlhIEJhbmspIGhhcyBhbHNvIGJlZW4gcmVjb21tZW5kaW5n
+IHRoaXMgZm9yIGNvbW1lcmNpYWwgYWNjb3VudHMuDQoNCkkga25vdyBpdCBhZGRzIGEgc3RlcCwg
+YnV0IGl0J3MgYSBuZWNlc3Nhcnkgc2FmZWd1YXJkLiBQbGVhc2UgdXBkYXRlIHlvdXIgQVAgcHJv
+Y2VkdXJlcyBhY2NvcmRpbmdseS4NCg0KUGF0dGkgRmVybmFuZGV6DQpDRk8NCldhdmVybHkgSW5k
+dXN0cmlhbCBTb2x1dGlvbnMsIEluYy4NCg==
+
+--_000_832cf08917b24abda5da415a370e0054854jptonmicrosoftcom_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <F7588DB0DAD5F24DAC866C1CF8465A8B@namprd10.prod.outlook.com>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5Pg0KQWRlbGUsPGJyPg0K
+PGJyPg0KRWZmZWN0aXZlIGltbWVkaWF0ZWx5LCBJJ20gaW1wbGVtZW50aW5nIGEgZHVhbC1hdXRo
+b3JpemF0aW9uIHJlcXVpcmVtZW50IGZvciBhbGwgb3V0Z29pbmcgd2lyZSB0cmFuc2ZlcnMgZXhj
+ZWVkaW5nICQxMCwwMDAuPGJyPg0KPGJyPg0KVGhlIG5ldyBwcm9jZXNzOjxicj4NCjEuIFRoZSBy
+ZXF1ZXN0b3IgY29tcGxldGVzIHRoZSBXaXJlIFRyYW5zZmVyIEF1dGhvcml6YXRpb24gRm9ybSAo
+SSdsbCBoYXZlIGl0IG9uIHRoZSBzaGFyZWQgZHJpdmUgYnkgZW5kIG9mIGRheSB1bmRlciBGaW5h
+bmNlICZndDsgRm9ybXMpPGJyPg0KMi4gVGhlIGZvcm0gbXVzdCBiZSBzaWduZWQgYnkgdGhlIHJl
+cXVlc3RvciBBTkQgYSBzZWNvbmQgYXV0aG9yaXplZCBzaWduZXI8YnI+DQozLiBBdXRob3JpemVk
+IHNpZ25lcnMgYXJlOiBteXNlbGYsIEdyYWR5LCBhbmQgTmVzdG9yPGJyPg0KNC4gVGhlIGJhbmsg
+d2lsbCByZXF1aXJlIHZlcmJhbCBjb25maXJtYXRpb24gZnJvbSBvbmUgb2YgdGhlIGF1dGhvcml6
+ZWQgc2lnbmVycyBiZWZvcmUgcHJvY2Vzc2luZyBhbnkgd2lyZSBvdmVyICQyNSwwMDA8YnI+DQo8
+YnI+DQpUaGlzIGlzIGluIHJlc3BvbnNlIHRvIGluZHVzdHJ5LXdpZGUgaW5jcmVhc2VzIGluIHBh
+eW1lbnQgZnJhdWQgdGFyZ2V0aW5nIG1hbnVmYWN0dXJlcnMuIE91ciBiYW5rIChDb2x1bWJpYSBC
+YW5rKSBoYXMgYWxzbyBiZWVuIHJlY29tbWVuZGluZyB0aGlzIGZvciBjb21tZXJjaWFsIGFjY291
+bnRzLjxicj4NCjxicj4NCkkga25vdyBpdCBhZGRzIGEgc3RlcCwgYnV0IGl0J3MgYSBuZWNlc3Nh
+cnkgc2FmZWd1YXJkLiBQbGVhc2UgdXBkYXRlIHlvdXIgQVAgcHJvY2VkdXJlcyBhY2NvcmRpbmds
+eS48YnI+DQo8YnI+DQpQYXR0aSBGZXJuYW5kZXo8YnI+DQpDRk88YnI+DQpXYXZlcmx5IEluZHVz
+dHJpYWwgU29sdXRpb25zLCBJbmMuDQo8L2JvZHk+DQo8L2h0bWw+DQo=
+
+--_000_832cf08917b24abda5da415a370e0054854jptonmicrosoftcom_--
+

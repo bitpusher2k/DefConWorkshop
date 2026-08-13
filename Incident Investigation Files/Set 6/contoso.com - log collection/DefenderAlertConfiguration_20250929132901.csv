@@ -1,0 +1,33 @@
+"EndUserQuarantinePermissions","ESNEnabled","QuarantinePolicyType","QuarantineRetentionDays","IncludeMessagesFromBlockedSenderAddress","Identity","Id","IsValid","ExchangeVersion","Name","DistinguishedName","ObjectCategory","ObjectClass","WhenChanged","WhenCreated","WhenChangedUTC","WhenCreatedUTC","ExchangeObjectId","OrganizationalUnitRoot","OrganizationId","Guid","OriginatingServer","ObjectState"
+"[PermissionToBlockSender: True
+PermissionToDelete: True
+PermissionToDownload: True
+PermissionToPreview: True
+PermissionToRelease: True
+PermissionToRequestRelease: False
+PermissionToViewHeader: False
+PermissionToAllowSender: False]","True","PolicyQuarantineTag","15","False","NotificationEnabledPolicy","NotificationEnabledPolicy","True","0.20 (15.0.0.103)","NotificationEnabledPolicy","CN=NotificationEnabledPolicy,CN=Quarantine Cooper28,CN=Transport Cooper28,CN=King17,CN=contoso.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR69A085,DC=PROD,DC=OUTLOOK,DC=COM","LABPR69A085.PROD.OUTLOOK.COM/King17/Schema/ms-Exch-Hosted-Content-Filter-Deborah19","top msExchHostedContentFilterConfig","2025-07-02 05:45:07","2024-04-22 21:10:12","2025-07-02 12:45:07","2024-04-23 04:10:12","b036ca1c-6144-4ab5-8d12-d89235d0e572","contoso.onmicrosoft.com","LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com - LABPR69A085.PROD.OUTLOOK.COM/ConfigurationUnits/contoso.onmicrosoft.com/King17","b24d5de8-ce8c-46b9-8f9e-aaa0a085097c","LAB75XX8601DC378.LABPR69A085.PROD.OUTLOOK.COM","Unchanged"
+"[PermissionToBlockSender: False
+PermissionToDelete: True
+PermissionToDownload: True
+PermissionToPreview: True
+PermissionToRelease: True
+PermissionToRequestRelease: False
+PermissionToViewHeader: False
+PermissionToAllowSender: True]","False","PolicyQuarantineTag","15","False","contoso.onmicrosoft.com\DefaultFullAccessPolicy","contoso.onmicrosoft.com\DefaultFullAccessPolicy","True","0.20 (15.0.0.103)","DefaultFullAccessPolicy","CN=DefaultFullAccessPolicy,CN=Quarantine Cooper28,CN=Transport Cooper28,CN=King17,CN=contoso.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR69A085,DC=PROD,DC=OUTLOOK,DC=COM",,"msExchHostedContentFilterConfig",,,,,"f28ea500-6276-48ce-8fb2-edd8a60671ea","LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com","LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com - LABPR69A085.PROD.OUTLOOK.COM/ConfigurationUnits/contoso.onmicrosoft.com/King17","f28ea500-6276-48ce-8fb2-edd8a60671ea","","New"
+"[PermissionToBlockSender: False
+PermissionToDelete: False
+PermissionToDownload: False
+PermissionToPreview: False
+PermissionToRelease: False
+PermissionToRequestRelease: False
+PermissionToViewHeader: False
+PermissionToAllowSender: False]","False","PolicyQuarantineTag","15","False","contoso.onmicrosoft.com\AdminOnlyAccessPolicy","contoso.onmicrosoft.com\AdminOnlyAccessPolicy","True","0.20 (15.0.0.103)","AdminOnlyAccessPolicy","CN=AdminOnlyAccessPolicy,CN=Quarantine Cooper28,CN=Transport Cooper28,CN=King17,CN=contoso.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR69A085,DC=PROD,DC=OUTLOOK,DC=COM",,"msExchHostedContentFilterConfig",,,,,"f28ea500-6276-48ce-8fb2-edd8a60671ea","LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com","LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com - LABPR69A085.PROD.OUTLOOK.COM/ConfigurationUnits/contoso.onmicrosoft.com/King17","f28ea500-6276-48ce-8fb2-edd8a60671ea","","New"
+"[PermissionToBlockSender: False
+PermissionToDelete: True
+PermissionToDownload: True
+PermissionToPreview: True
+PermissionToRelease: True
+PermissionToRequestRelease: False
+PermissionToViewHeader: False
+PermissionToAllowSender: True]","True","PolicyQuarantineTag","15","False","contoso.onmicrosoft.com\DefaultFullAccessWithNotificationPolicy","contoso.onmicrosoft.com\DefaultFullAccessWithNotificationPolicy","True","0.20 (15.0.0.103)","DefaultFullAccessWithNotificationPolicy","CN=DefaultFullAccessWithNotificationPolicy,CN=Quarantine Cooper28,CN=Transport Cooper28,CN=King17,CN=contoso.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR69A085,DC=PROD,DC=OUTLOOK,DC=COM",,"msExchHostedContentFilterConfig",,,,,"f28ea500-6276-48ce-8fb2-edd8a60671ea","LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com","LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com - LABPR69A085.PROD.OUTLOOK.COM/ConfigurationUnits/contoso.onmicrosoft.com/King17","f28ea500-6276-48ce-8fb2-edd8a60671ea","","New"

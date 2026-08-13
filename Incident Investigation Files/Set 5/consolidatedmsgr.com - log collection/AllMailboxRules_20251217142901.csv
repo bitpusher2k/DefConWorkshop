@@ -1,0 +1,25 @@
+"Description","Enabled","Nicholas3","InError","ErrorType","Name","Priority","RuleIdentity","SupportedByTask","Legacy","AnyCategory","ExceptIfAnyCategory","AssignedCategories","ExceptIfAssignedCategories","BodyContainsWords","ExceptIfBodyContainsWords","FlaggedForAction","ExceptIfFlaggedForAction","FromAddressContainsWords","ExceptIfFromAddressContainsWords","From","ExceptIfFrom","HasAttachment","ExceptIfHasAttachment","HasClassification","ExceptIfHasClassification","HeaderContainsWords","ExceptIfHeaderContainsWords","MessageTypeMatches","ExceptIfMessageTypeMatches","MyNameInCcBox","ExceptIfMyNameInCcBox","MyNameInToBox","ExceptIfMyNameInToBox","MyNameInToOrCcBox","ExceptIfMyNameInToOrCcBox","MyNameNotInToBox","ExceptIfMyNameNotInToBox","ReceivedAfterDate","ExceptIfReceivedAfterDate","ReceivedBeforeDate","ExceptIfReceivedBeforeDate","RecipientAddressContainsWords","ExceptIfRecipientAddressContainsWords","SentOnlyToMe","ExceptIfSentOnlyToMe","SentTo","ExceptIfSentTo","SubjectContainsWords","ExceptIfSubjectContainsWords","SubjectOrBodyContainsWords","ExceptIfSubjectOrBodyContainsWords","WithImportance","ExceptIfWithImportance","WithinSizeRangeMaximum","ExceptIfWithinSizeRangeMaximum","WithinSizeRangeMinimum","ExceptIfWithinSizeRangeMinimum","WithSensitivity","ExceptIfWithSensitivity","ApplyCategory","ApplySystemCategory","ClearCategories","ClearFlag","CompleteFlag","CopyToFolder","DeleteMessage","DeleteSystemCategory","FlagMessage","ForwardAsAttachmentTo","ForwardTo","MarkAsRead","MarkImportance","MoveToFolder","PermanentDelete","PinMessage","RedirectTo","SendTextMessageNotificationTo","SoftDeleteMessage","StopProcessingRules","DisplayAlert","PlaySound","MailboxOwnerId","IsValid","ObjectState"
+"If the message:
+	the message was received from 'martinez3-hill4@cook214.example'
+Take the following actions:
+	forward the message to 'Clark Myers2'
+	and stop processing more rules on this message
+","True","376696f4-577b-46f9-817f-1d7bc337db28\14049955584313131009","False","None","Doordash","1","14049955584313131009","True",,"False","False","","","","",,,"","","""martinez3-hill4@cook214.example"" [SMTP:martinez3-hill4@cook214.example]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","","False","False","False",,"False","",,,"""Clark Myers2"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4e2b813d1ab64916864d4b49ded0bf9f-e0b61824-8e]","False",,,"False","False",,"","False","True",,,"376696f4-577b-46f9-817f-1d7bc337db28","True","Unchanged"
+"If the message:
+	the message includes specific words in the subject 'New form received'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+","True","Ortiz Roberts4\14157382242740994050","False","None","New form received","1","14157382242740994050","True",,"False","False","","","","",,,"","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"New form received","","","",,,,,,,,,"","","False","False","False",,"False","",,,,"False",,"Inbox","False","False",,"","False","True",,,"Ortiz Roberts4","True","Unchanged"
+"If the message:
+	the message was received from 'Pennie Stathes'
+Take the following actions:
+	move the message to folder '[folder not found]'
+	and stop processing more rules on this message
+","True","Ortiz Roberts4\14229439836778921986","True","PropertiesInError","Pennie Stathes","2","14229439836778921986","True",,"False","False","","","","",,,"","","""Pennie Stathes"" [SMTP:foster6@cook215.example]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","","False","False","False",,"False","",,,,"False",,,"False","False",,"","False","True",,,"Ortiz Roberts4","True","Unchanged"
+"If the message:
+	the message was received from 'martinez3-hill4@cook214.example'
+Take the following actions:
+	forward the message to 'Clark Myers2'
+	and stop processing more rules on this message
+","True","Reed2 Kevin6\14293367955373686785","False","None","DoorDash","1","14293367955373686785","True",,"False","False","","","","",,,"","","""martinez3-hill4@cook214.example"" [SMTP:martinez3-hill4@cook214.example]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","","False","False","False",,"False","",,,"""Clark Myers2"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4e2b813d1ab64916864d4b49ded0bf9f-e0b61824-8e]","False",,,"False","False",,"","False","True",,,"Reed2 Kevin6","True","Unchanged"

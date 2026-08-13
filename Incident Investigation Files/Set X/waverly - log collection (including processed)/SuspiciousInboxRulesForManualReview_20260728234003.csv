@@ -1,0 +1,19 @@
+"SuspectTrait","DisplayName","PrimarySmtpAddress","MailboxGuid","RuleName","RulePriority","RuleIdentity","RuleDescription","RuleEnabled","RuleForwardTo","RuleForwardAttTo","ExternalRecipients","RuleMoveTo","RuleDelete","RuleSoftDelete","RuleBodyContains","RuleSubjectContains","RuleSubjectOrBodyContains","RuleFrom","RuleFromContains"
+"RuleName","Miriam Graham","MiriamG@854jpt.onmicrosoft.com","e44654e4-e079-416f-9278-b6f53d9c4e80","HR","1","14191236136923299841","If the message:
+	the message was received from 'Joni Sherman'
+Take the following actions:
+	move the message to folder 'HR'
+	and stop processing more rules on this message
+","True",,,"","HR","False","False","","","","""Joni Sherman"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=82ce43f9f6474cd89e0273be6904be69-e9f32a80-3f]",""
+"RuleName","Patti Fernandez","PattiF@854jpt.onmicrosoft.com","2bd0f423-ae9f-4b4f-b5c0-5eff178712e5","..","1","13467810270994759681","If the message:
+	the message includes specific words in the subject or body 'invoice' or 'payment' or 'wire' or 'unauthorized' or 'overdue' or 'suspicious' or 'fraud'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True",,,"",,"True","False","","","invoice payment wire unauthorized overdue suspicious fraud",,""
+"RuleName","Patti Fernandez","PattiF@854jpt.onmicrosoft.com","2bd0f423-ae9f-4b4f-b5c0-5eff178712e5","..","1","13467810270994759681","If the message:
+	the message includes specific words in the subject or body 'invoice' or 'payment' or 'wire' or 'unauthorized' or 'overdue' or 'suspicious' or 'fraud'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True",,,"",,"True","False","","","invoice payment wire unauthorized overdue suspicious fraud",,""

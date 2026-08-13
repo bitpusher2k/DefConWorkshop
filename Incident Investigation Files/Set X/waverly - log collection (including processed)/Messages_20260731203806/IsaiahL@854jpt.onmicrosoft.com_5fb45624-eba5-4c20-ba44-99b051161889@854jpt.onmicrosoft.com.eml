@@ -1,0 +1,79 @@
+Received: from DS7PR10MB7347.namprd10.prod.outlook.com (2603:10b6:8:eb::15) by
+ BN0PR10MB5286.namprd10.prod.outlook.com with HTTPS; Wed, 22 Jul 2026 04:37:22
+ +0000
+Received: from SA2PR10MB4651.namprd10.prod.outlook.com (2603:10b6:806:11e::22)
+ by DS7PR10MB7347.namprd10.prod.outlook.com (2603:10b6:8:eb::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.223.18; Wed, 22 Jul
+ 2026 04:37:20 +0000
+Received: from SA2PR10MB4651.namprd10.prod.outlook.com
+ ([fe80::4afe:5de6:c85d:b056]) by SA2PR10MB4651.namprd10.prod.outlook.com
+ ([fe80::4afe:5de6:c85d:b056%4]) with mapi id 15.21.0245.009; Wed, 22 Jul 2026
+ 04:37:20 +0000
+From: Pradeep Gupta <PradeepG@854jpt.onmicrosoft.com>
+To: Isaiah Langer <IsaiahL@854jpt.onmicrosoft.com>
+Subject: 3D Printer Supplies - Running Low
+Thread-Topic: 3D Printer Supplies - Running Low
+Thread-Index: AQHdGZPI36C+WC7HykqoX53PTKvXLw==
+Date: Wed, 22 Jul 2026 04:37:20 +0000
+Message-ID: <5fb45624-eba5-4c20-ba44-99b051161889@854jpt.onmicrosoft.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: SA2PR10MB4651.namprd10.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	489c61bc-c1d5-44c3-068e-08dee7aaeb11
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930201)(20251009189)(140003);
+X-Microsoft-Antispam-Message-Info:
+	IcoOVexKegNMFk4PAlRq93G4hKqFu/7GJnOzSHH+3A99CF/L/SyX40BqNqcujbX8KAFx/B2uGBxOXUqkE60gO2dyv6W4l7cDZEOOC1sPRbEXZOuM4Zga9hqQSIfHBaPaUEUUv/BD8oY80ijoWo9gxGIMvrCgKEYOdahh+y9ltdFTV8+mEXdt0d0sxJTNzjLw+STo5FxHCRnZ+GEDCRxmozqLgxE13VJAR7SMZrPKkOKdfbWKC04EevVkauXGsP/04bO53sv9P3/FRqlLndqcFN6y1hWEbzJ7PF+47e+NDqqjflukT2bhPWnJwbmVGCHefqgEoLzidDR97oim4OvRDfv1V/FuXpMcrbFN3u/w1aHM7C7p0IoIZ55uIVMI+zz5MHcTdVErCO0/pBJu5Wlenh0wfKaDNP+6irRnCahoPdua4xfNevPWKEfoWCZg2wp9rhp2974AYSr5nz5vzgLFm2yImoDnvJ0LdkSjkPqPjBm8MryIctgSvgQkZY2p20/vGelFsr0YpPmNLlRf/Y5SMMbxNGPeYKPan/7Y0QtG28DQlaHaF5N4UVfgBTyiBtJSIIL00bHWX44ll2I5+ROSq+tGqpAjOUN+mRE4+kMwlkJerzIHEjaiDNsuYicfZBSIpZeXg7OW23XFLV9yDpIwAgRc81x3/E2fD6Vgzc/f5qsN+n0wV1zTo8BgM+cQ+bfm60/xsxaaV+HzSTWZexouwf84AUc44lEPTe/AZ5Oiq1l+TAUQyA4ZH3/KRApD0DxaNoOKhjFwqrXRjrQJModDK2gv+q2AJN2hinr2TOwjMIpvxfM55XDtDuWokgXN0cVU
+Content-Type: multipart/alternative;
+	boundary="_000_5fb45624eba54c20ba4499b051161889854jptonmicrosoftcom_"
+MIME-Version: 1.0
+
+--_000_5fb45624eba54c20ba4499b051161889854jptonmicrosoftcom_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+SXNhaWFoLA0KDQpXZSdyZSBydW5uaW5nIGxvdyBvbiAzRCBwcmludGVyIHN1cHBsaWVzIGluIHRo
+ZSBlbmdpbmVlcmluZyBsYWIuIENhbiB5b3Ugb3JkZXIgdGhlIGZvbGxvd2luZz8NCg0KLSBQTEEg
+ZmlsYW1lbnQsIDEuNzVtbSwgd2hpdGUgLSA0IHNwb29scw0KLSBBQlMgZmlsYW1lbnQsIDEuNzVt
+bSwgYmxhY2sgLSAyIHNwb29scw0KLSBVViByZXNpbiAoc3RhbmRhcmQgZ3JleSkgZm9yIHRoZSBG
+b3JtbGFicyAtIDIgbGl0ZXJzDQotIElQQSBmb3IgcmVzaW4gcGFydCBjbGVhbmluZyAtIDEgZ2Fs
+bG9uDQoNCldlIHVzZSB0aGVzZSBmb3IgcmFwaWQgcHJvdG90eXBpbmcgYW5kIGZpeHR1cmUgbW9j
+ay11cHMuIFdpdGggdGhlIFN0cmF0byB3b3JrIHJhbXBpbmcgdXAsIHdlJ3JlIGdvaW5nIHRocm91
+Z2ggZmlsYW1lbnQgZmFzdGVyIHRoYW4gdXN1YWwuIFRoZSBsYXN0IFBMQSBvcmRlciB3YXMgZnJv
+bSBIYXRjaGJveCBvbiBBbWF6b24gLSB0aGF0IGJyYW5kIGhhcyB3b3JrZWQgd2VsbCBmb3IgdXMu
+DQoNCk5vIHJ1c2gsIGJ1dCB3ZSdsbCBiZSBvdXQgb2YgUExBIHdpdGhpbiBhIHdlZWsuDQoNClRo
+YW5rcywNClByYWRlZXAgR3VwdGENClNlbmlvciBEZXNpZ24gRW5naW5lZXINCldhdmVybHkgSW5k
+dXN0cmlhbCBTb2x1dGlvbnMsIEluYy4NCg==
+
+--_000_5fb45624eba54c20ba4499b051161889854jptonmicrosoftcom_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <623E93696F862448B1F3EA2B40CD17FB@namprd10.prod.outlook.com>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5Pg0KSXNhaWFoLDxicj4N
+Cjxicj4NCldlJ3JlIHJ1bm5pbmcgbG93IG9uIDNEIHByaW50ZXIgc3VwcGxpZXMgaW4gdGhlIGVu
+Z2luZWVyaW5nIGxhYi4gQ2FuIHlvdSBvcmRlciB0aGUgZm9sbG93aW5nPzxicj4NCjxicj4NCi0g
+UExBIGZpbGFtZW50LCAxLjc1bW0sIHdoaXRlIC0gNCBzcG9vbHM8YnI+DQotIEFCUyBmaWxhbWVu
+dCwgMS43NW1tLCBibGFjayAtIDIgc3Bvb2xzPGJyPg0KLSBVViByZXNpbiAoc3RhbmRhcmQgZ3Jl
+eSkgZm9yIHRoZSBGb3JtbGFicyAtIDIgbGl0ZXJzPGJyPg0KLSBJUEEgZm9yIHJlc2luIHBhcnQg
+Y2xlYW5pbmcgLSAxIGdhbGxvbjxicj4NCjxicj4NCldlIHVzZSB0aGVzZSBmb3IgcmFwaWQgcHJv
+dG90eXBpbmcgYW5kIGZpeHR1cmUgbW9jay11cHMuIFdpdGggdGhlIFN0cmF0byB3b3JrIHJhbXBp
+bmcgdXAsIHdlJ3JlIGdvaW5nIHRocm91Z2ggZmlsYW1lbnQgZmFzdGVyIHRoYW4gdXN1YWwuIFRo
+ZSBsYXN0IFBMQSBvcmRlciB3YXMgZnJvbSBIYXRjaGJveCBvbiBBbWF6b24gLSB0aGF0IGJyYW5k
+IGhhcyB3b3JrZWQgd2VsbCBmb3IgdXMuPGJyPg0KPGJyPg0KTm8gcnVzaCwgYnV0IHdlJ2xsIGJl
+IG91dCBvZiBQTEEgd2l0aGluIGEgd2Vlay48YnI+DQo8YnI+DQpUaGFua3MsPGJyPg0KUHJhZGVl
+cCBHdXB0YTxicj4NClNlbmlvciBEZXNpZ24gRW5naW5lZXI8YnI+DQpXYXZlcmx5IEluZHVzdHJp
+YWwgU29sdXRpb25zLCBJbmMuDQo8L2JvZHk+DQo8L2h0bWw+DQo=
+
+--_000_5fb45624eba54c20ba4499b051161889854jptonmicrosoftcom_--
+

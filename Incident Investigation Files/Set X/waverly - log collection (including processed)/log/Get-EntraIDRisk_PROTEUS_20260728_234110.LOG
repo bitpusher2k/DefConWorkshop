@@ -1,0 +1,21 @@
+Get-EntraIDRisk started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-28 23:41:10]
+Setting process priority to "Normal"
+Domain sub-directory will be "854jpt.onmicrosoft.com"
+Script complete.
+Seconds elapsed for script execution: 0.489157
+
+Done! Check output path for results.
+
+==================== RUN MANIFEST ====================
+Script          : Get-EntraIDRisk v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : eb174bbc-fe94-4978-95b9-a616457dd489
+Graph scopes    : Agreement.Read.All, Application.Read.All, Application.ReadWrite.All, AppRoleAssignment.ReadWrite.All, AuditLog.Read.All, AuditLogsQuery.Read.All, DelegatedPermissionGrant.Read.All, DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, Domain.Read.All, Files.Read.All, Files.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All, IdentityRiskEvent.Read.All, IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All, Mail.Read, Mail.Send, openid, Organization.Read.All, Organization.ReadWrite.All, Policy.Read.All, Policy.Read.ConditionalAccess, Policy.ReadWrite.ConditionalAccess, profile, Reports.Read.All, RoleManagement.Read.Directory, SecurityEvents.Read.All, SecurityEvents.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All, User.Read, User.Read.All, User.ReadWrite.All, UserAuthenticationMethod.Read.All, UserAuthenticationMethod.ReadWrite.All, email
+UTC start       : 2026-07-29 06:41:10Z
+UTC stop        : 2026-07-29 06:41:11Z
+Elapsed seconds : 0.49
+Output files (SHA256):
+  6207A47B4633ADF71F417835200A4FD8C3511CCF48F75FB15B6308503D22BC08  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\EntraRiskDetection_20260728234110.csv
+  80BA8D29C00A554DE1CCDF6E79CEF6B932202E0976EAA3BFF25353920E818B12  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\EntraRiskyUsers_20260728234110.csv
+=====================================================

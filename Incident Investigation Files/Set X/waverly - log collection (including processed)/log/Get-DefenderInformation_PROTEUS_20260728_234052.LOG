@@ -1,0 +1,23 @@
+Get-DefenderInformation started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-28 23:40:52]
+Setting process priority to "Normal"
+Domain sub-directory will be "854jpt.onmicrosoft.com"
+Script complete.
+Seconds elapsed for script execution: 18.6722979
+
+Done! Check output path for results.
+
+==================== RUN MANIFEST ====================
+Script          : Get-DefenderInformation v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : eb174bbc-fe94-4978-95b9-a616457dd489
+Graph scopes    : Agreement.Read.All, Application.Read.All, Application.ReadWrite.All, AppRoleAssignment.ReadWrite.All, AuditLog.Read.All, AuditLogsQuery.Read.All, DelegatedPermissionGrant.Read.All, DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, Domain.Read.All, Files.Read.All, Files.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All, IdentityRiskEvent.Read.All, IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All, Mail.Read, Mail.Send, openid, Organization.Read.All, Organization.ReadWrite.All, Policy.Read.All, Policy.Read.ConditionalAccess, Policy.ReadWrite.ConditionalAccess, profile, Reports.Read.All, RoleManagement.Read.Directory, SecurityEvents.Read.All, SecurityEvents.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All, User.Read, User.Read.All, User.ReadWrite.All, UserAuthenticationMethod.Read.All, UserAuthenticationMethod.ReadWrite.All, email
+UTC start       : 2026-07-29 06:40:52Z
+UTC stop        : 2026-07-29 06:41:10Z
+Elapsed seconds : 18.68
+Output files (SHA256):
+  659E0A41FF3CFC9C01B42368DAE3776773F386C3800B4BB41ACA072257F139A5  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\DefenderAlertConfiguration_20260728234052.csv
+  4B5420714CBF37435CB56A33A2A1E56DA1244FBFD7A161FD3F0AA899A9294367  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\DefenderThreatDetections_20260728234052.csv
+  6367B1B67B5BC9072128FE3BCA29FBBC37FEE3B58E226184038F006CA2687D95  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\QuarantinedMessages_20260728234052.csv
+  10A0707ECEC6704062E3E2123157ACF4AD67768D3DA3C20504092D4003C83E28  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\QuarantinePolicy_20260728234052.csv
+=====================================================

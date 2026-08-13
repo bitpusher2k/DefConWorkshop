@@ -1,0 +1,41 @@
+Get-EnterpriseApplications started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-28 23:40:40]
+Setting process priority to "Normal"
+Domain sub-directory will be "854jpt.onmicrosoft.com"
+
+ The Output file is available at:
+C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\AllEnterpriseApplications_20260728234040.csv
+
+Known potentially malicious Enterprise Application Names & IDs:
+* Perfectdata:                      'ff8d92dc-3d82-41d6-bcbd-b9174d163620'
+* Mail_Backup:                      '2ef68ccc-8a4d-42ff-ae88-2d7bb89ad139'
+* eM Client:                        'e9a7fea1-1cc0-4cd9-a31b-9137ca5deedd'
+* Newsletter Software Supermailer:  'a245e8c0-b53c-4b67-9b45-751d1dff8e6b'
+* rclone:                           'b15665d9-eda6-4092-8539-0eec376afd59'
+* rclone:                           '4761b959-9780-4c2d-87a3-512b4638f767'
+* CloudSponge:                      'a43e5392-f48b-46a4-a0f1-098b5eeb4757'
+* SigParser:                        'caffae8c-0882-4c81-9a27-d1803af53a40'
+* PostBox:                          '179d5108-412b-4c95-8e34-06786784ab39'
+* ZoomInfo Communitiez Login:       '497ac034-5120-4c1a-929a-0351f5c09918'
+* Fastmail:                         '77468577-4f6e-40e7-b745-11d3d0c28095'
+* Zoominfo Login:                   '858d7e42-35f0-44b7-9033-df309239a47f'
+* Spike:                            '946c777c-bc85-489e-b034-392389ae23d6'
+
+Run this script again with the '-inoculate Y' attribute to block these applications from being used on this tenant.
+
+Script complete.
+Seconds elapsed for script execution: 1.5830311
+
+Done! Check output path for results.
+
+==================== RUN MANIFEST ====================
+Script          : Get-EnterpriseApplications v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : eb174bbc-fe94-4978-95b9-a616457dd489
+Graph scopes    : Agreement.Read.All, Application.Read.All, Application.ReadWrite.All, AppRoleAssignment.ReadWrite.All, AuditLog.Read.All, AuditLogsQuery.Read.All, DelegatedPermissionGrant.Read.All, DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, Domain.Read.All, Files.Read.All, Files.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All, IdentityRiskEvent.Read.All, IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All, Mail.Read, Mail.Send, openid, Organization.Read.All, Organization.ReadWrite.All, Policy.Read.All, Policy.Read.ConditionalAccess, Policy.ReadWrite.ConditionalAccess, profile, Reports.Read.All, RoleManagement.Read.Directory, SecurityEvents.Read.All, SecurityEvents.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All, User.Read, User.Read.All, User.ReadWrite.All, UserAuthenticationMethod.Read.All, UserAuthenticationMethod.ReadWrite.All, email
+UTC start       : 2026-07-29 06:40:40Z
+UTC stop        : 2026-07-29 06:40:42Z
+Elapsed seconds : 1.59
+Output files (SHA256):
+  5B0ABE02ACBFD6C9E1AE651B998933B211BB9B0F07D38B09B50D288850E150AC  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\AllEnterpriseApplications_20260728234040.csv
+=====================================================

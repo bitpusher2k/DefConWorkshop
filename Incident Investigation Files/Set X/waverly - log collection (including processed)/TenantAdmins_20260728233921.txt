@@ -1,0 +1,13 @@
+﻿
+Role              : Global Reader
+DisplayName       : Security Reader
+UserPrincipalName : secreader@854jpt.onmicrosoft.com
+Mail              : 
+Id                : 21f41432-2509-43cf-a71f-b7f75731a596
+
+Role              : Global Administrator
+DisplayName       : Vince V
+UserPrincipalName : bitpusher@854jpt.onmicrosoft.com
+Mail              : bitpusher@854jpt.onmicrosoft.com
+Id                : 2da85e45-0c0e-4f90-8587-f770888de158
+

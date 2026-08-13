@@ -1,0 +1,58 @@
+Message-ID: <4def848f-7dd9-4410-aa7a-003041712583@854jpt.onmicrosoft.com>
+Date: Wed, 22 Jul 2026 23:02:27 -0700
+User-Agent: Mozilla Thunderbird
+To: Alex Wilber <AlexW@854jpt.onmicrosoft.com>
+CC: Pradeep Gupta <PradeepG@854jpt.onmicrosoft.com>
+Subject: Re: AS9100 Rev D - Updated Tolerance Documentation Requirements
+References: <6ce562c4-8135-4e15-bc10-bf4023287573@854jpt.onmicrosoft.com>
+In-Reply-To: <6ce562c4-8135-4e15-bc10-bf4023287573@854jpt.onmicrosoft.com>
+From: Henrietta Mueller <HenriettaM@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>Alex, Pradeep,<br><br>I've reviewed the updated AS9100 Rev D req=
+uirements for tolerance documentation. Here's my plan for the QA side:<br><=
+br>1. Inspection checklists - I'm revising our standard inspection checklis=
+t template to include the new &quot;critical dimension justification&quot; =
+field that Rev D requires. Every critical characteristic now needs a docume=
+nted rationale for the inspection method chosen (CMM vs. comparator vs. go/=
+no-go).<br><br>2. SPC requirements - The new revision also tightens the sta=
+tistical process control requirements for key characteristics. We need Cpk =
+data on file for all critical dimensions, not just when the customer reques=
+ts it. I'm working with Miriam to make sure second shift is recording SPC d=
+ata consistently.<br><br>3. Training - I'll need about 2 hours with the ins=
+pection team to walk through the changes. Pradeep, if you can join to expla=
+in the drawing template updates from the engineering side, that would help.=
+<br><br>Target: have all updated checklists and procedures in place by Augu=
+st 15, ahead of our AS9100 surveillance audit in October.<br><br>Henrietta =
+Mueller<br>QA Manager<br>Waverly Industrial Solutions<br><br>On 7/21/2026, =
+9:37:15 PM, &quot;Alex Wilber&quot; &lt;AlexW@854jpt.onmicrosoft.com&gt; wr=
+ote:<br>&gt; Henrietta,
+<br>&gt;=20
+<br>&gt; With the Strato contract bringing us deeper into aerospace, I want=
+ to make sure we're buttoned up on AS9100 Rev D documentation requirements =
+for critical dimensions.
+<br>&gt;=20
+<br>&gt; Specifically, the latest revision requires:
+<br>&gt; - All critical-to-quality (CTQ) dimensions explicitly identified o=
+n drawings with the CTQ symbol
+<br>&gt; - Statistical process control data for CTQ dimensions on productio=
+n parts
+<br>&gt; - First Article Inspection reports per AS9102 for each new part nu=
+mber AND each process change
+<br>&gt;=20
+<br>&gt; Pradeep is updating our drawing templates to include the CTQ desig=
+nation. I need you to review the updated inspection checklists to make sure=
+ we're capturing SPC data at the right intervals.
+<br>&gt;=20
+<br>&gt; Can the three of us sit down for 30 minutes this week to align on =
+the new documentation flow before Strato production starts?
+<br>&gt;=20
+<br>&gt; Alex Wilber
+<br>&gt; Director of Engineering
+<br>&gt; Waverly Industrial Solutions, Inc.
+<br>&gt; </body></html>
+

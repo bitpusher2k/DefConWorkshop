@@ -1,0 +1,55 @@
+Message-ID: <7ed1b6bf-2b7d-43f6-ac0d-c259cbc4ba96@854jpt.onmicrosoft.com>
+Date: Thu, 23 Jul 2026 20:13:36 -0700
+User-Agent: Mozilla Thunderbird
+To: Alex Wilber <AlexW@854jpt.onmicrosoft.com>
+CC: Pradeep Gupta <PradeepG@854jpt.onmicrosoft.com>
+Subject: Re: Rev C Drawing Update - Part #7815
+References: <fb8ceda3-48c9-432e-9ee9-13322f139d7d@854jpt.onmicrosoft.com>
+In-Reply-To: <fb8ceda3-48c9-432e-9ee9-13322f139d7d@854jpt.onmicrosoft.com>
+From: Johanna Lorenz <JohannaL@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>Alex, Pradeep,<br><br>Thanks for the quick turnaround on the rev=
+iew. I'll incorporate both of your notes (datum references on Sheet 2 and t=
+he surface finish callout on the pocket feature) and send the updated Rev C=
+ package to Pacific Auto's engineering team today.<br><br>Their contact for=
+ drawing approvals is Sarah Chen (Quality Engineering Manager). She's usual=
+ly pretty responsive - I'd expect sign-off within a week unless they have a=
+dditional redlines.<br><br>I'll cc you both when I send it so you can see e=
+xactly what goes out. If Pacific Auto comes back with questions on the GD&a=
+mp;T changes I'll loop Pradeep in directly.<br><br>Johanna<br><br>On 7/22/2=
+026, 11:01:58 PM, &quot;Alex Wilber&quot; &lt;AlexW@854jpt.onmicrosoft.com&=
+gt; wrote:<br>&gt; Pradeep,=0D<br>&gt; =0D<br>&gt; Reviewed the Rev C packa=
+ge. Changes look good - the chamfer addition and updated true position call=
+out are exactly what Pacific Auto requested.=0D<br>&gt; =0D<br>&gt; Two not=
+es:=0D<br>&gt; 1. Make sure the GD&amp;T datum references on Sheet 2 are up=
+dated to match the new true position values. I noticed Sheet 1 is correct b=
+ut double-check Sheet 2.=0D<br>&gt; 2. Add the Rev C change summary block t=
+o the title block per our drawing standards (ECN reference, date, descripti=
+on of changes).=0D<br>&gt; =0D<br>&gt; Once those are cleaned up, I'll stam=
+p it approved. CC Johanna so she can get it over to Pacific Auto for their =
+sign-off before we release to production.=0D<br>&gt; =0D<br>&gt; Good work =
+on the turnaround time.=0D<br>&gt; =0D<br>&gt; Alex Wilber=0D<br>&gt; Direc=
+tor of Engineering=0D<br>&gt; Waverly Industrial Solutions=0D<br>&gt; =0D<b=
+r>&gt; On 7/21/2026, 9:36:38 PM, &quot;Pradeep Gupta&quot; &lt;PradeepG@854=
+jpt.onmicrosoft.com&gt; wrote:=0D<br>&gt; &gt; Alex,=0D<br>&gt; &gt;=0D<br>=
+&gt; &gt; I've completed the Rev C update on Part #7815 (Pacific Automotive=
+ mounting plate) per the customer redline we received last week.=0D<br>&gt;=
+ &gt;=0D<br>&gt; &gt; Changes in Rev C:=0D<br>&gt; &gt; - Added 0.015&quot;=
+ chamfer on all edges per customer request=0D<br>&gt; &gt; - Updated true p=
+osition on 4x mounting holes from 0.010&quot; to 0.008&quot;=0D<br>&gt; &gt=
+; - Added surface finish callout of 125 Ra on mating face (was previously u=
+nspecified)=0D<br>&gt; &gt; - Updated material note to reference AMS 4027 i=
+nstead of generic 6061-T6 call=0D<br>&gt; &gt;=0D<br>&gt; &gt; Drawing is s=
+aved to Engineering &gt; Drawings &gt; Pacific-Auto &gt; 7815-RevC.pdf=0D<b=
+r>&gt; &gt;=0D<br>&gt; &gt; Can you review and approve before I send to Joh=
+anna for customer sign-off? The tighter true position shouldn't be an issue=
+ with our current process, but the surface finish callout might require an =
+additional polishing op.=0D<br>&gt; &gt;=0D<br>&gt; &gt; Pradeep Gupta=0D<b=
+r>&gt; &gt; Senior Design Engineer=0D<br>&gt; &gt; Waverly Industrial Solut=
+ions, Inc.=0D<br>&gt; &gt;=0D<br>&gt; </body></html>
+

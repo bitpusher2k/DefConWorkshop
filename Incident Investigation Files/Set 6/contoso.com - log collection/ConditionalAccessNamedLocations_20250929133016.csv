@@ -1,0 +1,5 @@
+"DisplayName","Id","Type","isTrusted","ipRanges","Country","includeUnknownCountriesAndRegions","countryLookupMethod"
+"United States","d58b10fe-66eb-4f7d-8380-2a49d6f71503","countryNamedLocation",,"","US","False","clientIpAddress"
+"Cayman Islands","9233a9a5-27a0-44a5-81ec-37a9ac2e63dd","countryNamedLocation",,"","KY","False","clientIpAddress"
+"Mexico","25465d52-e91f-4ce1-84d1-e6cd9c33fc68","countryNamedLocation",,"","MX","False","clientIpAddress"
+"Costa Rica","25465d52-444d-4e47-8ab1-34b4f94e7e97","countryNamedLocation",,"","CR","False","clientIpAddress"

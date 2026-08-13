@@ -1,0 +1,63 @@
+Message-ID: <c34389f0-d4e5-4864-b70d-ba55bab08830@854jpt.onmicrosoft.com>
+Date: Wed, 22 Jul 2026 22:58:20 -0700
+User-Agent: Mozilla Thunderbird
+To: <AlexW@854jpt.onmicrosoft.com>
+CC: <JohannaL@854jpt.onmicrosoft.com>, <MeganB@854jpt.onmicrosoft.com>
+Subject: Re: RFQ from Pacific Automotive - Transmission Mounting Bracket
+References: <fdc06f77-1da3-4f5c-ab05-f9bf6469d60a@854jpt.onmicrosoft.com>
+In-Reply-To: <fdc06f77-1da3-4f5c-ab05-f9bf6469d60a@854jpt.onmicrosoft.com>
+From: Pradeep Gupta <PradeepG@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>Alex, Johanna,<br><br>I've reviewed the Pacific Auto TMB-2028 dr=
+awings. A few observations:<br><br>1. Material - A356-T6 is a casting alloy=
+. Given the GD&amp;T requirements on this part, I'd strongly recommend we q=
+uote it as a machined-from-billet part in 6061-T6 instead. The true positio=
+n callout of 0.005&quot; on the mounting holes is extremely tight for a cas=
+ting. Machined from billet, it's very achievable for us.<br><br>2. The over=
+all geometry is straightforward - I can program this for our Haas VF-4 in 2=
+ setups. Cycle time estimate: approximately 18 minutes/part.<br><br>3. One =
+concern: the drawing references a proprietary surface treatment spec (PA-ST=
+-2028-Rev.A) that I don't have. Johanna, can you request this from Pacific =
+Auto?<br><br>4. If we quote machined instead of cast, our price point will =
+be higher but the quality will be significantly better. I think we should p=
+osition this as a value-add.<br><br>Rough cost estimate: $38-44/unit at 8,0=
+00/year volume in 6061-T6 machined. I can have a detailed quote breakdown r=
+eady by Monday.<br><br>Pradeep Gupta<br>Senior Design Engineer<br>Waverly I=
+ndustrial Solutions, Inc.<br><br>On 7/21/2026, 9:35:04 PM, &quot;Johanna Lo=
+renz&quot; &lt;JohannaL@854jpt.onmicrosoft.com&gt; wrote:<br>&gt; Alex,
+<br>&gt;=20
+<br>&gt; We received a new RFQ from Pacific Automotive yesterday for a tran=
+smission mounting bracket for their 2028 model year program. I've saved the=
+ drawing package to the shared drive under Sales &gt; RFQs &gt; Pacific-Aut=
+o-TMB-2028.
+<br>&gt;=20
+<br>&gt; Quick overview:
+<br>&gt; - Part: Transmission Mounting Bracket, P/N TM-2028-A
+<br>&gt; - Material: A356-T6 cast aluminum (they're open to machined altern=
+ative)
+<br>&gt; - Annual volume: 8,000 units
+<br>&gt; - Target price: $42-48/unit
+<br>&gt; - RFQ response due: August 8, 2026
+<br>&gt;=20
+<br>&gt; Could you and Pradeep review the drawings and give me a rough asse=
+ssment of manufacturability and any concerns? I need to put together a prel=
+iminary quote by early next week.
+<br>&gt;=20
+<br>&gt; A few things I noticed in the specs that might need discussion:
+<br>&gt; - Some of the GD&amp;T callouts look tight for a casting - might m=
+ake more sense as a machined part
+<br>&gt; - There's a true position callout of 0.005&quot; on the mounting h=
+oles that could be challenging
+<br>&gt;=20
+<br>&gt; Let me know your thoughts when you get a chance.
+<br>&gt;=20
+<br>&gt; Johanna Lorenz
+<br>&gt; Sales Account Manager
+<br>&gt; Waverly Industrial Solutions, Inc.
+<br>&gt; </body></html>
+

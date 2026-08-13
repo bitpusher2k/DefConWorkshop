@@ -1,0 +1,22 @@
+Get-MFAReport started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-28 23:41:11]
+Setting process priority to "Normal"
+
+ The Output file is available at:
+C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\MfaAccountSettingsReport_20260728234111.csv
+Script complete.
+Seconds elapsed for script execution: 11.4049618
+
+Done! Check output path for results.
+
+==================== RUN MANIFEST ====================
+Script          : Get-MFAReport v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : eb174bbc-fe94-4978-95b9-a616457dd489
+Graph scopes    : Agreement.Read.All, Application.Read.All, Application.ReadWrite.All, AppRoleAssignment.ReadWrite.All, AuditLog.Read.All, AuditLogsQuery.Read.All, DelegatedPermissionGrant.Read.All, DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, Domain.Read.All, Files.Read.All, Files.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All, IdentityRiskEvent.Read.All, IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All, Mail.Read, Mail.Send, openid, Organization.Read.All, Organization.ReadWrite.All, Policy.Read.All, Policy.Read.ConditionalAccess, Policy.ReadWrite.ConditionalAccess, profile, Reports.Read.All, RoleManagement.Read.Directory, SecurityEvents.Read.All, SecurityEvents.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All, User.Read, User.Read.All, User.ReadWrite.All, UserAuthenticationMethod.Read.All, UserAuthenticationMethod.ReadWrite.All, email
+UTC start       : 2026-07-29 06:41:11Z
+UTC stop        : 2026-07-29 06:41:22Z
+Elapsed seconds : 11.41
+Output files (SHA256):
+  9A84D0F173088363B04A681832729DC9E67174454C71CC7497B2C45E8F828F30  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\MfaAccountSettingsReport_20260728234111.csv
+=====================================================

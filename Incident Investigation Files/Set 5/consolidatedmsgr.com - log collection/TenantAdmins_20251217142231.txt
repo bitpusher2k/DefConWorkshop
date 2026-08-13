@@ -1,0 +1,13 @@
+
+Role              : Directory Baker5 Accounts
+DisplayName       : On-Premises Garcia Baker5 Service Maria
+UserPrincipalName : sync_joan2-jackson_964824156613@consolidatedmsgr.onmicrosoft.com
+Mail              : 
+Id                : e23390ef-25da-4adb-89bb-2f942efcba07
+
+Role              : Global Administrator
+DisplayName       : Admin
+UserPrincipalName : admin@consolidatedmsgr.microsoftonline.com
+Mail              : admin@consolidatedmsgr.microsoftonline.com
+Id                : 263b1058-d2be-4326-8878-8ce79c878792
+

@@ -1,0 +1,37 @@
+Search-UnifiedAuditLogSignIn started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-28 23:42:09]
+Setting process priority to "Normal"
+
+Script will search UAC between StartDate and EndDate for relevant events.
+StartDate: 07/19/2026 06:39:15 (UTC)
+EndDate: 07/29/2026 06:39:15 (UTC)
+
+Exchange Online PowerShell found
+
+Will search for records related to: ALL user(s)
+
+Total range of days to check for sign-ins: 10
+Getting unified audit logs page 1 - Please wait
+Search-UnifiedAuditLog -StartDate 07/19/2026 06:39:15 -EndDate 07/29/2026 06:39:15 -recordtype azureactivedirectorystslogon -operations userloginfailed userloggedin -SessionId 1252597944 -SessionCommand ReturnLargeSet -resultsize 5000
+Getting unified audit logs page 2 - Please wait
+Search-UnifiedAuditLog -StartDate 07/19/2026 06:39:15 -EndDate 07/29/2026 06:39:15 -recordtype azureactivedirectorystslogon -operations userloginfailed userloggedin -SessionId 1252597944 -SessionCommand ReturnLargeSet -resultsize 5000
+
+ The Output file is available at:
+C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\UnifiedAuditLogSignIns_ALL_between_202607190639_and_202607290639_10_days_Processed.csv
+Script complete.
+Seconds elapsed for script execution: 9.9943706
+
+Done! Check output path for results. If results are empty check that Unified Audit Logging is enabled on the tenant.
+
+==================== RUN MANIFEST ====================
+Script          : Search-UnifiedAuditLogSignIn v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : eb174bbc-fe94-4978-95b9-a616457dd489
+Graph scopes    : Agreement.Read.All, Application.Read.All, Application.ReadWrite.All, AppRoleAssignment.ReadWrite.All, AuditLog.Read.All, AuditLogsQuery.Read.All, DelegatedPermissionGrant.Read.All, DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, Domain.Read.All, Files.Read.All, Files.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All, IdentityRiskEvent.Read.All, IdentityRiskyUser.Read.All, IdentityRiskyUser.ReadWrite.All, Mail.Read, Mail.Send, openid, Organization.Read.All, Organization.ReadWrite.All, Policy.Read.All, Policy.Read.ConditionalAccess, Policy.ReadWrite.ConditionalAccess, profile, Reports.Read.All, RoleManagement.Read.Directory, SecurityEvents.Read.All, SecurityEvents.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All, User.Read, User.Read.All, User.ReadWrite.All, UserAuthenticationMethod.Read.All, UserAuthenticationMethod.ReadWrite.All, email
+UTC start       : 2026-07-29 06:42:08Z
+UTC stop        : 2026-07-29 06:42:18Z
+Elapsed seconds : 10
+Output files (SHA256):
+  D4563D8E325D2795BE55E4DC83315FFB860C10CC10B063CA406A1CE5C9C6B945  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\UnifiedAuditLogSignIns_ALL_between_202607190639_and_202607290639_10_days_Processed.csv
+  ED207414A2F54F39F2D3C6577AAAA151D6107D785AD1C96D0EEA876E06557326  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\UnifiedAuditLogSignIns_ALL_between_202607190639_and_202607290639_10_days.csv
+=====================================================

@@ -1,0 +1,104 @@
+Message-ID: <e009bdbc-b8e8-4d74-bd24-f6efc41483f6@854jpt.onmicrosoft.com>
+Date: Thu, 23 Jul 2026 20:17:18 -0700
+User-Agent: Mozilla Thunderbird
+To: Alex Wilber <AlexW@854jpt.onmicrosoft.com>
+CC: Pradeep Gupta <PradeepG@854jpt.onmicrosoft.com>
+Subject: Re: New Engineering Shared Drive Structure
+References: <156f089b-2e39-47c4-8c5c-5b7b7aa86e8d@854jpt.onmicrosoft.com>
+In-Reply-To: <156f089b-2e39-47c4-8c5c-5b7b7aa86e8d@854jpt.onmicrosoft.com>
+From: Lee Gu <LeeG@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>Alex, Pradeep,<br><br>Done. I've implemented the new folder stru=
+cture on the engineering shared drive. Here's the mapping:<br><br>\\WAVERLY=
+-FS01\Engineering\<br>  |-- _Templates\ (drawing templates, ECN forms, etc.=
+)<br>  |-- _Standards\ (AS9100, ISO 9001 docs)<br>  |-- Customers\<br>  |  =
+   |-- Pacific-Automotive\<br>  |     |     |-- Specifications\<br>  |     =
+|     |-- Drawings\<br>  |     |     |-- Quality-Records\<br>  |     |-- Ae=
+rolinx-Industries\<br>  |     |-- Strato-Dynamics\<br>  |     |-- Meridian-=
+Defense\<br>  |     |-- GreenTech-Motors\<br>  |-- Projects\<br>  |     |--=
+ Active\<br>  |     |-- Archive\<br>  |-- ECN-Log\ (linked to the ECN track=
+ing spreadsheet)<br><br>I've migrated the existing files into the new struc=
+ture. Old file paths will redirect for 30 days, then I'll remove the redire=
+cts.<br><br>Permissions:<br>- Engineering team: full read/write<br>- QA (He=
+nrietta's team): read access to Drawings and Quality-Records<br>- Productio=
+n (Diego, Miriam): read-only on released drawings<br>- Sales (Johanna, Mega=
+n): read-only on customer folders<br><br>Alex - let me know if you want any=
+ changes to the permissions model. I've also set up nightly backups to our =
+offsite storage.<br><br>Lee<br><br>On 7/22/2026, 11:08:49 PM, &quot;Alex Wi=
+lber&quot; &lt;AlexW@854jpt.onmicrosoft.com&gt; wrote:<br>&gt; Lee, Pradeep=
+,
+<br>&gt;=20
+<br>&gt; The folder structure looks good. A few additions I'd like to see:
+<br>&gt;=20
+<br>&gt; 1. Under each customer folder, can we add a &quot;Specifications&q=
+uot; subfolder? We get a lot of customer-specific specs (material callouts,=
+ packaging requirements, surface finish standards) that don't belong in the=
+ part-specific folders but need to be easy to find.
+<br>&gt;=20
+<br>&gt; 2. Under _Templates, add a folder for &quot;Fixture Drawings&quot;=
+ - we've been inconsistent about where these go and the shop floor guys nee=
+d to find them quickly.
+<br>&gt;=20
+<br>&gt; 3. Archive structure - can we keep the old folder structure access=
+ible as read-only for 90 days? Some of our automation scripts reference the=
+ old paths and Pradeep and I need time to update them.
+<br>&gt;=20
+<br>&gt; 4. Access permissions - engineering and quality need full read/wri=
+te. Shop floor supervisors (Diego, Miriam) need read access to released dra=
+wings only. Production should NOT have access to the &quot;In Work&quot; fo=
+lders - we've had issues with operators grabbing unreleased drawings.
+<br>&gt;=20
+<br>&gt; Pradeep - can you help Lee map the existing files to the new struc=
+ture? You know where everything is better than anyone.
+<br>&gt;=20
+<br>&gt; Alex
+<br>&gt;=20
+<br>&gt; On 7/21/2026, 9:39:48 PM, &quot;Lee Gu&quot; &lt;LeeG@854jpt.onmic=
+rosoft.com&gt; wrote:
+<br>&gt; &gt; Alex, Pradeep,
+<br>&gt; &gt;
+<br>&gt; &gt; I'm restructuring the engineering file server this week to be=
+tter organize project files, especially with the new Strato work coming in.
+<br>&gt; &gt;
+<br>&gt; &gt; Proposed new folder structure:
+<br>&gt; &gt; \\WAVERLY-FS01\Engineering\
+<br>&gt; &gt; |-- Customers\
+<br>&gt; &gt; | |-- Aerolinx\
+<br>&gt; &gt; | |-- Pacific-Automotive\
+<br>&gt; &gt; | |-- Strato-Dynamics\
+<br>&gt; &gt; | |-- [other customers]\
+<br>&gt; &gt; |-- Standards\
+<br>&gt; &gt; | |-- AMS\
+<br>&gt; &gt; | |-- ASME\
+<br>&gt; &gt; | |-- AS9100\
+<br>&gt; &gt; |-- Templates\
+<br>&gt; &gt; | |-- Drawing-Templates\
+<br>&gt; &gt; | |-- ECN-Templates\
+<br>&gt; &gt; | |-- FAI-Templates\
+<br>&gt; &gt; |-- Archive\
+<br>&gt; &gt; | |-- [completed projects by year]\
+<br>&gt; &gt;
+<br>&gt; &gt; Each customer folder would have subfolders for: Drawings, Spe=
+cs, Correspondence, and Quality Records.
+<br>&gt; &gt;
+<br>&gt; &gt; This replaces the current flat structure where everything is =
+dumped into a single &quot;Drawings&quot; folder with 3,000+ files.
+<br>&gt; &gt;
+<br>&gt; &gt; Alex - does this structure work for your team? Anything you'd=
+ add or change? I'll handle the migration, but I need you to verify the fil=
+e mapping when it's done.
+<br>&gt; &gt;
+<br>&gt; &gt; I'm planning to do the migration during the ERP downtime week=
+end (Aug 2-3) since the engineering team won't be in.
+<br>&gt; &gt;
+<br>&gt; &gt; Lee Gu
+<br>&gt; &gt; IT Manager
+<br>&gt; &gt; Waverly Industrial Solutions, Inc.
+<br>&gt; &gt;
+<br>&gt; </body></html>
+

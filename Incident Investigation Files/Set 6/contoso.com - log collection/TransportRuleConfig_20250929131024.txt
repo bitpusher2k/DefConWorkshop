@@ -1,0 +1,43 @@
+
+Name                             State   Wood25    Priority IsRuleConfigurationSupported Comments
+----                             -----   ----    -------- ---------------------------- --------
+JR Torres23 Created                  Enabled Enforce 0        True                        
+                                                                                      
+Torres23 Created                     Enabled Enforce 1        True                        
+                                                                                      
+Spoof rule - Hosted quarantine   Enabled Enforce 2        True                        
+                                                                                      
+JR Loan Uploads                  Enabled Enforce 3        True                        
+                                                                                      
+Catherine33 Packages               Enabled Enforce 4        True                        
+                                                                                      
+Sandoval19 - Alexander18 and Stephanie23    Enabled Enforce 5        True                         
+ePN Recordings - Melissa28 Nathan38 Enabled Enforce 6        True                         
+ePN Recordings - Andrew36 Donna15    Enabled Enforce 7        True                         
+Office Email Forwards            Enabled Enforce 8        True                        
+                                                                                      
+External Senders Deletion        Enabled Enforce 9        True                        
+                                                                                      
+Morgan50 - To                       Enabled Enforce 10       True                        
+                                                                                      
+Morgan50 - CC                       Enabled Enforce 11       True                        
+                                                                                      
+Morgan50 - BCC                      Enabled Enforce 12       True                        
+                                                                                      
+Donna15 Corp                     Enabled Enforce 13       True                        
+                                                                                      
+Powell33 Support Emails          Enabled Enforce 14       True                        
+                                                                                      
+Powell33 Support Email Responses Enabled Enforce 15       True                        
+                                                                                      
+Jonathan24 Internal                    Enabled Enforce 16       True                        
+                                                                                      
+Betty12 Cooper26 Rules          Enabled Enforce 17       True                        
+                                                                                      
+Betty12 Cooper26 Responses      Enabled Enforce 18       True                        
+                                                                                      
+Accounting Emails                Enabled Enforce 19       True                        
+                                                                                      
+Accounting Email Responses       Enabled Enforce 20       True                        
+                                                                                      
+

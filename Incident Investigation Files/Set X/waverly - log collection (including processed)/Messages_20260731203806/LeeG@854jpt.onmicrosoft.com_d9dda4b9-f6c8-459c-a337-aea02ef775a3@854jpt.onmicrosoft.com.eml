@@ -1,0 +1,96 @@
+Message-ID: <d9dda4b9-f6c8-459c-a337-aea02ef775a3@854jpt.onmicrosoft.com>
+Date: Thu, 23 Jul 2026 20:17:28 -0700
+User-Agent: Mozilla Thunderbird
+To: Grady Archie <GradyA@854jpt.onmicrosoft.com>
+CC: Joni Sherman <JoniS@854jpt.onmicrosoft.com>, Patti Fernandez
+	<PattiF@854jpt.onmicrosoft.com>
+Subject: Re: VPN Access Setup for Hybrid Work Policy
+References: <a68c06a0-67eb-4b78-9a87-927c3a97a5a7@854jpt.onmicrosoft.com>
+In-Reply-To: <a68c06a0-67eb-4b78-9a87-927c3a97a5a7@854jpt.onmicrosoft.com>
+From: Lee Gu <LeeG@854jpt.onmicrosoft.com>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body>Grady, Joni, Patti,<br><br>Understood. Here's my deployment plan=
+ for the VPN and remote work infrastructure:<br><br>Week 1 (July 28 - Aug 1=
+):<br>- Procure Cisco AnyConnect licenses (15 users initially) - $2,850/yea=
+r<br>- Configure VPN concentrator with split-tunnel policies<br>- Set up co=
+nditional access policies in Azure AD (block access from non-compliant devi=
+ces)<br><br>Week 2 (Aug 4-8):<br>- Laptop audit - verify all remote-eligibl=
+e employees have company-managed devices with TPM 2.0<br>- Push BitLocker e=
+ncryption to any machines that don't have it<br>- Deploy endpoint detection=
+ (CrowdStrike Falcon) to all remote-eligible devices<br><br>Week 3 (Aug 11-=
+15):<br>- User enrollment sessions (30 min per person)<br>- Test VPN connec=
+tivity and application access<br>- Document troubleshooting procedures for =
+the help desk<br><br>Total IT budget for the remote work rollout: approxima=
+tely $8,200 for Year 1 (licenses + hardware upgrades for 3 laptops that nee=
+d replacement).<br><br>Patti - I'll send you the detailed PO request by Mon=
+day.<br><br>Lee<br><br>On 7/22/2026, 11:09:02 PM, &quot;Grady Archie&quot; =
+&lt;GradyA@854jpt.onmicrosoft.com&gt; wrote:<br>&gt; Lee, Joni, Patti,
+<br>&gt;=20
+<br>&gt; Approved. Go ahead with the VPN setup and the laptop upgrades for =
+eligible remote workers.
+<br>&gt;=20
+<br>&gt; A few conditions:
+<br>&gt; 1. Remote work is a privilege, not a right. If productivity drops,=
+ we pull the plug. Managers need to have clear expectations set with their =
+teams.
+<br>&gt; 2. No customer data (drawings, specs, pricing) on personal devices=
+. Period. If someone needs to work from home, they use a company laptop wit=
+h full disk encryption.
+<br>&gt; 3. I want a 90-day pilot before we make this permanent. Track prod=
+uctivity metrics and any security incidents. We revisit in October.
+<br>&gt; 4. Shop floor, warehouse, and quality inspection roles are not eli=
+gible. These are on-site jobs.
+<br>&gt;=20
+<br>&gt; Patti - approve the PO for the VPN licenses and laptop upgrades ou=
+t of the IT budget. If it exceeds the quarterly IT allocation, we'll do a b=
+udget transfer from the general admin line.
+<br>&gt;=20
+<br>&gt; Lee - have the VPN deployed and tested by August 15. Coordinate wi=
+th Joni on who's eligible.
+<br>&gt;=20
+<br>&gt; Grady Archie
+<br>&gt; President &amp; CEO
+<br>&gt;=20
+<br>&gt; On 7/21/2026, 9:39:58 PM, &quot;Lee Gu&quot; &lt;LeeG@854jpt.onmic=
+rosoft.com&gt; wrote:
+<br>&gt; &gt; Joni, Grady, Patti,
+<br>&gt; &gt;
+<br>&gt; &gt; Following up on the new hybrid work policy. I've put together=
+ the IT requirements for enabling secure remote access.
+<br>&gt; &gt;
+<br>&gt; &gt; What we need:
+<br>&gt; &gt; 1. Fortinet FortiClient VPN licenses - $45/user/year
+<br>&gt; &gt; 2. Eligible remote workers (office staff): approximately 12 u=
+sers
+<br>&gt; &gt; 3. Annual cost: $540 for VPN licenses
+<br>&gt; &gt; 4. One-time setup: approximately 8 hours of my time for confi=
+guration and user enrollment
+<br>&gt; &gt;
+<br>&gt; &gt; Security requirements I'd like to enforce for remote access:
+<br>&gt; &gt; - MFA required for all VPN connections (aligns with our new M=
+FA rollout)
+<br>&gt; &gt; - Company-managed devices only (no personal computers)
+<br>&gt; &gt; - Split-tunnel disabled (all traffic routes through our firew=
+all when connected)
+<br>&gt; &gt; - Session timeout after 8 hours of inactivity
+<br>&gt; &gt; - No access to shop floor control systems from VPN (productio=
+n network stays air-gapped)
+<br>&gt; &gt;
+<br>&gt; &gt; I'd also recommend we have employees sign a remote work IT ag=
+reement acknowledging they'll keep their home workspace secure and not let =
+family members use company equipment.
+<br>&gt; &gt;
+<br>&gt; &gt; Grady - are you comfortable with these security parameters? I=
+ want to make sure we're locked down before we open this up.
+<br>&gt; &gt;
+<br>&gt; &gt; Lee Gu
+<br>&gt; &gt; IT Manager
+<br>&gt; &gt; Waverly Industrial Solutions, Inc.
+<br>&gt; &gt;
+<br>&gt; </body></html>
+

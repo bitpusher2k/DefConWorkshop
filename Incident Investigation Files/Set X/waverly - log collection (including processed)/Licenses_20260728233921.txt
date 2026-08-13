@@ -1,0 +1,14 @@
+﻿
+AccountId            : eb174bbc-fe94-4978-95b9-a616457dd489
+AccountName          : 854jpt
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 17
+Id                   : eb174bbc-fe94-4978-95b9-a616457dd489_c42b9cae-ea4f-4ab7-9717-81576235ccac
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {REMOTE_HELP, Intune-MAMTunnel, Intune-EPM, Intune_ServiceNow…}
+SkuId                : c42b9cae-ea4f-4ab7-9717-81576235ccac
+SkuPartNumber        : DEVELOPERPACK_E5
+SubscriptionIds      : {a6a0f8b7-7932-47d3-bc2a-3c3719c38d0e}
+AdditionalProperties : {}
+

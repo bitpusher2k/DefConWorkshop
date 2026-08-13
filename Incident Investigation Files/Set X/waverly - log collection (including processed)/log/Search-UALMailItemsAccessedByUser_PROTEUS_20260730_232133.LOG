@@ -1,0 +1,41 @@
+Search-UALMailItemsAccessedByUser started on PROTEUS by PROTEUS\Bitpusher at  [2026-07-30 23:21:57]
+Setting process priority to "Normal"
+Output base path will be in C:\Users\Bitpusher\Desktop\Investigation
+Domain sub-directory will be "854jpt.onmicrosoft.com"
+
+Script will search UAC 20 days back from today for relevant events.
+StartDate: 07/11/2026 06:22:21 (UTC)
+EndDate: 07/31/2026 06:22:21 (UTC)
+
+Number of MailItemsAccessed events logged for specified user(s) during time range: 1.
+
+Search-UnifiedAuditLog -StartDate 07/11/2026 06:22:21 -EndDate 07/31/2026 06:22:21 -UserIds pattif@854jpt.onmicrosoft.com -Operations ("MailItemsAccessed","MessageBind","FolderBind") -SessionId 2138453056 -SessionCommand ReturnLargeSet -ResultSize 5000
+Getting unified audit logs page 1 - Please wait
+Getting unified audit logs page 2 - Please wait
+
+Matching activities found in the audit log - Saving to file...
+
+Processing AuditData block of each row...
+
+Processed a total of 75 rows.
+
+See user activities report in the output path.
+
+Script complete.
+Seconds elapsed for script execution: 69.5491747
+
+Done! Check output path for results.
+
+==================== RUN MANIFEST ====================
+Script          : Search-UALMailItemsAccessedByUser v5.0.0 - DEF CON edition - last updated 2026-08-05
+Operator        : PROTEUS\Bitpusher
+Computer        : PROTEUS
+Tenant          : 854jpt.onmicrosoft.com
+Graph scopes    : (no Microsoft Graph session)
+UTC start       : 2026-07-31 06:21:33Z
+UTC stop        : 2026-07-31 06:22:43Z
+Elapsed seconds : 70.35
+Output files (SHA256):
+  194A6423E7B2C0EA6DD9EC019A7A8196B66A99E24D5BB5E32561026547242BA7  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\MailItemsAccessedUALEntries_pattif@854jpt.onmicrosoft.com_From_20260711062221UTC_To_20260731062221UTC_Processed.csv
+  6DD5FA04AF13944E709367B4173202E3ED66983640E21BF682ED92921D1DEE80  C:\Users\Bitpusher\Desktop\Investigation\854jpt.onmicrosoft.com\MailItemsAccessedUALEntries_pattif@854jpt.onmicrosoft.com_From_20260711062221UTC_To_20260731062221UTC.csv
+=====================================================

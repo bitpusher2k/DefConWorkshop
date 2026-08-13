@@ -1,0 +1,5 @@
+"History","Id","IsDeleted","IsProcessing","RiskDetail","RiskLastUpdatedDateTime","RiskLevel","RiskState","UserDisplayName","UserPrincipalName","AdditionalProperties"
+,"2da85e45-0c0e-4f90-8587-f770888de158","False","False","userPerformedSecuredPasswordReset","2026-04-17 01:58:50","none","remediated","Vince V","bitpusher@854jpt.onmicrosoft.com","System.Collections.Generic.Dictionary`2[System.String,System.Object]"
+,"c561afd8-dc7e-4684-b3d2-95f9a71db908","False","False","none","2026-07-24 08:35:43","medium","atRisk","Diego Siciliani","DiegoS@854jpt.onmicrosoft.com","System.Collections.Generic.Dictionary`2[System.String,System.Object]"
+,"33a120c1-a818-4fd7-8045-c6a29a2bc165","False","False","none","2026-07-24 09:14:03","medium","atRisk","Pradeep Gupta","PradeepG@854jpt.onmicrosoft.com","System.Collections.Generic.Dictionary`2[System.String,System.Object]"
+,"1bd04873-b0e9-4e06-b762-ef4f65f724c9","False","False","none","2026-07-24 09:15:23","none","dismissed","Patti Fernandez","PattiF@854jpt.onmicrosoft.com","System.Collections.Generic.Dictionary`2[System.String,System.Object]"

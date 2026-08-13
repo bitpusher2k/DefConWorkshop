@@ -1,0 +1,22 @@
+
+Name                                                   State   Paul3    Priority IsRuleConfigurationSupported Comments
+----                                                   -----   ----    -------- ---------------------------- --------
+Rivera emails                                         Enabled Enforce 0        True                        
+                                                                                                            
+Visual Cue - External to Organization                  Enabled Enforce 1        True                         
+Client Rules To External Block - Secure White4 7/4/2018 Enabled Enforce 2        True                         Generated
+                                                                                                             by Secure
+                                                                                                             White4 on
+                                                                                                             7/4/2018.
+                                                                                                             To add
+                                                                                                             exceptions
+                                                                                                             for
+                                                                                                             paul
+                                                                                                             reasons,
+                                                                                                             please
+                                                                                                             modify
+                                                                                                             this Rules
+                                                                                                             whitelist
+Encryption: Encrypt Outbound Messages                  Enabled Enforce 3        True                        
+                                                                                                            
+

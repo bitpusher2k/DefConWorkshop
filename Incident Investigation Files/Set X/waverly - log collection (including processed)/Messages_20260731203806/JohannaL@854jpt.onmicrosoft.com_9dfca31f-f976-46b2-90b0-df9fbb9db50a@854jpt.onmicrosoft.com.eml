@@ -1,0 +1,87 @@
+Received: from BY5PR10MB4354.namprd10.prod.outlook.com (2603:10b6:a03:20c::18)
+ by CH0PR10MB7497.namprd10.prod.outlook.com with HTTPS; Wed, 22 Jul 2026
+ 04:36:40 +0000
+Received: from SA2PR10MB4651.namprd10.prod.outlook.com (2603:10b6:806:11e::22)
+ by BY5PR10MB4354.namprd10.prod.outlook.com (2603:10b6:a03:20c::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.245.10; Wed, 22 Jul
+ 2026 04:36:38 +0000
+Received: from SA2PR10MB4651.namprd10.prod.outlook.com
+ ([fe80::4afe:5de6:c85d:b056]) by SA2PR10MB4651.namprd10.prod.outlook.com
+ ([fe80::4afe:5de6:c85d:b056%4]) with mapi id 15.21.0245.009; Wed, 22 Jul 2026
+ 04:36:38 +0000
+From: Pradeep Gupta <PradeepG@854jpt.onmicrosoft.com>
+To: Alex Wilber <AlexW@854jpt.onmicrosoft.com>
+CC: Johanna Lorenz <JohannaL@854jpt.onmicrosoft.com>
+Subject: Rev C Drawing Update - Part #7815
+Thread-Topic: Rev C Drawing Update - Part #7815
+Thread-Index: AQHdGZOvWZY/UseDkEGar71c1y8YYQ==
+Date: Wed, 22 Jul 2026 04:36:38 +0000
+Message-ID: <9dfca31f-f976-46b2-90b0-df9fbb9db50a@854jpt.onmicrosoft.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: SA2PR10MB4651.namprd10.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	c2825491-9d11-482e-83de-08dee7aad1b2
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930201)(20251009189)(140003);
+X-Microsoft-Antispam-Message-Info:
+	du0jbGzqoj3pj2BBN2m0QruATm3wVHkVfKugRtCUwV3lmPy78WGDM+TlZK9auoGLyq6NGUhcVGnLkj5CVWfTQRcE5c6hjlH64QL1V7Ak0a7brhqD6K9y8KLzZv/hmjtULgV0Yf2wNvDMFzS+D7/eu/03Lsn4PZCWVyi1WrR+/Dcd+UxbK81khGmZLopgV6CnmQTPBbmISbJl0jHVO019QMArKvoX19JLxhk3o5yhg17Ki2t24z6Hh1qk+zN1Q7UtBgkuJLvZRNSF+JlW7JZFv5vSg6stryC1ZFd1IevTI79Pw9IuBFZwk3q0w5sHN968EKdtNIyxVJFtxZRXGDSDGp7CovMn8JQj8ae8cjjSAoNWGJ0JfqBEc2sb5w7HbhUioUCLJsjPbEvX1xO1DXYAmsQCpwlB4kG9i9wygkUxIHTzMfZxkgUCuhjTi3nb848c0oX0+RATk2kuF4Uv3s+JGQvFrQJU68VuDTD3TTUWioPwc7QIbwei5lsLfbD9VD87HFjnBCVI0b5nmLFO4Dil+IJ+BYAXIdNrA/pDfT221PgwD3hL02tdRCux099AV8ulKL7RpMdtnP1zEZFYWXo4kdRmQTMPfugIbDn1enXeJUMIuu/U9Eg17qppI1eAiAVXiQDj9/2MbPKTuba2aZaJapgdPZ1PrUwq2+QwxG/6XVyph2wFeb/sanQxmIuZOuLV42xZZAaLhAIXLLuV5EEMQzP078ALgstOn8KRLb5mlFsIHD+6EreEDCRT+3osBBxBV9DtCGz9Nwbamxiy1Zo18V9EYxYvPBHtjQ6wuOnoVX2SFDBCzqIFe9wSLhITMpCm
+Content-Type: multipart/alternative;
+	boundary="_000_9dfca31ff97646b290b0df9fbb9db50a854jptonmicrosoftcom_"
+MIME-Version: 1.0
+
+--_000_9dfca31ff97646b290b0df9fbb9db50a854jptonmicrosoftcom_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+QWxleCwNCg0KSSd2ZSBjb21wbGV0ZWQgdGhlIFJldiBDIHVwZGF0ZSBvbiBQYXJ0ICM3ODE1IChQ
+YWNpZmljIEF1dG9tb3RpdmUgbW91bnRpbmcgcGxhdGUpIHBlciB0aGUgY3VzdG9tZXIgcmVkbGlu
+ZSB3ZSByZWNlaXZlZCBsYXN0IHdlZWsuDQoNCkNoYW5nZXMgaW4gUmV2IEM6DQotIEFkZGVkIDAu
+MDE1IiBjaGFtZmVyIG9uIGFsbCBlZGdlcyBwZXIgY3VzdG9tZXIgcmVxdWVzdA0KLSBVcGRhdGVk
+IHRydWUgcG9zaXRpb24gb24gNHggbW91bnRpbmcgaG9sZXMgZnJvbSAwLjAxMCIgdG8gMC4wMDgi
+DQotIEFkZGVkIHN1cmZhY2UgZmluaXNoIGNhbGxvdXQgb2YgMTI1IFJhIG9uIG1hdGluZyBmYWNl
+ICh3YXMgcHJldmlvdXNseSB1bnNwZWNpZmllZCkNCi0gVXBkYXRlZCBtYXRlcmlhbCBub3RlIHRv
+IHJlZmVyZW5jZSBBTVMgNDAyNyBpbnN0ZWFkIG9mIGdlbmVyaWMgNjA2MS1UNiBjYWxsDQoNCkRy
+YXdpbmcgaXMgc2F2ZWQgdG8gRW5naW5lZXJpbmcgPiBEcmF3aW5ncyA+IFBhY2lmaWMtQXV0byA+
+IDc4MTUtUmV2Qy5wZGYNCg0KQ2FuIHlvdSByZXZpZXcgYW5kIGFwcHJvdmUgYmVmb3JlIEkgc2Vu
+ZCB0byBKb2hhbm5hIGZvciBjdXN0b21lciBzaWduLW9mZj8gVGhlIHRpZ2h0ZXIgdHJ1ZSBwb3Np
+dGlvbiBzaG91bGRuJ3QgYmUgYW4gaXNzdWUgd2l0aCBvdXIgY3VycmVudCBwcm9jZXNzLCBidXQg
+dGhlIHN1cmZhY2UgZmluaXNoIGNhbGxvdXQgbWlnaHQgcmVxdWlyZSBhbiBhZGRpdGlvbmFsIHBv
+bGlzaGluZyBvcC4NCg0KUHJhZGVlcCBHdXB0YQ0KU2VuaW9yIERlc2lnbiBFbmdpbmVlcg0KV2F2
+ZXJseSBJbmR1c3RyaWFsIFNvbHV0aW9ucywgSW5jLg0K
+
+--_000_9dfca31ff97646b290b0df9fbb9db50a854jptonmicrosoftcom_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <CB67119BAA45964EBAC59E53F6287557@namprd10.prod.outlook.com>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5Pg0KQWxleCw8YnI+DQo8
+YnI+DQpJJ3ZlIGNvbXBsZXRlZCB0aGUgUmV2IEMgdXBkYXRlIG9uIFBhcnQgIzc4MTUgKFBhY2lm
+aWMgQXV0b21vdGl2ZSBtb3VudGluZyBwbGF0ZSkgcGVyIHRoZSBjdXN0b21lciByZWRsaW5lIHdl
+IHJlY2VpdmVkIGxhc3Qgd2Vlay48YnI+DQo8YnI+DQpDaGFuZ2VzIGluIFJldiBDOjxicj4NCi0g
+QWRkZWQgMC4wMTUmcXVvdDsgY2hhbWZlciBvbiBhbGwgZWRnZXMgcGVyIGN1c3RvbWVyIHJlcXVl
+c3Q8YnI+DQotIFVwZGF0ZWQgdHJ1ZSBwb3NpdGlvbiBvbiA0eCBtb3VudGluZyBob2xlcyBmcm9t
+IDAuMDEwJnF1b3Q7IHRvIDAuMDA4JnF1b3Q7PGJyPg0KLSBBZGRlZCBzdXJmYWNlIGZpbmlzaCBj
+YWxsb3V0IG9mIDEyNSBSYSBvbiBtYXRpbmcgZmFjZSAod2FzIHByZXZpb3VzbHkgdW5zcGVjaWZp
+ZWQpPGJyPg0KLSBVcGRhdGVkIG1hdGVyaWFsIG5vdGUgdG8gcmVmZXJlbmNlIEFNUyA0MDI3IGlu
+c3RlYWQgb2YgZ2VuZXJpYyA2MDYxLVQ2IGNhbGw8YnI+DQo8YnI+DQpEcmF3aW5nIGlzIHNhdmVk
+IHRvIEVuZ2luZWVyaW5nICZndDsgRHJhd2luZ3MgJmd0OyBQYWNpZmljLUF1dG8gJmd0OyA3ODE1
+LVJldkMucGRmPGJyPg0KPGJyPg0KQ2FuIHlvdSByZXZpZXcgYW5kIGFwcHJvdmUgYmVmb3JlIEkg
+c2VuZCB0byBKb2hhbm5hIGZvciBjdXN0b21lciBzaWduLW9mZj8gVGhlIHRpZ2h0ZXIgdHJ1ZSBw
+b3NpdGlvbiBzaG91bGRuJ3QgYmUgYW4gaXNzdWUgd2l0aCBvdXIgY3VycmVudCBwcm9jZXNzLCBi
+dXQgdGhlIHN1cmZhY2UgZmluaXNoIGNhbGxvdXQgbWlnaHQgcmVxdWlyZSBhbiBhZGRpdGlvbmFs
+IHBvbGlzaGluZyBvcC48YnI+DQo8YnI+DQpQcmFkZWVwIEd1cHRhPGJyPg0KU2VuaW9yIERlc2ln
+biBFbmdpbmVlcjxicj4NCldhdmVybHkgSW5kdXN0cmlhbCBTb2x1dGlvbnMsIEluYy4NCjwvYm9k
+eT4NCjwvaHRtbD4NCg==
+
+--_000_9dfca31ff97646b290b0df9fbb9db50a854jptonmicrosoftcom_--
+

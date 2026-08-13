@@ -1,0 +1,92 @@
+
+AccountId            : 9fc57536-e8d3-4117-8537-fc27bc714352
+AccountName          : CONSOLIDATEDMSGR
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 9fc57536-e8d3-4117-8537-fc27bc714352_70c3c4bb-a393-4e18-8827-bf6f27f590e7
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {ADALLOM_S_ANTHONY, EXCHANGE_S_FOUNDATION, AAD_PREMIUM, MFA_PREMIUM}
+SkuId                : 70c3c4bb-a393-4e18-8827-bf6f27f590e7
+SkuPartNumber        : AAD_PREMIUM
+SubscriptionIds      : {9c876467-e0d4-4657-82c8-2537738deeed}
+AdditionalProperties : {}
+
+AccountId            : 9fc57536-e8d3-4117-8537-fc27bc714352
+AccountName          : CONSOLIDATEDMSGR
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 9fc57536-e8d3-4117-8537-fc27bc714352_cf49d923-0fa4-46ed-849c-010daef73fb1
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {SPECIALTY_DEVICES, Teams_Jimenez2_Pro, WINDEFATP, Teams_Morales2_Pro…}
+SkuId                : cf49d923-0fa4-46ed-849c-010daef73fb1
+SkuPartNumber        : Microsoft_Teams_Jimenez2_Pro
+SubscriptionIds      : {6a9859cd-2ca6-43d0-86b3-532e48de6438}
+AdditionalProperties : {}
+
+AccountId            : 9fc57536-e8d3-4117-8537-fc27bc714352
+AccountName          : CONSOLIDATEDMSGR
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 9fc57536-e8d3-4117-8537-fc27bc714352_33759f4a-1bff-4655-8d31-404091fad033
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {TAYLOR_BROOKS2}
+SkuId                : 33759f4a-1bff-4655-8d31-404091fad033
+SkuPartNumber        : TAYLOR_BROOKS2
+SubscriptionIds      : {611a114b-ab90-4172-8b64-d513b82d5b2d}
+AdditionalProperties : {}
+
+AccountId            : 9fc57536-e8d3-4117-8537-fc27bc714352
+AccountName          : CONSOLIDATEDMSGR
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 9fc57536-e8d3-4117-8537-fc27bc714352_c4f44973-ebd4-4be4-806d-b96841e74051
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {EXCHANGE_S_FOUNDATION, DYN365_BENNETT_VIRAL, FLOW_P2_VIRAL}
+SkuId                : c4f44973-ebd4-4be4-806d-b96841e74051
+SkuPartNumber        : FLOW_FREE
+SubscriptionIds      : {0204c572-ba89-46fd-8322-72c63683fca5}
+AdditionalProperties : {}
+
+AccountId            : 9fc57536-e8d3-4117-8537-fc27bc714352
+AccountName          : CONSOLIDATEDMSGR
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 15
+Id                   : 9fc57536-e8d3-4117-8537-fc27bc714352_f48b172b-c1ee-40da-84dd-a46832ddd0e1
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {INSIGHTS_BY_MYANALYTICS, MICROSOFT_MYANALYTICS_FULL, JAMES8_JOYCE5_FOUNDATION, PLACES_CORE…}
+SkuId                : f48b172b-c1ee-40da-84dd-a46832ddd0e1
+SkuPartNumber        : SPB
+SubscriptionIds      : {71079e1c-cd72-4102-8b9a-2a6b8aa93308}
+AdditionalProperties : {}
+
+AccountId            : 9fc57536-e8d3-4117-8537-fc27bc714352
+AccountName          : CONSOLIDATEDMSGR
+AppliesTo            : User
+CapabilityStatus     : Enabled
+ConsumedUnits        : 1
+Id                   : 9fc57536-e8d3-4117-8537-fc27bc714352_36b3d793-40fe-44e3-8ea0-91c4ecf03175
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {M365_DANIEL4_WALKER_PLAN1, BPOS_S_ERIC6_1, INTUNE_O365, EXCHANGE_S_STANDARD}
+SkuId                : 36b3d793-40fe-44e3-8ea0-91c4ecf03175
+SkuPartNumber        : EXCHANGESTANDARD
+SubscriptionIds      : {8867669d-0222-4668-8cda-7ca5014a4f39}
+AdditionalProperties : {}
+
+AccountId            : 9fc57536-e8d3-4117-8537-fc27bc714352
+AccountName          : CONSOLIDATEDMSGR
+AppliesTo            : User
+CapabilityStatus     : LockedOut
+ConsumedUnits        : 0
+Id                   : 9fc57536-e8d3-4117-8537-fc27bc714352_e4650801-f668-4233-8c82-56baaff8b060
+PrepaidUnits         : Microsoft.Graph.PowerShell.Models.MicrosoftGraphLicenseUnitsDetail
+ServicePlans         : {INSIGHTS_BY_MYANALYTICS, MICROSOFT_MYANALYTICS_FULL, JAMES8_JOYCE5_FOUNDATION, PLACES_CORE…}
+SkuId                : e4650801-f668-4233-8c82-56baaff8b060
+SkuPartNumber        : O365_PAUL_PREMIUM
+SubscriptionIds      : {175febeb-fd6c-4df2-8d6f-aa2c8dbbce28}
+AdditionalProperties : {}
+

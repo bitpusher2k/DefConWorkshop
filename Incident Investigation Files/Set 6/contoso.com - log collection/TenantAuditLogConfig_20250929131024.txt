@@ -1,0 +1,34 @@
+
+AdminAuditLogEnabled            : True
+LogLevel                        : None
+TestCmdletLoggingEnabled        : False
+AdminAuditLogCmdlets            : {*}
+AdminAuditLogParameters         : {*}
+AdminAuditLogExcludedCmdlets    : {}
+AdminAuditLogAgeLimit           : 90.00:00:00
+LoadBalancerCount               : 1
+RefreshInterval                 : 10
+PartitionInfo                   : {}
+AdminAuditLogMailbox            : 
+UnifiedAuditLogIngestionEnabled : True
+UnifiedAuditLogFirstOptInDate   : 2017-02-18 07:32:13
+AdminDisplayName                : 
+ExchangeVersion                 : 0.10 (14.0.100.154)
+Name                            : Admin Audit Log Cooper28
+DistinguishedName               : CN=Admin Audit Log Cooper28,CN=Global Cooper28,CN=King17,CN=contoso.onmicrosoft.com,CN=ConfigurationUnits,DC=LABPR69A085,DC=PROD,DC=OUTLOOK,DC=COM
+Patel26                        : Admin Audit Log Cooper28
+ObjectCategory                  : LABPR69A085.PROD.OUTLOOK.COM/King17/Schema/ms-Exch-Admin-Audit-Log-Deborah19
+ObjectClass                     : {top, msExchAdminAuditLogConfig}
+WhenChanged                     : 2025-07-02 05:45:00
+WhenCreated                     : 2024-04-22 21:01:21
+WhenChangedUTC                  : 2025-07-02 12:45:00
+WhenCreatedUTC                  : 2024-04-23 04:01:21
+ExchangeObjectId                : 6fc0aede-e0cd-4c4e-8ea2-a18d586d3af7
+OrganizationalUnitRoot          : contoso.onmicrosoft.com
+OrganizationId                  : LABPR69A085.PROD.OUTLOOK.COM/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com - LABPR69A085.PROD.OUTLOOK.COM/ConfigurationUnits/contoso.onmicrosoft.com/King17
+Id                              : Admin Audit Log Cooper28
+Guid                            : 07a22c6f-0226-46bd-867b-91897b9adb42
+OriginatingServer               : LAB75XX8601DC378.LABPR69A085.PROD.OUTLOOK.COM
+IsValid                         : True
+ObjectState                     : Unchanged
+
